@@ -1,6 +1,916 @@
 {
   "sets": [
     {
+      "id": "cs-basics-1",
+      "title": "Computer Science Basics — Set 1",
+      "description": "Foundational CS concepts: algorithms, binary, variables, loops, conditionals, hardware and software, and key figures in computing history.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "cs-basics-1-01",
+          "number": 1,
+          "topic": "What Is an Algorithm?",
+          "title": "Worksheet 1: What Is an Algorithm?",
+          "file": "data/cs-basics-1/cs-basics-1-01.json",
+          "answerKey": "BBCBA"
+        },
+        {
+          "id": "cs-basics-1-02",
+          "number": 2,
+          "topic": "Binary Numbers",
+          "title": "Worksheet 2: Binary Numbers",
+          "file": "data/cs-basics-1/cs-basics-1-02.json",
+          "answerKey": "BCCBC"
+        },
+        {
+          "id": "cs-basics-1-03",
+          "number": 3,
+          "topic": "Variables",
+          "title": "Worksheet 3: Variables",
+          "file": "data/cs-basics-1/cs-basics-1-03.json",
+          "answerKey": "BBCBB"
+        },
+        {
+          "id": "cs-basics-1-04",
+          "number": 4,
+          "topic": "Loops",
+          "title": "Worksheet 4: Loops",
+          "file": "data/cs-basics-1/cs-basics-1-04.json",
+          "answerKey": "BBBBA"
+        },
+        {
+          "id": "cs-basics-1-05",
+          "number": 5,
+          "topic": "Conditionals",
+          "title": "Worksheet 5: Conditionals",
+          "file": "data/cs-basics-1/cs-basics-1-05.json",
+          "answerKey": "ABCAB"
+        },
+        {
+          "id": "cs-basics-1-06",
+          "number": 6,
+          "topic": "The History of Ada Lovelace",
+          "title": "Worksheet 6: The History of Ada Lovelace",
+          "file": "data/cs-basics-1/cs-basics-1-06.json",
+          "answerKey": "ABBCB"
+        },
+        {
+          "id": "cs-basics-1-07",
+          "number": 7,
+          "topic": "Grace Hopper and the First \"Bug\"",
+          "title": "Worksheet 7: Grace Hopper and the First \"Bug\"",
+          "file": "data/cs-basics-1/cs-basics-1-07.json",
+          "answerKey": "ABBBB"
+        },
+        {
+          "id": "cs-basics-1-08",
+          "number": 8,
+          "topic": "Hardware vs. Software",
+          "title": "Worksheet 8: Hardware vs. Software",
+          "file": "data/cs-basics-1/cs-basics-1-08.json",
+          "answerKey": "BCBCA"
+        },
+        {
+          "id": "cs-basics-1-09",
+          "number": 9,
+          "topic": "Input and Output Devices",
+          "title": "Worksheet 9: Input and Output Devices",
+          "file": "data/cs-basics-1/cs-basics-1-09.json",
+          "answerKey": "BCBBB"
+        },
+        {
+          "id": "cs-basics-1-10",
+          "number": 10,
+          "topic": "How the Internet Works",
+          "title": "Worksheet 10: How the Internet Works",
+          "file": "data/cs-basics-1/cs-basics-1-10.json",
+          "answerKey": "BABCC"
+        },
+        {
+          "id": "cs-basics-1-11",
+          "number": 11,
+          "topic": "A Debugging Story",
+          "title": "Worksheet 11: A Debugging Story",
+          "file": "data/cs-basics-1/cs-basics-1-11.json",
+          "answerKey": "CBBBB"
+        },
+        {
+          "id": "cs-basics-1-12",
+          "number": 12,
+          "topic": "The CPU",
+          "title": "Worksheet 12: The CPU",
+          "file": "data/cs-basics-1/cs-basics-1-12.json",
+          "answerKey": "BBABB"
+        },
+        {
+          "id": "cs-basics-1-13",
+          "number": 13,
+          "topic": "Functions",
+          "title": "Worksheet 13: Functions",
+          "file": "data/cs-basics-1/cs-basics-1-13.json",
+          "answerKey": "ABBBB"
+        },
+        {
+          "id": "cs-basics-1-14",
+          "number": 14,
+          "topic": "Cybersecurity and Passwords",
+          "title": "Worksheet 14: Cybersecurity and Passwords",
+          "file": "data/cs-basics-1/cs-basics-1-14.json",
+          "answerKey": "ABCAB"
+        },
+        {
+          "id": "cs-basics-1-15",
+          "number": 15,
+          "topic": "Artificial Intelligence Basics",
+          "title": "Worksheet 15: Artificial Intelligence Basics",
+          "file": "data/cs-basics-1/cs-basics-1-15.json",
+          "answerKey": "ABBAB"
+        }
+      ]
+    },
+    {
+      "id": "cs-basics-2",
+      "title": "Computer Science Basics — Set 2",
+      "description": "More foundational CS: operating systems, RAM vs. storage, arrays, programming languages, pixels, search engines, cloud computing, and computing history.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "cs-basics-2-01",
+          "number": 1,
+          "topic": "What Is an Operating System?",
+          "title": "Worksheet 1: What Is an Operating System?",
+          "file": "data/cs-basics-2/cs-basics-2-01.json",
+          "answerKey": "BBABB"
+        },
+        {
+          "id": "cs-basics-2-02",
+          "number": 2,
+          "topic": "RAM vs. Storage",
+          "title": "Worksheet 2: RAM vs. Storage",
+          "file": "data/cs-basics-2/cs-basics-2-02.json",
+          "answerKey": "ABBAB"
+        },
+        {
+          "id": "cs-basics-2-03",
+          "number": 3,
+          "topic": "Data Structures — Arrays",
+          "title": "Worksheet 3: Data Structures — Arrays",
+          "file": "data/cs-basics-2/cs-basics-2-03.json",
+          "answerKey": "BBCBA"
+        },
+        {
+          "id": "cs-basics-2-04",
+          "number": 4,
+          "topic": "Programming Languages",
+          "title": "Worksheet 4: Programming Languages",
+          "file": "data/cs-basics-2/cs-basics-2-04.json",
+          "answerKey": "ABBBB"
+        },
+        {
+          "id": "cs-basics-2-05",
+          "number": 5,
+          "topic": "Compilers and Interpreters",
+          "title": "Worksheet 5: Compilers and Interpreters",
+          "file": "data/cs-basics-2/cs-basics-2-05.json",
+          "answerKey": "ABBAB"
+        },
+        {
+          "id": "cs-basics-2-06",
+          "number": 6,
+          "topic": "Pixels and Digital Images",
+          "title": "Worksheet 6: Pixels and Digital Images",
+          "file": "data/cs-basics-2/cs-basics-2-06.json",
+          "answerKey": "ABABB"
+        },
+        {
+          "id": "cs-basics-2-07",
+          "number": 7,
+          "topic": "How Search Engines Work",
+          "title": "Worksheet 7: How Search Engines Work",
+          "file": "data/cs-basics-2/cs-basics-2-07.json",
+          "answerKey": "BABAB"
+        },
+        {
+          "id": "cs-basics-2-08",
+          "number": 8,
+          "topic": "Encryption Basics",
+          "title": "Worksheet 8: Encryption Basics",
+          "file": "data/cs-basics-2/cs-basics-2-08.json",
+          "answerKey": "ABABA"
+        },
+        {
+          "id": "cs-basics-2-09",
+          "number": 9,
+          "topic": "Flowcharts",
+          "title": "Worksheet 9: Flowcharts",
+          "file": "data/cs-basics-2/cs-basics-2-09.json",
+          "answerKey": "ABCBA"
+        },
+        {
+          "id": "cs-basics-2-10",
+          "number": 10,
+          "topic": "Cloud Computing",
+          "title": "Worksheet 10: Cloud Computing",
+          "file": "data/cs-basics-2/cs-basics-2-10.json",
+          "answerKey": "AAABA"
+        },
+        {
+          "id": "cs-basics-2-11",
+          "number": 11,
+          "topic": "Wi-Fi and Bluetooth",
+          "title": "Worksheet 11: Wi-Fi and Bluetooth",
+          "file": "data/cs-basics-2/cs-basics-2-11.json",
+          "answerKey": "ABABA"
+        },
+        {
+          "id": "cs-basics-2-12",
+          "number": 12,
+          "topic": "Robots and Sensors",
+          "title": "Worksheet 12: Robots and Sensors",
+          "file": "data/cs-basics-2/cs-basics-2-12.json",
+          "answerKey": "AACAB"
+        },
+        {
+          "id": "cs-basics-2-13",
+          "number": 13,
+          "topic": "The History of Alan Turing",
+          "title": "Worksheet 13: The History of Alan Turing",
+          "file": "data/cs-basics-2/cs-basics-2-13.json",
+          "answerKey": "AABBA"
+        },
+        {
+          "id": "cs-basics-2-14",
+          "number": 14,
+          "topic": "The Invention of the Computer Mouse",
+          "title": "Worksheet 14: The Invention of the Computer Mouse",
+          "file": "data/cs-basics-2/cs-basics-2-14.json",
+          "answerKey": "ABBAB"
+        },
+        {
+          "id": "cs-basics-2-15",
+          "number": 15,
+          "topic": "The History of ENIAC",
+          "title": "Worksheet 15: The History of ENIAC",
+          "file": "data/cs-basics-2/cs-basics-2-15.json",
+          "answerKey": "AABBB"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "description": "Phishing, malware, viruses, firewalls, two-factor authentication, social engineering, ransomware, VPNs, data breaches, and digital footprints.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "cybersecurity-01",
+          "number": 1,
+          "topic": "What Is Cybersecurity?",
+          "title": "Worksheet 1: What Is Cybersecurity?",
+          "file": "data/cybersecurity/cybersecurity-01.json",
+          "answerKey": "ABCDB"
+        },
+        {
+          "id": "cybersecurity-02",
+          "number": 2,
+          "topic": "Phishing Scams",
+          "title": "Worksheet 2: Phishing Scams",
+          "file": "data/cybersecurity/cybersecurity-02.json",
+          "answerKey": "CADAD"
+        },
+        {
+          "id": "cybersecurity-03",
+          "number": 3,
+          "topic": "Malware",
+          "title": "Worksheet 3: Malware",
+          "file": "data/cybersecurity/cybersecurity-03.json",
+          "answerKey": "DCDAC"
+        },
+        {
+          "id": "cybersecurity-04",
+          "number": 4,
+          "topic": "Computer Viruses",
+          "title": "Worksheet 4: Computer Viruses",
+          "file": "data/cybersecurity/cybersecurity-04.json",
+          "answerKey": "BCCCA"
+        },
+        {
+          "id": "cybersecurity-05",
+          "number": 5,
+          "topic": "Firewalls",
+          "title": "Worksheet 5: Firewalls",
+          "file": "data/cybersecurity/cybersecurity-05.json",
+          "answerKey": "ADBCD"
+        },
+        {
+          "id": "cybersecurity-06",
+          "number": 6,
+          "topic": "Two-Factor Authentication",
+          "title": "Worksheet 6: Two-Factor Authentication",
+          "file": "data/cybersecurity/cybersecurity-06.json",
+          "answerKey": "ABBAD"
+        },
+        {
+          "id": "cybersecurity-07",
+          "number": 7,
+          "topic": "Social Engineering",
+          "title": "Worksheet 7: Social Engineering",
+          "file": "data/cybersecurity/cybersecurity-07.json",
+          "answerKey": "BCBAD"
+        },
+        {
+          "id": "cybersecurity-08",
+          "number": 8,
+          "topic": "Ransomware",
+          "title": "Worksheet 8: Ransomware",
+          "file": "data/cybersecurity/cybersecurity-08.json",
+          "answerKey": "CBACD"
+        },
+        {
+          "id": "cybersecurity-09",
+          "number": 9,
+          "topic": "Virtual Private Networks (VPNs)",
+          "title": "Worksheet 9: Virtual Private Networks (VPNs)",
+          "file": "data/cybersecurity/cybersecurity-09.json",
+          "answerKey": "BDCAA"
+        },
+        {
+          "id": "cybersecurity-10",
+          "number": 10,
+          "topic": "Public Wi-Fi Risks",
+          "title": "Worksheet 10: Public Wi-Fi Risks",
+          "file": "data/cybersecurity/cybersecurity-10.json",
+          "answerKey": "DADBD"
+        },
+        {
+          "id": "cybersecurity-11",
+          "number": 11,
+          "topic": "Data Breaches",
+          "title": "Worksheet 11: Data Breaches",
+          "file": "data/cybersecurity/cybersecurity-11.json",
+          "answerKey": "CCDDD"
+        },
+        {
+          "id": "cybersecurity-12",
+          "number": 12,
+          "topic": "Software Updates and Patches",
+          "title": "Worksheet 12: Software Updates and Patches",
+          "file": "data/cybersecurity/cybersecurity-12.json",
+          "answerKey": "DCDBA"
+        },
+        {
+          "id": "cybersecurity-13",
+          "number": 13,
+          "topic": "The History of the Morris Worm",
+          "title": "Worksheet 13: The History of the Morris Worm",
+          "file": "data/cybersecurity/cybersecurity-13.json",
+          "answerKey": "CBDAA"
+        },
+        {
+          "id": "cybersecurity-14",
+          "number": 14,
+          "topic": "White Hat vs. Black Hat Hackers",
+          "title": "Worksheet 14: White Hat vs. Black Hat Hackers",
+          "file": "data/cybersecurity/cybersecurity-14.json",
+          "answerKey": "DDACC"
+        },
+        {
+          "id": "cybersecurity-15",
+          "number": 15,
+          "topic": "Your Digital Footprint",
+          "title": "Worksheet 15: Your Digital Footprint",
+          "file": "data/cybersecurity/cybersecurity-15.json",
+          "answerKey": "DCCDB"
+        }
+      ]
+    },
+    {
+      "id": "roblox-safety",
+      "title": "Roblox Online Safety",
+      "description": "Online safety while gaming: strangers, personal information, chat risks, Robux scams, cyberbullying, reporting tools, warning signs, and trusted adults.",
+      "readingLevel": "Simplified (grade 6)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "roblox-safety-01",
+          "number": 1,
+          "topic": "What Is Roblox?",
+          "title": "Worksheet 1: What Is Roblox?",
+          "file": "data/roblox-safety/roblox-safety-01.json",
+          "answerKey": "DDBCB"
+        },
+        {
+          "id": "roblox-safety-02",
+          "number": 2,
+          "topic": "Talking to Strangers Online",
+          "title": "Worksheet 2: Talking to Strangers Online",
+          "file": "data/roblox-safety/roblox-safety-02.json",
+          "answerKey": "BBDCC"
+        },
+        {
+          "id": "roblox-safety-03",
+          "number": 3,
+          "topic": "Keeping Personal Information Private",
+          "title": "Worksheet 3: Keeping Personal Information Private",
+          "file": "data/roblox-safety/roblox-safety-03.json",
+          "answerKey": "CBCDC"
+        },
+        {
+          "id": "roblox-safety-04",
+          "number": 4,
+          "topic": "In-Game Chat",
+          "title": "Worksheet 4: In-Game Chat",
+          "file": "data/roblox-safety/roblox-safety-04.json",
+          "answerKey": "BBDDC"
+        },
+        {
+          "id": "roblox-safety-05",
+          "number": 5,
+          "topic": "Robux Scams",
+          "title": "Worksheet 5: Robux Scams",
+          "file": "data/roblox-safety/roblox-safety-05.json",
+          "answerKey": "ACDDC"
+        },
+        {
+          "id": "roblox-safety-06",
+          "number": 6,
+          "topic": "Privacy Settings and Parental Controls",
+          "title": "Worksheet 6: Privacy Settings and Parental Controls",
+          "file": "data/roblox-safety/roblox-safety-06.json",
+          "answerKey": "CADBB"
+        },
+        {
+          "id": "roblox-safety-07",
+          "number": 7,
+          "topic": "Cyberbullying on Roblox",
+          "title": "Worksheet 7: Cyberbullying on Roblox",
+          "file": "data/roblox-safety/roblox-safety-07.json",
+          "answerKey": "ACDCA"
+        },
+        {
+          "id": "roblox-safety-08",
+          "number": 8,
+          "topic": "Inappropriate Content",
+          "title": "Worksheet 8: Inappropriate Content",
+          "file": "data/roblox-safety/roblox-safety-08.json",
+          "answerKey": "BADBD"
+        },
+        {
+          "id": "roblox-safety-09",
+          "number": 9,
+          "topic": "Keeping Your Account Secure",
+          "title": "Worksheet 9: Keeping Your Account Secure",
+          "file": "data/roblox-safety/roblox-safety-09.json",
+          "answerKey": "ACDAB"
+        },
+        {
+          "id": "roblox-safety-10",
+          "number": 10,
+          "topic": "Screen Time and Balance",
+          "title": "Worksheet 10: Screen Time and Balance",
+          "file": "data/roblox-safety/roblox-safety-10.json",
+          "answerKey": "BDACA"
+        },
+        {
+          "id": "roblox-safety-11",
+          "number": 11,
+          "topic": "Reporting and Blocking Tools",
+          "title": "Worksheet 11: Reporting and Blocking Tools",
+          "file": "data/roblox-safety/roblox-safety-11.json",
+          "answerKey": "AABBA"
+        },
+        {
+          "id": "roblox-safety-12",
+          "number": 12,
+          "topic": "Recognizing Warning Signs",
+          "title": "Worksheet 12: Recognizing Warning Signs",
+          "file": "data/roblox-safety/roblox-safety-12.json",
+          "answerKey": "DABDB"
+        },
+        {
+          "id": "roblox-safety-13",
+          "number": 13,
+          "topic": "Who Is a Trusted Adult?",
+          "title": "Worksheet 13: Who Is a Trusted Adult?",
+          "file": "data/roblox-safety/roblox-safety-13.json",
+          "answerKey": "BBCCA"
+        },
+        {
+          "id": "roblox-safety-14",
+          "number": 14,
+          "topic": "Purchases and Real Money",
+          "title": "Worksheet 14: Purchases and Real Money",
+          "file": "data/roblox-safety/roblox-safety-14.json",
+          "answerKey": "DBDBC"
+        },
+        {
+          "id": "roblox-safety-15",
+          "number": 15,
+          "topic": "Balancing Fun and Safety",
+          "title": "Worksheet 15: Balancing Fun and Safety",
+          "file": "data/roblox-safety/roblox-safety-15.json",
+          "answerKey": "CBDDB"
+        }
+      ]
+    },
+    {
+      "id": "pentesting",
+      "title": "White Hat Hacking & Penetration Testing",
+      "description": "Ethical hacking, pen test phases, scope and authorization, red vs. blue team, bug bounties, CTF competitions, certifications, and cybersecurity careers.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "pentesting-01",
+          "number": 1,
+          "topic": "What Is Ethical Hacking?",
+          "title": "Worksheet 1: What Is Ethical Hacking?",
+          "file": "data/pentesting/pentesting-01.json",
+          "answerKey": "DBBAD"
+        },
+        {
+          "id": "pentesting-02",
+          "number": 2,
+          "topic": "What Is Penetration Testing?",
+          "title": "Worksheet 2: What Is Penetration Testing?",
+          "file": "data/pentesting/pentesting-02.json",
+          "answerKey": "ADCBB"
+        },
+        {
+          "id": "pentesting-03",
+          "number": 3,
+          "topic": "The Phases of a Penetration Test",
+          "title": "Worksheet 3: The Phases of a Penetration Test",
+          "file": "data/pentesting/pentesting-03.json",
+          "answerKey": "ADDAC"
+        },
+        {
+          "id": "pentesting-04",
+          "number": 4,
+          "topic": "Scope and Authorization",
+          "title": "Worksheet 4: Scope and Authorization",
+          "file": "data/pentesting/pentesting-04.json",
+          "answerKey": "DAACD"
+        },
+        {
+          "id": "pentesting-05",
+          "number": 5,
+          "topic": "Reconnaissance",
+          "title": "Worksheet 5: Reconnaissance",
+          "file": "data/pentesting/pentesting-05.json",
+          "answerKey": "DABAC"
+        },
+        {
+          "id": "pentesting-06",
+          "number": 6,
+          "topic": "Vulnerability Scanning",
+          "title": "Worksheet 6: Vulnerability Scanning",
+          "file": "data/pentesting/pentesting-06.json",
+          "answerKey": "AACBC"
+        },
+        {
+          "id": "pentesting-07",
+          "number": 7,
+          "topic": "Red Team vs. Blue Team",
+          "title": "Worksheet 7: Red Team vs. Blue Team",
+          "file": "data/pentesting/pentesting-07.json",
+          "answerKey": "DCCDB"
+        },
+        {
+          "id": "pentesting-08",
+          "number": 8,
+          "topic": "Writing a Penetration Test Report",
+          "title": "Worksheet 8: Writing a Penetration Test Report",
+          "file": "data/pentesting/pentesting-08.json",
+          "answerKey": "ACDBD"
+        },
+        {
+          "id": "pentesting-09",
+          "number": 9,
+          "topic": "Bug Bounty Programs",
+          "title": "Worksheet 9: Bug Bounty Programs",
+          "file": "data/pentesting/pentesting-09.json",
+          "answerKey": "DDDAA"
+        },
+        {
+          "id": "pentesting-10",
+          "number": 10,
+          "topic": "Capture the Flag Competitions",
+          "title": "Worksheet 10: Capture the Flag Competitions",
+          "file": "data/pentesting/pentesting-10.json",
+          "answerKey": "BBBCC"
+        },
+        {
+          "id": "pentesting-11",
+          "number": 11,
+          "topic": "Cybersecurity Certifications",
+          "title": "Worksheet 11: Cybersecurity Certifications",
+          "file": "data/pentesting/pentesting-11.json",
+          "answerKey": "DBABC"
+        },
+        {
+          "id": "pentesting-12",
+          "number": 12,
+          "topic": "Careers in Cybersecurity",
+          "title": "Worksheet 12: Careers in Cybersecurity",
+          "file": "data/pentesting/pentesting-12.json",
+          "answerKey": "CBBCA"
+        },
+        {
+          "id": "pentesting-13",
+          "number": 13,
+          "topic": "Phone Phreaking and Early Hacking Culture",
+          "title": "Worksheet 13: Phone Phreaking and Early Hacking Culture",
+          "file": "data/pentesting/pentesting-13.json",
+          "answerKey": "BBACB"
+        },
+        {
+          "id": "pentesting-14",
+          "number": 14,
+          "topic": "Legal and Ethical Boundaries",
+          "title": "Worksheet 14: Legal and Ethical Boundaries",
+          "file": "data/pentesting/pentesting-14.json",
+          "answerKey": "ADDCB"
+        },
+        {
+          "id": "pentesting-15",
+          "number": 15,
+          "topic": "Physical Security Testing",
+          "title": "Worksheet 15: Physical Security Testing",
+          "file": "data/pentesting/pentesting-15.json",
+          "answerKey": "BBBDA"
+        }
+      ]
+    },
+    {
+      "id": "data-structures",
+      "title": "Data Structures & Variables",
+      "description": "Data types, integers and floats, strings, concatenation, indexing, booleans, lists, dictionaries, tuples, nested lists, and type conversion.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "data-structures-01",
+          "number": 1,
+          "topic": "What Are Data Types?",
+          "title": "Worksheet 1: What Are Data Types?",
+          "file": "data/data-structures/data-structures-01.json",
+          "answerKey": "CADCD"
+        },
+        {
+          "id": "data-structures-02",
+          "number": 2,
+          "topic": "Integers and Floats",
+          "title": "Worksheet 2: Integers and Floats",
+          "file": "data/data-structures/data-structures-02.json",
+          "answerKey": "BCCBA"
+        },
+        {
+          "id": "data-structures-03",
+          "number": 3,
+          "topic": "Strings",
+          "title": "Worksheet 3: Strings",
+          "file": "data/data-structures/data-structures-03.json",
+          "answerKey": "ABDCA"
+        },
+        {
+          "id": "data-structures-04",
+          "number": 4,
+          "topic": "String Concatenation",
+          "title": "Worksheet 4: String Concatenation",
+          "file": "data/data-structures/data-structures-04.json",
+          "answerKey": "BBCDC"
+        },
+        {
+          "id": "data-structures-05",
+          "number": 5,
+          "topic": "String Indexing",
+          "title": "Worksheet 5: String Indexing",
+          "file": "data/data-structures/data-structures-05.json",
+          "answerKey": "CBCCA"
+        },
+        {
+          "id": "data-structures-06",
+          "number": 6,
+          "topic": "Booleans",
+          "title": "Worksheet 6: Booleans",
+          "file": "data/data-structures/data-structures-06.json",
+          "answerKey": "DCCDC"
+        },
+        {
+          "id": "data-structures-07",
+          "number": 7,
+          "topic": "Lists",
+          "title": "Worksheet 7: Lists",
+          "file": "data/data-structures/data-structures-07.json",
+          "answerKey": "CBBDC"
+        },
+        {
+          "id": "data-structures-08",
+          "number": 8,
+          "topic": "List Indexing",
+          "title": "Worksheet 8: List Indexing",
+          "file": "data/data-structures/data-structures-08.json",
+          "answerKey": "CBCCC"
+        },
+        {
+          "id": "data-structures-09",
+          "number": 9,
+          "topic": "Adding and Removing List Items",
+          "title": "Worksheet 9: Adding and Removing List Items",
+          "file": "data/data-structures/data-structures-09.json",
+          "answerKey": "CADAA"
+        },
+        {
+          "id": "data-structures-10",
+          "number": 10,
+          "topic": "Looping Through Lists",
+          "title": "Worksheet 10: Looping Through Lists",
+          "file": "data/data-structures/data-structures-10.json",
+          "answerKey": "CBDAD"
+        },
+        {
+          "id": "data-structures-11",
+          "number": 11,
+          "topic": "Dictionaries",
+          "title": "Worksheet 11: Dictionaries",
+          "file": "data/data-structures/data-structures-11.json",
+          "answerKey": "AAABC"
+        },
+        {
+          "id": "data-structures-12",
+          "number": 12,
+          "topic": "Tuples",
+          "title": "Worksheet 12: Tuples",
+          "file": "data/data-structures/data-structures-12.json",
+          "answerKey": "AACDA"
+        },
+        {
+          "id": "data-structures-13",
+          "number": 13,
+          "topic": "Nested Lists",
+          "title": "Worksheet 13: Nested Lists",
+          "file": "data/data-structures/data-structures-13.json",
+          "answerKey": "BDAAA"
+        },
+        {
+          "id": "data-structures-14",
+          "number": 14,
+          "topic": "Type Conversion",
+          "title": "Worksheet 14: Type Conversion",
+          "file": "data/data-structures/data-structures-14.json",
+          "answerKey": "ABACD"
+        },
+        {
+          "id": "data-structures-15",
+          "number": 15,
+          "topic": "Choosing the Right Data Structure",
+          "title": "Worksheet 15: Choosing the Right Data Structure",
+          "file": "data/data-structures/data-structures-15.json",
+          "answerKey": "DDDAC"
+        }
+      ]
+    },
+    {
+      "id": "loops",
+      "title": "Loops",
+      "description": "For loops, while loops, counters, infinite loops, nested loops, break and continue, off-by-one errors, the accumulator pattern, and loop efficiency.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": true,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "loops-01",
+          "number": 1,
+          "topic": "What Is a Loop?",
+          "title": "Worksheet 1: What Is a Loop?",
+          "file": "data/loops/loops-01.json",
+          "answerKey": "ABBCD"
+        },
+        {
+          "id": "loops-02",
+          "number": 2,
+          "topic": "For Loops",
+          "title": "Worksheet 2: For Loops",
+          "file": "data/loops/loops-02.json",
+          "answerKey": "DBCAB"
+        },
+        {
+          "id": "loops-03",
+          "number": 3,
+          "topic": "While Loops",
+          "title": "Worksheet 3: While Loops",
+          "file": "data/loops/loops-03.json",
+          "answerKey": "CDABB"
+        },
+        {
+          "id": "loops-04",
+          "number": 4,
+          "topic": "For Loop vs. While Loop",
+          "title": "Worksheet 4: For Loop vs. While Loop",
+          "file": "data/loops/loops-04.json",
+          "answerKey": "ADABB"
+        },
+        {
+          "id": "loops-05",
+          "number": 5,
+          "topic": "Loop Counters and Increments",
+          "title": "Worksheet 5: Loop Counters and Increments",
+          "file": "data/loops/loops-05.json",
+          "answerKey": "DCDCB"
+        },
+        {
+          "id": "loops-06",
+          "number": 6,
+          "topic": "Infinite Loops",
+          "title": "Worksheet 6: Infinite Loops",
+          "file": "data/loops/loops-06.json",
+          "answerKey": "DDACD"
+        },
+        {
+          "id": "loops-07",
+          "number": 7,
+          "topic": "Nested Loops",
+          "title": "Worksheet 7: Nested Loops",
+          "file": "data/loops/loops-07.json",
+          "answerKey": "ABBBD"
+        },
+        {
+          "id": "loops-08",
+          "number": 8,
+          "topic": "Break Statements",
+          "title": "Worksheet 8: Break Statements",
+          "file": "data/loops/loops-08.json",
+          "answerKey": "ADCAC"
+        },
+        {
+          "id": "loops-09",
+          "number": 9,
+          "topic": "Continue Statements",
+          "title": "Worksheet 9: Continue Statements",
+          "file": "data/loops/loops-09.json",
+          "answerKey": "CAADD"
+        },
+        {
+          "id": "loops-10",
+          "number": 10,
+          "topic": "Loop Conditions and Boolean Logic",
+          "title": "Worksheet 10: Loop Conditions and Boolean Logic",
+          "file": "data/loops/loops-10.json",
+          "answerKey": "BCADB"
+        },
+        {
+          "id": "loops-11",
+          "number": 11,
+          "topic": "Off-by-One Errors",
+          "title": "Worksheet 11: Off-by-One Errors",
+          "file": "data/loops/loops-11.json",
+          "answerKey": "BABDC"
+        },
+        {
+          "id": "loops-12",
+          "number": 12,
+          "topic": "Looping Through Strings",
+          "title": "Worksheet 12: Looping Through Strings",
+          "file": "data/loops/loops-12.json",
+          "answerKey": "BDBBC"
+        },
+        {
+          "id": "loops-13",
+          "number": 13,
+          "topic": "Looping Through Lists",
+          "title": "Worksheet 13: Looping Through Lists",
+          "file": "data/loops/loops-13.json",
+          "answerKey": "BDADA"
+        },
+        {
+          "id": "loops-14",
+          "number": 14,
+          "topic": "The Accumulator Pattern",
+          "title": "Worksheet 14: The Accumulator Pattern",
+          "file": "data/loops/loops-14.json",
+          "answerKey": "BBCBB"
+        },
+        {
+          "id": "loops-15",
+          "number": 15,
+          "topic": "Loops and Efficiency",
+          "title": "Worksheet 15: Loops and Efficiency",
+          "file": "data/loops/loops-15.json",
+          "answerKey": "BBDAA"
+        }
+      ]
+    },
+    {
       "id": "data-structures-v2",
       "title": "Data Structures & Variables",
       "description": "Data types, integers and floats, strings, concatenation, indexing, booleans, lists, dictionaries, tuples, nested lists, and type conversion.",
@@ -781,8 +1691,7 @@
       ]
     }
   ],
-  "version": "V2.0",
   "generated": "2026-08-27",
-  "totalSets": 6,
-  "totalWorksheets": 90
+  "totalSets": 13,
+  "totalWorksheets": 195
 }
