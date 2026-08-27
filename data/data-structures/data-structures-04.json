@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-04",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 4,
+  "title": "Worksheet 4: String Concatenation",
+  "topic": "String Concatenation",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "String concatenation is the process of joining two or more strings together to form a single, longer string. In many programming languages, concatenation is performed using the plus symbol (+), similar to how addition works with numbers, but when used with strings, the plus symbol joins the text together end to end instead of adding numeric values. For example, concatenating the string \"Hello, \" with the string \"world!\" produces the single combined string \"Hello, world!\" Programmers often use concatenation to build custom messages that include changing information, such as combining the fixed text \"Your score is \" with a variable that stores a player's current score, so the final message displayed changes depending on the player's actual score. One common mistake when concatenating is forgetting to include a space between two pieces of text, which can accidentally cause two words to run together, such as producing \"Helloworld!\" instead of the intended \"Hello world!\"",
+  "questions": [
+    {
+      "text": "String concatenation is best described as:",
+      "correct": "The process of joining two or more strings together to form one longer string",
+      "distractors": [
+        "A way to convert a string into a number",
+        "The process of deleting a string completely",
+        "A type of computer virus"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what symbol is often used to concatenate strings?",
+      "correct": "The plus symbol (+)",
+      "distractors": [
+        "The minus symbol (-)",
+        "The dollar symbol ($)",
+        "The percent symbol (%)"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does the plus symbol do when used with strings, instead of numbers?",
+      "correct": "It joins the text together end to end",
+      "distractors": [
+        "It converts the strings into integers",
+        "It deletes both strings",
+        "It performs mathematical addition"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why might a programmer use concatenation?",
+      "correct": "To build custom messages that include changing information, like a player's score",
+      "distractors": [
+        "To convert text into a boolean value",
+        "To slow down a program on purpose",
+        "To permanently delete a variable"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what common mistake can happen when concatenating strings?",
+      "correct": "Forgetting to include a space, causing words to run together",
+      "distractors": [
+        "Making the string too short to use",
+        "Turning the string into an integer by accident",
+        "Accidentally creating a new programming language"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

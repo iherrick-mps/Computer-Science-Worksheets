@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-14",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 14,
+  "title": "Worksheet 14: Cybersecurity and Passwords",
+  "topic": "Cybersecurity and Passwords",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cybersecurity is the practice of protecting computers, networks, and personal information from unauthorized access or attacks. One of the simplest and most important cybersecurity habits is creating strong passwords. A weak password, such as \"12345\" or \"password,\" can be guessed quickly by attackers, sometimes in less than a second using automated programs. A strong password is typically long, includes a mix of uppercase and lowercase letters, numbers, and symbols, and does not include easily guessed information like a birthday or the word \"password\" itself. Experts also recommend using a different password for each account. This way, if one password is stolen or leaked, the attacker cannot use it to access a person's other accounts. Another important cybersecurity habit is enabling two-factor authentication, which requires a second form of proof, such as a code sent to a phone, in addition to a password, before allowing access to an account.",
+  "questions": [
+    {
+      "text": "Cybersecurity is best described as:",
+      "correct": "The practice of protecting computers, networks, and information from attacks",
+      "distractors": [
+        "A type of computer hardware",
+        "A programming language",
+        "A type of internet browser"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which of these is an example of a weak password?",
+      "correct": "\"12345\"",
+      "distractors": [
+        "A long password with symbols and numbers",
+        "A different password for every account",
+        "A code sent to a phone"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A strong password typically includes:",
+      "correct": "A mix of uppercase and lowercase letters, numbers, and symbols",
+      "distractors": [
+        "Only lowercase letters",
+        "A person's birthday",
+        "The word \"password\""
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Why do experts recommend using a different password for each account?",
+      "correct": "So attackers can't use one stolen password to access other accounts",
+      "distractors": [
+        "It makes passwords easier to guess",
+        "It is required by all computers",
+        "It makes the internet faster"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Two-factor authentication requires:",
+      "correct": "A second form of proof, such as a code sent to a phone",
+      "distractors": [
+        "Only a username",
+        "No password at all",
+        "A printed document"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

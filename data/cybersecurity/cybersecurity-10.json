@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-10",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 10,
+  "title": "Worksheet 10: Public Wi-Fi Risks",
+  "topic": "Public Wi-Fi Risks",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Public Wi-Fi networks, such as those found in coffee shops, airports, and hotels, offer convenient internet access, but they also come with security risks that private home networks typically do not have. Many public Wi-Fi networks are unencrypted or use weak security, meaning that data traveling between a device and the network can potentially be intercepted and read by someone else connected to the same network, especially if a website or app being used does not have its own encryption. Attackers sometimes set up fake Wi-Fi networks with names similar to legitimate ones, such as \"Free_Airport_WiFi,\" to trick people into connecting directly to a network the attacker controls, allowing them to monitor everything the victim does online. To stay safer on public Wi-Fi, experts recommend avoiding logging into sensitive accounts, such as banking apps, using a VPN to encrypt internet traffic, making sure websites use \"https\" rather than plain \"http,\" and turning off automatic Wi-Fi connection settings that might connect a device to unknown networks without asking first.",
+  "questions": [
+    {
+      "text": "According to the paragraph, public Wi-Fi networks often have:",
+      "correct": "Weaker security than private home networks",
+      "distractors": [
+        "Stronger security than any other network",
+        "No connection to the internet at all",
+        "Built-in antivirus protection"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "What is a risk described in the paragraph regarding attackers and public Wi-Fi?",
+      "correct": "Attackers can set up fake Wi-Fi networks with names similar to legitimate ones",
+      "distractors": [
+        "Public Wi-Fi requires a fingerprint scan",
+        "Public Wi-Fi automatically blocks all attackers",
+        "Attackers cannot access public Wi-Fi at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what should a person avoid doing on public Wi-Fi?",
+      "correct": "Logging into sensitive accounts, such as banking apps",
+      "distractors": [
+        "Reading the news",
+        "Charging their phone",
+        "Turning on their device"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should websites use to be safer, according to the experts mentioned?",
+      "correct": "\"https\" rather than plain \"http\"",
+      "distractors": [
+        "Only \"http\"",
+        "A fake name",
+        "No security at all"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what setting should be turned off for safety on public Wi-Fi?",
+      "correct": "Automatic Wi-Fi connection settings that connect to unknown networks",
+      "distractors": [
+        "The device's clock",
+        "The device's screen brightness",
+        "The device's power button"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

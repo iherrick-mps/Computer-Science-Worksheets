@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-03",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 3,
+  "title": "Worksheet 3: Malware",
+  "topic": "Malware",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Malware, short for \"malicious software,\" is any software intentionally designed to harm, exploit, or gain unauthorized access to a computer system. Malware can take many forms and cause different kinds of damage. Some malware is designed to steal personal information, such as passwords or banking details, without the user knowing. Other malware is designed to secretly monitor a person's activity, take control of a device remotely, or display unwanted advertisements. Malware can spread in many ways, including through infected email attachments, malicious downloads disguised as legitimate software, infected USB drives, and compromised websites. Once malware infects a device, it can be difficult to detect, since well-designed malware is built to run quietly in the background without the user noticing anything unusual. Antivirus and anti-malware programs are designed to scan a device for known malware, remove infections, and block suspicious files before they can cause harm.",
+  "questions": [
+    {
+      "text": "Malware is best described as:",
+      "correct": "Software intentionally designed to harm, exploit, or gain unauthorized access to a system",
+      "distractors": [
+        "A type of encryption",
+        "A type of computer hardware",
+        "A brand of computer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, malware can spread through:",
+      "correct": "Infected email attachments and malicious downloads",
+      "distractors": [
+        "Only television broadcasts",
+        "Only physical mail",
+        "Only radio signals"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why can malware be difficult to detect?",
+      "correct": "It is built to run quietly in the background without being noticed",
+      "distractors": [
+        "It deletes itself immediately",
+        "It only works when the computer is off",
+        "It always displays a warning message"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "What is the purpose of antivirus and anti-malware programs, according to the paragraph?",
+      "correct": "To scan for, remove, and block malware",
+      "distractors": [
+        "To create new malware",
+        "To delete all files on a computer",
+        "To slow down the internet"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, some malware is designed to:",
+      "correct": "Secretly monitor a person's activity or take control of a device remotely",
+      "distractors": [
+        "Print documents automatically",
+        "Physically damage the keyboard",
+        "Improve battery life"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-08",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 8,
+  "title": "Worksheet 8: Ransomware",
+  "topic": "Ransomware",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Ransomware is a type of malware that blocks a victim's access to their own files or entire computer system, usually by encrypting the data so it cannot be opened, and then demands payment, or a \"ransom,\" in exchange for restoring access. Ransomware often spreads through phishing emails containing infected attachments or links, or through security weaknesses in outdated software. Once ransomware infects a system, a message typically appears on the screen explaining that the victim's files have been encrypted and providing instructions for paying the ransom, often demanding payment in cryptocurrency because it can be harder for authorities to trace. Ransomware attacks can affect individuals, but they have also targeted hospitals, schools, and city governments, sometimes shutting down critical systems for days or weeks. Security experts generally advise against paying the ransom, since payment does not guarantee the attacker will actually restore access, and it can encourage further attacks. Instead, experts recommend regularly backing up important files to a separate location, so that data can be restored without paying attackers at all.",
+  "questions": [
+    {
+      "text": "Ransomware is best described as:",
+      "correct": "Malware that blocks access to files or a system and demands payment for their return",
+      "distractors": [
+        "A type of firewall",
+        "A password manager",
+        "A type of antivirus software"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, ransomware often spreads through:",
+      "correct": "Phishing emails or security weaknesses in outdated software",
+      "distractors": [
+        "Only physical theft of a computer",
+        "Only television advertisements",
+        "Only printed documents"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why do attackers often demand payment in cryptocurrency?",
+      "correct": "Because it can be harder for authorities to trace",
+      "distractors": [
+        "Because it is the only currency that exists",
+        "Because it is required by law",
+        "Because it makes the ransomware spread faster"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which of the following have ransomware attacks targeted?",
+      "correct": "Hospitals, schools, and city governments",
+      "distractors": [
+        "Only social media companies",
+        "Only banks",
+        "Only individual home computers"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what do security experts generally recommend instead of paying a ransom?",
+      "correct": "Regularly backing up important files to a separate location",
+      "distractors": [
+        "Always paying the ransom immediately",
+        "Ignoring the infection completely",
+        "Deleting the entire computer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

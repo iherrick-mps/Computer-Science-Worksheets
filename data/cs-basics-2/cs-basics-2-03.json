@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-03",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 3,
+  "title": "Worksheet 3: Data Structures — Arrays",
+  "topic": "Data Structures — Arrays",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In programming, an array is a data structure used to store a list of multiple values together under a single variable name, instead of creating a separate variable for each value. For example, instead of creating five separate variables to hold the names of five students, a programmer could create one array called \"students\" that holds all five names in order. Each value inside an array has a position, called an \"index,\" which tells the computer where that value is located within the list. In most programming languages, counting starts at 0 instead of 1, so the first item in an array is at index 0, the second item is at index 1, and so on. Arrays are useful because they let programmers work with large groups of related data at once, such as looping through every item in the array to print it or search for a specific value, rather than writing separate code for each individual piece of data.",
+  "questions": [
+    {
+      "text": "An array is best described as:",
+      "correct": "A data structure used to store a list of multiple values under one name",
+      "distractors": [
+        "A single number stored in a computer",
+        "A type of computer virus",
+        "A physical computer part"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the example, what does the \"students\" array hold?",
+      "correct": "All five students' names",
+      "distractors": [
+        "One student's name",
+        "A single grade",
+        "A picture of the classroom"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "The position of a value inside an array is called its:",
+      "correct": "Index",
+      "distractors": [
+        "Variable",
+        "Loop",
+        "Function"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In most programming languages, what number does array counting start at?",
+      "correct": "0",
+      "distractors": [
+        "1",
+        "10",
+        "-1"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why are arrays useful?",
+      "correct": "They let programmers work with large groups of related data at once",
+      "distractors": [
+        "They make the computer louder",
+        "They delete data automatically",
+        "They only work with one value at a time"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

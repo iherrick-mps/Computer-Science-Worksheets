@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-11",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 11,
+  "title": "Worksheet 11: Wi-Fi and Bluetooth",
+  "topic": "Wi-Fi and Bluetooth",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Wi-Fi and Bluetooth are both wireless technologies that let devices communicate without physical cables, but they are designed for different purposes. Wi-Fi is typically used to connect a device, like a laptop or phone, to the internet through a router, and it can transmit data over a relatively long range, often covering an entire house or building. Bluetooth, on the other hand, is designed for short-range connections directly between two nearby devices, such as connecting wireless headphones to a phone or a wireless mouse to a computer, usually working within about 30 feet. Bluetooth generally uses less battery power than Wi-Fi, which is one reason it is commonly used for small, battery-powered accessories. While Wi-Fi usually requires a router or access point to work, Bluetooth devices can typically connect directly to each other without any additional equipment, in a process often called \"pairing.\"",
+  "questions": [
+    {
+      "text": "According to the paragraph, Wi-Fi is typically used to:",
+      "correct": "Connect a device to the internet through a router",
+      "distractors": [
+        "Only connect headphones to a phone",
+        "Print documents",
+        "Charge a battery"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Bluetooth is designed for:",
+      "correct": "Short-range connections directly between two nearby devices",
+      "distractors": [
+        "Long-range internet connections",
+        "Connecting to a data center",
+        "Storing files permanently"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, about how far does Bluetooth usually work?",
+      "correct": "About 30 feet",
+      "distractors": [
+        "About 30 miles",
+        "An entire building",
+        "Only 1 inch"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Which technology generally uses less battery power, according to the paragraph?",
+      "correct": "Bluetooth",
+      "distractors": [
+        "Wi-Fi",
+        "They use exactly the same amount",
+        "Neither uses battery power"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "The process of connecting two Bluetooth devices directly is often called:",
+      "correct": "Pairing",
+      "distractors": [
+        "Compiling",
+        "Indexing",
+        "Encrypting"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

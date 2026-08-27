@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-09",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 9,
+  "title": "Worksheet 9: Keeping Your Account Secure",
+  "topic": "Keeping Your Account Secure",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An account's password is one of the most important tools for keeping a Roblox account safe from being accessed by someone else. A strong password should be different from passwords used on other websites or apps, should not include easy-to-guess information like a birthday or pet's name, and should never be shared with anyone, including friends, since sharing a password removes control over who can log in and make changes. If another player somehow gains access to an account, they could change settings, spend real money on items, message other players while pretending to be the account owner, or even lock the real owner out completely. Roblox also offers a security feature called two-step verification, which requires entering a special code, usually sent to an email or phone, in addition to a password before logging in, making it much harder for someone else to access the account even if they somehow learned the password. Turning on two-step verification is one of the simplest ways to add an extra layer of protection to an account.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why should a password never be shared, even with friends?",
+      "correct": "Sharing a password removes control over who can log in and make changes",
+      "distractors": [
+        "Sharing makes the password stronger",
+        "It has no real effect at all",
+        "It is required by Roblox's rules to share it"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what should a strong password avoid including?",
+      "correct": "Easy-to-guess information like a birthday or pet's name",
+      "distractors": [
+        "More than five letters",
+        "The word \"Roblox\"",
+        "Numbers of any kind"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what could happen if someone else gains access to an account?",
+      "correct": "They could change settings, spend real money, or message others while pretending to be the owner",
+      "distractors": [
+        "Nothing at all would happen",
+        "The account would become permanently unusable by everyone",
+        "The account would automatically delete itself"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "What is two-step verification, according to the paragraph?",
+      "correct": "A feature requiring a special code in addition to a password before logging in",
+      "distractors": [
+        "A type of privacy setting for games only",
+        "A type of chat filter",
+        "A way to earn free Robux"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, why is two-step verification helpful?",
+      "correct": "It makes it much harder for someone else to access an account, even if they know the password",
+      "distractors": [
+        "It removes the need for a password entirely",
+        "It blocks all chat messages",
+        "It automatically reports cyberbullying"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

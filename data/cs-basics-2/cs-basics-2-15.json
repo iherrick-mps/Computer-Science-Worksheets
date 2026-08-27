@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-15",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 15,
+  "title": "Worksheet 15: The History of ENIAC",
+  "topic": "The History of ENIAC",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "ENIAC, which stands for Electronic Numerical Integrator and Computer, was completed in 1945 and is widely considered one of the first general-purpose electronic computers, meaning it could be reprogrammed to solve different types of problems rather than being built to do just one specific task. ENIAC was enormous compared to modern computers, filling an entire room and weighing about 30 tons, using nearly 18,000 vacuum tubes to perform calculations. Unlike modern computers, which can be programmed using a keyboard, reprogramming ENIAC to solve a different problem required physically rewiring the machine by hand, plugging and unplugging cables and flipping switches, a process that could take days. ENIAC was originally built for the United States Army to calculate artillery firing tables, but it was also later used for early research related to the hydrogen bomb. Notably, ENIAC's programming team was made up mainly of women, including Kay McNulty, Betty Jennings, and several others, who are now recognized as among the first computer programmers in history, even though their contributions went largely uncredited for decades.",
+  "questions": [
+    {
+      "text": "What does ENIAC stand for?",
+      "correct": "Electronic Numerical Integrator and Computer",
+      "distractors": [
+        "Electric National Internet and Computer",
+        "Enhanced Network Interface and Control",
+        "Early National Information and Computing"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, ENIAC was completed in:",
+      "correct": "1945",
+      "distractors": [
+        "1968",
+        "1901",
+        "1800"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "About how much did ENIAC weigh?",
+      "correct": "30 tons",
+      "distractors": [
+        "30 pounds",
+        "3 tons",
+        "300 pounds"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how was ENIAC reprogrammed to solve a different problem?",
+      "correct": "By physically rewiring the machine with cables and switches",
+      "distractors": [
+        "By typing new code on a keyboard",
+        "It reprogrammed itself automatically",
+        "By replacing the entire machine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, who made up most of ENIAC's programming team?",
+      "correct": "Mainly women, including Kay McNulty and Betty Jennings",
+      "distractors": [
+        "Mostly men from the military",
+        "A single scientist working alone",
+        "A team of teenagers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

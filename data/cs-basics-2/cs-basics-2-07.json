@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-07",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 7,
+  "title": "Worksheet 7: How Search Engines Work",
+  "topic": "How Search Engines Work",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A search engine, such as Google or Bing, helps people find information on the internet by searching through billions of webpages in a fraction of a second. Search engines are able to respond so quickly because they do not actually search the entire internet at the exact moment you type a query. Instead, they use programs called \"web crawlers\" or \"spiders\" that constantly scan the internet ahead of time, visiting webpages and following links to other pages. Information about each webpage is then stored in a massive, organized database called an \"index.\" When a person types a search, the search engine quickly looks through this pre-built index, rather than the live internet, to find matching results. The search engine then uses a ranking system to decide which results are most likely to be useful, considering factors such as how relevant the page is to the search words and how many other trustworthy websites link to it, before displaying the results in order.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why are search engines able to respond so quickly?",
+      "correct": "They search a pre-built index instead of the live internet",
+      "distractors": [
+        "They search the entire internet at the exact moment you type",
+        "They only search one webpage",
+        "They ask other people for the answer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Programs that constantly scan the internet ahead of time are called:",
+      "correct": "Web crawlers or spiders",
+      "distractors": [
+        "Loops",
+        "Variables",
+        "Compilers"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "The organized database that stores information about webpages is called the:",
+      "correct": "Index",
+      "distractors": [
+        "Server",
+        "Algorithm",
+        "Browser"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does a search engine's ranking system consider?",
+      "correct": "How relevant a page is and how many trustworthy sites link to it",
+      "distractors": [
+        "The color of the webpage",
+        "The size of the webpage's file",
+        "The time zone of the user"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Web crawlers find new pages mainly by:",
+      "correct": "Following links to other pages",
+      "distractors": [
+        "Guessing random web addresses",
+        "Asking the website owner directly",
+        "Scanning printed newspapers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

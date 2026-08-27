@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-11",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 11,
+  "title": "Worksheet 11: Reporting and Blocking Tools",
+  "topic": "Reporting and Blocking Tools",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox provides built-in tools that let players report and block other users who are behaving inappropriately or making them feel unsafe. The \"block\" feature prevents a specific player from being able to message, chat with, or interact with another player again, which can be useful if someone is being unkind or making a player uncomfortable. The \"report\" feature is different: it sends information about a problem directly to Roblox's safety team, who can review the situation and take action, such as removing inappropriate content or suspending an account that has broken the platform's rules. Reporting is important even if a player has already blocked someone, because reporting can help protect other players who might interact with the same person in the future. When reporting, it is helpful to include as much detail as possible, such as what happened and when, since this makes it easier for Roblox's safety team to investigate the situation properly.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what does the \"block\" feature do?",
+      "correct": "Prevents a specific player from messaging or interacting with another player again",
+      "distractors": [
+        "Gives a player free Robux",
+        "Deletes a player's entire account",
+        "Turns off the internet"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does the \"report\" feature do?",
+      "correct": "Sends information about a problem directly to Roblox's safety team",
+      "distractors": [
+        "Nothing; reports are not reviewed",
+        "Immediately deletes the reported player's account",
+        "Blocks the entire game from everyone"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, why is reporting important even after blocking someone?",
+      "correct": "It can help protect other players who might interact with the same person later",
+      "distractors": [
+        "It is required before a player can keep playing",
+        "It has no additional benefit",
+        "It removes the block automatically"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what can Roblox's safety team do after reviewing a report?",
+      "correct": "Remove inappropriate content or suspend an account",
+      "distractors": [
+        "Delete the reporting player's account instead",
+        "Nothing at all",
+        "Give the reported player more Robux"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is helpful to include when submitting a report?",
+      "correct": "As much detail as possible, such as what happened and when",
+      "distractors": [
+        "Nothing; details are not needed",
+        "A random guess about what happened",
+        "Only the reported player's favorite color"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

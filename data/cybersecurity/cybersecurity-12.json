@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-12",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 12,
+  "title": "Worksheet 12: Software Updates and Patches",
+  "topic": "Software Updates and Patches",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Software updates, sometimes called \"patches,\" are changes released by software companies to fix problems, improve performance, or add new features to an existing program or operating system. One of the most important reasons updates are released is to fix security vulnerabilities, which are weaknesses in software that attackers could potentially exploit to gain unauthorized access to a device or steal information. When a vulnerability is discovered, whether by the company itself or by outside security researchers, the company typically works to create a patch that closes the security gap and then releases it to users. Devices that are not kept up to date remain vulnerable to attacks that have already been fixed for users who did install the update, which is why outdated software is a common target for attackers, since they know exactly which weaknesses to exploit. Because of this, cybersecurity experts strongly recommend installing software updates as soon as they become available, and many devices offer an option to install updates automatically to reduce the risk of forgetting.",
+  "questions": [
+    {
+      "text": "A software update, or patch, is best described as:",
+      "correct": "A change released to fix problems, improve performance, or add features to a program",
+      "distractors": [
+        "A type of computer virus",
+        "A type of password",
+        "A physical computer part"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, one of the most important reasons updates are released is to:",
+      "correct": "Fix security vulnerabilities",
+      "distractors": [
+        "Slow down the computer",
+        "Make the software more expensive",
+        "Delete all files"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What is a security vulnerability, according to the paragraph?",
+      "correct": "A weakness in software that attackers could exploit",
+      "distractors": [
+        "A type of firewall",
+        "A type of encryption",
+        "A strong password"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why is outdated software a common target for attackers?",
+      "correct": "Attackers know exactly which already-fixed weaknesses to exploit",
+      "distractors": [
+        "Outdated software cannot be hacked",
+        "Attackers cannot find outdated software",
+        "Outdated software is always faster"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do many devices offer to reduce the risk of forgetting updates?",
+      "correct": "An option to install updates automatically",
+      "distractors": [
+        "A permanent shutdown feature",
+        "A way to disable all security",
+        "A built-in ransomware tool"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

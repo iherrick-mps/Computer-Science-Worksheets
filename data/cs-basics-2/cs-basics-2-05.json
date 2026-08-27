@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-05",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 5,
+  "title": "Worksheet 5: Compilers and Interpreters",
+  "topic": "Compilers and Interpreters",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Computers cannot directly understand the programming languages that humans write, so code must be translated into a form the computer's hardware can execute. This translation is done by special programs called compilers or interpreters. A compiler translates an entire program's code all at once, before the program runs, creating a separate file that the computer can then execute directly. Because the translation happens ahead of time, compiled programs often run very quickly. An interpreter, on the other hand, translates and runs the code line by line, one instruction at a time, while the program is running. This makes interpreted programs easier to test and fix while writing them, since a programmer can run part of the code without translating the whole thing first, though interpreted programs are often slower than compiled ones. Some programming languages, like C++, are typically compiled, while others, like Python, are typically interpreted.",
+  "questions": [
+    {
+      "text": "Why must programming code be translated before a computer can run it?",
+      "correct": "Computers cannot directly understand the programming languages humans write",
+      "distractors": [
+        "Computers only understand pictures",
+        "Programmers prefer to translate code for fun",
+        "It is not actually necessary"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A compiler translates a program's code:",
+      "correct": "All at once, before the program runs",
+      "distractors": [
+        "One line at a time while the program runs",
+        "Only after the program crashes",
+        "Never"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "An interpreter translates and runs code:",
+      "correct": "Line by line, while the program is running",
+      "distractors": [
+        "All at once, before the program runs",
+        "Only in binary form",
+        "Only on Mondays"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, which type of program often runs faster?",
+      "correct": "Compiled programs",
+      "distractors": [
+        "Interpreted programs",
+        "Both run at exactly the same speed",
+        "Neither runs at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which language is typically compiled?",
+      "correct": "C++",
+      "distractors": [
+        "Python",
+        "Binary",
+        "HTML"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

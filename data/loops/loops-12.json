@@ -1,0 +1,94 @@
+{
+  "id": "loops-12",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 12,
+  "title": "Worksheet 12: Looping Through Strings",
+  "topic": "Looping Through Strings",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because a string is made up of a sequence of individual characters, a loop can be used to move through a string one character at a time, checking or using each character in order, similar to how a loop can move through the items in a list. For example, a loop could go through the string \"Robot\" one character at a time, processing \"R\", then \"o\", then \"b\", then \"o\", then \"t\" in that exact order, running its code once for each of the 5 total characters in the string. A common use for looping through a string is counting how many times a specific character appears; for example, looping through the string \"banana\" and counting every time the letter \"a\" appears would result in a final count of 3, since the letter \"a\" appears at three separate positions within that specific word. Looping through strings is also commonly used for tasks like checking whether a string contains only letters and no numbers, or building a brand new string one character at a time based on certain rules applied to the original string.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what can a loop be used to do with a string?",
+      "correct": "Move through the string one character at a time",
+      "distractors": [
+        "Convert the string into a boolean automatically",
+        "Turn the string into a computer hardware component",
+        "Only delete the entire string at once"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how many total characters does the loop process in the \"Robot\" example?",
+      "correct": "5 total characters",
+      "distractors": [
+        "0 total characters",
+        "10 total characters",
+        "1 total character"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is a common use for looping through a string?",
+      "correct": "Counting how many times a specific character appears",
+      "distractors": [
+        "Only deleting random characters",
+        "Only measuring the speed of the computer",
+        "Only converting the string into an integer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph's example, looping through the string \"banana\" and counting every occurrence of the letter \"a\" results in a final count of 3. Using that same counting approach described in the paragraph, if a loop instead counted every occurrence of the letter \"n\" in the word \"banana,\" approximately how many times would the letter \"n\" be counted, based on how many times it appears in that word?",
+      "correct": "2 times, since the letter \"n\" appears at two separate positions in \"banana\"",
+      "distractors": [
+        "0 times, since \"n\" does not appear in \"banana\"",
+        "3 times, the same as the letter \"a\"",
+        "6 times, once for every letter in the word"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer wants to loop through a string to check whether it contains only letters and no numbers, as mentioned in the paragraph. Based on the paragraph's description of how looping through a string works character by character, would this task require examining every single character in the string, or could it always be completed by looking at just the first character alone?",
+      "correct": "It would generally require examining each character, since any single character later in the string could turn out to be a number",
+      "distractors": [
+        "The paragraph states this task is impossible to do using a loop",
+        "It would require looping through the string backward only, never forward",
+        "It could always be completed by looking at only the first character, since that is enough to know about the whole string"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

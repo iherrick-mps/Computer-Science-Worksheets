@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-09",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 9,
+  "title": "Worksheet 9: Input and Output Devices",
+  "topic": "Input and Output Devices",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Computers interact with the world through input and output devices. An input device is any piece of hardware used to send information or commands into a computer. Common input devices include a keyboard (used to type text), a mouse (used to click and point), a microphone (used to record sound), and a scanner (used to digitize paper documents). An output device, on the other hand, displays or produces information that comes out of the computer for a person to see, hear, or use. Common output devices include a monitor (which displays images), speakers (which play sound), and a printer (which produces paper copies of documents). Some devices, like touchscreens, act as both input and output devices at the same time, since they display information (output) and also respond to touch (input).",
+  "questions": [
+    {
+      "text": "An input device is used to:",
+      "correct": "Send information or commands into a computer",
+      "distractors": [
+        "Display information from the computer",
+        "Store electricity",
+        "Cool down the computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of the following is listed as an input device?",
+      "correct": "Microphone",
+      "distractors": [
+        "Monitor",
+        "Speaker",
+        "Printer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "An output device is best described as one that:",
+      "correct": "Displays or produces information for a person to see, hear, or use",
+      "distractors": [
+        "Sends commands into the computer",
+        "Only stores data",
+        "Only connects to the internet"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which device is described as producing paper copies of documents?",
+      "correct": "Printer",
+      "distractors": [
+        "Scanner",
+        "Mouse",
+        "Microphone"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is a touchscreen considered both an input and output device?",
+      "correct": "It displays information and also responds to touch",
+      "distractors": [
+        "It only displays images",
+        "It only records sound",
+        "It cannot be used by people"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

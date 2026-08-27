@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-02",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 2,
+  "title": "Worksheet 2: RAM vs. Storage",
+  "topic": "RAM vs. Storage",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Computers use two very different kinds of memory: RAM and storage, and people often confuse the two. RAM, which stands for Random Access Memory, is a type of short-term memory that a computer uses to hold information it is actively working on right now, such as an open program or a document you are currently editing. RAM is extremely fast, but it is also \"volatile,\" meaning that everything stored in RAM disappears the moment the computer loses power or shuts down. Storage, such as a hard drive or solid-state drive (SSD), is different: it holds information permanently, even after the computer is turned off, which is why your files, photos, and installed programs are still there the next time you turn the computer on. Storage is generally much slower than RAM, but it can hold far more information over a long period of time. A helpful comparison is that RAM is like a person's short-term memory of what they're doing right now, while storage is like a filing cabinet that keeps records long-term.",
+  "questions": [
+    {
+      "text": "RAM stands for:",
+      "correct": "Random Access Memory",
+      "distractors": [
+        "Rapid Access Module",
+        "Read And Modify",
+        "Remote Access Machine"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what happens to information in RAM when the computer loses power?",
+      "correct": "It disappears",
+      "distractors": [
+        "It is saved automatically",
+        "It moves to storage",
+        "It gets faster"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which type of memory holds information permanently, even after the computer is turned off?",
+      "correct": "Storage",
+      "distractors": [
+        "RAM",
+        "Neither",
+        "Both equally"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, which is generally faster: RAM or storage?",
+      "correct": "RAM",
+      "distractors": [
+        "Storage",
+        "They are exactly the same speed",
+        "Neither is fast"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "The paragraph compares storage to:",
+      "correct": "A filing cabinet that keeps records long-term",
+      "distractors": [
+        "A person's short-term memory",
+        "A television",
+        "A calculator"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

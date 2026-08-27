@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-03",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 3,
+  "title": "Worksheet 3: Keeping Personal Information Private",
+  "topic": "Keeping Personal Information Private",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Personal information is any detail that could be used to identify a specific person or find out where they live, go to school, or spend time. Examples of personal information include a full name, home address, school name, phone number, birthday, and photos that show a player's face or location. On Roblox, and on any online platform, it is important to never share personal information with other players, even ones who seem friendly or claim to be a similar age. This is because personal information shared online can be saved, copied, or shared further by the person who receives it, and there is no way to fully take it back once it has been sent. Even small pieces of information can add up: for example, mentioning a school's mascot, a sports team, and a town name in separate messages could allow a stranger to figure out exactly where a player goes to school, even if no single message seems dangerous by itself.",
+  "questions": [
+    {
+      "text": "Personal information is best described as:",
+      "correct": "Any detail that could be used to identify a specific person or find them",
+      "distractors": [
+        "A type of in-game currency",
+        "A password for an email account only",
+        "A type of Roblox game"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Which of the following is listed as an example of personal information?",
+      "correct": "A home address",
+      "distractors": [
+        "A favorite snack",
+        "A favorite color",
+        "A favorite Roblox game"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is it risky to share personal information online?",
+      "correct": "It can be saved, copied, or shared further, and cannot be fully taken back",
+      "distractors": [
+        "It has no real risk at all",
+        "It makes games load faster",
+        "It is required to play any Roblox game"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why can small pieces of information \"add up\" to be risky?",
+      "correct": "They could allow a stranger to figure out where a player goes to school",
+      "distractors": [
+        "They are automatically deleted",
+        "They cannot be combined in any way",
+        "They make the game crash"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, should a player share personal information with someone who seems friendly online?",
+      "correct": "No, personal information should not be shared even with friendly-seeming players",
+      "distractors": [
+        "Yes, if they seem nice",
+        "Only on weekends",
+        "Only if they ask nicely"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

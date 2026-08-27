@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-07",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 7,
+  "title": "Worksheet 7: Cyberbullying on Roblox",
+  "topic": "Cyberbullying on Roblox",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cyberbullying is when someone uses technology, such as chat messages, comments, or in-game actions, to repeatedly hurt, embarrass, or threaten another person. On Roblox, cyberbullying can happen in different ways, including sending mean or threatening messages in chat, excluding a player on purpose during a group game, spreading rumors about a player, or using a game's features to target and harass someone specific. Cyberbullying can feel just as hurtful as bullying that happens in person, and it can sometimes feel even harder to escape, since messages can be sent at any time and may be seen by many other players at once. Experts recommend that a player who experiences cyberbullying should avoid responding in anger, save or take a screenshot of the messages if possible, use the report and block tools built into Roblox, and tell a trusted adult about what happened. Trusted adults can help decide on next steps and make sure the behavior is reported properly.",
+  "questions": [
+    {
+      "text": "Cyberbullying is best described as:",
+      "correct": "Using technology to repeatedly hurt, embarrass, or threaten someone",
+      "distractors": [
+        "A type of Roblox game",
+        "A privacy setting",
+        "A type of virtual currency"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Which of the following is listed as an example of cyberbullying on Roblox?",
+      "correct": "Sending mean or threatening messages in chat",
+      "distractors": [
+        "Saying \"good game\" after a match",
+        "Sharing a helpful tip",
+        "Playing a game together nicely"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why can cyberbullying sometimes feel even harder to escape than in-person bullying?",
+      "correct": "Messages can be sent at any time and seen by many players at once",
+      "distractors": [
+        "It only happens once a year",
+        "It cannot be reported",
+        "It always happens in person too"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should a player do if possible when they experience cyberbullying?",
+      "correct": "Save or take a screenshot of the messages",
+      "distractors": [
+        "Ignore it and tell no one",
+        "Delete their account immediately",
+        "Respond with something meaner"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, who can help decide on next steps after cyberbullying is reported?",
+      "correct": "Trusted adults",
+      "distractors": [
+        "Only the person who did the bullying",
+        "No one can help",
+        "Only other players"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

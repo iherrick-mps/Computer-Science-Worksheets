@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-01",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 1,
+  "title": "Worksheet 1: What Are Data Types?",
+  "topic": "What Are Data Types?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In programming, every piece of data a computer works with has a specific \"data type,\" which tells the computer what kind of information is being stored and what operations can be performed on it. Common basic data types include integers, which are whole numbers with no decimal point; floating-point numbers, often called \"floats,\" which are numbers that include a decimal point; strings, which are sequences of text characters; and booleans, which can only hold one of two values, true or false. A computer treats each data type differently: for example, adding two integers together performs mathematical addition, but \"adding\" two strings together usually joins them end to end instead of performing any math. Understanding data types is important because using the wrong type in the wrong place, such as trying to perform math on a string that isn't actually a number, can cause a program to behave unexpectedly or crash entirely.",
+  "questions": [
+    {
+      "text": "A data type is best described as:",
+      "correct": "Something that tells the computer what kind of information is being stored and what can be done with it",
+      "distractors": [
+        "A type of computer hardware",
+        "A password used to access a program",
+        "A type of computer virus"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, an integer is:",
+      "correct": "A whole number with no decimal point",
+      "distractors": [
+        "A value that is only true or false",
+        "A number that always includes a decimal point",
+        "A sequence of text characters"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a \"float\"?",
+      "correct": "A number that includes a decimal point",
+      "distractors": [
+        "A type of list",
+        "A true or false value",
+        "A type of text"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what happens when two strings are \"added\" together?",
+      "correct": "They are usually joined end to end",
+      "distractors": [
+        "They are deleted",
+        "They turn into integers automatically",
+        "They perform mathematical addition"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why is understanding data types important?",
+      "correct": "Using the wrong type in the wrong place can cause a program to behave unexpectedly or crash",
+      "distractors": [
+        "It has no real effect on a program",
+        "It determines the color of the programming software",
+        "It only matters for very advanced programmers"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

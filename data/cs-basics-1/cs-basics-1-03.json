@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-03",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 3,
+  "title": "Worksheet 3: Variables",
+  "topic": "Variables",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In computer programming, a variable is a labeled container used to store a piece of information so it can be used later. Think of a variable like a labeled box: you can put something inside it, give the box a name, and open it again later to see what's inside or change what's stored there. For example, a programmer might create a variable named \"score\" to keep track of a player's points in a game. At the start of the game, \"score\" might be set to 0. As the player earns points, the program changes the value stored inside the \"score\" variable. Variables can hold different types of information, such as numbers, words (called \"text\" or \"strings\"), or true/false values. Giving variables clear, descriptive names, like \"score\" instead of \"x,\" helps programmers understand what the code is doing.",
+  "questions": [
+    {
+      "text": "A variable is best described as:",
+      "correct": "A labeled container that stores information",
+      "distractors": [
+        "A type of computer virus",
+        "A picture on a screen",
+        "A type of printer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the example, what does the variable \"score\" keep track of?",
+      "correct": "A player's points in a game",
+      "distractors": [
+        "The time of day",
+        "The color of the screen",
+        "The name of the computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, variables can store which types of information?",
+      "correct": "Numbers, words, and true/false values",
+      "distractors": [
+        "Only numbers",
+        "Only words",
+        "Only pictures"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Why do programmers give variables clear, descriptive names?",
+      "correct": "It helps them understand what the code is doing",
+      "distractors": [
+        "It makes the program run faster",
+        "It is required by all computers",
+        "It changes the color of the code"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What happens to the \"score\" variable as a player earns points?",
+      "correct": "The program changes the value stored inside it",
+      "distractors": [
+        "It stays at 0 forever",
+        "It deletes itself",
+        "It turns into text"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

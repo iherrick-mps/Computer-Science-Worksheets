@@ -1,0 +1,94 @@
+{
+  "id": "loops-09",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 9,
+  "title": "Worksheet 9: Continue Statements",
+  "topic": "Continue Statements",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A \"continue\" statement is a special instruction used inside a loop that immediately skips the rest of the current repetition and jumps straight to the next one, without stopping the loop entirely the way a break statement does. This means any code written after the continue statement, but still within that same repetition of the loop, will simply be skipped for that one specific pass, even though the loop itself keeps running normally afterward. For example, imagine a loop is checking every number from 1 to 10 and is supposed to print only the even numbers; a continue statement could be used so that whenever the loop encounters an odd number, it immediately skips the printing instruction for that specific repetition and moves on to check the next number, without printing anything for that particular odd number and without stopping the entire loop. Continue statements are useful specifically when a program needs to skip certain individual repetitions of a loop for a specific reason, while still allowing the loop as a whole to keep running normally through its remaining repetitions.",
+  "questions": [
+    {
+      "text": "A \"continue\" statement is best described as:",
+      "correct": "A special instruction that skips the rest of the current repetition and jumps to the next one",
+      "distractors": [
+        "A type of computer hardware",
+        "A type of variable used to store numbers",
+        "A statement that stops a loop entirely and exits it"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how is a continue statement different from a break statement?",
+      "correct": "A continue statement does not stop the loop entirely, unlike a break statement",
+      "distractors": [
+        "A continue statement always stops the loop entirely, exactly like a break statement",
+        "A continue statement can only be used once per entire program",
+        "There is no difference between the two at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, when are continue statements useful?",
+      "correct": "When a program needs to skip certain individual repetitions of a loop for a specific reason",
+      "distractors": [
+        "Continue statements are never useful in programming",
+        "Only at the very end of a program",
+        "Only when a program needs to stop running completely"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "In the example, a loop checks every number from 1 to 10 and uses a continue statement to skip printing whenever it encounters an odd number. Based on this description, which specific numbers between 1 and 10 would actually get printed by this loop?",
+      "correct": "2, 4, 6, 8, and 10",
+      "distractors": [
+        "All numbers from 1 to 10",
+        "1, 3, 5, 7, and 9",
+        "No numbers would be printed at all"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Suppose a programmer wants to loop through a list of exactly 20 numbers, and for each negative number encountered, they want the loop to skip printing that number but still keep checking the remaining numbers in the list afterward. Based on the paragraph's explanation of continue statements, would a continue statement or a break statement be the more appropriate tool for this specific goal, and why?",
+      "correct": "A continue statement, because it skips just the current repetition without stopping the loop's remaining repetitions",
+      "distractors": [
+        "A break statement, because it always continues running after being triggered",
+        "A break statement, because it is designed specifically to skip only negative numbers",
+        "Neither statement could accomplish this goal in any way"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

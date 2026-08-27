@@ -1,0 +1,94 @@
+{
+  "id": "loops-04",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 4,
+  "title": "Worksheet 4: For Loop vs. While Loop",
+  "topic": "For Loop vs. While Loop",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Although for loops and while loops can sometimes be used to accomplish similar tasks, choosing the right one often depends on whether the number of repetitions needed is known in advance. A for loop is generally the clearer, more natural choice when a programmer already knows exactly how many times a task needs to repeat before the loop even begins running, such as processing every item in a list containing exactly 15 entries. A while loop, on the other hand, is generally a better fit when the number of repetitions cannot be known in advance, because it depends on something that happens while the program is actually running, such as a game continuing to run until a player's health reaches zero, or a program continuing to ask for input until the user finally enters a valid response. It is technically possible to rewrite almost any for loop as a while loop, and almost any while loop as a for loop, but doing so often makes the code harder to read, since each loop type is generally designed to clearly signal, at a glance, what kind of repetition a programmer originally intended.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what does choosing between a for loop and a while loop often depend on?",
+      "correct": "Whether the number of repetitions needed is known in advance",
+      "distractors": [
+        "The brand of computer being used",
+        "The color of the programming software being used",
+        "The time of day the program is written"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, when is a for loop generally the clearer choice?",
+      "correct": "When a programmer already knows exactly how many times a task needs to repeat",
+      "distractors": [
+        "When no repetition is needed at all",
+        "Only when writing a while loop is impossible",
+        "When the number of repetitions can never be known"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, is it technically possible to rewrite almost any for loop as a while loop?",
+      "correct": "Yes, it is technically possible",
+      "distractors": [
+        "The paragraph does not mention this",
+        "No, it is never possible under any circumstances",
+        "Only for loops that repeat exactly once can be rewritten"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A programmer is writing a program that must continue running a game until a player's health reaches zero, but the exact number of turns that will take cannot be known before the game starts. Based on the paragraph's guidance about when each loop type generally fits best, which loop type is the better natural fit for this situation?",
+      "correct": "A while loop, since the number of repetitions depends on something that happens while the program runs",
+      "distractors": [
+        "Neither loop type could be used for this situation at all",
+        "A for loop, since the number of turns is always known in advance",
+        "A for loop, since the paragraph says for loops are always the better choice for games"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, if a programmer rewrites a for loop as a while loop to process a list of exactly 15 known entries, would this change the number of times the code repeats, and what would likely happen to how easily other programmers could understand the code at a glance?",
+      "correct": "The number of repetitions would stay the same, but the code would likely become harder to read, since it wouldn't clearly signal the loop's original intent",
+      "distractors": [
+        "The number of repetitions would automatically double",
+        "The code would automatically become easier to read for every programmer",
+        "The code would become impossible to run at all"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

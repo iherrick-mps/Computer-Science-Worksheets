@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-10",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 10,
+  "title": "Worksheet 10: Looping Through Lists",
+  "topic": "Looping Through Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "One of the most common tasks in programming is looping through every item in a list, one at a time, in order to check, use, or change each value without having to write separate code for every single item individually. A \"for loop\" is often used for this purpose, automatically moving through a list from the first item to the last item, running the same block of code once for each individual item along the way. For example, a program could use a loop to go through a list of student grades and calculate the total sum of all the grades, or to check whether any grade in the list is below a passing score, without a programmer needing to know in advance exactly how many grades are in the list. Looping through a list is especially powerful because the exact same short piece of code can work correctly whether the list contains three items or three thousand items, since the loop automatically continues until it reaches the end of the list.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what is one of the most common tasks in programming involving lists?",
+      "correct": "Looping through every item in a list, one at a time",
+      "distractors": [
+        "Converting every list into a boolean",
+        "Deleting the entire list immediately",
+        "Ignoring the list completely"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what type of loop is often used to move through a list?",
+      "correct": "A for loop",
+      "distractors": [
+        "A string loop",
+        "A boolean loop",
+        "An index-only loop with no repetition"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what could a loop be used for with a list of student grades?",
+      "correct": "Calculating the total sum of all the grades or checking for a failing grade",
+      "distractors": [
+        "Turning the grades into strings",
+        "Making the grades disappear randomly",
+        "Deleting all the grades permanently"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, does a programmer need to know exactly how many items are in a list before looping through it?",
+      "correct": "No, the loop automatically continues until it reaches the end of the list",
+      "distractors": [
+        "Loops cannot be used with lists at all",
+        "The paragraph does not mention this",
+        "Yes, the exact number must always be known in advance"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, why is looping through a list considered powerful?",
+      "correct": "The same short piece of code can work whether the list has three items or three thousand",
+      "distractors": [
+        "It requires writing separate code for every single item",
+        "It only works for lists with exactly three items",
+        "It has no real advantage over writing code manually"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

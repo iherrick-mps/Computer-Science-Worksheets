@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-15",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 15,
+  "title": "Worksheet 15: Artificial Intelligence Basics",
+  "topic": "Artificial Intelligence Basics",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Artificial Intelligence, or AI, refers to computer systems designed to perform tasks that normally require human intelligence, such as recognizing speech, making decisions, or identifying patterns in information. Unlike a simple program that only follows fixed, unchanging instructions, many AI systems are built using a method called \"machine learning,\" where a computer is given large amounts of data and learns to recognize patterns from that data instead of being directly told every single rule. For example, an AI system could be shown thousands of pictures labeled \"cat\" or \"dog\" until it learns to identify the difference on its own, even when shown a new picture it has never seen before. AI is used in many everyday tools, including voice assistants that respond to spoken commands, recommendation systems that suggest videos or products, and spam filters that identify unwanted emails. While AI can be extremely useful, it is not the same as human intelligence, and it can make mistakes, especially when given data that is incomplete or unfair.",
+  "questions": [
+    {
+      "text": "Artificial Intelligence refers to:",
+      "correct": "Computer systems designed to perform tasks that normally require human intelligence",
+      "distractors": [
+        "A type of computer hardware",
+        "A password protection system",
+        "A type of monitor"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "The method where a computer learns to recognize patterns from large amounts of data is called:",
+      "correct": "Machine learning",
+      "distractors": [
+        "Debugging",
+        "Binary coding",
+        "Multitasking"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the cat/dog example, how does the AI system learn to tell the difference?",
+      "correct": "It is shown thousands of labeled pictures and learns to recognize patterns",
+      "distractors": [
+        "It is directly told every single rule",
+        "It guesses randomly",
+        "It uses a printed manual"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of the following is listed as an everyday use of AI?",
+      "correct": "Voice assistants that respond to spoken commands",
+      "distractors": [
+        "Printing paper documents",
+        "Charging a battery",
+        "Opening a physical door"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, is AI the same as human intelligence?",
+      "correct": "No, and it can make mistakes, especially with incomplete or unfair data",
+      "distractors": [
+        "Yes, it is identical",
+        "Yes, but only on weekends",
+        "No, because AI cannot learn at all"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

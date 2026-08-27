@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-04",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 4,
+  "title": "Worksheet 4: Programming Languages",
+  "topic": "Programming Languages",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A programming language is a special set of words, symbols, and rules that people use to write instructions for a computer to follow. Just like English or Spanish is a language people use to communicate with each other, a programming language is a language used to communicate with a computer. However, unlike human languages, programming languages must follow extremely strict rules, called \"syntax,\" and even a small mistake, like a missing symbol, can cause the program to fail. There are hundreds of programming languages, each designed with different strengths. For example, Python is known for being easy to read and is often used for data analysis and beginners learning to code. JavaScript is commonly used to make websites interactive. Before a computer can actually run the instructions a programmer writes, the code must be translated into a form the computer's hardware can understand, since computers ultimately only understand binary, the language of 0s and 1s.",
+  "questions": [
+    {
+      "text": "A programming language is best described as:",
+      "correct": "A set of words, symbols, and rules used to write instructions for a computer",
+      "distractors": [
+        "A type of computer hardware",
+        "A brand of computer",
+        "A picture displayed on screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, the strict rules a programming language must follow are called:",
+      "correct": "Syntax",
+      "distractors": [
+        "Loops",
+        "Variables",
+        "Binary"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what can happen if there is even a small mistake, like a missing symbol?",
+      "correct": "The program can fail",
+      "distractors": [
+        "Nothing happens",
+        "The computer becomes faster",
+        "The screen changes color"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which language is described as easy to read and often used by beginners?",
+      "correct": "Python",
+      "distractors": [
+        "JavaScript",
+        "Binary",
+        "HTML"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what must code be translated into before a computer can run it?",
+      "correct": "Binary, the language of 0s and 1s",
+      "distractors": [
+        "A foreign spoken language",
+        "A picture",
+        "A sound file"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

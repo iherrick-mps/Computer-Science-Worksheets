@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-14",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 14,
+  "title": "Worksheet 14: Type Conversion",
+  "topic": "Type Conversion",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Type conversion, sometimes called \"type casting,\" is the process of changing a value from one data type into another, such as converting a string into an integer or converting an integer into a float. Type conversion is often necessary because different data types behave differently, and a program may need a value in a specific type before it can be used correctly; for example, a number typed into a text input box by a user is often initially stored as a string, even if it looks like a number, and must be converted into an integer or float before any math can be performed on it. Some type conversions are straightforward, such as converting the string \"5\" into the integer 5, but others can fail or cause errors, such as attempting to convert the string \"hello\" into an integer, since there is no numeric value that \"hello\" could reasonably represent. Programmers often need to check or handle these potential errors carefully, especially when converting data that came from outside the program, such as information typed in by a user, since that data cannot always be trusted to be in the expected format.",
+  "questions": [
+    {
+      "text": "Type conversion is best described as:",
+      "correct": "The process of changing a value from one data type into another",
+      "distractors": [
+        "The process of deleting a variable completely",
+        "A type of loop used to repeat code",
+        "A type of dictionary key"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, why is type conversion often necessary?",
+      "correct": "A program may need a value in a specific type before it can be used correctly",
+      "distractors": [
+        "It is never actually necessary in programming",
+        "It only matters for booleans",
+        "It automatically deletes all data types"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how is a number typed into a text input box often initially stored?",
+      "correct": "As a string, even if it looks like a number",
+      "distractors": [
+        "As an integer automatically",
+        "As a boolean value",
+        "As a nested list"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what happens when trying to convert the string \"hello\" into an integer?",
+      "correct": "It can fail or cause an error, since there is no numeric value it could represent",
+      "distractors": [
+        "It always converts successfully to the number 0",
+        "Nothing happens; the conversion is never attempted",
+        "It automatically becomes a float"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why must programmers be careful when converting data from outside the program?",
+      "correct": "That data cannot always be trusted to be in the expected format",
+      "distractors": [
+        "Outside data never needs to be converted",
+        "Outside data is always already in the correct format",
+        "It has no real risk at all"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

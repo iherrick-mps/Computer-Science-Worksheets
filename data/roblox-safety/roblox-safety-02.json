@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-02",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 2,
+  "title": "Worksheet 2: Talking to Strangers Online",
+  "topic": "Talking to Strangers Online",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "On Roblox, players can talk to millions of other users, and most of these players are complete strangers. Some strangers online are simply other kids who enjoy the same games, but because it is easy for anyone to hide their real identity online, a player can never be completely sure who they are truly talking to. Someone chatting on Roblox could claim to be a kid the same age, when in reality they might be an adult, or a much older teenager, pretending to be younger to gain trust. This is one reason experts recommend that kids never share personal details with people they meet only through games, and never agree to move a conversation to a different app or website without checking with a trusted adult first. If a stranger online ever makes a player feel confused, pressured, or uncomfortable in any way, the safest choice is to stop talking to them, avoid responding further, and tell a trusted adult right away.",
+  "questions": [
+    {
+      "text": "According to the paragraph, who are most players a person talks to on Roblox?",
+      "correct": "Complete strangers",
+      "distractors": [
+        "Only teachers",
+        "Only family members",
+        "Only their close friends"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Why can a player never be completely sure who they are really talking to online?",
+      "correct": "Because it is easy for anyone to hide their real identity online",
+      "distractors": [
+        "Because only kids are allowed to play",
+        "Because voice chat is required",
+        "Because Roblox checks everyone's ID"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what might someone claiming to be a kid actually be?",
+      "correct": "An adult or older teenager pretending to be younger",
+      "distractors": [
+        "A teacher checking on students",
+        "A game developer",
+        "A robot"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should a player never do with someone they only met through a game?",
+      "correct": "Share personal details or move the conversation to another app without checking with a trusted adult",
+      "distractors": [
+        "Play the same game together",
+        "Say hello",
+        "Use the same username"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What is the safest choice if a stranger makes a player feel uncomfortable, according to the paragraph?",
+      "correct": "Stop talking to them and tell a trusted adult right away",
+      "distractors": [
+        "Keep talking to figure out why",
+        "Ignore it and hope it goes away",
+        "Share more information to make them stop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

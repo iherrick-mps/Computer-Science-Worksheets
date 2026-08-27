@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-02",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 2,
+  "title": "Worksheet 2: Phishing Scams",
+  "topic": "Phishing Scams",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Phishing is a type of cyberattack in which criminals send fake emails, text messages, or other messages designed to trick people into revealing sensitive information, such as passwords, credit card numbers, or personal details. Phishing messages often pretend to come from a trustworthy source, such as a bank, a well-known company, or even a friend or coworker, and they frequently create a sense of urgency, warning that an account will be locked or a payment is overdue, to pressure the person into acting quickly without thinking carefully. Many phishing messages contain a link that leads to a fake website designed to look exactly like a real one, so when a person enters their username and password, the information is actually sent directly to the attacker. Some warning signs of phishing include misspelled words, generic greetings like \"Dear Customer\" instead of a real name, suspicious sender email addresses, and links that don't quite match the company's real website address.",
+  "questions": [
+    {
+      "text": "Phishing is best described as:",
+      "correct": "A type of cyberattack that uses fake messages to trick people into revealing sensitive information",
+      "distractors": [
+        "A tool used to speed up the internet",
+        "A legitimate email from your bank",
+        "A type of computer hardware"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, phishing messages often create a sense of:",
+      "correct": "Urgency",
+      "distractors": [
+        "Boredom",
+        "Curiosity about the weather",
+        "Relaxation"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "What happens when a person enters their password on a fake phishing website?",
+      "correct": "The information is sent directly to the attacker",
+      "distractors": [
+        "The website blocks the login",
+        "Nothing happens at all",
+        "The password is automatically changed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Which of the following is listed as a warning sign of phishing?",
+      "correct": "A generic greeting like \"Dear Customer\"",
+      "distractors": [
+        "A message from a close family member",
+        "Perfect spelling and grammar",
+        "No links included at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, phishing messages often pretend to come from:",
+      "correct": "A trustworthy source, such as a bank or well-known company",
+      "distractors": [
+        "A random stranger with no message at all",
+        "No one in particular",
+        "The government only"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

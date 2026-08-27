@@ -1,0 +1,94 @@
+{
+  "id": "loops-08",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 8,
+  "title": "Worksheet 8: Break Statements",
+  "topic": "Break Statements",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A \"break\" statement is a special instruction used inside a loop that immediately stops the loop entirely and exits it right away, regardless of whether the loop's normal stopping condition has actually been met yet, or whether a for loop has reached its final planned repetition. Break statements are especially useful when a program finds exactly what it was looking for partway through a loop and has no reason to keep checking the remaining items. For example, imagine a loop is set up to search through a list of 100 names one at a time, looking for a specific name; if that name happens to be the very first item in the list, a break statement would allow the program to stop searching immediately after finding it, rather than wastefully continuing to check the other 99 names that are no longer relevant to the search. Without a break statement, a loop would normally continue running until its original stopping condition is met or, for a for loop, until it reaches its final planned repetition, even if the useful work the loop was doing had already effectively finished much earlier.",
+  "questions": [
+    {
+      "text": "A \"break\" statement is best described as:",
+      "correct": "A special instruction that immediately stops a loop entirely and exits it right away",
+      "distractors": [
+        "A type of variable used to store text",
+        "A statement that makes a loop repeat twice as many times",
+        "A type of computer hardware"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, when are break statements especially useful?",
+      "correct": "When a program finds exactly what it was looking for partway through a loop",
+      "distractors": [
+        "Only at the very beginning of a program, before any loop starts",
+        "Break statements are never useful in any situation",
+        "Only when a loop has already finished completely"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, without a break statement, when does a loop normally continue running?",
+      "correct": "Until its original stopping condition is met, or a for loop reaches its final planned repetition",
+      "distractors": [
+        "For exactly one repetition only",
+        "Only while the computer is turned off",
+        "Forever, no matter what"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In the example, a loop searches through a list of 100 names, and the name being searched for happens to be the very first item in the list. Based on the paragraph's explanation of how break statements work, approximately how many total names would the loop actually need to check before stopping, if a break statement is used correctly?",
+      "correct": "Just 1 name, since the break statement stops the loop immediately after finding the target",
+      "distractors": [
+        "0 names, since the loop would never start",
+        "Exactly 50 names, halfway through the list",
+        "All 100 names, since break statements do not affect how many items are checked"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Suppose a programmer is searching through a list of 100 names for a specific name, but this time the target name happens to be the very last item in the list instead of the first. Based on the paragraph's explanation of break statements, would using a break statement in this specific case still save the program from checking many unnecessary names, compared to the example where the name was first in the list?",
+      "correct": "No, in this case a break statement would provide little to no benefit, since nearly all 100 names would still need to be checked before reaching the last one",
+      "distractors": [
+        "A break statement can only be used when the target is the very first item in a list",
+        "The position of the target name in the list has no effect on how a break statement behaves",
+        "Yes, it would still skip checking all 100 names entirely regardless of position"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

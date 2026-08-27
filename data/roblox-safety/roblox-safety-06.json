@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-06",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 6,
+  "title": "Worksheet 6: Privacy Settings and Parental Controls",
+  "topic": "Privacy Settings and Parental Controls",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox includes privacy settings and parental controls that allow a parent or guardian to adjust what a player can see and do on the platform. These settings can control things like who is allowed to chat with a player, whether voice chat is turned on, what kinds of games appear as recommended, and how much real money can be spent inside the app. Roblox also offers an account setting called \"Account Restrictions,\" which limits chat and content even further for younger players, blocking most chat features and only allowing access to games designed for a younger audience. Because every family may have different rules about what feels appropriate, parents and guardians are encouraged to review these settings together with their child and adjust them based on the child's age and maturity. Regularly checking privacy settings is helpful because Roblox occasionally updates its features, which can sometimes change default settings without a player realizing it.",
+  "questions": [
+    {
+      "text": "According to the paragraph, who can adjust Roblox's privacy settings and parental controls?",
+      "correct": "A parent or guardian",
+      "distractors": [
+        "Only other players",
+        "No one; they cannot be changed",
+        "Only Roblox employees"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Which of the following is listed as something privacy settings can control?",
+      "correct": "Who is allowed to chat with a player",
+      "distractors": [
+        "The player's school grades",
+        "The weather in the game",
+        "The player's height in real life"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does the \"Account Restrictions\" setting do?",
+      "correct": "Limits chat and content further for younger players",
+      "distractors": [
+        "Turns off the internet completely",
+        "Deletes the player's account",
+        "Gives unlimited free Robux"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why are parents encouraged to review settings together with their child?",
+      "correct": "Because every family may have different rules about what feels appropriate",
+      "distractors": [
+        "Because Roblox charges extra otherwise",
+        "Because it makes the game load faster",
+        "Because it is required to play any game"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is it helpful to check privacy settings regularly?",
+      "correct": "Roblox updates can sometimes change default settings without a player realizing it",
+      "distractors": [
+        "It has no real benefit",
+        "It is the only way to earn Robux",
+        "Settings automatically reset every day"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

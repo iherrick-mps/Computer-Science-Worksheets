@@ -1,0 +1,94 @@
+{
+  "id": "loops-03",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 3,
+  "title": "Worksheet 3: While Loops",
+  "topic": "While Loops",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A while loop is a type of loop that continues repeating a block of code for as long as a specified condition remains true, checking that condition again before each new repetition begins. Unlike a for loop, a while loop does not rely on a predetermined number of repetitions; instead, it simply keeps looping until its condition becomes false, at which point the loop stops immediately and the program moves on to whatever code comes next. For example, a while loop could be written to keep doubling a starting number of 1 for as long as that number stays below 100; starting at 1, the number would become 2, then 4, then 8, then 16, then 32, then 64, and finally 128, at which point the condition \"the number is below 100\" would become false, causing the loop to stop. Because a while loop's condition is checked every single time before the loop repeats again, if the condition is written incorrectly and never actually becomes false, the loop will continue running forever, which is a common mistake beginner programmers make.",
+  "questions": [
+    {
+      "text": "A while loop is best described as:",
+      "correct": "A loop that continues repeating for as long as a specified condition remains true",
+      "distractors": [
+        "A type of variable",
+        "A loop that always repeats exactly once",
+        "A type of computer hardware"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, when does a while loop stop repeating?",
+      "correct": "When its condition becomes false",
+      "distractors": [
+        "Only when the computer is turned off",
+        "It never stops under any circumstances",
+        "After exactly ten repetitions, always"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, does a while loop rely on a predetermined number of repetitions?",
+      "correct": "No, it simply keeps looping until its condition becomes false",
+      "distractors": [
+        "The paragraph does not mention this",
+        "Yes, it always requires an exact predetermined count",
+        "A while loop can only run exactly one time"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "In the doubling example, the loop starts at 1 and doubles the number each time as long as it stays below 100. Based on the sequence given in the paragraph (1, 2, 4, 8, 16, 32, 64, 128), how many times did the number actually get doubled before the loop's condition became false?",
+      "correct": "Seven times",
+      "distractors": [
+        "Five times",
+        "One time",
+        "It is impossible to determine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A beginner programmer writes a while loop meant to count up from 1 to 10, but accidentally writes the condition so that it never actually becomes false while the program runs. Based on the paragraph's explanation of how while loops behave, what would you expect to happen when this program runs?",
+      "correct": "The loop would continue running forever, since it only stops when its condition becomes false",
+      "distractors": [
+        "The loop would convert itself into a for loop automatically",
+        "The program would immediately skip the loop entirely",
+        "The loop would automatically stop after exactly 10 repetitions regardless of the condition"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

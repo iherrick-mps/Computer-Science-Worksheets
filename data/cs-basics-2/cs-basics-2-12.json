@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-12",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 12,
+  "title": "Worksheet 12: Robots and Sensors",
+  "topic": "Robots and Sensors",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A robot is a machine that can sense its environment, process information, and take physical action to complete a task, often automatically or with limited human control. Sensors are a critical part of nearly every robot, because they allow the robot to gather information about the world around it, similar to how human senses like sight and touch provide information to the brain. Common robot sensors include ultrasonic or infrared sensors, which measure distance to nearby objects to help a robot avoid obstacles, light sensors, which detect brightness or specific colors, and touch or pressure sensors, which detect physical contact. Once a sensor collects information, it sends that data to the robot's controller, which acts like the robot's brain, deciding what action to take based on the sensor data and the instructions programmed by its designer. Without sensors, a robot would be unable to react to changes in its environment and could only follow a fixed set of movements regardless of what was actually happening around it.",
+  "questions": [
+    {
+      "text": "A robot is best described as:",
+      "correct": "A machine that senses its environment, processes information, and takes physical action",
+      "distractors": [
+        "A type of search engine",
+        "A programming language",
+        "A type of cloud storage"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what do sensors allow a robot to do?",
+      "correct": "Gather information about the world around it",
+      "distractors": [
+        "Store files permanently",
+        "Connect to Wi-Fi",
+        "Translate code into binary"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Which sensor type is described as measuring distance to nearby objects?",
+      "correct": "Ultrasonic or infrared sensor",
+      "distractors": [
+        "Light sensor",
+        "Touch sensor",
+        "Pressure sensor"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does a robot's controller act like?",
+      "correct": "The robot's brain",
+      "distractors": [
+        "The robot's battery",
+        "The robot's wheels",
+        "The robot's paint job"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what would happen to a robot without sensors?",
+      "correct": "It could only follow a fixed set of movements regardless of its surroundings",
+      "distractors": [
+        "It would work even better than before",
+        "It would gain more battery life",
+        "It would connect to more devices"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

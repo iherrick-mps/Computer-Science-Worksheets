@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS Worksheets — Ms. Herrick</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Computer Science Worksheets</h1>
+    <p>Ms. Herrick &middot; Robotics &amp; Coding &middot; Magnolia Science Academy San Diego</p>
+    <nav class="tabs">
+      <a href="index.html" class="active">Browse</a>
+      <a href="answers.html">Answer Keys &amp; Grading</a>
+      <a href="https://github.com/" id="repo-link" hidden>Repo</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Search worksheets by topic, set, or number&hellip;" autocomplete="off">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div id="sets"><div class="empty">Loading worksheets&hellip;</div></div>
+
+</div>
+
+<script src="assets/common.js"></script>
+<script>
+let MANIFEST = null;
+
+function sheetRow(set, w) {
+  return '' +
+    '<li data-search="' + escapeHTML((w.topic + ' ' + set.title + ' ' + w.number).toLowerCase()) + '">' +
+      '<span class="num">' + w.number + '</span>' +
+      '<span class="topic">' + escapeHTML(w.topic) + '</span>' +
+      '<span class="keychip" title="Answer key">' + escapeHTML(w.answerKey) + '</span>' +
+      '<a class="btn solid" href="worksheet.html?id=' + encodeURIComponent(w.id) + '">View / Print</a>' +
+      '<a class="btn" href="answers.html?id=' + encodeURIComponent(w.id) + '">Key</a>' +
+    '</li>';
+}
+
+function setCard(set) {
+  const badges =
+    '<span class="badge">' + set.count + ' worksheets</span>' +
+    '<span class="badge">' + escapeHTML(set.readingLevel) + '</span>' +
+    (set.tiered ? '<span class="badge tiered">Q1&ndash;3 recall &middot; Q4&ndash;5 applied</span>' : '');
+
+  return '' +
+    '<section class="set" data-set="' + set.id + '">' +
+      '<div class="set-head">' +
+        '<h2>' + escapeHTML(set.title) + '</h2>' +
+        '<p>' + escapeHTML(set.description) + '</p>' +
+        '<div class="badges">' + badges +
+          '<a class="btn" style="margin-left:auto" href="worksheet.html?set=' + encodeURIComponent(set.id) + '">Print whole set</a>' +
+        '</div>' +
+      '</div>' +
+      '<ul class="sheets">' + set.worksheets.map(function (w) { return sheetRow(set, w); }).join('') + '</ul>' +
+    '</section>';
+}
+
+function render() {
+  document.getElementById('sets').innerHTML = MANIFEST.sets.map(setCard).join('');
+  document.getElementById('count').textContent =
+    MANIFEST.totalWorksheets + ' worksheets in ' + MANIFEST.totalSets + ' sets';
+}
+
+function filter(term) {
+  term = term.trim().toLowerCase();
+  let visible = 0;
+  document.querySelectorAll('section.set').forEach(function (sec) {
+    let shown = 0;
+    sec.querySelectorAll('ul.sheets li').forEach(function (li) {
+      const hit = !term || li.dataset.search.indexOf(term) !== -1;
+      li.hidden = !hit;
+      if (hit) shown++;
+    });
+    sec.hidden = shown === 0;
+    visible += shown;
+  });
+  document.getElementById('count').textContent = term
+    ? visible + ' matching worksheet' + (visible === 1 ? '' : 's')
+    : MANIFEST.totalWorksheets + ' worksheets in ' + MANIFEST.totalSets + ' sets';
+}
+
+document.getElementById('search').addEventListener('input', function (e) {
+  filter(e.target.value);
+});
+
+loadManifest().then(function (m) {
+  MANIFEST = m;
+  render();
+}).catch(function (err) {
+  showLoadError(document.getElementById('sets'), err);
+});
+</script>
+
+</body>
+</html>

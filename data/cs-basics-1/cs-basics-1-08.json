@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-08",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 8,
+  "title": "Worksheet 8: Hardware vs. Software",
+  "topic": "Hardware vs. Software",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Every computer system is made up of two basic categories: hardware and software. Hardware refers to the physical parts of a computer that you can actually touch, such as the keyboard, mouse, monitor, hard drive, and the internal circuit boards. If you could open up a computer and hold a piece in your hand, it is hardware. Software, on the other hand, refers to the programs and instructions that tell the hardware what to do. Software cannot be physically touched; it exists as code stored on the hardware. For example, a word processing program, a web browser, and a video game are all examples of software. Hardware and software depend on each other to make a computer useful: hardware without software has no instructions to follow, and software without hardware has no physical machine to run on.",
+  "questions": [
+    {
+      "text": "Hardware refers to:",
+      "correct": "The physical parts of a computer you can touch",
+      "distractors": [
+        "Programs and instructions",
+        "Only the internet",
+        "A type of software"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of the following is an example of hardware, according to the paragraph?",
+      "correct": "A keyboard",
+      "distractors": [
+        "A web browser",
+        "A video game",
+        "A word processing program"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Software is best described as:",
+      "correct": "Programs and instructions that tell hardware what to do",
+      "distractors": [
+        "Something you can physically hold",
+        "A part of the monitor",
+        "A type of keyboard"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of these is listed as an example of software?",
+      "correct": "A video game",
+      "distractors": [
+        "The monitor",
+        "The hard drive",
+        "The circuit board"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why do hardware and software depend on each other?",
+      "correct": "Hardware needs software for instructions, and software needs hardware to run on",
+      "distractors": [
+        "They do not depend on each other at all",
+        "Software is a type of hardware",
+        "Hardware is more important than software"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-06",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 6,
+  "title": "Worksheet 6: The History of Ada Lovelace",
+  "topic": "The History of Ada Lovelace",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Ada Lovelace was a mathematician who lived in England in the 1800s, long before modern computers existed. She worked with inventor Charles Babbage on a machine called the \"Analytical Engine,\" which was designed to perform calculations using punched cards. While translating a French article about the machine, Lovelace added her own detailed notes, which ended up being three times longer than the original article. In these notes, she described a method for the Analytical Engine to calculate a sequence of numbers called Bernoulli numbers. Many historians consider this the first algorithm ever intended to be carried out by a machine, which is why Ada Lovelace is often called the world's first computer programmer. She also predicted that machines like the Analytical Engine could someday be used for more than just math, including creating music, which was a remarkable idea for her time.",
+  "questions": [
+    {
+      "text": "Ada Lovelace worked with which inventor?",
+      "correct": "Charles Babbage",
+      "distractors": [
+        "Grace Hopper",
+        "Alan Turing",
+        "Thomas Edison"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "What was the name of the machine she worked on?",
+      "correct": "The Analytical Engine",
+      "distractors": [
+        "The Difference Engine",
+        "The Computing Machine",
+        "The Punch Card Reader"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What did Ada Lovelace add while translating a French article?",
+      "correct": "Her own detailed notes",
+      "distractors": [
+        "Photographs",
+        "A new title",
+        "A summary in Spanish"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Why is Ada Lovelace often called the first computer programmer?",
+      "correct": "She wrote what many consider the first algorithm for a machine",
+      "distractors": [
+        "She built the first computer",
+        "She invented the punched card",
+        "She worked at NASA"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What did Ada Lovelace predict machines could be used for someday?",
+      "correct": "More than math, including creating music",
+      "distractors": [
+        "Only basic math",
+        "Cooking food",
+        "Driving cars"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

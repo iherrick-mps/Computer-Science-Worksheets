@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-12",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 12,
+  "title": "Worksheet 12: Recognizing Warning Signs",
+  "topic": "Recognizing Warning Signs",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Most people a player meets on Roblox are simply other players who want to have fun, but it is still important to recognize behavior that feels wrong so a player can respond safely. Some general warning signs include a stranger asking a lot of personal questions, someone offering gifts, Robux, or special favors in exchange for private information or photos, a person asking a player to keep a conversation \"secret\" from their parents, or someone becoming upset, pushy, or angry when a player says no to something. A trustworthy adult or friend generally does not ask a child to hide a conversation from their parents or guardians. If a player ever notices these kinds of warning signs, they should trust that uncomfortable feeling, stop the conversation, avoid providing any further information, and tell a trusted adult right away, even if they are not completely sure something is wrong. Trusted adults would always rather be told about a situation that turns out to be nothing than not be told about a real problem.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what is one general warning sign listed?",
+      "correct": "A stranger asking a lot of personal questions",
+      "distractors": [
+        "A game loading slowly",
+        "A player winning a game",
+        "A friend saying hello"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should a player think about someone who asks them to keep a conversation \"secret\" from their parents?",
+      "correct": "This is a warning sign, since trustworthy people generally don't ask this",
+      "distractors": [
+        "This means the game is broken",
+        "This is completely normal and safe",
+        "This means the person is a teacher"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a warning sign related to someone's reaction when a player says no?",
+      "correct": "Becoming upset, pushy, or angry",
+      "distractors": [
+        "Thanking the player for their honesty",
+        "Saying \"okay, no problem\"",
+        "Ending the conversation politely"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what should a player do if they notice one of these warning signs?",
+      "correct": "Trust the uncomfortable feeling, stop the conversation, and tell a trusted adult",
+      "distractors": [
+        "Ignore the feeling and keep talking",
+        "Share more personal information to make the person happy",
+        "Handle it completely alone with no one else knowing"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, would a trusted adult rather be told about a situation that turns out to be nothing, or not be told at all?",
+      "correct": "They would rather be told, even if it turns out to be nothing",
+      "distractors": [
+        "They would rather not be told about anything",
+        "The paragraph does not mention this",
+        "They only want to hear about serious emergencies"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

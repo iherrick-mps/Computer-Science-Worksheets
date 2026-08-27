@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Answer Keys &amp; Grading — CS Worksheets</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Answer Keys &amp; Grading</h1>
+    <p>Pick a worksheet, then type the student's answers to grade instantly.</p>
+    <nav class="tabs">
+      <a href="index.html">Browse</a>
+      <a href="answers.html" class="active">Answer Keys &amp; Grading</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="panel">
+    <h2>Choose a worksheet</h2>
+    <div class="toolbar" style="margin-bottom:0">
+      <select id="picker"><option>Loading&hellip;</option></select>
+      <a class="btn" id="viewlink" href="#" hidden>View / Print this worksheet</a>
+    </div>
+  </div>
+
+  <div id="body"></div>
+
+</div>
+
+<script src="assets/common.js"></script>
+<script>
+let MANIFEST = null;
+let CURRENT = null;
+
+function buildPicker() {
+  const sel = document.getElementById('picker');
+  sel.innerHTML = '';
+  MANIFEST.sets.forEach(function (set) {
+    const group = document.createElement('optgroup');
+    group.label = set.title;
+    set.worksheets.forEach(function (w) {
+      const opt = document.createElement('option');
+      opt.value = w.id;
+      opt.textContent = w.number + '. ' + w.topic;
+      group.appendChild(opt);
+    });
+    sel.appendChild(group);
+  });
+}
+
+function gradePanel() {
+  return '' +
+    '<div class="panel">' +
+      '<h2>Grade a student</h2>' +
+      '<p class="hint" style="margin-top:-6px">Type the five letters the student circled, in order &mdash; for example <code>BDACD</code>. Use a dash for a skipped question.</p>' +
+      '<input type="text" id="entry" class="checker-input" maxlength="5" placeholder="- - - - -" autocomplete="off" spellcheck="false">' +
+      '<div id="result"></div>' +
+    '</div>';
+}
+
+function keyPanel(ws) {
+  const rows = ws.questions.map(function (q, i) {
+    return '' +
+      '<div class="keyrow">' +
+        '<span class="qn">' + (i + 1) + '.</span>' +
+        '<span class="letter">' + correctLetter(q) + '</span>' +
+        '<span class="atext">' + escapeHTML(q.correct) + '</span>' +
+      '</div>';
+  }).join('');
+
+  return '' +
+    '<div class="panel">' +
+      '<h2>' + escapeHTML(ws.setTitle) + ' &mdash; ' + escapeHTML(ws.title) + '</h2>' +
+      '<p style="margin:-8px 0 16px"><span class="keychip" style="font-size:16px;padding:6px 14px">' +
+        answerKeyString(ws) + '</span></p>' +
+      rows +
+    '</div>';
+}
+
+function renderResult() {
+  const box = document.getElementById('result');
+  const raw = document.getElementById('entry').value.toUpperCase().replace(/[^A-D-]/g, '');
+  document.getElementById('entry').value = raw;
+
+  if (!raw) { box.innerHTML = ''; return; }
+
+  const key = CURRENT.questions.map(correctLetter);
+  const marks = [];
+  let correct = 0;
+
+  for (let i = 0; i < 5; i++) {
+    const given = raw[i] || '';
+    if (!given || given === '-') {
+      marks.push('<div class="mark blank" title="Question ' + (i + 1) + ' — no answer">&ndash;</div>');
+    } else if (given === key[i]) {
+      correct++;
+      marks.push('<div class="mark right" title="Question ' + (i + 1) + ' — correct">' + given + '</div>');
+    } else {
+      marks.push('<div class="mark wrong" title="Question ' + (i + 1) + ' — incorrect">' + given + '</div>');
+    }
+  }
+
+  const pct = Math.round((correct / 5) * 100);
+  const pass = pct >= 80;
+
+  const rows = CURRENT.questions.map(function (q, i) {
+    const given = raw[i] || '';
+    const blank = !given || given === '-';
+    const right = !blank && given === key[i];
+    const tag = right
+      ? '<span class="tag right">' + given + ' &check;</span>'
+      : '<span class="tag wrong">' + (blank ? '&ndash;' : given) + ' &times;</span>';
+    const detail = right
+      ? escapeHTML(q.correct)
+      : 'Correct answer: <strong>' + key[i] + '</strong> &mdash; ' + escapeHTML(q.correct);
+    return '' +
+      '<div class="result-row">' +
+        '<span class="qn" style="flex:none;width:24px;font-weight:700;color:var(--muted)">' + (i + 1) + '.</span>' +
+        tag +
+        '<span style="flex:1">' + detail + '</span>' +
+      '</div>';
+  }).join('');
+
+  box.innerHTML = '' +
+    '<div class="marks">' + marks.join('') + '</div>' +
+    '<div class="big-score ' + (pass ? 'pass' : 'fail') + '">' + correct + ' / 5</div>' +
+    '<div class="pct">' + pct + '%' + (pass ? '' : ' — below 80%, eligible for a retake') + '</div>' +
+    '<div class="result-list">' + rows + '</div>';
+}
+
+async function select(id) {
+  const entry = allWorksheets(MANIFEST).find(function (w) { return w.id === id; });
+  if (!entry) return;
+
+  document.getElementById('picker').value = id;
+  const link = document.getElementById('viewlink');
+  link.href = 'worksheet.html?id=' + encodeURIComponent(id);
+  link.hidden = false;
+
+  const url = new URL(window.location);
+  url.searchParams.set('id', id);
+  history.replaceState(null, '', url);
+
+  CURRENT = await loadWorksheet(entry);
+  document.getElementById('body').innerHTML = keyPanel(CURRENT) + gradePanel();
+  const input = document.getElementById('entry');
+  input.addEventListener('input', renderResult);
+  input.focus();
+}
+
+document.getElementById('picker').addEventListener('change', function (e) {
+  select(e.target.value);
+});
+
+loadManifest().then(function (m) {
+  MANIFEST = m;
+  buildPicker();
+  const wanted = new URLSearchParams(window.location.search).get('id');
+  const list = allWorksheets(m);
+  const start = (wanted && list.some(function (w) { return w.id === wanted; })) ? wanted : list[0].id;
+  return select(start);
+}).catch(function (err) {
+  showLoadError(document.getElementById('body'), err);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-11",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 11,
+  "title": "Worksheet 11: Dictionaries",
+  "topic": "Dictionaries",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A dictionary is a data structure that stores information in pairs, called \"key-value pairs,\" rather than storing items in a simple ordered list. Each piece of data in a dictionary, called a \"value,\" is stored alongside a unique label, called a \"key,\" which is used to look up that specific value directly, similar to how a word in a real dictionary is used to look up its definition. For example, a dictionary could store information about a student using keys like \"name,\" \"grade,\" and \"age,\" each paired with its own corresponding value, such as \"Maria,\" 7, and 12. Unlike a list, where items are typically accessed using a numeric index based on their position, a dictionary's values are accessed using their specific key, which makes dictionaries especially useful for organizing information that has clear labels or categories, rather than information that is simply ordered one after another. Because each key in a dictionary must be unique, a dictionary cannot store two different values under the exact same key at the same time.",
+  "questions": [
+    {
+      "text": "A dictionary, in programming, is best described as:",
+      "correct": "A data structure that stores information in key-value pairs",
+      "distractors": [
+        "A type of string",
+        "A type of boolean value",
+        "A data structure that only stores numbers in order"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a \"key\" in a dictionary?",
+      "correct": "A unique label used to look up a specific value",
+      "distractors": [
+        "A type of loop",
+        "The very first item in a list",
+        "A random number generated automatically"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how are dictionary values typically accessed, compared to a list?",
+      "correct": "Using their specific key, rather than a numeric index",
+      "distractors": [
+        "Dictionary values cannot be accessed at all",
+        "By guessing randomly",
+        "Using only a numeric index, exactly like a list"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, when are dictionaries especially useful?",
+      "correct": "For organizing information that has clear labels or categories",
+      "distractors": [
+        "Only for storing information with no labels at all",
+        "Only for storing a single number",
+        "Only for storing images"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, can a dictionary store two different values under the exact same key?",
+      "correct": "No, because each key in a dictionary must be unique",
+      "distractors": [
+        "A dictionary can only have one key total",
+        "Yes, keys can always be repeated",
+        "The paragraph does not mention this"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

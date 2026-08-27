@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-08",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 8,
+  "title": "Worksheet 8: Encryption Basics",
+  "topic": "Encryption Basics",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Encryption is the process of converting readable information, called \"plaintext,\" into a scrambled, unreadable format, called \"ciphertext,\" so that only someone with the correct key can turn it back into readable information. Encryption is used constantly on the internet to protect sensitive information, such as passwords, credit card numbers, and private messages, as they travel between devices. Without encryption, anyone able to intercept the data traveling across a network could read it directly. A simple way to understand encryption is to imagine a basic code where every letter in a message is shifted forward in the alphabet by a certain number of spots; if you know the number of spots used, you can easily decode the message, but without that number, called the \"key,\" the message looks like meaningless scrambled letters. Modern encryption used by websites and apps is far more complex than this simple example, using long, complicated mathematical keys that would take even powerful computers an enormous amount of time to guess.",
+  "questions": [
+    {
+      "text": "Encryption is best described as:",
+      "correct": "Converting readable information into a scrambled, unreadable format",
+      "distractors": [
+        "Deleting information permanently",
+        "Printing information on paper",
+        "Making a webpage load faster"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Readable information before it is encrypted is called:",
+      "correct": "Plaintext",
+      "distractors": [
+        "Ciphertext",
+        "Binary",
+        "An index"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what could happen without encryption?",
+      "correct": "Anyone intercepting data on a network could read it directly",
+      "distractors": [
+        "Computers would run faster",
+        "Passwords would become stronger automatically",
+        "Webpages would load in a different language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "In the simple example, what is needed to decode a scrambled message?",
+      "correct": "The key, or number of spots used to shift the letters",
+      "distractors": [
+        "A printer",
+        "A new computer",
+        "A search engine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is modern encryption difficult to guess?",
+      "correct": "It uses long, complicated mathematical keys",
+      "distractors": [
+        "It only uses one letter",
+        "It is not actually used by websites",
+        "It is written in a foreign spoken language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

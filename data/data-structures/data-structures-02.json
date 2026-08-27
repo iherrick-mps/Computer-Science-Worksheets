@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-02",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 2,
+  "title": "Worksheet 2: Integers and Floats",
+  "topic": "Integers and Floats",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Numbers in programming are typically stored using one of two main data types: integers and floating-point numbers, often called floats. An integer is a whole number, meaning it has no fractional or decimal part, and can be positive, negative, or zero, such as 7, -42, or 0. A float, on the other hand, is a number that includes a decimal point, allowing it to represent fractional values, such as 3.14 or -0.5, which makes floats useful for situations that require more precision, like measuring distances or calculating averages. While these two types might seem similar, computers actually store and process them differently in memory, and mixing them incorrectly can sometimes cause unexpected results. For example, dividing two integers in some programming languages produces a whole number result by cutting off any remainder, called \"integer division,\" while dividing the same two numbers as floats would produce a more precise decimal answer.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an integer is a number that:",
+      "correct": "Is a whole number, with no fractional or decimal part",
+      "distractors": [
+        "Is always written as text",
+        "Can only be positive",
+        "Always includes a decimal point"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, a float is a number that:",
+      "correct": "Includes a decimal point",
+      "distractors": [
+        "Is a sequence of letters",
+        "Can never be negative",
+        "Is always exactly zero"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why are floats useful?",
+      "correct": "They allow representing fractional values, useful for precision like measuring distances",
+      "distractors": [
+        "They cannot be used in any calculation",
+        "They are always faster to calculate than integers",
+        "They are identical to strings"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is \"integer division\"?",
+      "correct": "Dividing two integers and producing a whole number result by cutting off the remainder",
+      "distractors": [
+        "Dividing two floats to get a fraction",
+        "A type of multiplication",
+        "A way to convert numbers into text"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, do computers store integers and floats the same way in memory?",
+      "correct": "No, they actually store and process them differently",
+      "distractors": [
+        "Floats cannot be stored in memory at all",
+        "The paragraph does not mention this",
+        "Yes, they are stored in exactly the same way"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

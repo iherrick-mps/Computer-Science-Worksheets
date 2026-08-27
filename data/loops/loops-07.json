@@ -1,0 +1,94 @@
+{
+  "id": "loops-07",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 7,
+  "title": "Worksheet 7: Nested Loops",
+  "topic": "Nested Loops",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A nested loop is a loop placed entirely inside the body of another loop, meaning the inner loop completes all of its repetitions each time the outer loop repeats a single time. For example, if an outer loop is set up to repeat 3 times, and it contains an inner loop that repeats 4 times, the inner loop's code would actually run a total of 12 times overall, since the entire inner loop runs completely from start to finish during each single pass of the outer loop, and the outer loop repeats 3 separate times. Nested loops are commonly used for tasks involving two-dimensional data, such as processing every square in a grid, since an outer loop can move through each row while an inner loop moves through each column within that row. Because the total number of repetitions in a nested loop is found by multiplying the number of repetitions in each individual loop together, nested loops can sometimes run a very large number of times overall, even when each individual loop's repeat count looks fairly small on its own.",
+  "questions": [
+    {
+      "text": "A nested loop is best described as:",
+      "correct": "A loop placed entirely inside the body of another loop",
+      "distractors": [
+        "A type of variable used to store numbers",
+        "A type of computer hardware",
+        "A loop that can never repeat more than once"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what are nested loops commonly used for?",
+      "correct": "Tasks involving two-dimensional data, such as processing every square in a grid",
+      "distractors": [
+        "Only displaying error messages",
+        "Only storing a single number",
+        "Deleting variables permanently"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how is the total number of repetitions in a nested loop found?",
+      "correct": "By multiplying the number of repetitions in each individual loop together",
+      "distractors": [
+        "By always using exactly 10 repetitions",
+        "By adding the two loop counts together",
+        "By subtracting the inner loop's count from the outer loop's count"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Using the multiplication rule described in the paragraph, if an outer loop repeats 5 times and it contains an inner loop that repeats 6 times each time the outer loop runs, how many total times would the inner loop's code actually run overall?",
+      "correct": "30 times",
+      "distractors": [
+        "5 times",
+        "6 times",
+        "11 times"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer is processing a grid made of 8 rows and 8 columns using a nested loop, with an outer loop moving through each row and an inner loop moving through each column, matching the pattern described in the paragraph. Based on the paragraph's explanation of how nested loop repetitions are calculated, approximately how many total times would the innermost code run to process every square in the entire grid?",
+      "correct": "64 times, since 8 rows multiplied by 8 columns equals 64",
+      "distractors": [
+        "16 times, since 8 rows added to 8 columns equals 16",
+        "8 times, since only the outer loop's count matters",
+        "It cannot be determined from the paragraph's explanation"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

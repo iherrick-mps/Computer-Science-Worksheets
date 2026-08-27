@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-09",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 9,
+  "title": "Worksheet 9: Virtual Private Networks (VPNs)",
+  "topic": "Virtual Private Networks (VPNs)",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A virtual private network, or VPN, is a service that creates a secure, encrypted connection between a person's device and the internet, routing their internet traffic through a separate server before it reaches its final destination. This encrypted connection, often called a \"tunnel,\" helps protect a person's data from being intercepted or read by others on the same network, which is especially useful when using public Wi-Fi, such as at a coffee shop or airport, where attackers may be able to monitor unprotected network traffic. A VPN also hides a user's real IP address, which is a unique number that identifies a device on the internet and can reveal general location information, replacing it with the IP address of the VPN server instead. This can make it harder for websites or attackers to track a person's true location or identity online. While VPNs provide useful privacy and security benefits, they do not make a person completely anonymous or protect against all types of cyberattacks, such as phishing or malware that a person downloads directly onto their own device.",
+  "questions": [
+    {
+      "text": "A VPN is best described as:",
+      "correct": "A service that creates a secure, encrypted connection between a device and the internet",
+      "distractors": [
+        "A type of malware",
+        "A type of computer virus",
+        "A physical network cable"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, the encrypted connection created by a VPN is often called a:",
+      "correct": "Tunnel",
+      "distractors": [
+        "Index",
+        "Loop",
+        "Firewall"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, when is a VPN especially useful?",
+      "correct": "When using public Wi-Fi, such as at a coffee shop or airport",
+      "distractors": [
+        "Only when printing documents",
+        "Only when the computer is turned off",
+        "Only during video games"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What does a VPN do to a user's real IP address, according to the paragraph?",
+      "correct": "Hides it and replaces it with the VPN server's IP address",
+      "distractors": [
+        "Displays it publicly to everyone",
+        "Deletes it permanently",
+        "Makes it slower"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is something a VPN does NOT fully protect against?",
+      "correct": "Phishing or malware downloaded directly onto a person's device",
+      "distractors": [
+        "IP address tracking",
+        "All internet traffic of any kind",
+        "Public Wi-Fi networks"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "loops-05",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 5,
+  "title": "Worksheet 5: Loop Counters and Increments",
+  "topic": "Loop Counters and Increments",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A loop counter is a variable used to keep track of how many times a loop has repeated, or to track a changing value as a loop progresses through each repetition. Loop counters are typically created before a loop begins, starting at some initial value, and are then updated once during each pass through the loop, a process often called \"incrementing\" when the value increases or \"decrementing\" when the value decreases. For example, a loop counter named \"count\" could start at 0 before a loop begins, and then increase by 1 during each repetition of the loop; after the loop has repeated exactly 4 times, the value stored in \"count\" would be 4, assuming the counter started at 0 and increased by exactly 1 each time through. If a loop counter is updated incorrectly, such as accidentally increasing it by 2 instead of 1 each time, the counter's final value after the same number of repetitions would end up being different than expected, which can cause a program to behave in ways the programmer did not intend.",
+  "questions": [
+    {
+      "text": "A loop counter is best described as:",
+      "correct": "A variable used to keep track of how many times a loop has repeated",
+      "distractors": [
+        "A type of error message",
+        "A physical piece of computer hardware",
+        "A type of boolean value only"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is it called when a counter's value increases?",
+      "correct": "Incrementing",
+      "distractors": [
+        "Concatenating",
+        "Indexing",
+        "Decrementing"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, when are loop counters typically created?",
+      "correct": "Before a loop begins",
+      "distractors": [
+        "Loop counters are never created at all",
+        "Only after the loop has already finished running",
+        "Exactly halfway through the loop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph's example, a counter named \"count\" starts at 0 and increases by 1 each time through a loop. If this exact loop repeats exactly 7 times instead of 4, what would the final value of \"count\" be, using the same pattern described in the paragraph?",
+      "correct": "7",
+      "distractors": [
+        "4",
+        "0",
+        "14"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, if a programmer's loop counter starts at 0 and is supposed to increase by 1 each time, but is accidentally coded to increase by 2 each time instead, what would you expect to be true about the counter's final value after the loop finishes, compared to what the programmer originally intended?",
+      "correct": "The final value would be higher than intended, since each repetition adds more to the counter than planned",
+      "distractors": [
+        "The final value would always become negative",
+        "The counter would stop working completely and produce no value at all",
+        "The final value would be exactly the same as intended, since the number of repetitions doesn't change"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

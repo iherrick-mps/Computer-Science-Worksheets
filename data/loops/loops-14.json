@@ -1,0 +1,94 @@
+{
+  "id": "loops-14",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 14,
+  "title": "Worksheet 14: The Accumulator Pattern",
+  "topic": "The Accumulator Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The accumulator pattern is a common programming technique that uses a loop to build up, or \"accumulate,\" a single result over many repetitions, rather than trying to calculate that result all at once. This pattern typically begins by creating a variable, often called an \"accumulator,\" and setting it to a starting value before the loop begins, such as setting a variable called \"total\" to 0 before looping through a list of numbers to add them all together. During each pass through the loop, the accumulator variable is updated based on the current item being processed, gradually building toward the final result one step at a time; for example, if a loop is adding together the numbers 3, 7, and 5 using this pattern, the accumulator would change from 0 to 3 after the first number, then from 3 to 10 after the second number, and finally from 10 to 15 after the third number, ending with a final accumulated total of 15. The same accumulator pattern can be used for other purposes besides adding numbers, such as building a combined string out of many smaller strings, or keeping a running count of how many items in a list meet a certain condition.",
+  "questions": [
+    {
+      "text": "The accumulator pattern is best described as:",
+      "correct": "A technique that uses a loop to build up a single result over many repetitions",
+      "distractors": [
+        "A technique used only to delete variables",
+        "A type of computer hardware",
+        "A type of loop condition that always evaluates to false"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what value does an accumulator variable like \"total\" typically start at before adding a list of numbers?",
+      "correct": "0",
+      "distractors": [
+        "100",
+        "A random number",
+        "The largest number in the list"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, besides adding numbers, what else can the accumulator pattern be used for?",
+      "correct": "Building a combined string out of many smaller strings, or counting items meeting a condition",
+      "distractors": [
+        "Only measuring the speed of a computer",
+        "Only converting numbers into booleans",
+        "Only deleting an entire program"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph's step-by-step example, the accumulator starts at 0 and changes to 3, then 10, then 15 while adding the numbers 3, 7, and 5. Using that same accumulator pattern, what would the accumulator's value be immediately after processing only the first two numbers (3 and 7), before the third number is added?",
+      "correct": "10",
+      "distractors": [
+        "3",
+        "15",
+        "7"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph's explanation of the accumulator pattern, if a programmer used this same pattern to add the numbers 2, 4, 6, and 8 in that order, starting the accumulator at 0, what would the final accumulated total be after the loop finishes processing all four numbers?",
+      "correct": "20",
+      "distractors": [
+        "8",
+        "10",
+        "0"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

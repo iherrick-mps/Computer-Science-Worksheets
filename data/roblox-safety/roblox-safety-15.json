@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-15",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 15,
+  "title": "Worksheet 15: Balancing Fun and Safety",
+  "topic": "Balancing Fun and Safety",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox can be a fun and creative place to play games, build worlds, and connect with friends, but like any online platform that connects millions of strangers, it also comes with real risks that are worth understanding. Staying safe on Roblox does not mean avoiding the platform completely; instead, it means using good habits consistently, such as protecting personal information, using privacy and parental control settings, recognizing warning signs in chat, and knowing how to use reporting and blocking tools when needed. Just as importantly, staying safe means keeping an open, honest relationship with a trusted adult, so that if something confusing or upsetting ever happens, a player already knows exactly who to talk to and feels comfortable doing so. No single safety habit can prevent every possible problem by itself, which is why combining several good habits together, rather than relying on just one, gives players the best chance of having a fun and safe experience while playing online.",
+  "questions": [
+    {
+      "text": "According to the paragraph, does staying safe on Roblox mean avoiding the platform completely?",
+      "correct": "No, it means using good habits consistently",
+      "distractors": [
+        "Yes, but only on weekends",
+        "The paragraph does not say",
+        "Yes, it means never using Roblox"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Which of the following is listed as a good safety habit?",
+      "correct": "Protecting personal information and using privacy settings",
+      "distractors": [
+        "Ignoring all warning signs in chat",
+        "Sharing passwords with new friends",
+        "Avoiding all trusted adults"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is it important to keep an open relationship with a trusted adult?",
+      "correct": "So a player already knows who to talk to if something confusing or upsetting happens",
+      "distractors": [
+        "Because it is required to create an account",
+        "Because it removes the need for privacy settings",
+        "Because it gives free Robux"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, can a single safety habit prevent every possible problem by itself?",
+      "correct": "No, combining several good habits together works best",
+      "distractors": [
+        "The paragraph does not mention safety habits",
+        "Yes, one habit is always enough",
+        "Safety habits have no real effect"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what gives players the best chance of a fun and safe experience?",
+      "correct": "Combining several good safety habits together",
+      "distractors": [
+        "Avoiding Roblox entirely",
+        "Spending as much real money as possible",
+        "Never talking to any other player"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

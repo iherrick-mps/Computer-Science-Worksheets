@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-15",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 15,
+  "title": "Worksheet 15: Choosing the Right Data Structure",
+  "topic": "Choosing the Right Data Structure",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Programmers regularly must decide which data structure best fits the specific problem they are trying to solve, since choosing the wrong one can make a program slower, harder to understand, or more difficult to maintain over time. A single variable is often best for storing one individual piece of information, such as a player's current score. A list is generally a strong choice when a program needs to store multiple related items in a specific order, especially when that collection of items might need to grow, shrink, or be looped through later. A dictionary tends to work well when information needs to be organized using clear, descriptive labels rather than simple numeric positions, such as storing a person's different pieces of contact information. A tuple is often chosen specifically when a collection of values should remain fixed and unchanged throughout the entire program. There is rarely only one \"correct\" answer when choosing a data structure, but understanding the strengths of each option helps a programmer make a more thoughtful and deliberate decision.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why does choosing the wrong data structure matter?",
+      "correct": "It can make a program slower, harder to understand, or more difficult to maintain",
+      "distractors": [
+        "It only matters for very short programs",
+        "It has no real effect on a program at all",
+        "It automatically fixes itself over time"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, when is a single variable often the best choice?",
+      "correct": "For storing one individual piece of information, like a player's score",
+      "distractors": [
+        "For storing information that should never be looped through",
+        "For storing thousands of related items",
+        "For storing information with descriptive labels"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, when is a list generally a strong choice?",
+      "correct": "When storing multiple related items in order, especially if the collection might grow or shrink",
+      "distractors": [
+        "Only when no order is needed at all",
+        "Only when storing a single fixed value",
+        "Only for storing booleans"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, when does a dictionary tend to work well?",
+      "correct": "When information needs to be organized using clear, descriptive labels",
+      "distractors": [
+        "Only when information has no labels at all",
+        "Only for storing a single number",
+        "Only for information that never changes"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, is there usually only one \"correct\" data structure to choose for a given problem?",
+      "correct": "No, but understanding each option's strengths helps make a thoughtful decision",
+      "distractors": [
+        "Data structures are interchangeable with no real differences",
+        "The paragraph does not mention this",
+        "Yes, there is always exactly one correct answer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

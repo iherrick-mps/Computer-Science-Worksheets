@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-05",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 5,
+  "title": "Worksheet 5: Conditionals",
+  "topic": "Conditionals",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A conditional is a part of a computer program that makes a decision based on whether something is true or false. Conditionals are often written using the words \"if\" and \"else.\" For example, a program might say: \"If it is raining, then show an umbrella icon. Else, show a sun icon.\" The program checks the condition (\"is it raining?\") and only runs the matching instruction. Conditionals allow programs to react differently depending on different situations, instead of always doing the exact same thing every time. Video games use conditionals constantly. For example: \"If the player's health reaches 0, then show the 'Game Over' screen. Else, keep playing.\" Without conditionals, computer programs could not make decisions or respond differently to different inputs.",
+  "questions": [
+    {
+      "text": "A conditional makes a decision based on:",
+      "correct": "Whether something is true or false",
+      "distractors": [
+        "The time of day only",
+        "The color of the screen",
+        "How fast the computer runs"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Conditionals are often written using which two words?",
+      "correct": "If and else",
+      "distractors": [
+        "Loop and repeat",
+        "Start and stop",
+        "Bit and byte"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the weather example, if it is NOT raining, the program will:",
+      "correct": "Show a sun icon",
+      "distractors": [
+        "Show an umbrella icon",
+        "Crash",
+        "Do nothing"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, video games use conditionals for things like:",
+      "correct": "Showing a \"Game Over\" screen when health reaches 0",
+      "distractors": [
+        "Turning the console on",
+        "Charging the controller",
+        "Connecting to the internet"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Without conditionals, computer programs would NOT be able to:",
+      "correct": "Make decisions or respond differently to different inputs",
+      "distractors": [
+        "Store any data at all",
+        "Turn on",
+        "Use electricity"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

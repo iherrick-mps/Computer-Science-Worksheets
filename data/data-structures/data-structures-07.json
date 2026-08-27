@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-07",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 7,
+  "title": "Worksheet 7: Lists",
+  "topic": "Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A list is a data structure used to store multiple values together in a single, ordered collection, allowing a programmer to work with a whole group of related items using just one variable name. Unlike a single variable, which can only hold one value at a time, a list can hold many values, and those values can even be different data types mixed together, such as a list containing both strings and integers at the same time, depending on the programming language being used. Lists are especially useful when a program needs to work with a collection of similar items, such as a list of student names, a list of high scores, or a list of items in a player's inventory, since storing them together makes it much easier to search through, sort, or update the entire group at once. Because a list keeps its items in a specific order, a programmer can always predict which value comes first, second, or last, unlike some other data structures that do not guarantee any particular order.",
+  "questions": [
+    {
+      "text": "A list is best described as:",
+      "correct": "A data structure used to store multiple values together in a single, ordered collection",
+      "distractors": [
+        "A type of boolean",
+        "A single value that cannot be changed",
+        "A type of computer hardware"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how is a list different from a single variable?",
+      "correct": "A list can hold many values, while a single variable holds only one at a time",
+      "distractors": [
+        "A list is identical to a single variable",
+        "A list can only hold exactly one value",
+        "A list cannot be searched or sorted"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, can a list contain different data types mixed together?",
+      "correct": "Yes, depending on the programming language",
+      "distractors": [
+        "No, a list can never mix data types",
+        "A list can only contain booleans",
+        "The paragraph does not mention this"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, when are lists especially useful?",
+      "correct": "When a program needs to work with a collection of similar items",
+      "distractors": [
+        "Only for storing passwords",
+        "Only when no data needs to be stored at all",
+        "Only when storing a single number"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what does it mean that a list \"keeps its items in a specific order\"?",
+      "correct": "A programmer can always predict which value comes first, second, or last",
+      "distractors": [
+        "Lists have no order at all",
+        "Only the first item in a list can ever be accessed",
+        "The order changes randomly every time the program runs"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

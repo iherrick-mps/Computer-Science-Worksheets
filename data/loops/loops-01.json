@@ -1,0 +1,94 @@
+{
+  "id": "loops-01",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 1,
+  "title": "Worksheet 1: What Is a Loop?",
+  "topic": "What Is a Loop?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A loop is a programming structure that repeats a block of code multiple times, allowing a program to perform a repetitive task without a programmer having to write the same instructions over and over. Rather than writing \"print Hello\" ten separate times, a programmer can use a loop that repeats the single instruction \"print Hello\" ten times, producing the exact same result with far less code. Every loop needs some way to know when to stop repeating, or it will continue running forever, which is almost never what a programmer actually wants. The two most common types of loops used in programming are the \"for loop,\" which is typically used when a programmer already knows in advance exactly how many times something needs to repeat, and the \"while loop,\" which is typically used when a program needs to keep repeating until a certain condition becomes false, even if the exact number of repetitions isn't known ahead of time. Choosing the right type of loop for a given task is an important skill, since using the wrong type can make code more confusing or harder to control.",
+  "questions": [
+    {
+      "text": "A loop is best described as:",
+      "correct": "A programming structure that repeats a block of code multiple times",
+      "distractors": [
+        "A type of computer hardware",
+        "A single instruction that runs only once",
+        "A type of variable"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does every loop need in order to avoid running forever?",
+      "correct": "Some way to know when to stop repeating",
+      "distractors": [
+        "A password",
+        "A specific color setting",
+        "A minimum of ten repetitions"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, a \"for loop\" is typically used when:",
+      "correct": "A programmer already knows in advance exactly how many times something needs to repeat",
+      "distractors": [
+        "Only one repetition is ever needed",
+        "The number of repetitions is always completely unknown",
+        "A program should never repeat anything"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer wants to print \"Hello\" exactly 10 times, and they already know they need exactly 10 repetitions before the program starts running. Based on the paragraph's description of when each loop type is typically used, which loop type fits this situation best?",
+      "correct": "A for loop, since the number of repetitions is known in advance",
+      "distractors": [
+        "Neither type of loop could be used for this situation",
+        "It is impossible to determine from the paragraph",
+        "A while loop, since the number of repetitions is unknown"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Suppose a program is supposed to keep asking a user to enter a password until they type the correct one, but the programmer has no way of knowing in advance how many attempts it will take. Based on the paragraph, which loop type would most likely fit this situation, and why?",
+      "correct": "A while loop, because the repetition should continue until a condition (a correct password) is met, not a fixed known count",
+      "distractors": [
+        "A for loop, because the exact number of attempts is always known ahead of time",
+        "A for loop, because for loops never require a stopping condition",
+        "No loop would be needed, since the paragraph says loops must have a known number of repetitions"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

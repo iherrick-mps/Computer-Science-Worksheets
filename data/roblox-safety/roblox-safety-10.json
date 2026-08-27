@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-10",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 10,
+  "title": "Worksheet 10: Screen Time and Balance",
+  "topic": "Screen Time and Balance",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox and many other online games are designed to be engaging and fun, which can sometimes make it difficult for players to notice how much time has passed while playing. Some games include features like daily rewards, timed events, or in-game notifications that are specifically designed to encourage players to keep coming back and playing for longer periods of time. While playing games can be a fun and social activity, spending too much time playing without breaks can affect other important parts of a person's life, including sleep, schoolwork, exercise, and time spent with family or friends in person. Experts recommend that kids set clear time limits for gaming, take regular breaks, and use built-in screen time tools, which many devices and platforms offer, to help manage how long they play. Talking with a parent or guardian about a healthy amount of daily screen time can help make sure that gaming stays a fun and balanced part of a person's day, rather than taking over other important activities.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why might it be difficult for players to notice how much time has passed while playing?",
+      "correct": "Games are designed to be engaging and fun",
+      "distractors": [
+        "Roblox turns off all clocks",
+        "Time moves differently inside games",
+        "Players are not allowed to check the time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of the following is listed as a feature designed to keep players playing longer?",
+      "correct": "Daily rewards and timed events",
+      "distractors": [
+        "A daily time limit built into every game",
+        "A \"quit now\" button",
+        "A mandatory nap feature"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what can spending too much time gaming without breaks affect?",
+      "correct": "Sleep, schoolwork, exercise, and time with family or friends",
+      "distractors": [
+        "Only the game's graphics",
+        "Only the player's internet bill",
+        "Nothing important at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what do experts recommend kids do regarding gaming time?",
+      "correct": "Set clear time limits and take regular breaks",
+      "distractors": [
+        "Play as long as possible every day",
+        "Never talk to a parent about it",
+        "Avoid taking any breaks at all"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what can help make gaming a \"balanced\" part of a person's day?",
+      "correct": "Talking with a parent or guardian about a healthy amount of screen time",
+      "distractors": [
+        "Avoiding all conversations about gaming",
+        "Turning off all screen time tools",
+        "Playing every waking hour"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-05",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 5,
+  "title": "Worksheet 5: String Indexing",
+  "topic": "String Indexing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because a string is made up of a sequence of individual characters, each character within a string has a specific position, called an \"index,\" that allows a programmer to access any single character directly. In most programming languages, string indexing starts counting at 0 rather than 1, meaning the very first character in a string is located at index 0, the second character is at index 1, and so on. For example, in the string \"Robot\", the letter \"R\" is at index 0, the letter \"o\" is at index 1, and the final letter \"t\" is at index 4. Attempting to access an index that does not exist within a string, such as asking for index 10 in a five-letter word, typically causes an error, since there is no character actually stored at that position. String indexing is especially useful for tasks like checking the first letter of a word, reversing a string, or extracting a smaller piece of text from within a longer string.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the position of a character within a string is called its:",
+      "correct": "Index",
+      "distractors": [
+        "Float",
+        "Variable",
+        "Loop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what number does string indexing usually start at?",
+      "correct": "0",
+      "distractors": [
+        "10",
+        "1",
+        "-1"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the string \"Robot\", according to the paragraph, what index is the letter \"R\" located at?",
+      "correct": "Index 0",
+      "distractors": [
+        "Index 4",
+        "Index 5",
+        "Index 1"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what typically happens if a program tries to access an index that doesn't exist in a string?",
+      "correct": "It typically causes an error",
+      "distractors": [
+        "Nothing happens at all",
+        "The computer shuts down permanently",
+        "The string automatically becomes longer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, string indexing is especially useful for:",
+      "correct": "Checking the first letter of a word, reversing a string, or extracting part of it",
+      "distractors": [
+        "Only converting strings into booleans",
+        "Only deleting entire programs",
+        "Only measuring the speed of a computer"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

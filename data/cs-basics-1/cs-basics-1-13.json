@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-13",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 13,
+  "title": "Worksheet 13: Functions",
+  "topic": "Functions",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A function is a named block of code that performs a specific task and can be reused multiple times throughout a program, instead of rewriting the same instructions over and over. Think of a function like a small machine: you give it some information (called \"inputs\" or \"parameters\"), it does a specific job, and it can give back a result (called the \"output\" or \"return value\"). For example, a programmer could create a function called \"addNumbers\" that takes two numbers as input, adds them together, and returns the total. Anywhere in the program that two numbers need to be added, the programmer can simply use, or \"call,\" the addNumbers function instead of writing the addition instructions again. This makes code shorter, easier to read, and easier to fix, because if there is a mistake in how addition works, the programmer only has to fix it in one place: inside the function itself.",
+  "questions": [
+    {
+      "text": "A function is best described as:",
+      "correct": "A named block of code that performs a specific task and can be reused",
+      "distractors": [
+        "A type of computer virus",
+        "A physical computer part",
+        "A color displayed on screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, information given to a function is called:",
+      "correct": "Inputs or parameters",
+      "distractors": [
+        "Outputs",
+        "Bugs",
+        "Loops"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the example, what does the \"addNumbers\" function do?",
+      "correct": "Takes two numbers, adds them, and returns the total",
+      "distractors": [
+        "Deletes two numbers",
+        "Prints \"Hello\"",
+        "Displays a picture"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Using, or \"calling,\" an existing function instead of rewriting instructions makes code:",
+      "correct": "Shorter, easier to read, and easier to fix",
+      "distractors": [
+        "Longer and harder to read",
+        "Impossible to run",
+        "Slower to load"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "If there is a mistake in how a function works, where does the programmer fix it?",
+      "correct": "Only inside the function itself",
+      "distractors": [
+        "In every place the function is used",
+        "In the hardware",
+        "It cannot be fixed"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-07",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 7,
+  "title": "Worksheet 7: Social Engineering",
+  "topic": "Social Engineering",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Social engineering is a method attackers use to manipulate people into breaking normal security procedures or giving up confidential information, rather than trying to break through technical defenses like firewalls or encryption. Because even the strongest technical security can be bypassed if a person is tricked into cooperating, attackers often find it easier to target human psychology instead of computer systems directly. Social engineering can take many forms. In \"pretexting,\" an attacker creates a false scenario, such as pretending to be an IT technician or a coworker, to convince someone to share information or grant access. In \"baiting,\" an attacker leaves something tempting, like a USB drive labeled \"Confidential,\" in a place where a curious person might find it and plug it into their computer, unknowingly installing malware. Attackers often rely on emotions like fear, curiosity, trust, or urgency to lower a person's guard, which is why cybersecurity training frequently emphasizes staying cautious, verifying identities, and slowing down before sharing sensitive information, even when a request seems to come from someone trustworthy.",
+  "questions": [
+    {
+      "text": "Social engineering is best described as:",
+      "correct": "A method attackers use to manipulate people into giving up information or breaking security procedures",
+      "distractors": [
+        "A type of encryption",
+        "A type of firewall",
+        "A programming language"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why do attackers often target human psychology instead of computer systems?",
+      "correct": "Because even strong technical security can be bypassed if a person is tricked into cooperating",
+      "distractors": [
+        "Because psychology is easier to program",
+        "Because it is illegal to target computers",
+        "Because computers cannot be hacked"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In \"pretexting,\" what does an attacker do?",
+      "correct": "Creates a false scenario, such as pretending to be an IT technician, to gain trust",
+      "distractors": [
+        "Writes a computer virus",
+        "Builds a firewall",
+        "Physically breaks into a building"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the \"baiting\" example, what does the attacker leave behind?",
+      "correct": "A USB drive labeled \"Confidential\"",
+      "distractors": [
+        "A locked door",
+        "A firewall",
+        "A phone number"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what emotions do attackers often rely on to lower a person's guard?",
+      "correct": "Fear, curiosity, trust, or urgency",
+      "distractors": [
+        "Confusion about math",
+        "Boredom and sleepiness",
+        "Happiness only"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

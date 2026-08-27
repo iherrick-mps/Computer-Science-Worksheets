@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-10",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 10,
+  "title": "Worksheet 10: Cloud Computing",
+  "topic": "Cloud Computing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cloud computing refers to storing data and running programs over the internet on remote servers, instead of storing everything directly on a person's own computer or device. When someone saves a photo to a cloud storage service, or uses an online program to edit a document, they are actually sending that information over the internet to be stored or processed on powerful computers located in large facilities called data centers, which may be located far away, even in a different country. This offers several benefits: a person can access their files from any device with an internet connection, they don't have to worry as much about losing information if their own device breaks, and companies can use as much computing power as they need without buying and maintaining their own expensive equipment. However, cloud computing does have a downside: without an internet connection, a person often cannot access files or programs that are stored only in the cloud.",
+  "questions": [
+    {
+      "text": "Cloud computing is best described as:",
+      "correct": "Storing data and running programs over the internet on remote servers",
+      "distractors": [
+        "A type of weather forecasting",
+        "A physical part of a computer",
+        "A programming language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, where is cloud data actually stored?",
+      "correct": "On powerful computers in data centers",
+      "distractors": [
+        "Nowhere; it disappears",
+        "Only on the user's own device",
+        "Inside the internet cable itself"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Which of the following is listed as a benefit of cloud computing?",
+      "correct": "A person can access files from any device with an internet connection",
+      "distractors": [
+        "Files become impossible to lose",
+        "It removes the need for the internet",
+        "It makes devices run out of storage faster"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a downside of cloud computing?",
+      "correct": "Without internet access, a person often cannot reach cloud-only files",
+      "distractors": [
+        "It costs nothing at all",
+        "It deletes files automatically every day",
+        "It only works on one specific device"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why might companies use cloud computing?",
+      "correct": "To avoid buying and maintaining their own expensive equipment",
+      "distractors": [
+        "Because it is required by law",
+        "Because it turns off automatically at night",
+        "Because it does not require electricity"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

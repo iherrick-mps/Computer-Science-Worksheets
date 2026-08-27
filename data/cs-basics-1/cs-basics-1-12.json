@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-12",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 12,
+  "title": "Worksheet 12: The CPU",
+  "topic": "The CPU",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Central Processing Unit, or CPU, is often called the \"brain\" of a computer because it is responsible for carrying out instructions and performing calculations. Every time a computer runs a program, whether it's opening an app, doing math, or displaying a picture, the CPU is the part doing the actual work of processing that information. The CPU is a small chip, but it can perform billions of calculations every second. Modern CPUs often contain multiple \"cores,\" which act like separate mini-processors inside the same chip. Having multiple cores allows a computer to work on more than one task at the same time, which is called multitasking. The speed of a CPU is often measured in gigahertz (GHz), which describes how many cycles, or basic operations, the CPU can complete each second. A higher GHz number generally means the CPU can process instructions faster.",
+  "questions": [
+    {
+      "text": "The CPU is often nicknamed the:",
+      "correct": "Brain of the computer",
+      "distractors": [
+        "Heart of the computer",
+        "Skin of the computer",
+        "Eyes of the computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is the CPU responsible for?",
+      "correct": "Carrying out instructions and performing calculations",
+      "distractors": [
+        "Displaying colors only",
+        "Charging the battery",
+        "Connecting to Wi-Fi only"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What do multiple \"cores\" inside a CPU act like?",
+      "correct": "Separate mini-processors",
+      "distractors": [
+        "Extra batteries",
+        "Extra monitors",
+        "Extra keyboards"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "The ability to work on more than one task at the same time is called:",
+      "correct": "Multitasking",
+      "distractors": [
+        "Debugging",
+        "Looping",
+        "Binary coding"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "CPU speed is often measured in:",
+      "correct": "Gigahertz (GHz)",
+      "distractors": [
+        "Bits",
+        "Bytes",
+        "Pixels"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

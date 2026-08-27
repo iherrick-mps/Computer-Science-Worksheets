@@ -1,0 +1,94 @@
+{
+  "id": "loops-02",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 2,
+  "title": "Worksheet 2: For Loops",
+  "topic": "For Loops",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A for loop is a type of loop that repeats a block of code a specific number of times, based on a starting point, an ending point, and a step size that determines how much a counter changes with each repetition. For example, a for loop could be set up to start counting at 1, stop once the counter reaches 5, and increase the counter by 1 each time through the loop; this particular loop would run its code exactly five times, using the counter values 1, 2, 3, 4, and 5 in order. Changing the step size changes how the loop behaves: for example, a for loop counting from 0 up to 10, but increasing by 2 each time instead of by 1, would only use the counter values 0, 2, 4, 6, 8, and 10, running six times total instead of eleven. For loops are especially useful whenever a task needs to be repeated a known, fixed number of times, such as printing every item in a list of exactly 20 names, or repeating an action exactly 3 times as part of a game's rules.",
+  "questions": [
+    {
+      "text": "A for loop is best described as:",
+      "correct": "A type of loop that repeats a block of code a specific number of times",
+      "distractors": [
+        "A type of variable that stores text",
+        "A type of computer hardware",
+        "A single instruction that never repeats"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what three things does a for loop rely on?",
+      "correct": "A starting point, an ending point, and a step size",
+      "distractors": [
+        "A monitor, a keyboard, and a mouse",
+        "A list, a dictionary, and a boolean",
+        "A password, a username, and an error message"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the first example, a for loop starts at 1, stops at 5, and increases by 1 each time. According to the paragraph, how many times does this loop run?",
+      "correct": "Exactly five times",
+      "distractors": [
+        "Exactly one time",
+        "An unknown number of times",
+        "Exactly ten times"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Using the same counting rules described in the paragraph, if a for loop starts at 0, stops once the counter reaches 10, and increases by 2 each time, how many total counter values will the loop actually use, based on the example given in the paragraph?",
+      "correct": "Six values: 0, 2, 4, 6, 8, and 10",
+      "distractors": [
+        "Eleven values: 0 through 10",
+        "Ten values: 1 through 10",
+        "Two values only"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A programmer needs to repeat an action exactly 3 times as part of a game's rules, and this exact number will never change while the program is running. Based on the paragraph's explanation of what for loops are especially useful for, is a for loop a reasonable choice for this task, and why?",
+      "correct": "Yes, because the task needs to repeat a known, fixed number of times",
+      "distractors": [
+        "Yes, but only if the step size is greater than 2",
+        "No, because for loops can only be used with lists, never with a fixed number",
+        "No, because the paragraph says for loops require an unknown ending point"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

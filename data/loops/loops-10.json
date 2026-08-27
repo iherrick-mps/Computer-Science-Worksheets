@@ -1,0 +1,94 @@
+{
+  "id": "loops-10",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 10,
+  "title": "Worksheet 10: Loop Conditions and Boolean Logic",
+  "topic": "Loop Conditions and Boolean Logic",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The condition used to control a while loop is always a boolean expression, meaning it must evaluate to either true or false each time it is checked, determining whether the loop should continue running or stop. Loop conditions often involve comparing values, such as checking whether a variable is less than, greater than, or equal to a specific number, and these comparisons can also be combined using logical operators like \"and\" and \"or\" to create more complex conditions. For example, a loop might be written to continue running only while a variable called \"attempts\" is less than 3 AND a boolean variable called \"success\" is still false, meaning the loop would only continue if both of those individual conditions are true at the same time; if either one becomes false, such as \"attempts\" reaching 3, or \"success\" becoming true, the entire combined condition would become false, and the loop would stop. Understanding exactly how a loop's condition will evaluate, especially when multiple comparisons are combined together, is critical for predicting exactly how many times a loop will actually repeat.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what must a while loop's condition always evaluate to?",
+      "correct": "Either true or false",
+      "distractors": [
+        "A list of values",
+        "A whole number only",
+        "A piece of text"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what can loop conditions be combined with to create more complex conditions?",
+      "correct": "Logical operators like \"and\" and \"or\"",
+      "distractors": [
+        "Only for loops, never while loops",
+        "Only string concatenation",
+        "Only the plus symbol"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In the example, according to the paragraph, what two individual conditions does the combined loop condition depend on?",
+      "correct": "\"attempts\" is less than 3, AND \"success\" is false",
+      "distractors": [
+        "The color of the screen and the time of day",
+        "A username and a password",
+        "A list and a dictionary"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph's example, if the variable \"attempts\" reaches exactly 3 while the \"success\" variable is still false, what would happen to the combined condition \"attempts is less than 3 AND success is false,\" and what would happen to the loop as a result?",
+      "correct": "The combined condition would become false because \"attempts is less than 3\" is no longer true, so the loop would stop",
+      "distractors": [
+        "The loop would stop only if \"success\" also becomes true at the same time",
+        "The combined condition would remain true because \"success\" is still false, so the loop would keep running",
+        "The loop would immediately restart from the very beginning"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph's explanation of the AND condition in the example, if \"success\" becomes true after only 1 attempt, while \"attempts\" is still less than 3, what would happen to the loop, and why?",
+      "correct": "The loop would stop, because the combined condition requires both parts to be true, and \"success is false\" is no longer true",
+      "distractors": [
+        "The loop would run forever regardless of the \"success\" variable's value",
+        "The loop would keep running until attempts reaches 3, ignoring the \"success\" variable completely",
+        "The loop would only stop if both individual conditions become false at the exact same time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

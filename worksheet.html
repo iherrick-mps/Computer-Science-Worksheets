@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Worksheet — CS Worksheets</title>
+<link rel="stylesheet" href="assets/print.css">
+</head>
+<body class="print-page">
+
+<div class="printbar">
+  <span class="title" id="bartitle">Loading&hellip;</span>
+  <a href="index.html">&larr; Browse</a>
+  <a href="#" id="keylink" hidden>Answer key</a>
+  <button id="printbtn" class="solid" type="button">Print</button>
+</div>
+
+<div class="sheets-scroll" id="sheets">
+  <div class="loading">Loading worksheet&hellip;</div>
+</div>
+
+<script src="assets/common.js"></script>
+<script>
+document.getElementById('printbtn').addEventListener('click', function () { window.print(); });
+
+function sheetHTML(ws) {
+  const choices = function (q) {
+    return displayChoices(q).map(function (text, i) {
+      return '<li><span class="ltr">' + LETTERS[i] + '.</span>&nbsp;&nbsp;' + escapeHTML(text) + '</li>';
+    }).join('');
+  };
+
+  const questions = ws.questions.map(function (q) {
+    return '' +
+      '<li>' +
+        '<div class="qtext">' + escapeHTML(q.text) + '</div>' +
+        '<ul class="choices">' + choices(q) + '</ul>' +
+      '</li>';
+  }).join('');
+
+  return '' +
+    '<article class="sheet" data-id="' + ws.id + '">' +
+      '<div class="sheet-inner">' +
+        '<h1>' + escapeHTML(ws.title) + '</h1>' +
+        '<div class="idline">' +
+          '<span class="field"><b>Name:</b> <span class="rule name"></span></span>' +
+          '<span class="field"><b>Date:</b> <span class="rule date"></span></span>' +
+          '<span class="field"><b>Grade:</b> <span class="rule grade"></span></span>' +
+        '</div>' +
+        '<p class="directions">' + escapeHTML(ws.directions) + '</p>' +
+        '<div class="passage">' + escapeHTML(ws.paragraph) + '</div>' +
+        '<ol class="questions">' + questions + '</ol>' +
+      '</div>' +
+    '</article>';
+}
+
+/* Fit each worksheet onto exactly one printed page.
+   Usable height = 11in page - 2 x 0.5in margin = 9.5in.
+
+   Two stages, in order:
+     1. squeeze vertical whitespace (--gap) down toward MIN_GAP
+     2. only if that isn't enough, reduce type size (--fs) toward MIN_FS
+   Text stays full size for as long as possible, and light worksheets keep
+   generous spacing instead of being uniformly cramped.
+
+   .sheet-inner carries a screen-only min-height to draw the page shape, so we
+   drop it while measuring to get the true content height. */
+const MAX_FS = 10.5, MIN_FS = 7.6;
+const MAX_GAP = 1.0, MIN_GAP = 0.42;
+
+function contentHeight(inner) {
+  const prev = inner.style.minHeight;
+  inner.style.minHeight = '0';
+  const h = inner.getBoundingClientRect().height;
+  inner.style.minHeight = prev;
+  return h;
+}
+
+/* Largest value in [lo, hi] that still fits, found by binary search.
+   apply(v) sets the CSS variable; fits() re-measures. */
+function largestThatFits(lo, hi, apply, fits, steps, tol) {
+  apply(hi);
+  if (fits()) return hi;
+  let best = lo;
+  for (let i = 0; i < steps; i++) {
+    const mid = (lo + hi) / 2;
+    apply(mid);
+    if (fits()) { best = mid; lo = mid; } else { hi = mid; }
+    if (hi - lo < tol) break;
+  }
+  return best;
+}
+
+function autofit() {
+  const budget = 9.5 * 96;   // px at 96dpi
+
+  document.querySelectorAll('.sheet').forEach(function (sheet) {
+    const inner = sheet.querySelector('.sheet-inner');
+    if (!inner) return;
+
+    const setGap = function (v) { sheet.style.setProperty('--gap', v); };
+    const setFs = function (v) { sheet.style.setProperty('--fs', v + 'pt'); };
+    const fits = function () { return contentHeight(inner) <= budget; };
+
+    // stage 1 — full type, squeeze whitespace
+    setFs(MAX_FS);
+    let gap = largestThatFits(MIN_GAP, MAX_GAP, setGap, fits, 12, 0.02);
+    gap = Math.floor(gap * 100) / 100;
+    setGap(gap);
+
+    // stage 2 — if even the tightest spacing overflows, shrink type
+    let fs = MAX_FS;
+    if (!fits()) {
+      setGap(MIN_GAP);
+      fs = largestThatFits(MIN_FS, MAX_FS, setFs, fits, 12, 0.05);
+      fs = Math.floor(fs * 20) / 20;
+      setFs(fs);
+      gap = MIN_GAP;
+
+      // type is smaller now, so some whitespace may fit again
+      const regained = largestThatFits(MIN_GAP, MAX_GAP, setGap, fits, 10, 0.02);
+      gap = Math.floor(regained * 100) / 100;
+      setGap(gap);
+    }
+
+    sheet.dataset.fs = fs;
+    sheet.dataset.gap = gap;
+  });
+}
+
+async function main() {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const setId = params.get('set');
+  const manifest = await loadManifest();
+  const list = allWorksheets(manifest);
+
+  let entries, label;
+
+  if (setId) {
+    const set = manifest.sets.find(function (s) { return s.id === setId; });
+    if (!set) throw new Error('No set named "' + setId + '"');
+    entries = set.worksheets;
+    label = set.title + ' — all ' + set.count + ' worksheets';
+  } else {
+    const entry = list.find(function (w) { return w.id === id; }) || list[0];
+    entries = [entry];
+    label = entry.setTitle + ' — ' + entry.title;
+    const key = document.getElementById('keylink');
+    key.href = 'answers.html?id=' + encodeURIComponent(entry.id);
+    key.hidden = false;
+  }
+
+  document.getElementById('bartitle').textContent = label;
+  document.title = label;
+
+  const sheets = await Promise.all(entries.map(loadWorksheet));
+  document.getElementById('sheets').innerHTML = sheets.map(sheetHTML).join('');
+
+  autofit();
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(autofit);
+  }
+}
+
+main().catch(function (err) {
+  document.getElementById('sheets').innerHTML =
+    '<div class="load-error"><strong>Could not load worksheet data.</strong><br>' +
+    escapeHTML(err.message) +
+    '<br><br>If you opened this file directly (a file:// address), browsers block loading JSON. ' +
+    'Use the GitHub Pages link, or run <code>python3 -m http.server</code> in the repo folder.</div>';
+});
+</script>
+
+</body>
+</html>

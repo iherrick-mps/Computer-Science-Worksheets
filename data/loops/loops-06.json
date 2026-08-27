@@ -1,0 +1,94 @@
+{
+  "id": "loops-06",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 6,
+  "title": "Worksheet 6: Infinite Loops",
+  "topic": "Infinite Loops",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An infinite loop is a loop that continues repeating forever, without ever stopping, usually because its stopping condition is written incorrectly or never actually becomes false while the program runs. Infinite loops are almost always a mistake rather than an intentional part of a program, since a program stuck in an infinite loop will typically stop responding to anything else, forcing a user to manually stop or restart the program to regain control. A common cause of an accidental infinite loop is forgetting to update the value that a while loop's condition depends on; for example, if a while loop is supposed to run only while a counter is less than 10, but the code inside the loop never actually increases that counter, the counter will remain at its starting value forever, and the condition \"counter is less than 10\" will never become false. Because for loops automatically manage their own counter as part of how they're built, they are generally somewhat less likely to accidentally become infinite loops compared to while loops, although it is still technically possible to write an infinite for loop under unusual circumstances.",
+  "questions": [
+    {
+      "text": "An infinite loop is best described as:",
+      "correct": "A loop that continues repeating forever, without ever stopping",
+      "distractors": [
+        "A loop that always repeats exactly once",
+        "A type of variable used to store text",
+        "A type of computer hardware"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, are infinite loops usually intentional?",
+      "correct": "No, they are almost always a mistake",
+      "distractors": [
+        "Infinite loops are required in every program",
+        "Yes, they are always written on purpose",
+        "The paragraph does not mention this"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is a common cause of an accidental infinite loop?",
+      "correct": "Forgetting to update the value that a while loop's condition depends on",
+      "distractors": [
+        "Using too many for loops in a single program",
+        "Using a loop counter that starts at exactly 0",
+        "Writing a program with no loops at all"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A programmer writes a while loop meant to run only while a counter is less than 10, but forgets to include any code that increases the counter inside the loop. Based on the paragraph's explanation of what causes infinite loops, what would you expect to happen when this specific program runs?",
+      "correct": "The loop would run forever, since the counter would never reach 10 and the condition would never become false",
+      "distractors": [
+        "The loop would run exactly 10 times and then stop normally",
+        "The loop would immediately detect the mistake and fix itself",
+        "The loop would automatically convert itself into a for loop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph's comparison between for loops and while loops regarding infinite loops, if a programmer is worried about accidentally creating an infinite loop, which loop type does the paragraph suggest is generally somewhat less risky, and why?",
+      "correct": "A for loop, because it automatically manages its own counter as part of how it's built",
+      "distractors": [
+        "Neither loop type carries any risk of becoming infinite",
+        "A while loop, because it never requires any stopping condition at all",
+        "A for loop, because the paragraph says for loops can never repeat more than once"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

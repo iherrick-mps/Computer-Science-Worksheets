@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-13",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 13,
+  "title": "Worksheet 13: Nested Lists",
+  "topic": "Nested Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A nested list is a list that contains one or more other lists as its individual items, rather than only containing simple values like numbers or strings. This structure allows programmers to represent more complex, organized information, such as a grid, a table, or a group of related groups, all within a single overall list. For example, a program could use a nested list to represent a tic-tac-toe board, where the outer list contains three inner lists, and each inner list represents one row of the board, containing three individual values representing each square. To access a specific value inside a nested list, a programmer typically needs two indexes instead of one: the first index selects which inner list to look inside, and the second index selects which specific item within that inner list to access. Nested lists can also be nested multiple levels deep, meaning a list could contain lists that contain other lists, although very deeply nested structures can sometimes become difficult for a programmer to read and understand.",
+  "questions": [
+    {
+      "text": "A nested list is best described as:",
+      "correct": "A list that contains one or more other lists as its individual items",
+      "distractors": [
+        "A type of dictionary",
+        "A single number stored by itself",
+        "A list that can only contain booleans"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what kind of complex information can nested lists represent?",
+      "correct": "A grid, a table, or a group of related groups",
+      "distractors": [
+        "Nothing more complex than a regular list",
+        "Only a true or false value",
+        "Only a single word"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "In the tic-tac-toe example, according to the paragraph, what does each inner list represent?",
+      "correct": "One row of the board",
+      "distractors": [
+        "The entire game at once",
+        "A single player's name",
+        "The final score of the game"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how many indexes are typically needed to access a value inside a nested list?",
+      "correct": "Two indexes",
+      "distractors": [
+        "Zero indexes",
+        "An unlimited number of indexes every time",
+        "Exactly one index only"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what can happen with very deeply nested list structures?",
+      "correct": "They can sometimes become difficult for a programmer to read and understand",
+      "distractors": [
+        "They are not allowed in any programming language",
+        "They automatically simplify themselves",
+        "They always cause the program to crash immediately"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

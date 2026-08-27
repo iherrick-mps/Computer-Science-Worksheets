@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-12",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 12,
+  "title": "Worksheet 12: Tuples",
+  "topic": "Tuples",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A tuple is a data structure similar to a list, since it also stores multiple values together in a specific order, but with one major difference: once a tuple is created, its contents generally cannot be changed, added to, or removed, a property known as being \"immutable.\" This is different from a list, which is \"mutable,\" meaning a list's contents can be freely changed after it is created. Because a tuple's values cannot be accidentally modified later in a program, tuples are often used to store information that should always stay the same throughout a program, such as a fixed set of coordinates, the exact number of days in each month, or a set of unchanging configuration settings. Like both strings and lists, tuples support indexing, meaning individual values inside a tuple can still be accessed directly using their position, even though those values cannot be altered afterward. Choosing between a list and a tuple often comes down to a simple question: does this collection of values need to be changed later, or should it always stay exactly the same?",
+  "questions": [
+    {
+      "text": "A tuple is best described as:",
+      "correct": "A data structure similar to a list, but generally unable to be changed after creation",
+      "distractors": [
+        "A type of boolean value",
+        "A type of dictionary key",
+        "A single character of text"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does it mean for a tuple to be \"immutable\"?",
+      "correct": "Its contents generally cannot be changed, added to, or removed once created",
+      "distractors": [
+        "It is the same thing as a list in every way",
+        "It can only ever hold one single value",
+        "Its contents change automatically every second"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how is a list different from a tuple?",
+      "correct": "A list is \"mutable,\" meaning its contents can be freely changed after creation",
+      "distractors": [
+        "A list can only store one item at a time",
+        "A list cannot be changed at all, unlike a tuple",
+        "A list and a tuple are exactly identical"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, when might a tuple be used instead of a list?",
+      "correct": "To store information that should always stay the same, like fixed coordinates",
+      "distractors": [
+        "To store information that changes constantly throughout a program",
+        "Only to store a single boolean value",
+        "Tuples are never actually used in programming"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, do tuples support indexing like strings and lists?",
+      "correct": "Yes, individual values inside a tuple can still be accessed using their position",
+      "distractors": [
+        "Only lists support indexing, not tuples",
+        "No, tuples cannot be indexed at all",
+        "The paragraph does not mention this"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

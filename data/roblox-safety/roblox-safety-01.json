@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-01",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 1,
+  "title": "Worksheet 1: What Is Roblox?",
+  "topic": "What Is Roblox?",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox is a popular online platform where players can explore millions of different games created by other users, often called \"experiences.\" Unlike a single video game, Roblox is more like a giant online world made up of many small worlds, each built using tools inside Roblox itself. Many of these games are created by everyday people, including other kids, rather than a professional company. Because almost anyone can create and publish a Roblox game, the quality and safety of each experience can be very different from one game to the next. Roblox also lets players chat with each other, either through typed messages or built-in voice chat, depending on the settings a parent or guardian has allowed. Because Roblox connects millions of players from all over the world, including strangers a player has never met in real life, it is important to understand the platform's risks as well as its fun features.",
+  "questions": [
+    {
+      "text": "Roblox is best described as:",
+      "correct": "An online platform with millions of games made by different users",
+      "distractors": [
+        "A type of computer hardware",
+        "A social media app only for adults",
+        "A single video game made by one company"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what are individual Roblox games often called?",
+      "correct": "Experiences",
+      "distractors": [
+        "Levels",
+        "Missions",
+        "Apps"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, who creates most Roblox games?",
+      "correct": "Everyday people, including other kids",
+      "distractors": [
+        "Only professional companies",
+        "Robots",
+        "Only teachers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Because almost anyone can create a Roblox game, what does the paragraph say can vary a lot?",
+      "correct": "The quality and safety of each experience",
+      "distractors": [
+        "The price of the Roblox app",
+        "The color of the loading screen",
+        "The number of players allowed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, who might a player chat with on Roblox?",
+      "correct": "Millions of players, including strangers they've never met",
+      "distractors": [
+        "No one at all",
+        "Only their own family members",
+        "Only their teacher"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

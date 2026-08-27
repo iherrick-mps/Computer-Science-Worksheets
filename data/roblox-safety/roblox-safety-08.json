@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-08",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 8,
+  "title": "Worksheet 8: Inappropriate Content",
+  "topic": "Inappropriate Content",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because Roblox allows everyday users to create their own games, not every experience on the platform is designed with children in mind, even though Roblox has rules and a review process meant to catch content that breaks its guidelines. Occasionally, games or user-created items may contain content that is not appropriate for kids, such as violent themes, inappropriate language, or images and ideas meant for older audiences. Sometimes inappropriate content is hidden inside a game that otherwise looks normal, only appearing after a player has already started playing. If a player ever comes across a game, image, or message that feels confusing, scary, or not appropriate, the safest choice is to leave the game immediately, avoid interacting further, and tell a trusted adult about what they saw. Roblox also provides a reporting tool that allows players to flag inappropriate games or content directly, which helps Roblox's safety team review and remove content that breaks the platform's rules.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why is not every Roblox experience designed with children in mind?",
+      "correct": "Because everyday users create their own games",
+      "distractors": [
+        "Because all games are made by one company",
+        "Because Roblox has no rules at all",
+        "Because Roblox does not allow children to play"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, where can inappropriate content sometimes be hidden?",
+      "correct": "Inside a game that otherwise looks normal",
+      "distractors": [
+        "Only in the app store description",
+        "It can never be hidden",
+        "Only in the Roblox settings menu"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is the safest choice if a player sees something scary or inappropriate?",
+      "correct": "Leave the game immediately and tell a trusted adult",
+      "distractors": [
+        "Keep playing to see what happens next",
+        "Take a picture and post it online",
+        "Share it with more friends"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what tool does Roblox provide for inappropriate content?",
+      "correct": "A reporting tool that lets players flag content directly",
+      "distractors": [
+        "A tool that gives free Robux",
+        "A tool that deletes the player's account",
+        "There is no such tool"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does reporting inappropriate content help Roblox's safety team do?",
+      "correct": "Review and remove content that breaks the platform's rules",
+      "distractors": [
+        "Nothing; reports are ignored",
+        "Turn off the entire platform",
+        "Automatically ban every player"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

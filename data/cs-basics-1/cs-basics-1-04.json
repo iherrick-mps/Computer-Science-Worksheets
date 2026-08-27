@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-04",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 4,
+  "title": "Worksheet 4: Loops",
+  "topic": "Loops",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A loop is a programming tool that repeats a set of instructions multiple times without the programmer having to write those instructions over and over again. Loops save time and make code shorter and easier to read. For example, imagine a program needs to print the word \"Hello\" ten times. Instead of writing the instruction to print \"Hello\" ten separate times, a programmer can use a loop that says \"repeat this instruction 10 times.\" There are different kinds of loops. A \"for loop\" repeats an instruction a specific, known number of times, like exactly 10 times. A \"while loop\" repeats an instruction as long as a certain condition remains true, such as \"keep asking the user for a password while the password is incorrect.\" Loops are one of the most useful tools in programming because so many tasks involve repeating an action.",
+  "questions": [
+    {
+      "text": "A loop is best described as a tool that:",
+      "correct": "Repeats a set of instructions multiple times",
+      "distractors": [
+        "Deletes code",
+        "Turns off the computer",
+        "Draws pictures"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why are loops useful?",
+      "correct": "They save time and make code shorter and easier to read",
+      "distractors": [
+        "They make code longer",
+        "They slow down the computer",
+        "They only work one time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A loop that repeats an instruction a specific, known number of times is called:",
+      "correct": "A for loop",
+      "distractors": [
+        "A while loop",
+        "A binary loop",
+        "A variable loop"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A \"while loop\" repeats an instruction:",
+      "correct": "As long as a certain condition remains true",
+      "distractors": [
+        "Exactly once",
+        "Only on Mondays",
+        "A random number of times"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the example, instead of writing \"print Hello\" ten separate times, a programmer would:",
+      "correct": "Use a loop that repeats the instruction 10 times",
+      "distractors": [
+        "Turn off the computer",
+        "Write the word by hand",
+        "Delete the program"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

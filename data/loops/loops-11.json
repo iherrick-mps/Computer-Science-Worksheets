@@ -1,0 +1,94 @@
+{
+  "id": "loops-11",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 11,
+  "title": "Worksheet 11: Off-by-One Errors",
+  "topic": "Off-by-One Errors",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An off-by-one error is a common programming mistake where a loop repeats one time too many or one time too few, usually caused by a small mistake in how the loop's starting point, ending point, or comparison is written. For example, if a programmer wants to print the numbers 1 through 10, but accidentally writes a loop that stops once a counter reaches 10 using a \"less than\" comparison instead of a \"less than or equal to\" comparison, the loop would actually stop after printing only up through 9, missing the number 10 entirely, because the condition \"counter is less than 10\" becomes false exactly when the counter reaches 10. Off-by-one errors are especially common when working with list indexes, since list indexing typically starts at 0 rather than 1, meaning a list containing exactly 10 items has valid indexes running from 0 to 9, not from 1 to 10; a programmer who forgets this and tries to access index 10 in a 10-item list would encounter an error, since no item actually exists at that position. Careful attention to exactly which values are included or excluded by a loop's condition is one of the most important habits for avoiding off-by-one errors.",
+  "questions": [
+    {
+      "text": "An off-by-one error is best described as:",
+      "correct": "A common mistake where a loop repeats one time too many or one time too few",
+      "distractors": [
+        "A password entered incorrectly",
+        "A type of computer hardware failure",
+        "A type of variable used to store text"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is off-by-one errors especially common with?",
+      "correct": "Working with list indexes",
+      "distractors": [
+        "Working with passwords",
+        "Working with booleans only",
+        "Working with computer hardware"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what indexes are valid for a list containing exactly 10 items?",
+      "correct": "Indexes running from 0 to 9",
+      "distractors": [
+        "Only index 10",
+        "Only index 0",
+        "Indexes running from 1 to 10"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer wants to print the numbers 1 through 10, but accidentally writes a loop condition using \"counter is less than 10\" instead of \"counter is less than or equal to 10.\" Based on the paragraph's explanation of why this causes an off-by-one error, which specific number would actually be missing from the printed output?",
+      "correct": "The number 10",
+      "distractors": [
+        "The number 1",
+        "No numbers would be missing",
+        "The number 5"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A programmer has a list containing exactly 10 items, with valid indexes from 0 to 9 as described in the paragraph, but mistakenly writes a loop that tries to access index 10 as well, believing the list has 10 valid index positions starting from 1. Based on the paragraph's explanation, what would you expect to happen when this program attempts to access index 10, and why?",
+      "correct": "It would cause an error, since no item actually exists at index 10 in a list with indexes from 0 to 9",
+      "distractors": [
+        "It would simply skip that index with no error and continue normally",
+        "It would automatically add a new item to the list to fill index 10",
+        "It would successfully print the 10th item with no problems at all"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

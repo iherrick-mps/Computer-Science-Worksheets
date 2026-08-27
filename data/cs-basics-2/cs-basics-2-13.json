@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-2-13",
+  "set": "cs-basics-2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 13,
+  "title": "Worksheet 13: The History of Alan Turing",
+  "topic": "The History of Alan Turing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Alan Turing was a British mathematician who made major contributions to computer science and is often called one of the founders of the field, decades before modern computers existed in the form we know today. In the 1930s, Turing described a theoretical machine, now called a \"Turing machine,\" which could read and write symbols on an endless strip of tape according to a set of rules, and he used this idea to help explain what problems a computer could or could not theoretically solve. During World War II, Turing worked at Britain's Bletchley Park, where he helped design machines that assisted in breaking Nazi Germany's Enigma code, which the German military used to send secret encrypted messages. Breaking this code is widely credited with shortening the war and saving many lives. Later, Turing also proposed a test, now called the \"Turing Test,\" to help determine whether a machine could exhibit behavior intelligent enough to be indistinguishable from a human's.",
+  "questions": [
+    {
+      "text": "Alan Turing is often called one of the founders of which field?",
+      "correct": "Computer science",
+      "distractors": [
+        "Medicine",
+        "Astronomy",
+        "Music theory"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "The theoretical machine Turing described in the 1930s is now called a:",
+      "correct": "Turing machine",
+      "distractors": [
+        "Analytical Engine",
+        "Mark II",
+        "CPU"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "During World War II, where did Turing work?",
+      "correct": "Bletchley Park",
+      "distractors": [
+        "NASA",
+        "Silicon Valley",
+        "The Pentagon"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What code did Turing help break during World War II?",
+      "correct": "The Enigma code",
+      "distractors": [
+        "Binary code",
+        "Morse code",
+        "A password"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "The test Turing proposed to determine whether a machine could seem intelligent is called:",
+      "correct": "The Turing Test",
+      "distractors": [
+        "The Bug Test",
+        "The Binary Test",
+        "The Algorithm Test"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

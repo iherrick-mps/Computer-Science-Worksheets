@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-05",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 5,
+  "title": "Worksheet 5: Robux Scams",
+  "topic": "Robux Scams",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Robux is the virtual currency used inside Roblox to buy special items, accessories, and upgrades for a player's avatar or games. Because Robux normally costs real money to buy, some scammers try to trick players into believing they can get free Robux outside of Roblox's official store. Common scam tricks include websites or messages promising \"free Robux generators,\" offers to trade real Robux for a player's account password, or fake giveaways that ask a player to enter personal account information on an outside website. These scams do not actually give players free Robux; instead, they are designed to steal a player's account, personal information, or even a parent's real money. Roblox has stated clearly that there is no legitimate way to get free Robux outside of its official purchasing system, and any website or message claiming otherwise should be treated as a scam. If a player ever encounters one of these offers, the safest choice is to avoid clicking any links and tell a trusted adult.",
+  "questions": [
+    {
+      "text": "Robux is best described as:",
+      "correct": "The virtual currency used inside Roblox",
+      "distractors": [
+        "A safety setting",
+        "A type of chat filter",
+        "A type of game controller"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what do \"free Robux generator\" websites actually do?",
+      "correct": "Trick players and do not actually give free Robux",
+      "distractors": [
+        "Give players free Robux instantly",
+        "Improve a player's internet speed",
+        "Nothing at all; they are harmless"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what might a scammer ask a player to trade for \"free Robux\"?",
+      "correct": "The player's account password",
+      "distractors": [
+        "Nothing at all",
+        "A homework assignment",
+        "A school ID card"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what has Roblox stated about free Robux offers outside its official store?",
+      "correct": "There is no legitimate way to get free Robux outside its official system",
+      "distractors": [
+        "They are the safest way to get Robux",
+        "Roblox created them",
+        "They are always legitimate"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is the safest choice if a player sees a \"free Robux\" offer?",
+      "correct": "Avoid clicking any links and tell a trusted adult",
+      "distractors": [
+        "Share the offer with friends first",
+        "Click the link immediately",
+        "Enter their password to check if it's real"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

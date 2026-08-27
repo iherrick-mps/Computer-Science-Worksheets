@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-01",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 1,
+  "title": "Worksheet 1: What Is Cybersecurity?",
+  "topic": "What Is Cybersecurity?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cybersecurity is the practice of protecting computers, networks, programs, and data from unauthorized access, damage, or theft. As more of daily life happens online, including banking, shopping, schoolwork, and communication, protecting digital information has become just as important as locking the front door of a house. Cybersecurity threats can come from many different sources, including individual hackers seeking personal gain, organized criminal groups, and even government-sponsored attackers. The goals of an attacker can vary widely: some want to steal money or personal information, some want to disrupt a company's operations, and others simply want to prove they can break into a system. Cybersecurity professionals work to defend against these threats by building strong defenses, such as firewalls and encryption, monitoring systems for suspicious activity, and educating everyday users about safe online habits, since even the strongest technical defenses can be defeated if a person is tricked into giving away sensitive information.",
+  "questions": [
+    {
+      "text": "Cybersecurity is best described as:",
+      "correct": "The practice of protecting computers, networks, programs, and data from unauthorized access, damage, or theft",
+      "distractors": [
+        "A brand of antivirus software",
+        "A type of computer hardware",
+        "A programming language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, cybersecurity threats can come from:",
+      "correct": "Individual hackers, criminal groups, and government-sponsored attackers",
+      "distractors": [
+        "Only individual hackers",
+        "Only weather events",
+        "Only computers themselves"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why has protecting digital information become important?",
+      "correct": "Because so much of daily life happens online",
+      "distractors": [
+        "Because computers are becoming rare",
+        "Because passwords are no longer used",
+        "Because the internet is shutting down"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is one reason an attacker might target a system?",
+      "correct": "To prove they can break into a system",
+      "distractors": [
+        "To fix bugs for free",
+        "To make the internet faster",
+        "To improve a company's cybersecurity for them"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why can strong technical defenses still fail?",
+      "correct": "If a person is tricked into giving away sensitive information",
+      "distractors": [
+        "If the computer is turned off",
+        "If there are too many passwords",
+        "If the internet is too fast"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

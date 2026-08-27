@@ -1,0 +1,94 @@
+{
+  "id": "data-structures-08",
+  "set": "data-structures",
+  "setTitle": "Data Structures & Variables",
+  "number": 8,
+  "title": "Worksheet 8: List Indexing",
+  "topic": "List Indexing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Just like the individual characters within a string, each item stored inside a list has a specific position called an \"index,\" which allows a programmer to access, change, or remove any single item directly without having to search through the entire list. In most programming languages, list indexing starts counting at 0, meaning the first item in a list is located at index 0, the second item is at index 1, and so on. For example, in a list containing the items \"Alex\", \"Jordan\", and \"Sam\", the value \"Alex\" is located at index 0, \"Jordan\" is at index 1, and \"Sam\" is at index 2. Many programming languages also allow negative indexing, where an index of -1 refers to the very last item in the list, -2 refers to the second-to-last item, and so on, which can be a convenient way to access items near the end of a list without needing to know exactly how many items the list contains.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the position of an item inside a list is called its:",
+      "correct": "Index",
+      "distractors": [
+        "Boolean",
+        "Float",
+        "Loop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what number does list indexing usually start at?",
+      "correct": "0",
+      "distractors": [
+        "-1",
+        "1",
+        "10"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the example list containing \"Alex\", \"Jordan\", and \"Sam\", according to the paragraph, what index is \"Jordan\" located at?",
+      "correct": "Index 1",
+      "distractors": [
+        "Index 3",
+        "Index 2",
+        "Index 0"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does an index of -1 typically refer to?",
+      "correct": "The very last item in the list",
+      "distractors": [
+        "The entire list at once",
+        "An item that does not exist",
+        "The very first item in the list"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why is negative indexing convenient?",
+      "correct": "It allows accessing items near the end of a list without knowing its exact length",
+      "distractors": [
+        "It converts the list into a string",
+        "It deletes items from the list automatically",
+        "It has no real practical use"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

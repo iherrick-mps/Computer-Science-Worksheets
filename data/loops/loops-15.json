@@ -1,0 +1,94 @@
+{
+  "id": "loops-15",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 15,
+  "title": "Worksheet 15: Loops and Efficiency",
+  "topic": "Loops and Efficiency",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The number of times a loop repeats can have a significant effect on how long a program takes to run, especially as the amount of data being processed grows larger. A single loop that processes a list of 100 items will generally take roughly ten times longer to run than the same loop processing a list of only 10 items, since the loop's code must run once for each individual item, and running it 100 times naturally takes longer than running it only 10 times. Nested loops can affect performance even more significantly, since, as described in an earlier lesson, the total number of repetitions in a nested loop is found by multiplying the repetitions of each loop together; this means that a nested loop processing a list of 100 items using two loops, one inside the other, could require around 10,000 total repetitions instead of just 100, causing a much larger increase in running time compared to a single, non-nested loop working with the same 100 items. Because of this, programmers often try to avoid unnecessary nested loops when processing very large amounts of data, choosing simpler approaches whenever an equally correct one is available, in order to keep programs running efficiently.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what can the number of times a loop repeats significantly affect?",
+      "correct": "How long a program takes to run",
+      "distractors": [
+        "The programming language being used",
+        "The color of the text on the screen",
+        "The name of the variable"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, roughly how much longer would a loop take to process 100 items compared to 10 items?",
+      "correct": "Roughly ten times longer",
+      "distractors": [
+        "Roughly half the time",
+        "Roughly the exact same amount of time",
+        "It would always take exactly one second, regardless of size"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how is the total number of repetitions in a nested loop found?",
+      "correct": "By multiplying the repetitions of each loop together",
+      "distractors": [
+        "By adding the repetitions of each loop together",
+        "By always using exactly 100 repetitions",
+        "By subtracting one loop's count from the other"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph's example, a nested loop processing a list of 100 items using two loops, one inside the other, could require around 10,000 total repetitions. Using the same multiplication rule described in the paragraph and in the earlier lesson on nested loops, what two numbers being multiplied together would produce that approximate total of 10,000 repetitions?",
+      "correct": "100 multiplied by 100",
+      "distractors": [
+        "1,000 multiplied by 10",
+        "10 multiplied by 10",
+        "100 multiplied by 1"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph's explanation of why nested loops can affect performance more significantly than a single loop, if a programmer has two possible ways to correctly solve the same problem, one using a single loop over a list of 100 items and one using a nested loop over the same 100 items, which approach would the paragraph suggest is generally preferable for keeping the program running efficiently, and why?",
+      "correct": "The single loop, since it would require far fewer total repetitions than the nested loop approach",
+      "distractors": [
+        "The nested loop, since more repetitions always make a program run faster",
+        "The nested loop, since nested loops never affect how long a program takes to run",
+        "Both approaches would always take exactly the same amount of time to run"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

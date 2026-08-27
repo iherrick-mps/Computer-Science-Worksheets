@@ -1,0 +1,94 @@
+{
+  "id": "roblox-safety-13",
+  "set": "roblox-safety",
+  "setTitle": "Roblox Online Safety",
+  "number": 13,
+  "title": "Worksheet 13: Who Is a Trusted Adult?",
+  "topic": "Who Is a Trusted Adult?",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A trusted adult is someone in a player's life who they feel safe talking to and who genuinely wants to help keep them safe, such as a parent, guardian, teacher, school counselor, or another close family member. Having a trusted adult to talk to is especially important when playing online games like Roblox, because kids may sometimes see or experience something confusing, upsetting, or unsafe that they aren't sure how to handle on their own. Talking to a trusted adult is never something to feel embarrassed or afraid about, even if a player thinks they might be in trouble for something, such as accidentally clicking a scam link or talking to a stranger they shouldn't have. Trusted adults are generally much more concerned with keeping a child safe than with placing blame, and telling them early can help solve a problem before it becomes bigger. Identifying a trusted adult before a problem happens, rather than waiting until something goes wrong, can make it easier to know exactly who to go to for help.",
+  "questions": [
+    {
+      "text": "A trusted adult is best described as:",
+      "correct": "Someone a player feels safe talking to who wants to help keep them safe",
+      "distractors": [
+        "A computer program",
+        "Any stranger met online",
+        "A random Roblox player"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why is having a trusted adult especially important when playing online games?",
+      "correct": "Kids may see or experience something confusing or unsafe they aren't sure how to handle",
+      "distractors": [
+        "It is required to create a Roblox account",
+        "Trusted adults can give unlimited Robux",
+        "It makes the game load faster"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, should a player feel embarrassed to talk to a trusted adult, even if they think they might be in trouble?",
+      "correct": "No, they should not feel embarrassed or afraid",
+      "distractors": [
+        "Only if it's a very small problem",
+        "Only if a parent asks first",
+        "Yes, they should never say anything"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what are trusted adults generally more concerned with?",
+      "correct": "Keeping a child safe rather than placing blame",
+      "distractors": [
+        "Ignoring the situation completely",
+        "Punishing every mistake immediately",
+        "Taking away all screen time forever"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why is it helpful to identify a trusted adult before a problem happens?",
+      "correct": "It makes it easier to know exactly who to go to for help",
+      "distractors": [
+        "It prevents all problems from ever happening",
+        "It is required by Roblox's rules",
+        "It has no real benefit"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "loops-13",
+  "set": "loops",
+  "setTitle": "Loops",
+  "number": 13,
+  "title": "Worksheet 13: Looping Through Lists",
+  "topic": "Looping Through Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Looping through a list allows a program to examine, use, or modify every item stored in the list, one at a time, in the order the items appear. During each pass through the loop, the loop typically has access to the current item's value, and sometimes also its index, or position, within the list. For example, looping through a list containing the numbers [4, 8, 15, 16, 23, 42] and adding up every value along the way would eventually produce a running total of 108 once the loop has finished processing every item in the list. A loop can also be combined with a conditional check to process only certain items in a list rather than all of them; for example, looping through that same list of six numbers, but only adding a number to the running total if it is greater than 10, would skip the numbers 4 and 8 entirely, since neither is greater than 10, while still including 15, 16, 23, and 42 in the total. This kind of selective processing, where a loop examines every item but only acts on some of them, is an extremely common pattern in real programs.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what does looping through a list allow a program to do?",
+      "correct": "Examine, use, or modify every item stored in the list, one at a time",
+      "distractors": [
+        "Only delete the entire list immediately",
+        "Only measure the speed of the computer",
+        "Only convert the list into a single boolean"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does a loop typically have access to during each pass through a list?",
+      "correct": "The current item's value, and sometimes its index",
+      "distractors": [
+        "Nothing at all",
+        "Only the very first item in the entire list, every single time",
+        "Only the total number of items in the entire program"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is the running total after looping through and adding every value in the list [4, 8, 15, 16, 23, 42]?",
+      "correct": "108",
+      "distractors": [
+        "0",
+        "6",
+        "42"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, when the loop only adds numbers greater than 10 from the list [4, 8, 15, 16, 23, 42], the numbers 4 and 8 are skipped. Using the same rule described in the paragraph, what would the new running total be after adding only 15, 16, 23, and 42 together, skipping 4 and 8 as described?",
+      "correct": "96",
+      "distractors": [
+        "42",
+        "12",
+        "108"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph's description of combining a loop with a conditional check, if a programmer wanted to instead add up only the numbers in the list [4, 8, 15, 16, 23, 42] that are less than 10, rather than greater than 10, which specific numbers from the list would actually get included in that new running total?",
+      "correct": "Only 4 and 8, since those are the only two numbers in the list less than 10",
+      "distractors": [
+        "All six numbers in the list",
+        "None of the numbers in the list",
+        "Only 15, 16, 23, and 42"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

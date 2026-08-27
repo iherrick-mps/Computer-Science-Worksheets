@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-07",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 7,
+  "title": "Worksheet 7: Grace Hopper and the First \"Bug\"",
+  "topic": "Grace Hopper and the First \"Bug\"",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Grace Hopper was an American computer scientist and U.S. Navy officer who made major contributions to early computer programming. In 1947, Hopper and her team were working on a computer called the Mark II when the machine suddenly stopped working correctly. When they investigated, they found an actual moth trapped inside one of the computer's electrical relays, causing the malfunction. The team removed the moth and taped it into their logbook, writing \"First actual case of bug being found.\" While the term \"bug\" had been used before to describe technical problems, this event is one of the most famous early examples of the word being used this way, and it helped popularize the term \"debugging\" to describe the process of finding and fixing errors in a program. Grace Hopper also helped develop one of the first programming languages that used English-like words instead of numbers.",
+  "questions": [
+    {
+      "text": "Grace Hopper worked on a computer called the:",
+      "correct": "Mark II",
+      "distractors": [
+        "Analytical Engine",
+        "ENIAC",
+        "Apple I"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "What actually caused the Mark II to malfunction in 1947?",
+      "correct": "A moth trapped inside an electrical relay",
+      "distractors": [
+        "A power outage",
+        "A broken punch card",
+        "A software error"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What did the team do with the moth after removing it?",
+      "correct": "Taped it into their logbook",
+      "distractors": [
+        "Threw it away",
+        "Sent it to a museum",
+        "Put it back in the machine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "The word used to describe the process of finding and fixing errors is:",
+      "correct": "Debugging",
+      "distractors": [
+        "Coding",
+        "Looping",
+        "Binary"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Besides the moth story, what else is Grace Hopper known for?",
+      "correct": "Helping develop a programming language using English-like words",
+      "distractors": [
+        "Inventing the internet",
+        "Building the first personal computer",
+        "Designing the first computer mouse"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

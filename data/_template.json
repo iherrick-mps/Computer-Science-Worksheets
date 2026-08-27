@@ -1,0 +1,100 @@
+{
+  "_README": [
+    "TEMPLATE — copy this file to data/<set-id>/<set-id>-NN.json and fill it in.",
+    "Delete these two underscore keys when you're done; they are ignored by the site.",
+    "After adding a file you must also add an entry for it in data/index.json.",
+    "",
+    "HOW 'order' WORKS:",
+    "  Each question stores the correct answer once ('correct') and three wrong answers",
+    "  ('distractors'). The 'order' array decides which of those four appears as A, B, C, D.",
+    "  Token 'c'  = the correct answer.",
+    "  Token 'd0' = distractors[0], 'd1' = distractors[1], 'd2' = distractors[2].",
+    "  Because 'order' is saved in the file, the choices print in the SAME order every",
+    "  time, so one answer key always works for every printed copy.",
+    "",
+    "  Example: \"order\": [\"d1\", \"c\", \"d2\", \"d0\"] prints as",
+    "     A. distractors[1]   B. correct   C. distractors[2]   D. distractors[0]",
+    "  ...which makes the answer to that question B.",
+    "",
+    "  Vary the position of 'c' across the five questions so the key isn't all one letter.",
+    "  'correctLetter' must match wherever you put 'c'. Run tools/validate.py to check."
+  ],
+  "_CHECKLIST": [
+    "Every question is answerable from the paragraph alone — no outside knowledge.",
+    "Exactly 5 questions, exactly 3 distractors each.",
+    "Distractors are plausible but clearly wrong to a careful reader.",
+    "'c' is not in the same slot for all five questions.",
+    "'correctLetter' agrees with the position of 'c' in 'order'.",
+    "Paragraph is one self-contained block — no headings, lists, or line breaks.",
+    "Ran: python3 tools/validate.py"
+  ],
+
+  "id": "example-set-01",
+  "set": "example-set",
+  "setTitle": "Example Set",
+  "number": 1,
+  "title": "Worksheet 1: Topic Name Here",
+  "topic": "Topic Name Here",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Write one self-contained paragraph here, roughly 110 to 190 words. It should define the concept, then give a concrete example or short scenario. Every question below must be answerable using only this paragraph. Keep it as a single block of prose with no line breaks, headings, or bullet points, since the printable view renders it as one bordered box. If you want the last two questions to require applied reasoning rather than recall, embed a worked example with specific numbers or a stated rule here, so students have something concrete to reason from.",
+
+  "questions": [
+    {
+      "text": "A direct-recall question whose answer is stated plainly in the paragraph:",
+      "correct": "The answer, stated the way the paragraph states it",
+      "distractors": [
+        "A plausible but incorrect option",
+        "Another plausible but incorrect option",
+        "A third plausible but incorrect option"
+      ],
+      "order": ["c", "d0", "d1", "d2"],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A second direct-recall question:",
+      "correct": "The correct answer",
+      "distractors": [
+        "Wrong option one",
+        "Wrong option two",
+        "Wrong option three"
+      ],
+      "order": ["d0", "c", "d1", "d2"],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A third direct-recall question:",
+      "correct": "The correct answer",
+      "distractors": [
+        "Wrong option one",
+        "Wrong option two",
+        "Wrong option three"
+      ],
+      "order": ["d0", "d1", "d2", "c"],
+      "correctLetter": "D"
+    },
+    {
+      "text": "An applied question — give a new situation and ask students to apply a rule or example from the paragraph to it. Optional; use a fourth recall question instead if you want the whole worksheet at one level.",
+      "correct": "The conclusion that follows from applying the paragraph's rule",
+      "distractors": [
+        "A conclusion that misapplies the rule",
+        "A conclusion that reverses the rule",
+        "A conclusion the paragraph does not support"
+      ],
+      "order": ["d0", "d1", "c", "d2"],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A second applied question — ask students to predict an outcome, compare two cases, or explain why something happens, based on the paragraph:",
+      "correct": "The supported conclusion, with the reason included in the option text",
+      "distractors": [
+        "A tempting but unsupported conclusion",
+        "A conclusion that ignores a stated condition",
+        "A conclusion that contradicts the paragraph"
+      ],
+      "order": ["c", "d2", "d0", "d1"],
+      "correctLetter": "A"
+    }
+  ]
+}

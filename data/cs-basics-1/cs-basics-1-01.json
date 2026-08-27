@@ -1,0 +1,94 @@
+{
+  "id": "cs-basics-1-01",
+  "set": "cs-basics-1",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 1,
+  "title": "Worksheet 1: What Is an Algorithm?",
+  "topic": "What Is an Algorithm?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An algorithm is a set of step-by-step instructions used to complete a task or solve a problem. Just like a recipe tells a cook exactly what to do in order, an algorithm tells a computer exactly what steps to follow. For example, imagine you want a computer to make a peanut butter sandwich. The algorithm might say: 1) get two slices of bread, 2) spread peanut butter on one slice, 3) spread jelly on the other slice, 4) put the slices together. If the steps are out of order, or a step is missing, the sandwich will not turn out right. Computers cannot guess what you mean, so algorithms must be written in a very clear and exact order. Programmers write algorithms before they write actual code, so they can plan out the logic first.",
+  "questions": [
+    {
+      "text": "An algorithm is best described as:",
+      "correct": "A set of step-by-step instructions to complete a task",
+      "distractors": [
+        "A type of computer hardware",
+        "A brand of computer",
+        "A picture on the screen"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, algorithms are compared to:",
+      "correct": "A recipe",
+      "distractors": [
+        "A map",
+        "A puzzle",
+        "A song"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What happens if a step in an algorithm is missing or out of order?",
+      "correct": "The task will not turn out correctly",
+      "distractors": [
+        "The computer fixes it automatically",
+        "Nothing changes",
+        "The algorithm becomes faster"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "When do programmers usually write an algorithm?",
+      "correct": "Before they write actual code",
+      "distractors": [
+        "After they finish writing code",
+        "While the computer is turned off",
+        "Only when there's an error"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Why can't computers guess what a person means?",
+      "correct": "They need very clear and exact instructions",
+      "distractors": [
+        "They are too slow",
+        "They don't have screens",
+        "They only understand pictures"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cybersecurity-15",
+  "set": "cybersecurity",
+  "setTitle": "Cybersecurity",
+  "number": 15,
+  "title": "Worksheet 15: Your Digital Footprint",
+  "topic": "Your Digital Footprint",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A digital footprint is the trail of data a person leaves behind while using the internet, including social media posts, comments, photos, search history, online purchases, and even the websites a person simply visits without posting anything. There are two main types of digital footprints. An \"active\" digital footprint is created intentionally, such as when a person posts a photo, writes a comment, or fills out an online form. A \"passive\" digital footprint is created without a person directly realizing it, such as websites collecting data about their browsing habits or location in the background. Digital footprints can be difficult or even impossible to fully erase once created, since content can be copied, shared, or archived by others before a person deletes it themselves. Because of this, many digital citizenship experts recommend that people think carefully before posting anything online, adjust privacy settings on social media accounts, and regularly review what personal information about them is publicly visible, since a digital footprint can affect things like college admissions or job opportunities long after the content was originally posted.",
+  "questions": [
+    {
+      "text": "A digital footprint is best described as:",
+      "correct": "The trail of data a person leaves behind while using the internet",
+      "distractors": [
+        "A type of computer virus",
+        "A physical footprint left on a keyboard",
+        "A type of firewall"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, an \"active\" digital footprint is:",
+      "correct": "Created intentionally, such as posting a photo or writing a comment",
+      "distractors": [
+        "Created without a person realizing it",
+        "Only created by companies",
+        "Impossible to create"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, a \"passive\" digital footprint is:",
+      "correct": "Created without a person directly realizing it, such as background data collection",
+      "distractors": [
+        "Always posted on purpose",
+        "Only created by hackers",
+        "The same thing as a password"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why can digital footprints be difficult to fully erase?",
+      "correct": "Content can be copied, shared, or archived by others before it is deleted",
+      "distractors": [
+        "Digital footprints do not actually exist",
+        "The internet automatically deletes everything after a day",
+        "Only the government can see them"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what can a digital footprint affect long after content was originally posted?",
+      "correct": "College admissions or job opportunities",
+      "distractors": [
+        "Internet speed",
+        "The weather",
+        "Battery life"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}
