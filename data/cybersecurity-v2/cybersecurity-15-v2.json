@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-15-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 15,
+  "title": "Worksheet 15: Your Digital Footprint (V2.0)",
+  "topic": "Your Digital Footprint",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A digital footprint is the trail of data a person leaves behind while using the internet, including social media posts, comments, photos, search history, online purchases, and even the websites a person simply visits without posting anything. There are two main types of digital footprints. An \"active\" digital footprint is created intentionally, such as when a person posts a photo, writes a comment, or fills out an online form. A \"passive\" digital footprint is created without a person directly realizing it, such as websites collecting data about their browsing habits or location in the background. Digital footprints can be difficult or even impossible to fully erase once created, since content can be copied, shared, or archived by others before a person deletes it themselves. Because of this, many digital citizenship experts recommend that people think carefully before posting anything online, adjust privacy settings on social media accounts, and regularly review what personal information about them is publicly visible, since a digital footprint can affect things like college admissions or job opportunities long after the content was originally posted.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a digital footprint is:",
+      "correct": "The trail of data a person leaves behind while using the internet",
+      "distractors": [
+        "A password stored inside a web browser",
+        "A photo saved only on a person's own phone",
+        "The physical size of a computer file"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, an active digital footprint is created:",
+      "correct": "Intentionally, such as by posting a photo or writing a comment",
+      "distractors": [
+        "Without the person realizing it",
+        "Only by companies, never by users",
+        "Only when a person deletes something"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is an example of a passive digital footprint?",
+      "correct": "Websites collecting data about browsing habits in the background",
+      "distractors": [
+        "Filling out an online form",
+        "Writing a comment on a video",
+        "Posting a photo to social media"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why can a digital footprint be impossible to fully erase?",
+      "correct": "Content can be copied, shared, or archived by others before it is deleted",
+      "distractors": [
+        "Deleting anything online is against the law",
+        "Websites are required to store posts forever",
+        "Only the original author can view a post"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A student posts something careless online and deletes it an hour later. Based on the paragraph, why might it still matter years from now?",
+      "correct": "A digital footprint can affect college admissions or job opportunities long after the content was posted",
+      "distractors": [
+        "Deleted posts reappear automatically after one year",
+        "Schools are sent a copy of every deleted post",
+        "Nothing posted before age 18 is ever visible"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

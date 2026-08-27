@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-10-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 10,
+  "title": "Worksheet 10: How the Internet Works (V2.0)",
+  "topic": "How the Internet Works",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "When you visit a website, your device is not simply \"opening a file\" — it is having a conversation with another computer somewhere else in the world. Your device, such as a laptop or phone, is called the \"client.\" The client sends a request over the internet asking for a specific webpage. That request travels to a \"server,\" which is a powerful computer that stores websites and is always ready to respond to requests. When the server receives the request, it sends the requested webpage's information back to the client, which then displays it on your screen as the website you see. This entire back-and-forth process usually takes less than a second, even though the server might be located thousands of miles away. This basic pattern, a client requesting information and a server responding, is called the \"client-server model,\" and it is the foundation of how the internet works.",
+  "questions": [
+    {
+      "text": "According to the paragraph, your laptop or phone is called the:",
+      "correct": "Client",
+      "distractors": [
+        "Server",
+        "Router",
+        "Network"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is a server?",
+      "correct": "A powerful computer that stores websites and responds to requests",
+      "distractors": [
+        "A cable that connects to the internet",
+        "A program installed on every phone",
+        "A screen that displays webpages"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does the server send back to the client?",
+      "correct": "The requested webpage's information",
+      "distractors": [
+        "A copy of the client's files",
+        "A new internet connection",
+        "A list of every website that exists"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how long does this back-and-forth usually take?",
+      "correct": "Less than a second",
+      "distractors": [
+        "About one minute",
+        "Several minutes",
+        "Exactly ten seconds"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, why is visiting a website not simply \"opening a file\"?",
+      "correct": "Your device is having a request-and-response conversation with another computer elsewhere",
+      "distractors": [
+        "Websites are too large to be stored as files",
+        "Files can only be opened by servers",
+        "Your device creates the webpage by itself"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

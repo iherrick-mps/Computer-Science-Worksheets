@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-03-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 3,
+  "title": "Worksheet 3: Malware (V2.0)",
+  "topic": "Malware",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Malware, short for \"malicious software,\" is any software intentionally designed to harm, exploit, or gain unauthorized access to a computer system. Malware can take many forms and cause different kinds of damage. Some malware is designed to steal personal information, such as passwords or banking details, without the user knowing. Other malware is designed to secretly monitor a person's activity, take control of a device remotely, or display unwanted advertisements. Malware can spread in many ways, including through infected email attachments, malicious downloads disguised as legitimate software, infected USB drives, and compromised websites. Once malware infects a device, it can be difficult to detect, since well-designed malware is built to run quietly in the background without the user noticing anything unusual. Antivirus and anti-malware programs are designed to scan a device for known malware, remove infections, and block suspicious files before they can cause harm.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the word \"malware\" is short for:",
+      "correct": "Malicious software",
+      "distractors": [
+        "Manual software",
+        "Mailing software",
+        "Machine software"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, which of these is a way malware can spread?",
+      "correct": "Infected email attachments",
+      "distractors": [
+        "Printing a document twice",
+        "Restarting a computer normally",
+        "Changing the screen brightness"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what do antivirus and anti-malware programs do?",
+      "correct": "Scan for known malware, remove infections, and block suspicious files",
+      "distractors": [
+        "Speed up a computer's internet connection",
+        "Create backups of every photo on a device",
+        "Write new software for the user automatically"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why can malware be difficult to detect?",
+      "correct": "Well-designed malware runs quietly in the background without the user noticing",
+      "distractors": [
+        "Malware always shuts a computer down immediately",
+        "Malware can only be seen by the police",
+        "Malware changes the color of the screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A user downloads a free program that looks like a normal video player, but it secretly records what they type. Based on the paragraph, what is this an example of?",
+      "correct": "Malware disguised as legitimate software",
+      "distractors": [
+        "A firewall doing its job correctly",
+        "A software update that failed to install",
+        "A backup being created automatically"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-12-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 12,
+  "title": "Worksheet 12: Recognizing Warning Signs (V2.0)",
+  "topic": "Recognizing Warning Signs",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Most people a player meets on Roblox are simply other players who want to have fun, but it is still important to recognize behavior that feels wrong so a player can respond safely. Some general warning signs include a stranger asking a lot of personal questions, someone offering gifts, Robux, or special favors in exchange for private information or photos, a person asking a player to keep a conversation \"secret\" from their parents, or someone becoming upset, pushy, or angry when a player says no to something. A trustworthy adult or friend generally does not ask a child to hide a conversation from their parents or guardians. If a player ever notices these kinds of warning signs, they should trust that uncomfortable feeling, stop the conversation, avoid providing any further information, and tell a trusted adult right away, even if they are not completely sure something is wrong. Trusted adults would always rather be told about a situation that turns out to be nothing than not be told about a real problem.",
+  "questions": [
+    {
+      "text": "According to the paragraph, which of these is a warning sign?",
+      "correct": "A stranger asking a lot of personal questions",
+      "distractors": [
+        "A player asking to team up in a game",
+        "A player saying \"good game\" after a match",
+        "A player leaving a game early"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should a player do if they notice these warning signs?",
+      "correct": "Stop the conversation, give no further information, and tell a trusted adult right away",
+      "distractors": [
+        "Wait until they are completely sure something is wrong",
+        "Ask the person to explain why they are asking",
+        "Keep chatting but avoid one topic"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does a trustworthy person generally NOT do?",
+      "correct": "Ask a child to hide a conversation from their parents or guardians",
+      "distractors": [
+        "Play the same games as a child",
+        "Say goodbye at the end of a game",
+        "Ask what a player's favorite game is"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how do trusted adults feel about being told?",
+      "correct": "They would rather hear about a situation that turns out to be nothing than miss a real problem",
+      "distractors": [
+        "They prefer to be told only after a week",
+        "They want proof before hearing anything",
+        "They would rather not be told about small things"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Someone offers a player free Robux in exchange for a photo, then gets angry when the player says no. Based on the paragraph, what should the player notice?",
+      "correct": "Two warning signs at once — a gift offered for something private, and pushiness after a no",
+      "distractors": [
+        "Only one warning sign, since gifts are normal",
+        "No warning signs, because Robux is common on Roblox",
+        "A warning sign only if the person asks twice"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

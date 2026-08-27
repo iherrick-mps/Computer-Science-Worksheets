@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-11-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 11,
+  "title": "Worksheet 11: A Debugging Story (V2.0)",
+  "topic": "A Debugging Story",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Maria wrote a program that was supposed to add two numbers entered by the user and display the total. When she ran the program, she typed in 5 and 3, expecting the answer 8. Instead, the program displayed \"53\" on the screen. Maria realized her program had a bug — an error in the code that causes it to behave incorrectly. After looking closely at her code, she discovered the problem: her program had been treating the numbers as text (called \"strings\") instead of as actual numbers. When computers combine two pieces of text, they simply stick them together, which is why \"5\" and \"3\" became \"53\" instead of being mathematically added. Maria fixed the bug by changing her code so the program would treat the user's input as numbers instead of text before doing the addition. This process of finding and fixing an error in code is called debugging.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what did Maria's program display instead of 8?",
+      "correct": "53",
+      "distractors": [
+        "35",
+        "8.0",
+        "An error message"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a bug?",
+      "correct": "An error in the code that causes it to behave incorrectly",
+      "distractors": [
+        "A missing piece of computer hardware",
+        "A program that runs too slowly",
+        "An insect inside the computer case"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, how was the program treating the numbers?",
+      "correct": "As text, or strings, instead of as actual numbers",
+      "distractors": [
+        "As true and false values",
+        "As decimal numbers only",
+        "As images on the screen"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how did Maria fix the bug?",
+      "correct": "She changed the code to treat the input as numbers before adding",
+      "distractors": [
+        "She asked the user to type smaller numbers",
+        "She removed the addition step entirely",
+        "She restarted the computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, what would the program have displayed if Maria had typed 1 and 2 before fixing the bug?",
+      "correct": "12",
+      "distractors": [
+        "3",
+        "21",
+        "1.2"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

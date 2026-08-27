@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-01-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 1,
+  "title": "Worksheet 1: What Is Roblox? (V2.0)",
+  "topic": "What Is Roblox?",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox is a popular online platform where players can explore millions of different games created by other users, often called \"experiences.\" Unlike a single video game, Roblox is more like a giant online world made up of many small worlds, each built using tools inside Roblox itself. Many of these games are created by everyday people, including other kids, rather than a professional company. Because almost anyone can create and publish a Roblox game, the quality and safety of each experience can be very different from one game to the next. Roblox also lets players chat with each other, either through typed messages or built-in voice chat, depending on the settings a parent or guardian has allowed. Because Roblox connects millions of players from all over the world, including strangers a player has never met in real life, it is important to understand the platform's risks as well as its fun features.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the games on Roblox are often called:",
+      "correct": "Experiences",
+      "distractors": [
+        "Servers",
+        "Avatars",
+        "Filters"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, who creates many of the games on Roblox?",
+      "correct": "Everyday people, including other kids",
+      "distractors": [
+        "Only professional game companies",
+        "Only Roblox employees",
+        "Only adults over 30"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, how can players chat on Roblox?",
+      "correct": "Through typed messages or built-in voice chat",
+      "distractors": [
+        "Only by mailing letters",
+        "Only by video call",
+        "Only through their avatar's movements"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, why can the safety of each game be very different?",
+      "correct": "Almost anyone can create and publish a Roblox game",
+      "distractors": [
+        "Roblox tests every game for exactly one year",
+        "Games change their rules automatically",
+        "Only the newest games are checked"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why does Roblox being one giant world of many small worlds matter for safety?",
+      "correct": "It connects millions of players worldwide, including strangers a player has never met",
+      "distractors": [
+        "It makes every game load more slowly",
+        "It means only one game can be played at a time",
+        "It stops players from talking to each other"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

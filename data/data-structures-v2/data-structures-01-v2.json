@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-01-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 1,
+  "title": "Worksheet 1: What Are Data Types? (V2.0)",
+  "topic": "What Are Data Types?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In programming, every piece of data a computer works with has a specific \"data type,\" which tells the computer what kind of information is being stored and what operations can be performed on it. Common basic data types include integers, which are whole numbers with no decimal point; floating-point numbers, often called \"floats,\" which are numbers that include a decimal point; strings, which are sequences of text characters; and booleans, which can only hold one of two values, true or false. A computer treats each data type differently: for example, adding two integers together performs mathematical addition, but \"adding\" two strings together usually joins them end to end instead of performing any math. Understanding data types is important because using the wrong type in the wrong place, such as trying to perform math on a string that isn't actually a number, can cause a program to behave unexpectedly or crash entirely.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what does a data type tell the computer?",
+      "correct": "What kind of information is being stored and what can be done with it",
+      "distractors": [
+        "How fast the program will run",
+        "Which programming language to use",
+        "How much memory the computer has"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how many values can a boolean hold?",
+      "correct": "Only two — true or false",
+      "distractors": [
+        "Any whole number",
+        "Only one",
+        "As many as the programmer wants"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, a string is:",
+      "correct": "A sequence of text characters",
+      "distractors": [
+        "A whole number with no decimal point",
+        "A number that includes a decimal point",
+        "A type of computer memory"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A program stores the value 12.5. Based on the paragraph, which data type is this?",
+      "correct": "A float",
+      "distractors": [
+        "An integer",
+        "A boolean",
+        "A string"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A program asks a user for their age and stores the answer as the string \"14.\" The program then tries to add 1 to it. Based on the paragraph, what is the most likely result?",
+      "correct": "The program may behave unexpectedly or crash",
+      "distractors": [
+        "The string will automatically become an integer",
+        "The program will always print 15 correctly",
+        "Nothing at all will happen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

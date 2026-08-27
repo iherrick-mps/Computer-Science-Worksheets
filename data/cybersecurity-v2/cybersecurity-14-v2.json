@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-14-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 14,
+  "title": "Worksheet 14: White Hat vs. Black Hat Hackers (V2.0)",
+  "topic": "White Hat vs. Black Hat Hackers",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The word \"hacker\" is often used to describe someone with skilled knowledge of computer systems, but not all hackers use their skills for harmful purposes. Cybersecurity professionals commonly divide hackers into categories based on their intentions. A \"black hat\" hacker breaks into computer systems illegally, often to steal information, cause damage, or gain financial benefit, without permission from the system's owner. A \"white hat\" hacker, sometimes called an \"ethical hacker,\" uses similar technical skills, but does so legally and with permission, typically working for a company to intentionally search for security weaknesses before criminals can find and exploit them, a practice sometimes called \"penetration testing.\" A third category, \"gray hat\" hackers, falls somewhere in between: they may break into a system without permission, similar to a black hat hacker, but their intention is often to expose a security weakness rather than cause harm, sometimes notifying the company afterward, even though the act itself is still technically unauthorized and can still be illegal.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a black hat hacker breaks into systems:",
+      "correct": "Illegally, without permission from the system's owner",
+      "distractors": [
+        "Legally, under a written contract",
+        "Only with the owner watching",
+        "Only to install software updates"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, another name for a white hat hacker is:",
+      "correct": "An ethical hacker",
+      "distractors": [
+        "A gray hat hacker",
+        "A network administrator",
+        "A software engineer"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is penetration testing?",
+      "correct": "Intentionally searching for security weaknesses before criminals find them",
+      "distractors": [
+        "Installing a firewall on every company device",
+        "Teaching employees to spot phishing emails",
+        "Encrypting a company's customer records"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, what separates a white hat from a black hat, given that both use similar technical skills?",
+      "correct": "Permission and legality — the white hat acts legally and with the owner's consent",
+      "distractors": [
+        "The type of computer each one uses",
+        "The number of systems each one can access",
+        "How quickly each one finds a weakness"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Someone breaks into a company's system without permission, finds a flaw, and emails the company about it. Based on the paragraph, how would this be classified?",
+      "correct": "A gray hat, since the intent was to expose a weakness but the act was still unauthorized",
+      "distractors": [
+        "A white hat, because they reported the flaw",
+        "A black hat, because all reporting is illegal",
+        "Not hacking at all, since nothing was stolen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

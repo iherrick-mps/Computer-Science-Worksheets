@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-09-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 9,
+  "title": "Worksheet 9: Virtual Private Networks (VPNs) (V2.0)",
+  "topic": "Virtual Private Networks (VPNs)",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A virtual private network, or VPN, is a service that creates a secure, encrypted connection between a person's device and the internet, routing their internet traffic through a separate server before it reaches its final destination. This encrypted connection, often called a \"tunnel,\" helps protect a person's data from being intercepted or read by others on the same network, which is especially useful when using public Wi-Fi, such as at a coffee shop or airport, where attackers may be able to monitor unprotected network traffic. A VPN also hides a user's real IP address, which is a unique number that identifies a device on the internet and can reveal general location information, replacing it with the IP address of the VPN server instead. This can make it harder for websites or attackers to track a person's true location or identity online. While VPNs provide useful privacy and security benefits, they do not make a person completely anonymous or protect against all types of cyberattacks, such as phishing or malware that a person downloads directly onto their own device.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a VPN creates:",
+      "correct": "A secure, encrypted connection between a device and the internet",
+      "distractors": [
+        "A faster processor inside the device",
+        "A backup copy of every file on the device",
+        "A new email account for the user"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is the encrypted connection often called?",
+      "correct": "A tunnel",
+      "distractors": [
+        "A bridge",
+        "A gateway",
+        "A firewall"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does an IP address do?",
+      "correct": "Identifies a device on the internet and can reveal general location information",
+      "distractors": [
+        "Stores a person's saved passwords",
+        "Measures how fast a connection is",
+        "Controls which programs can be installed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, why is a VPN especially useful on public Wi-Fi?",
+      "correct": "It helps protect data from being intercepted by others on the same network",
+      "distractors": [
+        "It makes the public network run faster for everyone",
+        "It prevents other people from joining the network",
+        "It creates a private network the user owns"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A user turns on a VPN and then downloads malware from a link in a phishing email. Based on the paragraph, will the VPN protect them?",
+      "correct": "No — a VPN does not protect against phishing or malware a person downloads themselves",
+      "distractors": [
+        "Yes, because a VPN blocks all cyberattacks",
+        "Yes, because encryption removes malware",
+        "Yes, because hiding an IP address deletes downloads"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

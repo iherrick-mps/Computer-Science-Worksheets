@@ -1,55 +1,49 @@
 {
   "order": [
-    "cs-basics-1",
-    "cs-basics-2",
-    "cybersecurity",
-    "roblox-safety",
-    "pentesting",
-    "data-structures",
-    "loops"
+    "data-structures-v2",
+    "cybersecurity-v2",
+    "cs-basics-1-v2",
+    "cs-basics-2-v2",
+    "roblox-safety-v2",
+    "pentesting-v2"
   ],
+  "version": "V2.0",
   "sets": {
-    "cs-basics-1": {
-      "title": "Computer Science Basics — Set 1",
-      "description": "Foundational CS concepts: algorithms, binary, variables, loops, conditionals, hardware and software, and key figures in computing history.",
-      "readingLevel": "Standard (grades 6-8)",
-      "tiered": false
-    },
-    "cs-basics-2": {
-      "title": "Computer Science Basics — Set 2",
-      "description": "More foundational CS: operating systems, RAM vs. storage, arrays, programming languages, pixels, search engines, cloud computing, and computing history.",
-      "readingLevel": "Standard (grades 6-8)",
-      "tiered": false
-    },
-    "cybersecurity": {
-      "title": "Cybersecurity",
-      "description": "Phishing, malware, viruses, firewalls, two-factor authentication, social engineering, ransomware, VPNs, data breaches, and digital footprints.",
-      "readingLevel": "Standard (grades 6-8)",
-      "tiered": false
-    },
-    "roblox-safety": {
-      "title": "Roblox Online Safety",
-      "description": "Online safety while gaming: strangers, personal information, chat risks, Robux scams, cyberbullying, reporting tools, warning signs, and trusted adults.",
-      "readingLevel": "Simplified (grade 6)",
-      "tiered": false
-    },
-    "pentesting": {
-      "title": "White Hat Hacking & Penetration Testing",
-      "description": "Ethical hacking, pen test phases, scope and authorization, red vs. blue team, bug bounties, CTF competitions, certifications, and cybersecurity careers.",
-      "readingLevel": "Standard (grades 6-8)",
-      "tiered": false
-    },
-    "data-structures": {
+    "data-structures-v2": {
       "title": "Data Structures & Variables",
       "description": "Data types, integers and floats, strings, concatenation, indexing, booleans, lists, dictionaries, tuples, nested lists, and type conversion.",
       "readingLevel": "Standard (grades 6-8)",
       "tiered": false
     },
-    "loops": {
-      "title": "Loops",
-      "description": "For loops, while loops, counters, infinite loops, nested loops, break and continue, off-by-one errors, the accumulator pattern, and loop efficiency.",
+    "cybersecurity-v2": {
+      "title": "Cybersecurity",
+      "description": "Phishing, malware, viruses, firewalls, two-factor authentication, social engineering, ransomware, VPNs, data breaches, and digital footprints.",
       "readingLevel": "Standard (grades 6-8)",
-      "tiered": true
+      "tiered": false
+    },
+    "cs-basics-1-v2": {
+      "title": "Computer Science Basics — Set 1",
+      "description": "Foundational CS concepts: algorithms, binary, variables, loops, conditionals, hardware and software, and key figures in computing history.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false
+    },
+    "cs-basics-2-v2": {
+      "title": "Computer Science Basics — Set 2",
+      "description": "More foundational CS: operating systems, RAM vs. storage, arrays, programming languages, pixels, search engines, cloud computing, and computing history.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false
+    },
+    "roblox-safety-v2": {
+      "title": "Roblox Online Safety",
+      "description": "Online safety while gaming: strangers, personal information, chat risks, Robux scams, cyberbullying, reporting tools, warning signs, and trusted adults.",
+      "readingLevel": "Simplified (grade 6)",
+      "tiered": false
+    },
+    "pentesting-v2": {
+      "title": "White Hat Hacking & Penetration Testing",
+      "description": "Ethical hacking, pen test phases, scope and authorization, red vs. blue team, bug bounties, CTF competitions, certifications, and cybersecurity careers.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": false
     }
   }
 }

@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-04-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 4,
+  "title": "Worksheet 4: Computer Viruses (V2.0)",
+  "topic": "Computer Viruses",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A computer virus is a specific type of malware that can copy itself and spread from one computer to another, similar to how a biological virus spreads between people. A key feature of a computer virus is that it needs a \"host,\" meaning it attaches itself to a legitimate file or program, and it only activates and spreads when that infected file is opened or run by a user. Once activated, a virus can damage or delete files, slow down a computer's performance, or spread itself to other files and devices, sometimes by attaching itself to files being sent over email or shared over a network. This is different from a computer \"worm,\" which is another type of malicious program that can spread on its own across networks without needing to attach itself to a file or without requiring a person to open anything. The world's first well-known computer virus to spread on personal computers, called the \"Brain\" virus, was created in 1986 in Pakistan.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a computer virus is a type of:",
+      "correct": "Malware",
+      "distractors": [
+        "Firewall",
+        "Software update",
+        "Backup system"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does a virus need in order to spread?",
+      "correct": "A host file or program to attach itself to",
+      "distractors": [
+        "A printer connected to the computer",
+        "A password from the user",
+        "An internet connection at all times"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, when does a virus activate?",
+      "correct": "When the infected file is opened or run by a user",
+      "distractors": [
+        "Exactly one week after it arrives",
+        "Only when the computer is turned off",
+        "Only when antivirus software is installed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, what is the key difference between a virus and a worm?",
+      "correct": "A worm can spread on its own without attaching to a file or needing a person to open anything",
+      "distractors": [
+        "A worm can only infect one computer ever",
+        "A virus spreads faster than any worm",
+        "A worm is not considered malicious software"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "An infected file sits unopened in a user's downloads folder for a month. Based on the paragraph, what would you expect?",
+      "correct": "The virus has not activated or spread, because no one has run the file",
+      "distractors": [
+        "The virus has already deleted every file on the device",
+        "The file has repaired itself over time",
+        "The virus has turned into a worm"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

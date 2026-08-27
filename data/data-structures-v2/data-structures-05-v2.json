@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-05-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 5,
+  "title": "Worksheet 5: String Indexing (V2.0)",
+  "topic": "String Indexing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because a string is made up of a sequence of individual characters, each character within a string has a specific position, called an \"index,\" that allows a programmer to access any single character directly. In most programming languages, string indexing starts counting at 0 rather than 1, meaning the very first character in a string is located at index 0, the second character is at index 1, and so on. For example, in the string \"Robot\", the letter \"R\" is at index 0, the letter \"o\" is at index 1, and the final letter \"t\" is at index 4. Attempting to access an index that does not exist within a string, such as asking for index 10 in a five-letter word, typically causes an error, since there is no character actually stored at that position. String indexing is especially useful for tasks like checking the first letter of a word, reversing a string, or extracting a smaller piece of text from within a longer string.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an index is:",
+      "correct": "The position of a specific character within a string",
+      "distractors": [
+        "The total length of a string",
+        "The name a programmer gives a string",
+        "A symbol used to join two strings"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, string indexing usually starts counting at:",
+      "correct": "0",
+      "distractors": [
+        "1",
+        "-1",
+        "the last character"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what typically happens if you ask for an index that does not exist?",
+      "correct": "An error occurs",
+      "distractors": [
+        "The computer returns a blank space",
+        "The string starts over from the beginning",
+        "The computer guesses the closest character"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "In the string \"Robot\", which index holds the letter \"b\"?",
+      "correct": "Index 2",
+      "distractors": [
+        "Index 1",
+        "Index 3",
+        "Index 4"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A programmer wants to check whether a student's name begins with the letter S. Based on the paragraph, which index should the program look at?",
+      "correct": "Index 0",
+      "distractors": [
+        "Index 1",
+        "Index 5",
+        "The last index in the string"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

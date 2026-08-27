@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-07-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 7,
+  "title": "Worksheet 7: Grace Hopper and the First \"Bug\" (V2.0)",
+  "topic": "Grace Hopper and the First \"Bug\"",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Grace Hopper was an American computer scientist and U.S. Navy officer who made major contributions to early computer programming. In 1947, Hopper and her team were working on a computer called the Mark II when the machine suddenly stopped working correctly. When they investigated, they found an actual moth trapped inside one of the computer's electrical relays, causing the malfunction. The team removed the moth and taped it into their logbook, writing \"First actual case of bug being found.\" While the term \"bug\" had been used before to describe technical problems, this event is one of the most famous early examples of the word being used this way, and it helped popularize the term \"debugging\" to describe the process of finding and fixing errors in a program. Grace Hopper also helped develop one of the first programming languages that used English-like words instead of numbers.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what did Hopper's team find inside the Mark II?",
+      "correct": "A moth trapped in an electrical relay",
+      "distractors": [
+        "A broken circuit board",
+        "A missing punched card",
+        "A loose electrical wire"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, in what year did this happen?",
+      "correct": "1947",
+      "distractors": [
+        "1937",
+        "1957",
+        "1988"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what did the team do with the moth?",
+      "correct": "Taped it into their logbook",
+      "distractors": [
+        "Threw it away immediately",
+        "Mailed it to the Navy",
+        "Kept it inside the machine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what else did Grace Hopper help develop?",
+      "correct": "One of the first programming languages that used English-like words instead of numbers",
+      "distractors": [
+        "The first computer mouse",
+        "The first electrical relay",
+        "The first algorithm for a machine"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, was 1947 the very first time the word \"bug\" described a technical problem?",
+      "correct": "No — the term had been used before, but this became one of the most famous examples",
+      "distractors": [
+        "Yes, the word was invented that day",
+        "No, but the word meant something completely different",
+        "Yes, and it was never used again afterward"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

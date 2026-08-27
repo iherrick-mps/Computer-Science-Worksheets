@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-10-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 10,
+  "title": "Worksheet 10: Cloud Computing (V2.0)",
+  "topic": "Cloud Computing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cloud computing refers to storing data and running programs over the internet on remote servers, instead of storing everything directly on a person's own computer or device. When someone saves a photo to a cloud storage service, or uses an online program to edit a document, they are actually sending that information over the internet to be stored or processed on powerful computers located in large facilities called data centers, which may be located far away, even in a different country. This offers several benefits: a person can access their files from any device with an internet connection, they don't have to worry as much about losing information if their own device breaks, and companies can use as much computing power as they need without buying and maintaining their own expensive equipment. However, cloud computing does have a downside: without an internet connection, a person often cannot access files or programs that are stored only in the cloud.",
+  "questions": [
+    {
+      "text": "According to the paragraph, cloud computing means storing data and running programs:",
+      "correct": "Over the internet on remote servers",
+      "distractors": [
+        "Only on a person's own hard drive",
+        "Using paper backups in a filing cabinet",
+        "Without any computers involved"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, the large facilities that hold these computers are called:",
+      "correct": "Data centers",
+      "distractors": [
+        "Cloud towers",
+        "Web crawlers",
+        "Server rooms in each home"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is one benefit of cloud computing?",
+      "correct": "Files can be accessed from any device with an internet connection",
+      "distractors": [
+        "Files load faster without any connection",
+        "Devices never need to be charged",
+        "Programs never need updates"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is a downside of cloud computing?",
+      "correct": "Without an internet connection, cloud-only files often cannot be accessed",
+      "distractors": [
+        "Files are automatically deleted each year",
+        "Cloud files can only be opened once",
+        "Data centers must be in the same city as the user"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A small company needs a lot of computing power for one busy month each year. Based on the paragraph, why might the cloud help?",
+      "correct": "They can use as much computing power as they need without buying and maintaining expensive equipment",
+      "distractors": [
+        "Cloud computing is always free of charge",
+        "Their own equipment would work without electricity",
+        "Data centers only operate one month per year"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

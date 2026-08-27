@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-01-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 1,
+  "title": "Worksheet 1: What Is an Operating System? (V2.0)",
+  "topic": "What Is an Operating System?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An operating system (OS) is the main software that manages a computer's hardware and allows other programs to run. Every computer, smartphone, and tablet needs an operating system in order to function properly. The operating system controls basic tasks such as managing memory, running programs, controlling input and output devices like the keyboard and screen, and organizing files into folders. Popular examples of operating systems include Windows, macOS, Linux, Android, and iOS. Without an operating system, a person would have to give the computer's hardware extremely detailed instructions just to open a single program, because there would be nothing translating between the software the user wants to use and the physical parts of the machine. Because the operating system is the first thing that loads when a computer turns on, and everything else runs on top of it, it is sometimes called the \"platform\" that other software depends on.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an operating system is the main software that:",
+      "correct": "Manages a computer's hardware and allows other programs to run",
+      "distractors": [
+        "Connects a computer to the internet",
+        "Stores photographs permanently",
+        "Protects a computer from all viruses"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which of these is an example of an operating system?",
+      "correct": "Linux",
+      "distractors": [
+        "Google",
+        "Bluetooth",
+        "Python"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which basic task does an operating system control?",
+      "correct": "Organizing files into folders",
+      "distractors": [
+        "Choosing which websites are safe",
+        "Designing new computer chips",
+        "Writing programs for the user"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why is the OS sometimes called a \"platform\"?",
+      "correct": "It loads first and everything else runs on top of it",
+      "distractors": [
+        "It is shaped like a flat surface inside the computer",
+        "It can only run one program at a time",
+        "It is the largest file on the computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, what would a person have to do without an operating system?",
+      "correct": "Give the hardware extremely detailed instructions just to open one program",
+      "distractors": [
+        "Use a keyboard instead of a mouse",
+        "Write every program in binary by hand",
+        "Buy a second computer to run programs"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

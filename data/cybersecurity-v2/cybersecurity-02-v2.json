@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-02-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 2,
+  "title": "Worksheet 2: Phishing Scams (V2.0)",
+  "topic": "Phishing Scams",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Phishing is a type of cyberattack in which criminals send fake emails, text messages, or other messages designed to trick people into revealing sensitive information, such as passwords, credit card numbers, or personal details. Phishing messages often pretend to come from a trustworthy source, such as a bank, a well-known company, or even a friend or coworker, and they frequently create a sense of urgency, warning that an account will be locked or a payment is overdue, to pressure the person into acting quickly without thinking carefully. Many phishing messages contain a link that leads to a fake website designed to look exactly like a real one, so when a person enters their username and password, the information is actually sent directly to the attacker. Some warning signs of phishing include misspelled words, generic greetings like \"Dear Customer\" instead of a real name, suspicious sender email addresses, and links that don't quite match the company's real website address.",
+  "questions": [
+    {
+      "text": "According to the paragraph, phishing is designed to trick people into:",
+      "correct": "Revealing sensitive information such as passwords or credit card numbers",
+      "distractors": [
+        "Buying software they do not need",
+        "Deleting their own files by accident",
+        "Turning off their computers permanently"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, phishing messages often pretend to come from:",
+      "correct": "A trustworthy source, such as a bank or a well-known company",
+      "distractors": [
+        "An unknown foreign country",
+        "A random string of numbers",
+        "A person's own computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is one warning sign of a phishing message?",
+      "correct": "A generic greeting like \"Dear Customer\" instead of a real name",
+      "distractors": [
+        "The message arrives in the morning",
+        "The message is longer than one page",
+        "The message includes the company's phone number"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A message warns that an account will be locked within one hour unless the reader clicks a link. Based on the paragraph, why do attackers write messages this way?",
+      "correct": "A sense of urgency pressures people into acting quickly without thinking carefully",
+      "distractors": [
+        "Accounts really are locked after exactly one hour",
+        "Long deadlines are against email rules",
+        "It makes the message easier to translate"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A student clicks a link in a suspicious email and types their password into a page that looks exactly like their school login. Based on the paragraph, where did that password most likely go?",
+      "correct": "Directly to the attacker, because the page was a fake copy of the real site",
+      "distractors": [
+        "Only to the school's login system, as normal",
+        "Nowhere, because fake pages cannot collect text",
+        "To the student's own device, stored safely"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

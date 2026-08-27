@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-04-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 4,
+  "title": "Worksheet 4: String Concatenation (V2.0)",
+  "topic": "String Concatenation",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "String concatenation is the process of joining two or more strings together to form a single, longer string. In many programming languages, concatenation is performed using the plus symbol (+), similar to how addition works with numbers, but when used with strings, the plus symbol joins the text together end to end instead of adding numeric values. For example, concatenating the string \"Hello, \" with the string \"world!\" produces the single combined string \"Hello, world!\" Programmers often use concatenation to build custom messages that include changing information, such as combining the fixed text \"Your score is \" with a variable that stores a player's current score, so the final message displayed changes depending on the player's actual score. One common mistake when concatenating is forgetting to include a space between two pieces of text, which can accidentally cause two words to run together, such as producing \"Helloworld!\" instead of the intended \"Hello world!\"",
+  "questions": [
+    {
+      "text": "According to the paragraph, string concatenation is:",
+      "correct": "Joining two or more strings together into one longer string",
+      "distractors": [
+        "Deleting text from the middle of a string",
+        "Turning a string into a number",
+        "Sorting text into alphabetical order"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, which symbol is often used to concatenate strings?",
+      "correct": "The plus symbol (+)",
+      "distractors": [
+        "The equals symbol (=)",
+        "The question mark (?)",
+        "The star symbol (*)"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is one common mistake programmers make when concatenating?",
+      "correct": "Forgetting to include a space between two pieces of text",
+      "distractors": [
+        "Using too many numbers in the message",
+        "Writing the message in all capital letters",
+        "Using a variable instead of fixed text"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A program concatenates \"Level \" with \"3\". Based on the paragraph, what is the result?",
+      "correct": "\"Level 3\"",
+      "distractors": [
+        "\"Level\" and \"3\" stay completely separate",
+        "\"Level3 \" with the space moved to the end",
+        "An error, because a number cannot be joined to text"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A game shows a different ending message for every player. Based on the paragraph, why is concatenation useful here?",
+      "correct": "Fixed text can be combined with a variable so the message changes with the player's data",
+      "distractors": [
+        "It lets the game store more players in memory",
+        "It converts every message into a number automatically",
+        "It removes any spaces the player typed by mistake"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

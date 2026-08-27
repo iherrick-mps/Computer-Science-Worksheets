@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-08-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 8,
+  "title": "Worksheet 8: Encryption Basics (V2.0)",
+  "topic": "Encryption Basics",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Encryption is the process of converting readable information, called \"plaintext,\" into a scrambled, unreadable format, called \"ciphertext,\" so that only someone with the correct key can turn it back into readable information. Encryption is used constantly on the internet to protect sensitive information, such as passwords, credit card numbers, and private messages, as they travel between devices. Without encryption, anyone able to intercept the data traveling across a network could read it directly. A simple way to understand encryption is to imagine a basic code where every letter in a message is shifted forward in the alphabet by a certain number of spots; if you know the number of spots used, you can easily decode the message, but without that number, called the \"key,\" the message looks like meaningless scrambled letters. Modern encryption used by websites and apps is far more complex than this simple example, using long, complicated mathematical keys that would take even powerful computers an enormous amount of time to guess.",
+  "questions": [
+    {
+      "text": "According to the paragraph, readable information is called:",
+      "correct": "Plaintext",
+      "distractors": [
+        "Ciphertext",
+        "Keytext",
+        "Binary"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what is needed to turn ciphertext back into readable information?",
+      "correct": "The correct key",
+      "distractors": [
+        "A faster computer",
+        "A second copy of the message",
+        "An internet connection"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does encryption protect as it travels between devices?",
+      "correct": "Sensitive information such as passwords and credit card numbers",
+      "distractors": [
+        "The speed of the internet connection",
+        "The battery life of a device",
+        "The size of a computer's screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what would happen without encryption?",
+      "correct": "Anyone able to intercept data on a network could read it directly",
+      "distractors": [
+        "Data would travel much more slowly",
+        "Websites would refuse to load at all",
+        "Messages would be deleted before arriving"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, why is modern encryption hard to break even with a powerful computer?",
+      "correct": "It uses long, complicated mathematical keys that would take an enormous amount of time to guess",
+      "distractors": [
+        "Computers are not allowed to try guessing keys",
+        "Modern messages are too short to decode",
+        "Each key can only be used one time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

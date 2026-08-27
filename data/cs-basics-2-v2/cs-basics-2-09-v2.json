@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-09-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 9,
+  "title": "Worksheet 9: Flowcharts (V2.0)",
+  "topic": "Flowcharts",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A flowchart is a diagram that uses shapes and arrows to visually represent the steps of a process or algorithm, making it easier for programmers to plan out logic before writing actual code. Different shapes in a flowchart have different meanings by convention. An oval usually marks the start or end of a process. A rectangle represents a step or action to be performed. A diamond represents a decision point, where the process branches in different directions depending on whether the answer is \"yes\" or \"no.\" Arrows connect the shapes and show the order in which steps happen, guiding the reader through the process from beginning to end. Flowcharts are useful because they let programmers, and even non-programmers, see the overall logic of a process at a glance, which can make it easier to spot missing steps or errors in logic before any code is written.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a flowchart uses shapes and arrows to represent:",
+      "correct": "The steps of a process or algorithm",
+      "distractors": [
+        "The physical parts of a computer",
+        "The colors used in an image",
+        "The cost of building a program"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does an oval usually mark?",
+      "correct": "The start or end of a process",
+      "distractors": [
+        "A decision point",
+        "A step or action",
+        "The order of the steps"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does a diamond represent?",
+      "correct": "A decision point where the process branches",
+      "distractors": [
+        "An action to be performed",
+        "The beginning of the process",
+        "A missing step in the logic"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do arrows show?",
+      "correct": "The order in which steps happen",
+      "distractors": [
+        "Which shapes are most important",
+        "How long each step takes",
+        "Which steps contain errors"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, what is the advantage of drawing a flowchart before writing code?",
+      "correct": "Missing steps or errors in logic can be spotted before any code is written",
+      "distractors": [
+        "The flowchart runs on the computer as a program",
+        "Flowcharts remove the need to write code at all",
+        "Flowcharts translate code into binary"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

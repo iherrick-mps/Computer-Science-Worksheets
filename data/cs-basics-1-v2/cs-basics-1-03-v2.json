@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-03-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 3,
+  "title": "Worksheet 3: Variables (V2.0)",
+  "topic": "Variables",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In computer programming, a variable is a labeled container used to store a piece of information so it can be used later. Think of a variable like a labeled box: you can put something inside it, give the box a name, and open it again later to see what's inside or change what's stored there. For example, a programmer might create a variable named \"score\" to keep track of a player's points in a game. At the start of the game, \"score\" might be set to 0. As the player earns points, the program changes the value stored inside the \"score\" variable. Variables can hold different types of information, such as numbers, words (called \"text\" or \"strings\"), or true/false values. Giving variables clear, descriptive names, like \"score\" instead of \"x,\" helps programmers understand what the code is doing.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a variable is:",
+      "correct": "A labeled container used to store a piece of information for later use",
+      "distractors": [
+        "A step-by-step list of instructions",
+        "A physical part inside a computer",
+        "A repeated set of instructions"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, a variable is compared to:",
+      "correct": "A labeled box",
+      "distractors": [
+        "A recipe",
+        "A locked door",
+        "A moving conveyor belt"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which types of information can variables hold?",
+      "correct": "Numbers, words, or true/false values",
+      "distractors": [
+        "Only whole numbers",
+        "Only text",
+        "Only true/false values"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why is a name like \"score\" better than \"x\"?",
+      "correct": "Clear, descriptive names help programmers understand what the code is doing",
+      "distractors": [
+        "Longer names make programs run faster",
+        "Single letters are not allowed in code",
+        "Names must always be real English words"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A game starts \"score\" at 0, and the player earns 10 points. Based on the paragraph, what has happened to the variable?",
+      "correct": "The program changed the value stored inside it",
+      "distractors": [
+        "A second variable was created automatically",
+        "The variable's name changed to match the points",
+        "The variable was deleted and rebuilt"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-08-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 8,
+  "title": "Worksheet 8: Hardware vs. Software (V2.0)",
+  "topic": "Hardware vs. Software",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Every computer system is made up of two basic categories: hardware and software. Hardware refers to the physical parts of a computer that you can actually touch, such as the keyboard, mouse, monitor, hard drive, and the internal circuit boards. If you could open up a computer and hold a piece in your hand, it is hardware. Software, on the other hand, refers to the programs and instructions that tell the hardware what to do. Software cannot be physically touched; it exists as code stored on the hardware. For example, a word processing program, a web browser, and a video game are all examples of software. Hardware and software depend on each other to make a computer useful: hardware without software has no instructions to follow, and software without hardware has no physical machine to run on.",
+  "questions": [
+    {
+      "text": "According to the paragraph, hardware refers to:",
+      "correct": "The physical parts of a computer you can actually touch",
+      "distractors": [
+        "The programs stored on a computer",
+        "The instructions a computer follows",
+        "The websites a computer visits"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, which of these is software?",
+      "correct": "A web browser",
+      "distractors": [
+        "A keyboard",
+        "A monitor",
+        "A hard drive"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, where does software exist?",
+      "correct": "As code stored on the hardware",
+      "distractors": [
+        "Inside the monitor's screen only",
+        "On paper inside the computer case",
+        "In a separate building from the computer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what happens to hardware without software?",
+      "correct": "It has no instructions to follow",
+      "distractors": [
+        "It runs much faster than usual",
+        "It turns into software over time",
+        "It works exactly the same as before"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, what test tells you whether something is hardware?",
+      "correct": "Whether you could open the computer and hold that piece in your hand",
+      "distractors": [
+        "Whether it cost money to buy",
+        "Whether it can be updated online",
+        "Whether it displays anything on the screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

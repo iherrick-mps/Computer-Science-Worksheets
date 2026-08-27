@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-15-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 15,
+  "title": "Worksheet 15: The History of ENIAC (V2.0)",
+  "topic": "The History of ENIAC",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "ENIAC, which stands for Electronic Numerical Integrator and Computer, was completed in 1945 and is widely considered one of the first general-purpose electronic computers, meaning it could be reprogrammed to solve different types of problems rather than being built to do just one specific task. ENIAC was enormous compared to modern computers, filling an entire room and weighing about 30 tons, using nearly 18,000 vacuum tubes to perform calculations. Unlike modern computers, which can be programmed using a keyboard, reprogramming ENIAC to solve a different problem required physically rewiring the machine by hand, plugging and unplugging cables and flipping switches, a process that could take days. ENIAC was originally built for the United States Army to calculate artillery firing tables, but it was also later used for early research related to the hydrogen bomb. Notably, ENIAC's programming team was made up mainly of women, including Kay McNulty, Betty Jennings, and several others, who are now recognized as among the first computer programmers in history, even though their contributions went largely uncredited for decades.",
+  "questions": [
+    {
+      "text": "According to the paragraph, in what year was ENIAC completed?",
+      "correct": "1945",
+      "distractors": [
+        "1935",
+        "1955",
+        "1968"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, about how much did ENIAC weigh?",
+      "correct": "About 30 tons",
+      "distractors": [
+        "About 3 tons",
+        "About 300 pounds",
+        "About 30 pounds"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what was ENIAC originally built to calculate?",
+      "correct": "Artillery firing tables for the United States Army",
+      "distractors": [
+        "Weather forecasts for farmers",
+        "Bernoulli numbers for mathematicians",
+        "Payroll records for a factory"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does it mean that ENIAC was \"general-purpose\"?",
+      "correct": "It could be reprogrammed to solve different types of problems",
+      "distractors": [
+        "It could be used by anyone without training",
+        "It was sold to the general public",
+        "It could run without electricity"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why did reprogramming ENIAC take days rather than minutes?",
+      "correct": "The machine had to be physically rewired by hand, plugging cables and flipping switches",
+      "distractors": [
+        "Its vacuum tubes had to be replaced each time",
+        "Only one programmer was allowed to work at a time",
+        "The Army required a waiting period between programs"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

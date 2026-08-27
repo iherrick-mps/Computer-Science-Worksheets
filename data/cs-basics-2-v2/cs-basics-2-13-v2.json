@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-13-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 13,
+  "title": "Worksheet 13: The History of Alan Turing (V2.0)",
+  "topic": "The History of Alan Turing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Alan Turing was a British mathematician who made major contributions to computer science and is often called one of the founders of the field, decades before modern computers existed in the form we know today. In the 1930s, Turing described a theoretical machine, now called a \"Turing machine,\" which could read and write symbols on an endless strip of tape according to a set of rules, and he used this idea to help explain what problems a computer could or could not theoretically solve. During World War II, Turing worked at Britain's Bletchley Park, where he helped design machines that assisted in breaking Nazi Germany's Enigma code, which the German military used to send secret encrypted messages. Breaking this code is widely credited with shortening the war and saving many lives. Later, Turing also proposed a test, now called the \"Turing Test,\" to help determine whether a machine could exhibit behavior intelligent enough to be indistinguishable from a human's.",
+  "questions": [
+    {
+      "text": "According to the paragraph, Alan Turing was a mathematician from:",
+      "correct": "Britain",
+      "distractors": [
+        "The United States",
+        "Germany",
+        "France"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what did a Turing machine read and write symbols on?",
+      "correct": "An endless strip of tape",
+      "distractors": [
+        "A stack of punched cards",
+        "A glass screen",
+        "A magnetic hard drive"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, which code did Turing help break during World War II?",
+      "correct": "The Enigma code",
+      "distractors": [
+        "The Bletchley code",
+        "The Bernoulli code",
+        "The Morse code"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is the Turing Test meant to determine?",
+      "correct": "Whether a machine can behave intelligently enough to be indistinguishable from a human",
+      "distractors": [
+        "How fast a machine can perform calculations",
+        "Whether a machine is built correctly",
+        "How much electricity a machine uses"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why is breaking the Enigma code considered so significant?",
+      "correct": "It is widely credited with shortening the war and saving many lives",
+      "distractors": [
+        "It was the first use of a computer keyboard",
+        "It proved the Turing machine could be built",
+        "It created the first programming language"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

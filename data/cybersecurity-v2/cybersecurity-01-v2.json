@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-01-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 1,
+  "title": "Worksheet 1: What Is Cybersecurity? (V2.0)",
+  "topic": "What Is Cybersecurity?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cybersecurity is the practice of protecting computers, networks, programs, and data from unauthorized access, damage, or theft. As more of daily life happens online, including banking, shopping, schoolwork, and communication, protecting digital information has become just as important as locking the front door of a house. Cybersecurity threats can come from many different sources, including individual hackers seeking personal gain, organized criminal groups, and even government-sponsored attackers. The goals of an attacker can vary widely: some want to steal money or personal information, some want to disrupt a company's operations, and others simply want to prove they can break into a system. Cybersecurity professionals work to defend against these threats by building strong defenses, such as firewalls and encryption, monitoring systems for suspicious activity, and educating everyday users about safe online habits, since even the strongest technical defenses can be defeated if a person is tricked into giving away sensitive information.",
+  "questions": [
+    {
+      "text": "According to the paragraph, cybersecurity is the practice of:",
+      "correct": "Protecting computers, networks, programs, and data from unauthorized access, damage, or theft",
+      "distractors": [
+        "Building faster computers for businesses",
+        "Teaching people how to write computer programs",
+        "Selling software to schools and hospitals"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which of these is named as a source of cybersecurity threats?",
+      "correct": "Organized criminal groups",
+      "distractors": [
+        "Local libraries",
+        "Internet service repair crews",
+        "Software testing teams"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is one thing cybersecurity professionals do?",
+      "correct": "Monitor systems for suspicious activity",
+      "distractors": [
+        "Design video game characters",
+        "Repair broken computer screens",
+        "Write instruction manuals for printers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, what do the goals of attackers have in common?",
+      "correct": "Nothing single — goals vary widely, from stealing money to disrupting operations to proving they can break in",
+      "distractors": [
+        "Every attacker is trying to steal money",
+        "Every attacker works for a government",
+        "Every attacker wants to be caught eventually"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A company installs the strongest firewalls and encryption available, but an employee is tricked into giving away a password. Based on the paragraph, what does this show?",
+      "correct": "Even the strongest technical defenses can be defeated if a person is tricked",
+      "distractors": [
+        "Firewalls and encryption are not worth installing",
+        "Only government attackers can defeat encryption",
+        "Employees should not be allowed to use computers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

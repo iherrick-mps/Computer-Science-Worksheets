@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-08-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 8,
+  "title": "Worksheet 8: List Indexing (V2.0)",
+  "topic": "List Indexing",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Just like the individual characters within a string, each item stored inside a list has a specific position called an \"index,\" which allows a programmer to access, change, or remove any single item directly without having to search through the entire list. In most programming languages, list indexing starts counting at 0, meaning the first item in a list is located at index 0, the second item is at index 1, and so on. For example, in a list containing the items \"Alex\", \"Jordan\", and \"Sam\", the value \"Alex\" is located at index 0, \"Jordan\" is at index 1, and \"Sam\" is at index 2. Many programming languages also allow negative indexing, where an index of -1 refers to the very last item in the list, -2 refers to the second-to-last item, and so on, which can be a convenient way to access items near the end of a list without needing to know exactly how many items the list contains.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an index lets a programmer:",
+      "correct": "Access, change, or remove a single item directly",
+      "distractors": [
+        "Count how many lists a program contains",
+        "Rename the entire list",
+        "Convert the list into a single number"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, the first item in a list is located at:",
+      "correct": "Index 0",
+      "distractors": [
+        "Index 1",
+        "Index -1",
+        "The highest index in the list"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does an index of -1 refer to?",
+      "correct": "The very last item in the list",
+      "distractors": [
+        "The first item in the list",
+        "An item that does not exist",
+        "The middle item in the list"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In the list \"Alex\", \"Jordan\", \"Sam\", which index holds \"Sam\"?",
+      "correct": "Index 2",
+      "distractors": [
+        "Index 1",
+        "Index 3",
+        "Index 0"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A program must grab the final item from a list, but does not know how many items the list contains. Based on the paragraph, what is the most convenient approach?",
+      "correct": "Use negative indexing with -1",
+      "distractors": [
+        "Use index 0 instead",
+        "Count the items by hand before running the program",
+        "Remove items until only one is left"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

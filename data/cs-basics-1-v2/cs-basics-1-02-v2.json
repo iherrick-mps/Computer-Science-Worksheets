@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-02-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 2,
+  "title": "Worksheet 2: Binary Numbers (V2.0)",
+  "topic": "Binary Numbers",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Computers do not understand words or numbers the way people do. Instead, computers store and process all information using only two digits: 0 and 1. This number system is called binary. Each 0 or 1 is called a \"bit,\" which is short for \"binary digit.\" Inside a computer, a bit is stored as an electrical signal that is either off (0) or on (1). By grouping bits together in different patterns, computers can represent letters, numbers, colors, and even sounds. For example, the pattern 01000001 can represent the letter \"A\" in one common computer code. Eight bits grouped together are called a \"byte.\" The word \"binary\" comes from a Latin word meaning \"two,\" because the system only uses two possible digits.",
+  "questions": [
+    {
+      "text": "According to the paragraph, which two digits do computers use to store all information?",
+      "correct": "0 and 1",
+      "distractors": [
+        "1 and 2",
+        "0 and 9",
+        "A and B"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a \"bit\" short for?",
+      "correct": "Binary digit",
+      "distractors": [
+        "Basic input",
+        "Byte item",
+        "Built-in text"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how many bits are in a byte?",
+      "correct": "Eight",
+      "distractors": [
+        "Two",
+        "Four",
+        "Sixteen"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how is a bit stored inside a computer?",
+      "correct": "As an electrical signal that is either off or on",
+      "distractors": [
+        "As a printed number on a chip",
+        "As a color on the screen",
+        "As a sound the computer records"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, how can a system with only two digits represent letters, colors, and sounds?",
+      "correct": "By grouping bits together in different patterns",
+      "distractors": [
+        "By adding extra digits beyond 0 and 1",
+        "By converting them into words first",
+        "By storing each one on a separate computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

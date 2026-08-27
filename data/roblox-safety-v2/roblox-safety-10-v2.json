@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-10-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 10,
+  "title": "Worksheet 10: Screen Time and Balance (V2.0)",
+  "topic": "Screen Time and Balance",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Roblox and many other online games are designed to be engaging and fun, which can sometimes make it difficult for players to notice how much time has passed while playing. Some games include features like daily rewards, timed events, or in-game notifications that are specifically designed to encourage players to keep coming back and playing for longer periods of time. While playing games can be a fun and social activity, spending too much time playing without breaks can affect other important parts of a person's life, including sleep, schoolwork, exercise, and time spent with family or friends in person. Experts recommend that kids set clear time limits for gaming, take regular breaks, and use built-in screen time tools, which many devices and platforms offer, to help manage how long they play. Talking with a parent or guardian about a healthy amount of daily screen time can help make sure that gaming stays a fun and balanced part of a person's day, rather than taking over other important activities.",
+  "questions": [
+    {
+      "text": "According to the paragraph, which game feature is designed to keep players coming back?",
+      "correct": "Daily rewards",
+      "distractors": [
+        "A pause button",
+        "A volume control",
+        "A list of past scores"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which part of life can too much gaming affect?",
+      "correct": "Sleep and schoolwork",
+      "distractors": [
+        "The speed of a home internet connection",
+        "The number of games available",
+        "The cost of Robux"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what do experts recommend for kids?",
+      "correct": "Setting clear time limits and taking regular breaks",
+      "distractors": [
+        "Playing only on weekends, never weekdays",
+        "Quitting online games entirely",
+        "Playing until a game is finished"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what can help a person manage how long they play?",
+      "correct": "Built-in screen time tools offered by many devices and platforms",
+      "distractors": [
+        "Turning off the device's sound",
+        "Playing several games at once",
+        "Deleting old games from the device"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, why is it easy to lose track of time while playing?",
+      "correct": "The games are designed to be engaging, and some use timed events and notifications to extend play",
+      "distractors": [
+        "Most games hide the device's clock",
+        "Roblox games never end on their own",
+        "Players are not allowed to leave a game early"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

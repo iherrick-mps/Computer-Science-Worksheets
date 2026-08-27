@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-13-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 13,
+  "title": "Worksheet 13: The History of the Morris Worm (V2.0)",
+  "topic": "The History of the Morris Worm",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In 1988, a graduate student named Robert Tappan Morris created what became known as the \"Morris Worm,\" which is now widely considered one of the first computer worms to spread across the early internet. Morris later said he created the worm as an experiment to measure the size of the internet, rather than intending to cause harm, but a mistake in the worm's code caused it to spread much faster and infect computers far more aggressively than he had planned. Instead of infecting a computer once, the worm could infect the same machine multiple times, which quickly overloaded infected systems and caused them to slow down dramatically or crash entirely. The Morris Worm infected an estimated 6,000 computers, a substantial portion of the internet at the time, and caused significant disruption at universities, research labs, and military sites. Robert Morris was later convicted under a new computer crime law in the United States, making him one of the first people prosecuted for this kind of offense, and the incident led directly to the creation of some of the first organized computer security response teams.",
+  "questions": [
+    {
+      "text": "According to the paragraph, in what year was the Morris Worm created?",
+      "correct": "1988",
+      "distractors": [
+        "1986",
+        "1998",
+        "1978"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what did Morris later say his purpose was?",
+      "correct": "To measure the size of the internet as an experiment",
+      "distractors": [
+        "To steal money from universities",
+        "To sell antivirus software",
+        "To shut down military computers on purpose"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, about how many computers did the worm infect?",
+      "correct": "About 6,000",
+      "distractors": [
+        "About 600",
+        "About 60,000",
+        "About 6 million"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, what caused infected systems to slow down or crash?",
+      "correct": "A coding mistake let the worm infect the same machine multiple times",
+      "distractors": [
+        "The worm deleted every file it touched",
+        "The worm required users to open an attachment",
+        "Universities turned off their networks in response"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, what lasting change came out of the Morris Worm incident?",
+      "correct": "Some of the first organized computer security response teams were created",
+      "distractors": [
+        "Worms were made technically impossible",
+        "Universities stopped connecting to the internet",
+        "Computer crime laws were removed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

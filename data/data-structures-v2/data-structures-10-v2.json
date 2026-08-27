@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-10-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 10,
+  "title": "Worksheet 10: Looping Through Lists (V2.0)",
+  "topic": "Looping Through Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "One of the most common tasks in programming is looping through every item in a list, one at a time, in order to check, use, or change each value without having to write separate code for every single item individually. A \"for loop\" is often used for this purpose, automatically moving through a list from the first item to the last item, running the same block of code once for each individual item along the way. For example, a program could use a loop to go through a list of student grades and calculate the total sum of all the grades, or to check whether any grade in the list is below a passing score, without a programmer needing to know in advance exactly how many grades are in the list. Looping through a list is especially powerful because the exact same short piece of code can work correctly whether the list contains three items or three thousand items, since the loop automatically continues until it reaches the end of the list.",
+  "questions": [
+    {
+      "text": "According to the paragraph, looping through a list means:",
+      "correct": "Going through every item one at a time, in order",
+      "distractors": [
+        "Deleting the list once it is finished",
+        "Sorting the list from smallest to largest",
+        "Copying the list into a new variable"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which kind of loop is often used for this?",
+      "correct": "A for loop",
+      "distractors": [
+        "A boolean loop",
+        "An index loop",
+        "A string loop"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how many times does a for loop run the block of code?",
+      "correct": "Once for each individual item in the list",
+      "distractors": [
+        "Exactly three times, no matter the list",
+        "Only once for the whole list",
+        "Twice for every item in the list"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, which task would a loop handle well?",
+      "correct": "Adding up every grade stored in a list of student grades",
+      "distractors": [
+        "Deciding what to name a new variable",
+        "Choosing which programming language to use",
+        "Converting a list into a single true or false value"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer writes a loop for a list of 3 items, and later the list grows to 3,000 items. Based on the paragraph, what will happen to the loop?",
+      "correct": "The same code still works, because the loop continues until it reaches the end",
+      "distractors": [
+        "The loop must be rewritten for the larger list",
+        "The loop will stop after the first three items",
+        "The loop will skip every item after the first thousand"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

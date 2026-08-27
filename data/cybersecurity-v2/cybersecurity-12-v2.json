@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-12-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 12,
+  "title": "Worksheet 12: Software Updates and Patches (V2.0)",
+  "topic": "Software Updates and Patches",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Software updates, sometimes called \"patches,\" are changes released by software companies to fix problems, improve performance, or add new features to an existing program or operating system. One of the most important reasons updates are released is to fix security vulnerabilities, which are weaknesses in software that attackers could potentially exploit to gain unauthorized access to a device or steal information. When a vulnerability is discovered, whether by the company itself or by outside security researchers, the company typically works to create a patch that closes the security gap and then releases it to users. Devices that are not kept up to date remain vulnerable to attacks that have already been fixed for users who did install the update, which is why outdated software is a common target for attackers, since they know exactly which weaknesses to exploit. Because of this, cybersecurity experts strongly recommend installing software updates as soon as they become available, and many devices offer an option to install updates automatically to reduce the risk of forgetting.",
+  "questions": [
+    {
+      "text": "According to the paragraph, another name for a software update is:",
+      "correct": "A patch",
+      "distractors": [
+        "A firewall",
+        "A breach",
+        "A backup"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is a security vulnerability?",
+      "correct": "A weakness in software attackers could exploit",
+      "distractors": [
+        "A password that is too long to remember",
+        "A program that runs too slowly",
+        "A file that has been backed up twice"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do experts strongly recommend?",
+      "correct": "Installing software updates as soon as they become available",
+      "distractors": [
+        "Waiting a full year before updating",
+        "Updating only after a device is attacked",
+        "Turning off updates to save space"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why is outdated software a common target for attackers?",
+      "correct": "Attackers know exactly which already-fixed weaknesses are still open on those devices",
+      "distractors": [
+        "Older software runs faster and is easier to reach",
+        "Outdated devices have no firewalls at all",
+        "Attackers can only write code for old programs"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A device is set to install updates automatically. Based on the paragraph, what problem does this setting solve?",
+      "correct": "It reduces the risk of a user forgetting to install an update",
+      "distractors": [
+        "It stops all malware from ever being written",
+        "It removes the need for a password",
+        "It makes the device run at twice the speed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

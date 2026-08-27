@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-06-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 6,
+  "title": "Worksheet 6: The History of Ada Lovelace (V2.0)",
+  "topic": "The History of Ada Lovelace",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Ada Lovelace was a mathematician who lived in England in the 1800s, long before modern computers existed. She worked with inventor Charles Babbage on a machine called the \"Analytical Engine,\" which was designed to perform calculations using punched cards. While translating a French article about the machine, Lovelace added her own detailed notes, which ended up being three times longer than the original article. In these notes, she described a method for the Analytical Engine to calculate a sequence of numbers called Bernoulli numbers. Many historians consider this the first algorithm ever intended to be carried out by a machine, which is why Ada Lovelace is often called the world's first computer programmer. She also predicted that machines like the Analytical Engine could someday be used for more than just math, including creating music, which was a remarkable idea for her time.",
+  "questions": [
+    {
+      "text": "According to the paragraph, Ada Lovelace was a mathematician who lived in:",
+      "correct": "England in the 1800s",
+      "distractors": [
+        "The United States in the 1940s",
+        "France in the 1600s",
+        "England in the 1950s"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what was the machine she worked on called?",
+      "correct": "The Analytical Engine",
+      "distractors": [
+        "The Mark II",
+        "The Difference Machine",
+        "The Bernoulli Engine"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how long were her notes compared to the original article?",
+      "correct": "Three times longer",
+      "distractors": [
+        "Exactly the same length",
+        "Half as long",
+        "Ten times longer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why is Lovelace often called the world's first computer programmer?",
+      "correct": "Her method for calculating Bernoulli numbers is considered the first algorithm intended for a machine",
+      "distractors": [
+        "She built the first working computer herself",
+        "She invented the first programming language",
+        "She was the first person to use punched cards"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, what made her prediction about machines creating music remarkable?",
+      "correct": "She imagined uses beyond math long before modern computers existed",
+      "distractors": [
+        "Music had not been invented yet in the 1800s",
+        "The Analytical Engine was already playing music",
+        "She was the only mathematician in England"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

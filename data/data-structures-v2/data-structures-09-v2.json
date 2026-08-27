@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-09-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 9,
+  "title": "Worksheet 9: Adding and Removing List Items (V2.0)",
+  "topic": "Adding and Removing List Items",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because a list is designed to store a changing collection of values, most programming languages provide built-in tools for adding new items to a list or removing existing items from it after the list has already been created. Adding an item to the end of a list is often called \"appending,\" and it increases the total number of items stored in the list by one. Items can also often be inserted at a specific position within a list, rather than only at the end, shifting the remaining items over to make room for the new one. Removing an item from a list can be done in different ways, such as removing a specific value by name, or removing whatever item is located at a particular index. Whenever an item is added to or removed from a list, the indexes of the remaining items can shift, meaning a value that was previously at index 3 might end up at index 2 after an earlier item is removed, which is an important detail for programmers to keep in mind.",
+  "questions": [
+    {
+      "text": "According to the paragraph, adding an item to the end of a list is often called:",
+      "correct": "Appending",
+      "distractors": [
+        "Indexing",
+        "Sorting",
+        "Converting"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what happens to the number of items when you append?",
+      "correct": "It increases by one",
+      "distractors": [
+        "It stays exactly the same",
+        "It decreases by one",
+        "It doubles"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what are two ways an item can be removed from a list?",
+      "correct": "By its specific value, or by the index it is located at",
+      "distractors": [
+        "Only by deleting the entire list",
+        "Only by turning it into a string first",
+        "Only by adding a replacement item"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "An item is inserted in the middle of a list rather than at the end. Based on the paragraph, what happens to the items after it?",
+      "correct": "They shift over to make room for the new item",
+      "distractors": [
+        "They are deleted from the list",
+        "They stay at exactly the same indexes",
+        "They are copied to the front of the list"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A list holds five items and the item at index 1 is removed. Based on the paragraph, what should a programmer expect?",
+      "correct": "Items that came after it now sit at lower indexes than before",
+      "distractors": [
+        "The remaining items keep the indexes they had before",
+        "The list still reports five items",
+        "The item at index 0 is removed as well"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

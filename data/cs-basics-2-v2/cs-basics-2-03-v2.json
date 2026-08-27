@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-03-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 3,
+  "title": "Worksheet 3: Data Structures — Arrays (V2.0)",
+  "topic": "Data Structures — Arrays",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "In programming, an array is a data structure used to store a list of multiple values together under a single variable name, instead of creating a separate variable for each value. For example, instead of creating five separate variables to hold the names of five students, a programmer could create one array called \"students\" that holds all five names in order. Each value inside an array has a position, called an \"index,\" which tells the computer where that value is located within the list. In most programming languages, counting starts at 0 instead of 1, so the first item in an array is at index 0, the second item is at index 1, and so on. Arrays are useful because they let programmers work with large groups of related data at once, such as looping through every item in the array to print it or search for a specific value, rather than writing separate code for each individual piece of data.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an array stores:",
+      "correct": "A list of multiple values under a single variable name",
+      "distractors": [
+        "Exactly one value at a time",
+        "Only true and false values",
+        "Instructions instead of data"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is an index?",
+      "correct": "The position that tells the computer where a value is located in the list",
+      "distractors": [
+        "The name given to the whole array",
+        "The number of values an array can hold",
+        "The color used to display the array"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, the first item in an array is at index:",
+      "correct": "0",
+      "distractors": [
+        "1",
+        "-1",
+        "5"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "In an array called \"students\" holding five names in order, which index holds the third name?",
+      "correct": "Index 2",
+      "distractors": [
+        "Index 3",
+        "Index 1",
+        "Index 5"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, what would a programmer have to do without arrays?",
+      "correct": "Create a separate variable for each individual value",
+      "distractors": [
+        "Store every value as a single long word",
+        "Write the program in binary instead",
+        "Use a different programming language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

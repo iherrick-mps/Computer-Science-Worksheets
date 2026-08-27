@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-03-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 3,
+  "title": "Worksheet 3: Keeping Personal Information Private (V2.0)",
+  "topic": "Keeping Personal Information Private",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Personal information is any detail that could be used to identify a specific person or find out where they live, go to school, or spend time. Examples of personal information include a full name, home address, school name, phone number, birthday, and photos that show a player's face or location. On Roblox, and on any online platform, it is important to never share personal information with other players, even ones who seem friendly or claim to be a similar age. This is because personal information shared online can be saved, copied, or shared further by the person who receives it, and there is no way to fully take it back once it has been sent. Even small pieces of information can add up: for example, mentioning a school's mascot, a sports team, and a town name in separate messages could allow a stranger to figure out exactly where a player goes to school, even if no single message seems dangerous by itself.",
+  "questions": [
+    {
+      "text": "According to the paragraph, personal information is any detail that could:",
+      "correct": "Identify a person or show where they live, go to school, or spend time",
+      "distractors": [
+        "Make a game load faster",
+        "Change a player's avatar",
+        "Increase a player's score"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which of these is an example of personal information?",
+      "correct": "A school name",
+      "distractors": [
+        "A favorite game genre",
+        "A username chosen for fun",
+        "The color of an avatar's shirt"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why can't information be taken back once it is sent?",
+      "correct": "It can be saved, copied, or shared further by the person who receives it",
+      "distractors": [
+        "Roblox posts every message publicly",
+        "Messages cannot be deleted for 30 days",
+        "Players must approve every message twice"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, should a player share personal information with someone who seems friendly?",
+      "correct": "No — not with any other player, even friendly ones",
+      "distractors": [
+        "Yes, if the person is the same age",
+        "Yes, after chatting for a few weeks",
+        "Yes, if the person shares theirs first"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A player mentions their school mascot in one message, their town in another, and their sports team in a third. Based on the paragraph, why is this risky?",
+      "correct": "Small pieces of information can add up to reveal exactly where the player goes to school",
+      "distractors": [
+        "Each message uses up storage space",
+        "Roblox blocks players who send three messages",
+        "Mascots and teams are always private by law"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-03-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 3,
+  "title": "Worksheet 3: Strings (V2.0)",
+  "topic": "Strings",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A string is a data type used to represent text, made up of a sequence of characters such as letters, numbers, symbols, and spaces, all treated as text rather than as numbers a computer can perform math on. In most programming languages, a string is created by placing text inside quotation marks, such as \"Hello, world!\" or 'Robotics Club', which tells the computer that everything between the quotes should be treated as text rather than as code to run. Even though a string might contain characters that look like numbers, such as the string \"42\", the computer treats it purely as text unless it is specifically converted into a number first. Strings can be combined, searched, split apart, or measured for their length, and because text is such a common part of computer programs, from displaying messages to processing user input, strings are one of the most frequently used data types in programming.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a string is made up of:",
+      "correct": "A sequence of characters such as letters, numbers, symbols, and spaces",
+      "distractors": [
+        "Only whole numbers",
+        "Only the values true and false",
+        "Only capital letters"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how is a string usually created in a programming language?",
+      "correct": "By placing text inside quotation marks",
+      "distractors": [
+        "By writing the word STRING before it",
+        "By putting the text inside parentheses",
+        "By capitalizing every letter"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how does a computer treat the string \"42\"?",
+      "correct": "Purely as text, unless it is converted into a number first",
+      "distractors": [
+        "As a number it can immediately do math with",
+        "As an error the computer cannot read",
+        "As a true or false value"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, which of these is a string?",
+      "correct": "\"Robotics Club\"",
+      "distractors": [
+        "-42",
+        "3.14",
+        "true"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A student writes code that adds the string \"5\" to the string \"5\" and is surprised by the result. Based on the paragraph, why would the answer not be 10?",
+      "correct": "The computer is treating both values as text, not as numbers it can do math on",
+      "distractors": [
+        "The computer can only add numbers larger than 10",
+        "Quotation marks make a computer ignore a value completely",
+        "Strings are automatically converted into integers first"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

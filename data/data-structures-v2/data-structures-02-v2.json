@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-02-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 2,
+  "title": "Worksheet 2: Integers and Floats (V2.0)",
+  "topic": "Integers and Floats",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Numbers in programming are typically stored using one of two main data types: integers and floating-point numbers, often called floats. An integer is a whole number, meaning it has no fractional or decimal part, and can be positive, negative, or zero, such as 7, -42, or 0. A float, on the other hand, is a number that includes a decimal point, allowing it to represent fractional values, such as 3.14 or -0.5, which makes floats useful for situations that require more precision, like measuring distances or calculating averages. While these two types might seem similar, computers actually store and process them differently in memory, and mixing them incorrectly can sometimes cause unexpected results. For example, dividing two integers in some programming languages produces a whole number result by cutting off any remainder, called \"integer division,\" while dividing the same two numbers as floats would produce a more precise decimal answer.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an integer has:",
+      "correct": "No fractional or decimal part",
+      "distractors": [
+        "A decimal point at the end",
+        "Only positive values",
+        "Letters mixed with numbers"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does a float include?",
+      "correct": "A decimal point",
+      "distractors": [
+        "Quotation marks",
+        "Only the values true and false",
+        "A list of other numbers"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, do computers store integers and floats the same way in memory?",
+      "correct": "No, they store and process them differently",
+      "distractors": [
+        "Yes, in exactly the same way",
+        "Floats cannot be stored in memory",
+        "Integers cannot be stored in memory"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Based on the paragraph, which of these values is an integer?",
+      "correct": "-42",
+      "distractors": [
+        "3.14",
+        "-0.5",
+        "\"seven\""
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A robot needs to measure a distance of half a centimeter. Based on the paragraph, why would a float be the better choice than an integer?",
+      "correct": "Floats can represent fractional values, which gives more precision",
+      "distractors": [
+        "Floats are always faster for a computer to process",
+        "Integers cannot be negative numbers",
+        "Integers can only be used for text"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

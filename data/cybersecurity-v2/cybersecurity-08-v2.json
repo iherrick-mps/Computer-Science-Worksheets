@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-08-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 8,
+  "title": "Worksheet 8: Ransomware (V2.0)",
+  "topic": "Ransomware",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Ransomware is a type of malware that blocks a victim's access to their own files or entire computer system, usually by encrypting the data so it cannot be opened, and then demands payment, or a \"ransom,\" in exchange for restoring access. Ransomware often spreads through phishing emails containing infected attachments or links, or through security weaknesses in outdated software. Once ransomware infects a system, a message typically appears on the screen explaining that the victim's files have been encrypted and providing instructions for paying the ransom, often demanding payment in cryptocurrency because it can be harder for authorities to trace. Ransomware attacks can affect individuals, but they have also targeted hospitals, schools, and city governments, sometimes shutting down critical systems for days or weeks. Security experts generally advise against paying the ransom, since payment does not guarantee the attacker will actually restore access, and it can encourage further attacks. Instead, experts recommend regularly backing up important files to a separate location, so that data can be restored without paying attackers at all.",
+  "questions": [
+    {
+      "text": "According to the paragraph, ransomware blocks access to files by:",
+      "correct": "Encrypting the data so it cannot be opened",
+      "distractors": [
+        "Deleting the computer's screen",
+        "Turning the files into printed pages",
+        "Renaming the computer's owner"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, ransomware often spreads through:",
+      "correct": "Phishing emails with infected attachments or links",
+      "distractors": [
+        "Printers connected by cable",
+        "Software that has just been updated",
+        "Devices that have never been online"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what do security experts recommend instead of paying?",
+      "correct": "Regularly backing up important files to a separate location",
+      "distractors": [
+        "Buying a faster computer",
+        "Deleting the operating system",
+        "Paying only half of the ransom"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, why do attackers often demand payment in cryptocurrency?",
+      "correct": "It can be harder for authorities to trace",
+      "distractors": [
+        "It is the only currency computers accept",
+        "It is worth more than any other money",
+        "Banks require it for online payments"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A hospital's systems are locked by ransomware and administrators consider paying to get patients' records back quickly. Based on the paragraph, what is the risk?",
+      "correct": "Payment does not guarantee access will be restored, and it can encourage further attacks",
+      "distractors": [
+        "Paying always restores files within one hour",
+        "Hospitals are never targeted by ransomware",
+        "Backups become useless once a ransom is paid"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

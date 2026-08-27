@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-04-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 4,
+  "title": "Worksheet 4: In-Game Chat (V2.0)",
+  "topic": "In-Game Chat",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Many Roblox games include a chat feature that lets players send typed messages to each other, and some games also allow voice chat, where players can talk out loud using a microphone. Chat features can make games more fun by letting players work together, but they can also be used by some people to say unkind things, share inappropriate content, or try to convince a player to do something unsafe. Roblox has automatic filters that are designed to block certain inappropriate words or personal information, such as phone numbers, from being sent through chat. However, these filters are not perfect, and some people try to trick the filters by misspelling words or using symbols instead of letters. Because of this, it is still important for players to pay attention to what is being said in chat, avoid responding to messages that feel wrong, and tell a trusted adult if chat messages seem inappropriate, even if a filter did not catch them.",
+  "questions": [
+    {
+      "text": "According to the paragraph, voice chat lets players:",
+      "correct": "Talk out loud using a microphone",
+      "distractors": [
+        "Send pictures to each other",
+        "Change another player's avatar",
+        "Play music inside the game"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what are Roblox's automatic filters designed to block?",
+      "correct": "Certain inappropriate words and personal information, such as phone numbers",
+      "distractors": [
+        "All messages sent after 9 p.m.",
+        "Every message from a new player",
+        "Any message longer than one sentence"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how do some people try to trick the filters?",
+      "correct": "By misspelling words or using symbols instead of letters",
+      "distractors": [
+        "By sending messages very slowly",
+        "By using voice chat only",
+        "By creating a second account"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what should a player do if chat messages seem inappropriate?",
+      "correct": "Tell a trusted adult, even if a filter did not catch them",
+      "distractors": [
+        "Repeat the message to see if it gets blocked",
+        "Wait to see if the person says it again",
+        "Turn the game off and say nothing"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A player sees a message that got past the filter and assumes it must be allowed. Based on the paragraph, why is that assumption wrong?",
+      "correct": "The filters are not perfect, so getting through does not mean a message is okay",
+      "distractors": [
+        "Filters only run on weekends",
+        "Only voice chat is filtered by Roblox",
+        "Messages are reviewed by a person first"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

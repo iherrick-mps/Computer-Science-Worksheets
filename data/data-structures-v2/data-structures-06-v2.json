@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-06-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 6,
+  "title": "Worksheet 6: Booleans (V2.0)",
+  "topic": "Booleans",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A boolean is a data type that can only hold one of two possible values: true or false. Booleans are named after George Boole, a mathematician who developed a system of logic based on true and false values in the 1800s, long before modern computers existed. In programming, booleans are especially useful for making decisions, since a program can check whether a boolean value is true or false and then choose which instructions to run based on the result. For example, a video game might use a boolean variable called \"isGameOver\" to keep track of whether the game has ended, starting the value as false and changing it to true only once a specific condition, such as a player running out of lives, has been met. Booleans are often the direct result of a comparison, such as checking whether one number is greater than another, since a comparison like this can only ever be true or false, never anything in between.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a boolean can hold:",
+      "correct": "Only the values true or false",
+      "distractors": [
+        "Any whole number",
+        "Any piece of text",
+        "One value of any data type"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, who were booleans named after?",
+      "correct": "George Boole, a mathematician",
+      "distractors": [
+        "A modern computer programmer",
+        "The inventor of the first computer",
+        "The company that built the first calculator"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what are booleans especially useful for in programming?",
+      "correct": "Making decisions about which instructions to run",
+      "distractors": [
+        "Storing long messages for the user",
+        "Measuring distances precisely",
+        "Sorting numbers from smallest to largest"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A game uses a boolean called \"isGameOver\" that starts as false. Based on the paragraph, when would it change to true?",
+      "correct": "Once a specific condition is met, such as the player running out of lives",
+      "distractors": [
+        "As soon as the game is opened",
+        "Every time the player scores a point",
+        "Never, because booleans cannot be changed"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A program checks whether 8 is greater than 3. Based on the paragraph, what kind of value does this comparison produce?",
+      "correct": "A boolean, because a comparison can only be true or false",
+      "distractors": [
+        "An integer, because both values are numbers",
+        "A string, because it is written out in words",
+        "A float, because the answer needs precision"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

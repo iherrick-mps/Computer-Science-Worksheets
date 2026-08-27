@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-12-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 12,
+  "title": "Worksheet 12: The CPU (V2.0)",
+  "topic": "The CPU",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Central Processing Unit, or CPU, is often called the \"brain\" of a computer because it is responsible for carrying out instructions and performing calculations. Every time a computer runs a program, whether it's opening an app, doing math, or displaying a picture, the CPU is the part doing the actual work of processing that information. The CPU is a small chip, but it can perform billions of calculations every second. Modern CPUs often contain multiple \"cores,\" which act like separate mini-processors inside the same chip. Having multiple cores allows a computer to work on more than one task at the same time, which is called multitasking. The speed of a CPU is often measured in gigahertz (GHz), which describes how many cycles, or basic operations, the CPU can complete each second. A higher GHz number generally means the CPU can process instructions faster.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the CPU is often called the:",
+      "correct": "Brain of a computer",
+      "distractors": [
+        "Memory of a computer",
+        "Heart of a computer",
+        "Screen of a computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what are \"cores\"?",
+      "correct": "Separate mini-processors inside the same chip",
+      "distractors": [
+        "Cables that connect the CPU to the screen",
+        "Programs installed on the CPU",
+        "Cooling fans built into the chip"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, CPU speed is often measured in:",
+      "correct": "Gigahertz (GHz)",
+      "distractors": [
+        "Bytes",
+        "Pixels",
+        "Volts"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what does having multiple cores allow a computer to do?",
+      "correct": "Work on more than one task at the same time",
+      "distractors": [
+        "Store more files permanently",
+        "Connect to more websites at once",
+        "Display brighter colors"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Two computers are identical except one CPU runs at 2 GHz and the other at 4 GHz. Based on the paragraph, what can you expect?",
+      "correct": "The 4 GHz CPU can generally process instructions faster",
+      "distractors": [
+        "The 2 GHz CPU can store twice as many files",
+        "Both process instructions at exactly the same rate",
+        "The 4 GHz CPU has fewer cores by definition"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

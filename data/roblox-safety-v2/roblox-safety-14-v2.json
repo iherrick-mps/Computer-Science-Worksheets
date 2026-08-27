@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-14-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 14,
+  "title": "Worksheet 14: Purchases and Real Money (V2.0)",
+  "topic": "Purchases and Real Money",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Many Roblox games and features can be purchased using real money, either directly through Robux or through special passes and items sold inside individual games. Because Roblox is often played on a phone, tablet, or computer that may already be linked to a parent's payment information, it is possible for purchases to be made quickly, sometimes without a parent immediately realizing how much money has been spent. Some games are specifically designed to encourage players to make purchases, using techniques like limited-time offers, flashy advertisements, or messages suggesting that a player needs an item to keep up with friends or compete fairly. Before making any purchase, it's important for kids to check with a parent or guardian first, since spending real money is a decision that affects the whole family's budget, not just the player. Many devices also allow a parent to set up purchase approval settings, requiring a password or permission before any purchase can be completed, which helps prevent accidental or unapproved spending.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why can purchases happen quickly?",
+      "correct": "The device may already be linked to a parent's payment information",
+      "distractors": [
+        "Roblox items are always free the first time",
+        "Purchases do not require any button press",
+        "Games buy items for players automatically"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, which technique do some games use to encourage purchases?",
+      "correct": "Limited-time offers",
+      "distractors": [
+        "Longer loading screens",
+        "Fewer chat features",
+        "Smaller game worlds"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what should kids do before making any purchase?",
+      "correct": "Check with a parent or guardian first",
+      "distractors": [
+        "Compare prices across three games",
+        "Wait exactly 24 hours",
+        "Ask other players if the item is good"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what do purchase approval settings require?",
+      "correct": "A password or permission before a purchase can be completed",
+      "distractors": [
+        "A monthly spending report by mail",
+        "A second Roblox account for parents",
+        "A written note from the player"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A game suggests a player needs a paid item to keep up with friends. Based on the paragraph, how should a player read that message?",
+      "correct": "As a technique designed to encourage spending, so it is worth checking with a parent first",
+      "distractors": [
+        "As proof the item is required to play",
+        "As a free offer that expires quickly",
+        "As a message sent by their friends"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

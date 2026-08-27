@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-05-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 5,
+  "title": "Worksheet 5: Firewalls (V2.0)",
+  "topic": "Firewalls",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A firewall is a security system, either hardware, software, or a combination of both, that monitors and controls incoming and outgoing network traffic based on a set of security rules. A firewall acts like a security guard standing at the entrance of a building, deciding which visitors are allowed in and which are turned away, except instead of people, a firewall examines data traveling in and out of a network or device. When data attempts to enter or leave a network, the firewall checks it against its rules; if the data appears safe and matches allowed criteria, it is permitted through, but if it looks suspicious or matches a known threat, the firewall blocks it. Firewalls can be configured to block traffic from specific locations, allow only certain types of connections, or prevent unauthorized programs from accessing the internet. Most modern operating systems come with a built-in software firewall already enabled by default, while many businesses also use additional hardware firewalls to protect their entire network.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a firewall monitors and controls:",
+      "correct": "Incoming and outgoing network traffic",
+      "distractors": [
+        "The temperature inside a computer",
+        "How long a person uses a device each day",
+        "The number of programs installed on a device"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, a firewall is compared to:",
+      "correct": "A security guard at the entrance of a building",
+      "distractors": [
+        "A librarian sorting books",
+        "A teacher grading papers",
+        "A mail carrier delivering letters"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does a firewall do with data that looks suspicious?",
+      "correct": "Blocks it",
+      "distractors": [
+        "Copies it for the user to read later",
+        "Sends it to the user's email",
+        "Speeds it up so it passes through faster"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, what does a firewall check data against?",
+      "correct": "A set of security rules",
+      "distractors": [
+        "The user's password history",
+        "A list of installed programs",
+        "The current date and time"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A business already has firewalls built into every employee's computer, but still adds a hardware firewall for the whole network. Based on the paragraph, why would they do this?",
+      "correct": "Hardware firewalls add protection for the entire network, not just individual devices",
+      "distractors": [
+        "Software firewalls stop working after one year",
+        "Hardware firewalls replace the need for passwords",
+        "Operating systems do not include any firewall at all"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

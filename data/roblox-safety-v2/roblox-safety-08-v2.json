@@ -1,0 +1,95 @@
+{
+  "id": "roblox-safety-08-v2",
+  "set": "roblox-safety-v2",
+  "setTitle": "Roblox Online Safety",
+  "number": 8,
+  "title": "Worksheet 8: Inappropriate Content (V2.0)",
+  "topic": "Inappropriate Content",
+  "readingLevel": "Simplified (grade 6)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Because Roblox allows everyday users to create their own games, not every experience on the platform is designed with children in mind, even though Roblox has rules and a review process meant to catch content that breaks its guidelines. Occasionally, games or user-created items may contain content that is not appropriate for kids, such as violent themes, inappropriate language, or images and ideas meant for older audiences. Sometimes inappropriate content is hidden inside a game that otherwise looks normal, only appearing after a player has already started playing. If a player ever comes across a game, image, or message that feels confusing, scary, or not appropriate, the safest choice is to leave the game immediately, avoid interacting further, and tell a trusted adult about what they saw. Roblox also provides a reporting tool that allows players to flag inappropriate games or content directly, which helps Roblox's safety team review and remove content that breaks the platform's rules.",
+  "questions": [
+    {
+      "text": "According to the paragraph, why is not every experience designed with children in mind?",
+      "correct": "Roblox allows everyday users to create their own games",
+      "distractors": [
+        "Roblox only reviews games made by companies",
+        "Games are automatically made for adults",
+        "Children are not allowed to play most games"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is the safest choice if a player sees something scary or confusing?",
+      "correct": "Leave the game immediately, avoid interacting, and tell a trusted adult",
+      "distractors": [
+        "Keep playing to see if it goes away",
+        "Invite a friend to look at it too",
+        "Take a screenshot and post it publicly"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does Roblox's reporting tool allow players to do?",
+      "correct": "Flag inappropriate games or content directly",
+      "distractors": [
+        "Delete another player's game themselves",
+        "Get a refund for Robux they spent",
+        "Change the rules of a game"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, does Roblox have a review process for content?",
+      "correct": "Yes, it has rules and a review process, though some content still gets through",
+      "distractors": [
+        "No, there are no rules at all",
+        "Yes, and it catches every problem perfectly",
+        "No, only players can review content"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A game looks completely normal at first, then shows something inappropriate later. Based on the paragraph, what does this show?",
+      "correct": "Inappropriate content is sometimes hidden and only appears after play begins",
+      "distractors": [
+        "The game changed while it was being played",
+        "Only new games can contain hidden content",
+        "A filter must have been turned off by the player"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

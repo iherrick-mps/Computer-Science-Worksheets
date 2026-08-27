@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-15-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 15,
+  "title": "Worksheet 15: Artificial Intelligence Basics (V2.0)",
+  "topic": "Artificial Intelligence Basics",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Artificial Intelligence, or AI, refers to computer systems designed to perform tasks that normally require human intelligence, such as recognizing speech, making decisions, or identifying patterns in information. Unlike a simple program that only follows fixed, unchanging instructions, many AI systems are built using a method called \"machine learning,\" where a computer is given large amounts of data and learns to recognize patterns from that data instead of being directly told every single rule. For example, an AI system could be shown thousands of pictures labeled \"cat\" or \"dog\" until it learns to identify the difference on its own, even when shown a new picture it has never seen before. AI is used in many everyday tools, including voice assistants that respond to spoken commands, recommendation systems that suggest videos or products, and spam filters that identify unwanted emails. While AI can be extremely useful, it is not the same as human intelligence, and it can make mistakes, especially when given data that is incomplete or unfair.",
+  "questions": [
+    {
+      "text": "According to the paragraph, AI refers to computer systems designed to:",
+      "correct": "Perform tasks that normally require human intelligence",
+      "distractors": [
+        "Store more files than a normal computer",
+        "Run without any electricity",
+        "Replace all computer hardware"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, in machine learning a computer learns by:",
+      "correct": "Recognizing patterns in large amounts of data",
+      "distractors": [
+        "Being told every single rule directly",
+        "Copying another computer's programs",
+        "Guessing randomly until it is correct"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which of these is an everyday tool that uses AI?",
+      "correct": "A spam filter that identifies unwanted emails",
+      "distractors": [
+        "A keyboard that types letters",
+        "A printer that copies documents",
+        "A cable that connects to the internet"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, when is AI especially likely to make mistakes?",
+      "correct": "When it is given data that is incomplete or unfair",
+      "distractors": [
+        "When it is given too many examples",
+        "When it is used by more than one person",
+        "When it runs on a fast computer"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "An AI is shown thousands of labeled cat and dog photos, then correctly labels a photo it has never seen. Based on the paragraph, what does this show about machine learning?",
+      "correct": "It learned the difference from patterns in data rather than from a rule it was given",
+      "distractors": [
+        "It memorized every photo that exists",
+        "It was directly told the rule for cats and dogs",
+        "It is now identical to human intelligence"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

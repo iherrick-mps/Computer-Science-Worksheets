@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-01-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 1,
+  "title": "Worksheet 1: What Is an Algorithm? (V2.0)",
+  "topic": "What Is an Algorithm?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An algorithm is a set of step-by-step instructions used to complete a task or solve a problem. Just like a recipe tells a cook exactly what to do in order, an algorithm tells a computer exactly what steps to follow. For example, imagine you want a computer to make a peanut butter sandwich. The algorithm might say: 1) get two slices of bread, 2) spread peanut butter on one slice, 3) spread jelly on the other slice, 4) put the slices together. If the steps are out of order, or a step is missing, the sandwich will not turn out right. Computers cannot guess what you mean, so algorithms must be written in a very clear and exact order. Programmers write algorithms before they write actual code, so they can plan out the logic first.",
+  "questions": [
+    {
+      "text": "According to the paragraph, an algorithm is:",
+      "correct": "A set of step-by-step instructions used to complete a task or solve a problem",
+      "distractors": [
+        "A machine that builds computer parts",
+        "A error message shown when code fails",
+        "A container used to store one number"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, an algorithm is compared to:",
+      "correct": "A recipe",
+      "distractors": [
+        "A dictionary",
+        "A calculator",
+        "A map of a city"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what happens if steps are out of order or missing?",
+      "correct": "The task will not turn out right",
+      "distractors": [
+        "The computer fixes the order by itself",
+        "The program runs twice as fast",
+        "Nothing changes at all"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, why must algorithms be written in a very clear and exact order?",
+      "correct": "Computers cannot guess what you mean",
+      "distractors": [
+        "Computers can only read short sentences",
+        "Programmers are not allowed to use words",
+        "Every computer uses a different language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A student plans out the steps of a robot's movement on paper before typing any code. Based on the paragraph, why is this a good habit?",
+      "correct": "Programmers write algorithms first so they can plan out the logic before coding",
+      "distractors": [
+        "Paper instructions run faster than code",
+        "Robots can read handwriting directly",
+        "Code cannot be changed once it is written"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

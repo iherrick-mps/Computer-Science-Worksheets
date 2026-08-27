@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-14-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 14,
+  "title": "Worksheet 14: The Invention of the Computer Mouse (V2.0)",
+  "topic": "The Invention of the Computer Mouse",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The computer mouse, a device now used every day by billions of people, was invented in the 1960s by an American engineer named Douglas Engelbart. At the time, most people interacted with computers only through text typed on a keyboard, since graphical screens and pointing devices did not yet exist in everyday use. Engelbart wanted to make it easier for people to select and move things on a computer screen, so he designed a small wooden device with two metal wheels on the bottom and a single button on top, connected to the computer by a wire. Because the wire trailed out the back of the device, resembling a tail, Engelbart and his team nicknamed it a \"mouse,\" and the name stuck. Engelbart first publicly demonstrated the mouse in 1968, during a presentation that also introduced other groundbreaking ideas, such as video conferencing and hyperlinks, decades before these tools became common. Although Engelbart's original mouse looked very different from the mice used today, the basic idea, a handheld device used to point and select things on a screen, remains largely the same.",
+  "questions": [
+    {
+      "text": "According to the paragraph, who invented the computer mouse?",
+      "correct": "Douglas Engelbart",
+      "distractors": [
+        "Alan Turing",
+        "Grace Hopper",
+        "Charles Babbage"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, in what decade was the mouse invented?",
+      "correct": "The 1960s",
+      "distractors": [
+        "The 1930s",
+        "The 1980s",
+        "The 1990s"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what was the original mouse made of?",
+      "correct": "Wood, with two metal wheels and a single button",
+      "distractors": [
+        "Plastic, with three buttons and a scroll wheel",
+        "Glass, with a touch-sensitive surface",
+        "Metal, with no buttons at all"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, why was it nicknamed a \"mouse\"?",
+      "correct": "The wire trailing out the back resembled a tail",
+      "distractors": [
+        "It was small enough to fit in a pocket",
+        "It made a squeaking sound when clicked",
+        "It was gray and shaped like an animal"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, what did the 1968 demonstration show about Engelbart's ideas?",
+      "correct": "He introduced tools like video conferencing and hyperlinks decades before they became common",
+      "distractors": [
+        "He had already sold the mouse to billions of people",
+        "He believed keyboards would soon disappear",
+        "His ideas were all in use by other companies already"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

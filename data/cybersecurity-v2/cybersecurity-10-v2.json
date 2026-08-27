@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-10-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 10,
+  "title": "Worksheet 10: Public Wi-Fi Risks (V2.0)",
+  "topic": "Public Wi-Fi Risks",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Public Wi-Fi networks, such as those found in coffee shops, airports, and hotels, offer convenient internet access, but they also come with security risks that private home networks typically do not have. Many public Wi-Fi networks are unencrypted or use weak security, meaning that data traveling between a device and the network can potentially be intercepted and read by someone else connected to the same network, especially if a website or app being used does not have its own encryption. Attackers sometimes set up fake Wi-Fi networks with names similar to legitimate ones, such as \"Free_Airport_WiFi,\" to trick people into connecting directly to a network the attacker controls, allowing them to monitor everything the victim does online. To stay safer on public Wi-Fi, experts recommend avoiding logging into sensitive accounts, such as banking apps, using a VPN to encrypt internet traffic, making sure websites use \"https\" rather than plain \"http,\" and turning off automatic Wi-Fi connection settings that might connect a device to unknown networks without asking first.",
+  "questions": [
+    {
+      "text": "According to the paragraph, many public Wi-Fi networks are:",
+      "correct": "Unencrypted or use weak security",
+      "distractors": [
+        "Faster than any home network",
+        "Protected by hardware firewalls",
+        "Limited to one user at a time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do attackers sometimes set up to trick people?",
+      "correct": "Fake Wi-Fi networks with names similar to legitimate ones",
+      "distractors": [
+        "Free coffee shops with no internet",
+        "Printers that copy documents secretly",
+        "Phone lines that record conversations"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, which should a person look for in a website address?",
+      "correct": "\"https\" rather than plain \"http\"",
+      "distractors": [
+        "A name shorter than ten letters",
+        "The word \"free\" in the address",
+        "A number at the end of the address"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, why is turning off automatic Wi-Fi connection recommended?",
+      "correct": "It stops a device from joining unknown networks without asking first",
+      "distractors": [
+        "It makes the battery last several days longer",
+        "It blocks all advertisements while browsing",
+        "It encrypts every file stored on the device"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A traveler connects to a network named \"Free_Airport_WiFi\" and then logs into their bank. Based on the paragraph, what is the danger?",
+      "correct": "The network may be controlled by an attacker who can monitor everything they do online",
+      "distractors": [
+        "Airports charge extra fees for banking apps",
+        "Bank apps stop working outside a home network",
+        "The device will permanently lose its IP address"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

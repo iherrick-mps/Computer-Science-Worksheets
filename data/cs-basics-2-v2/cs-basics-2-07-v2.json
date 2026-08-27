@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-07-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 7,
+  "title": "Worksheet 7: How Search Engines Work (V2.0)",
+  "topic": "How Search Engines Work",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A search engine, such as Google or Bing, helps people find information on the internet by searching through billions of webpages in a fraction of a second. Search engines are able to respond so quickly because they do not actually search the entire internet at the exact moment you type a query. Instead, they use programs called \"web crawlers\" or \"spiders\" that constantly scan the internet ahead of time, visiting webpages and following links to other pages. Information about each webpage is then stored in a massive, organized database called an \"index.\" When a person types a search, the search engine quickly looks through this pre-built index, rather than the live internet, to find matching results. The search engine then uses a ranking system to decide which results are most likely to be useful, considering factors such as how relevant the page is to the search words and how many other trustworthy websites link to it, before displaying the results in order.",
+  "questions": [
+    {
+      "text": "According to the paragraph, what are web crawlers sometimes called?",
+      "correct": "Spiders",
+      "distractors": [
+        "Servers",
+        "Indexes",
+        "Browsers"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is the \"index\"?",
+      "correct": "A massive, organized database of information about webpages",
+      "distractors": [
+        "The first page of every website",
+        "A list of a user's past searches",
+        "The program that displays results on screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does a search engine look through when you type a search?",
+      "correct": "Its pre-built index",
+      "distractors": [
+        "The live internet at that exact moment",
+        "Every file on the user's computer",
+        "A printed catalog of websites"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which factor helps decide how results are ranked?",
+      "correct": "How many other trustworthy websites link to the page",
+      "distractors": [
+        "How long the webpage has existed",
+        "How many pictures the page contains",
+        "How fast the user typed the search"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, why can a search engine return results in a fraction of a second?",
+      "correct": "The scanning work was already done ahead of time, so only the index must be searched",
+      "distractors": [
+        "It only searches a few dozen websites",
+        "It guesses the answer without searching",
+        "It stores the whole internet on the user's device"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

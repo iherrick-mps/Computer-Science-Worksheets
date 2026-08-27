@@ -1,0 +1,95 @@
+{
+  "id": "data-structures-07-v2",
+  "set": "data-structures-v2",
+  "setTitle": "Data Structures & Variables",
+  "number": 7,
+  "title": "Worksheet 7: Lists (V2.0)",
+  "topic": "Lists",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A list is a data structure used to store multiple values together in a single, ordered collection, allowing a programmer to work with a whole group of related items using just one variable name. Unlike a single variable, which can only hold one value at a time, a list can hold many values, and those values can even be different data types mixed together, such as a list containing both strings and integers at the same time, depending on the programming language being used. Lists are especially useful when a program needs to work with a collection of similar items, such as a list of student names, a list of high scores, or a list of items in a player's inventory, since storing them together makes it much easier to search through, sort, or update the entire group at once. Because a list keeps its items in a specific order, a programmer can always predict which value comes first, second, or last, unlike some other data structures that do not guarantee any particular order.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a list is used to:",
+      "correct": "Store multiple values together in a single ordered collection",
+      "distractors": [
+        "Store exactly one value at a time",
+        "Turn numbers into text",
+        "Delete data a program no longer needs"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how does a list differ from a single variable?",
+      "correct": "A list can hold many values, while a single variable holds only one at a time",
+      "distractors": [
+        "A list can only hold numbers",
+        "A single variable can hold more values than a list",
+        "A list cannot be given a name"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what can a programmer always predict about a list?",
+      "correct": "Which value comes first, second, or last, because a list keeps its order",
+      "distractors": [
+        "How much memory each item will use",
+        "That every item is the same data type",
+        "That the list will never change size"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A program needs to store the names of every student on a robotics team. Based on the paragraph, why is a list a good choice?",
+      "correct": "It keeps related items together so they are easier to search, sort, or update at once",
+      "distractors": [
+        "It automatically prevents students from being added later",
+        "It converts each name into a number",
+        "It stores only the longest name in the group"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Based on the paragraph, what can you conclude about a data structure that does not guarantee any particular order?",
+      "correct": "You could not rely on always finding the same item in the same position",
+      "distractors": [
+        "It cannot store more than one value",
+        "It is always faster than a list",
+        "It can only store text values"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

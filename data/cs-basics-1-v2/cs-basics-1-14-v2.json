@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-1-14-v2",
+  "set": "cs-basics-1-v2",
+  "setTitle": "Computer Science Basics — Set 1",
+  "number": 14,
+  "title": "Worksheet 14: Cybersecurity and Passwords (V2.0)",
+  "topic": "Cybersecurity and Passwords",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Cybersecurity is the practice of protecting computers, networks, and personal information from unauthorized access or attacks. One of the simplest and most important cybersecurity habits is creating strong passwords. A weak password, such as \"12345\" or \"password,\" can be guessed quickly by attackers, sometimes in less than a second using automated programs. A strong password is typically long, includes a mix of uppercase and lowercase letters, numbers, and symbols, and does not include easily guessed information like a birthday or the word \"password\" itself. Experts also recommend using a different password for each account. This way, if one password is stolen or leaked, the attacker cannot use it to access a person's other accounts. Another important cybersecurity habit is enabling two-factor authentication, which requires a second form of proof, such as a code sent to a phone, in addition to a password, before allowing access to an account.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a strong password typically includes:",
+      "correct": "A mix of uppercase and lowercase letters, numbers, and symbols",
+      "distractors": [
+        "Only lowercase letters",
+        "A birthday for easy remembering",
+        "The word \"password\" plus a number"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, how quickly can a weak password sometimes be guessed?",
+      "correct": "In less than a second, using automated programs",
+      "distractors": [
+        "In about one week",
+        "Only after many years",
+        "Never, if it contains numbers"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do experts recommend for each account?",
+      "correct": "Using a different password",
+      "distractors": [
+        "Using the same password everywhere",
+        "Changing the username instead",
+        "Writing the password on the screen"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does two-factor authentication require?",
+      "correct": "A second form of proof in addition to a password",
+      "distractors": [
+        "Two passwords for the same account",
+        "A password that is at least 20 characters",
+        "A new account every year"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Someone uses the same password on ten websites and one of them is attacked. Based on the paragraph, why is that a problem?",
+      "correct": "An attacker could use the stolen password to access their other accounts",
+      "distractors": [
+        "The other nine websites will delete the account",
+        "Passwords stop working after being reused",
+        "The attacker can only see one website's data"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

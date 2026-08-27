@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-06-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 6,
+  "title": "Worksheet 6: Pixels and Digital Images (V2.0)",
+  "topic": "Pixels and Digital Images",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Every image displayed on a computer screen, from a simple icon to a detailed photograph, is made up of thousands or millions of tiny colored squares called pixels. The word \"pixel\" is short for \"picture element.\" Each pixel displays a single solid color, and when many pixels are placed close together in a grid, they blend together to form a complete image, similar to how tiny tiles form a mosaic picture. The number of pixels in an image is called its \"resolution.\" An image with more pixels, called a \"higher resolution\" image, can show finer detail, while an image with fewer pixels, called a \"lower resolution\" image, looks blocky or blurry when enlarged, because each individual pixel becomes more visible. Each pixel's color is typically created by mixing different amounts of red, green, and blue light, a system known as RGB, since combining these three colors in different amounts can produce millions of different colors.",
+  "questions": [
+    {
+      "text": "According to the paragraph, the word \"pixel\" is short for:",
+      "correct": "Picture element",
+      "distractors": [
+        "Pixel image",
+        "Pointed element",
+        "Picture excel"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, the number of pixels in an image is called its:",
+      "correct": "Resolution",
+      "distractors": [
+        "Contrast",
+        "Mosaic",
+        "Brightness"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which three colors of light are mixed to create a pixel's color?",
+      "correct": "Red, green, and blue",
+      "distractors": [
+        "Red, yellow, and blue",
+        "Black, white, and gray",
+        "Green, orange, and purple"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why does a low-resolution image look blocky when enlarged?",
+      "correct": "Each individual pixel becomes more visible",
+      "distractors": [
+        "The colors fade over time",
+        "The screen slows down while loading it",
+        "The pixels change shape when stretched"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A photographer needs a picture that stays sharp when printed very large. Based on the paragraph, what should they look for?",
+      "correct": "A higher resolution image, because more pixels show finer detail",
+      "distractors": [
+        "A lower resolution image, because it uses less space",
+        "An image with only red, green, and blue in it",
+        "An image made of tiles instead of pixels"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

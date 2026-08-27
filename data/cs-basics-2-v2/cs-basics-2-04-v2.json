@@ -1,0 +1,95 @@
+{
+  "id": "cs-basics-2-04-v2",
+  "set": "cs-basics-2-v2",
+  "setTitle": "Computer Science Basics — Set 2",
+  "number": 4,
+  "title": "Worksheet 4: Programming Languages (V2.0)",
+  "topic": "Programming Languages",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A programming language is a special set of words, symbols, and rules that people use to write instructions for a computer to follow. Just like English or Spanish is a language people use to communicate with each other, a programming language is a language used to communicate with a computer. However, unlike human languages, programming languages must follow extremely strict rules, called \"syntax,\" and even a small mistake, like a missing symbol, can cause the program to fail. There are hundreds of programming languages, each designed with different strengths. For example, Python is known for being easy to read and is often used for data analysis and beginners learning to code. JavaScript is commonly used to make websites interactive. Before a computer can actually run the instructions a programmer writes, the code must be translated into a form the computer's hardware can understand, since computers ultimately only understand binary, the language of 0s and 1s.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a programming language is a set of:",
+      "correct": "Words, symbols, and rules used to write instructions for a computer",
+      "distractors": [
+        "Physical parts inside a computer",
+        "Websites where programmers share code",
+        "Numbers a computer stores in memory"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what are the strict rules of a programming language called?",
+      "correct": "Syntax",
+      "distractors": [
+        "Binary",
+        "Logic",
+        "Grammar checking"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what is JavaScript commonly used for?",
+      "correct": "Making websites interactive",
+      "distractors": [
+        "Building computer hardware",
+        "Storing files in the cloud",
+        "Translating human languages"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what do computers ultimately understand?",
+      "correct": "Binary, the language of 0s and 1s",
+      "distractors": [
+        "Python, because it is easy to read",
+        "English words and symbols",
+        "Any language a programmer chooses"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A student's program will not run because one symbol is missing. Based on the paragraph, why does something so small break it?",
+      "correct": "Programming languages follow extremely strict syntax rules, so even a small mistake causes failure",
+      "distractors": [
+        "Computers refuse to run programs shorter than ten lines",
+        "Missing symbols are automatically added by the computer",
+        "Human languages have the same strict rules"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

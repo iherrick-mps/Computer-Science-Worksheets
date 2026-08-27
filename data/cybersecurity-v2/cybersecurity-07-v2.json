@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-07-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 7,
+  "title": "Worksheet 7: Social Engineering (V2.0)",
+  "topic": "Social Engineering",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Social engineering is a method attackers use to manipulate people into breaking normal security procedures or giving up confidential information, rather than trying to break through technical defenses like firewalls or encryption. Because even the strongest technical security can be bypassed if a person is tricked into cooperating, attackers often find it easier to target human psychology instead of computer systems directly. Social engineering can take many forms. In \"pretexting,\" an attacker creates a false scenario, such as pretending to be an IT technician or a coworker, to convince someone to share information or grant access. In \"baiting,\" an attacker leaves something tempting, like a USB drive labeled \"Confidential,\" in a place where a curious person might find it and plug it into their computer, unknowingly installing malware. Attackers often rely on emotions like fear, curiosity, trust, or urgency to lower a person's guard, which is why cybersecurity training frequently emphasizes staying cautious, verifying identities, and slowing down before sharing sensitive information, even when a request seems to come from someone trustworthy.",
+  "questions": [
+    {
+      "text": "According to the paragraph, social engineering manipulates:",
+      "correct": "People, rather than technical defenses",
+      "distractors": [
+        "Firewalls, rather than passwords",
+        "Encryption keys, rather than networks",
+        "Hardware, rather than software"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what is \"pretexting\"?",
+      "correct": "Creating a false scenario, such as pretending to be an IT technician",
+      "distractors": [
+        "Leaving a tempting USB drive for someone to find",
+        "Sending thousands of emails at once",
+        "Guessing a password by trying every combination"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, which emotions do attackers often rely on?",
+      "correct": "Fear, curiosity, trust, or urgency",
+      "distractors": [
+        "Boredom, hunger, and sleepiness",
+        "Pride, jealousy, and envy only",
+        "No emotions at all — only logic"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Based on the paragraph, why do attackers often target people instead of computer systems?",
+      "correct": "Even the strongest technical security can be bypassed if a person is tricked into cooperating",
+      "distractors": [
+        "Computer systems cannot be attacked at all",
+        "People are legally easier to attack",
+        "Technical attacks are always blocked by firewalls"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A staff member finds a USB drive labeled \"Confidential\" in the parking lot and plugs it into their work computer. Based on the paragraph, what has most likely happened?",
+      "correct": "They fell for baiting and may have unknowingly installed malware",
+      "distractors": [
+        "They recovered a lost file for a coworker",
+        "They completed a required security check",
+        "They safely erased the drive by plugging it in"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

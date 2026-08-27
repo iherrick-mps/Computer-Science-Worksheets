@@ -1,0 +1,95 @@
+{
+  "id": "cybersecurity-11-v2",
+  "set": "cybersecurity-v2",
+  "setTitle": "Cybersecurity",
+  "number": 11,
+  "title": "Worksheet 11: Data Breaches (V2.0)",
+  "topic": "Data Breaches",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": false,
+  "version": "V2.0",
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A data breach occurs when confidential or protected information is accessed, viewed, stolen, or exposed by someone who is not authorized to have it. Data breaches can happen for many reasons, including hackers exploiting weaknesses in a company's security systems, employees accidentally exposing information, lost or stolen devices containing sensitive data, or weak passwords that are easily guessed. When a company experiences a data breach, the exposed information often includes customer names, email addresses, passwords, or even financial information like credit card numbers, which can then be used by criminals for identity theft or sold to other attackers. Companies are often legally required to notify affected customers after a data breach is discovered, so those individuals can take steps to protect themselves, such as changing passwords or monitoring their financial accounts for unusual activity. Because people frequently reuse the same password across multiple websites, a single data breach at one company can sometimes put a person's other, unrelated accounts at risk as well.",
+  "questions": [
+    {
+      "text": "According to the paragraph, a data breach occurs when protected information is:",
+      "correct": "Accessed, viewed, stolen, or exposed by someone not authorized to have it",
+      "distractors": [
+        "Backed up to a second hard drive",
+        "Encrypted by the company that owns it",
+        "Printed out for company records"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, which of these can cause a data breach?",
+      "correct": "Weak passwords that are easily guessed",
+      "distractors": [
+        "Installing security updates on time",
+        "Using two-factor authentication",
+        "Storing files on an encrypted drive"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what are companies often legally required to do after a breach?",
+      "correct": "Notify affected customers",
+      "distractors": [
+        "Pay every customer the same amount of money",
+        "Shut down permanently",
+        "Change their company name"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Based on the paragraph, what can criminals do with information exposed in a breach?",
+      "correct": "Use it for identity theft or sell it to other attackers",
+      "distractors": [
+        "Return it to the company for a reward",
+        "Use it only to send advertisements",
+        "Convert it into a stronger password"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "One website a student uses is breached, and the student uses that same password on five other sites. Based on the paragraph, what should they expect?",
+      "correct": "Their other, unrelated accounts may now be at risk too",
+      "distractors": [
+        "Only the breached account is ever affected",
+        "The other websites will change the password for them",
+        "Password reuse makes accounts harder to break into"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}
