@@ -106,6 +106,81 @@ input:focus, select:focus {
 
 .count { color: var(--muted); font-size: 14px; }
 
+/* ---------- typeahead (worksheet picker on the answer key page) ---------- */
+
+.typeahead {
+  position: relative;
+  flex: 1;
+  min-width: 260px;
+}
+
+.typeahead input[type="text"] {
+  width: 100%;
+}
+
+.typeahead .dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+  box-shadow: 0 6px 18px rgba(43, 38, 32, 0.14);
+  z-index: 30;
+}
+
+.dropdown .dd-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #f0ebe1;
+}
+
+.dropdown .dd-item:last-child { border-bottom: none; }
+
+.dropdown .dd-item:hover,
+.dropdown .dd-item.active {
+  background: #fbf8f2;
+}
+
+.dropdown .dd-num {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #efe9dc;
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.dropdown .dd-topic { flex: 1; }
+
+.dropdown .dd-set {
+  flex: none;
+  color: var(--muted);
+  font-size: 12px;
+  max-width: 40%;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown .dd-empty {
+  padding: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 /* ---------- set cards ---------- */
 
 .set {
