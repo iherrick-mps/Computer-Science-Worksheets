@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bulk Print — CS Worksheets</title>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <h1>Bulk Print</h1>
+    <p>Check off any worksheets you want and print them all together, in one batch.</p>
+    <nav class="tabs">
+      <a href="index.html">Browse</a>
+      <a href="answers.html">Answer Keys &amp; Grading</a>
+      <a href="select.html" class="active">Bulk Print</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Search by title, set, or passage text&hellip;" autocomplete="off">
+    <button class="btn" type="button" id="selectallvisible">Select all visible</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="search-status" id="searchstatus">Loading worksheet text for full-text search&hellip;</div>
+
+  <div id="sets"><div class="empty">Loading worksheets&hellip;</div></div>
+
+  <div class="selectbar" id="selectbar">
+    <span id="selcount">0 worksheets selected</span>
+    <button class="btn" type="button" id="clearsel" disabled>Clear</button>
+    <button class="btn solid" type="button" id="printsel" disabled>Print Selected</button>
+  </div>
+
+</div>
+
+<script src="assets/common.js"></script>
+<script>
+let MANIFEST = null;
+let LIST = null;
+const SEARCHTEXT = {};   // worksheet id -> lowercase searchable text
+const SELECTED = new Set();
+
+function pickRow(set, w) {
+  const domId = 'pick-' + w.id;
+  return '' +
+    '<li data-search="' + escapeHTML((w.topic + ' ' + set.title + ' ' + w.number).toLowerCase()) + '" data-id="' + w.id + '">' +
+      '<input type="checkbox" class="pick-box" id="' + domId + '" data-id="' + w.id + '">' +
+      '<label for="' + domId + '" class="pick-label">' +
+        '<span class="num">' + w.number + '</span>' +
+        '<span class="topic">' + escapeHTML(w.topic) + '</span>' +
+      '</label>' +
+      '<span class="keychip" title="Answer key">' + escapeHTML(w.answerKey) + '</span>' +
+      '<a class="btn" href="worksheet.html?id=' + encodeURIComponent(w.id) + '" target="_blank" rel="noopener">Preview</a>' +
+    '</li>';
+}
+
+function setCard(set) {
+  const badges =
+    '<span class="badge">' + set.count + ' worksheets</span>' +
+    '<span class="badge">' + escapeHTML(set.readingLevel) + '</span>' +
+    '<label class="badge select-all-badge">' +
+      '<input type="checkbox" class="set-select-all" data-set="' + set.id + '"> Select all in set' +
+    '</label>' +
+    '<a class="btn" style="margin-left:auto" href="worksheet.html?set=' + encodeURIComponent(set.id) + '" target="_blank" rel="noopener">Print whole set</a>';
+
+  return '' +
+    '<section class="set" data-set="' + set.id + '">' +
+      '<div class="set-head">' +
+        '<h2>' + escapeHTML(set.title) + '</h2>' +
+        '<p>' + escapeHTML(set.description) + '</p>' +
+        '<div class="badges">' + badges + '</div>' +
+      '</div>' +
+      '<ul class="sheets">' + set.worksheets.map(function (w) { return pickRow(set, w); }).join('') + '</ul>' +
+    '</section>';
+}
+
+function render() {
+  document.getElementById('sets').innerHTML = MANIFEST.sets.map(setCard).join('');
+  document.getElementById('count').textContent =
+    MANIFEST.totalWorksheets + ' worksheets in ' + MANIFEST.totalSets + ' sets';
+  wireRows();
+}
+
+function wireRows() {
+  document.querySelectorAll('.pick-box').forEach(function (box) {
+    box.addEventListener('change', function () {
+      toggle(box.dataset.id, box.checked);
+      syncSetCheckbox(box.closest('section.set'));
+    });
+  });
+  document.querySelectorAll('.set-select-all').forEach(function (chk) {
+    chk.addEventListener('change', function () {
+      const section = document.querySelector('section.set[data-set="' + chk.dataset.set + '"]');
+      section.querySelectorAll('li:not([hidden]) .pick-box').forEach(function (box) {
+        box.checked = chk.checked;
+        toggle(box.dataset.id, chk.checked);
+      });
+    });
+  });
+}
+
+/* Keep a set's "select all" checkbox in sync with its rows (checked when
+   every visible row is checked, indeterminate when some but not all are). */
+function syncSetCheckbox(section) {
+  if (!section) return;
+  const setChk = section.querySelector('.set-select-all');
+  const visible = Array.from(section.querySelectorAll('li:not([hidden]) .pick-box'));
+  if (!visible.length) { setChk.checked = false; setChk.indeterminate = false; return; }
+  const checkedCount = visible.filter(function (b) { return b.checked; }).length;
+  setChk.checked = checkedCount === visible.length;
+  setChk.indeterminate = checkedCount > 0 && checkedCount < visible.length;
+}
+
+function toggle(id, on) {
+  if (on) SELECTED.add(id); else SELECTED.delete(id);
+  updateBar();
+}
+
+function updateBar() {
+  const n = SELECTED.size;
+  document.getElementById('selcount').textContent =
+    n + (n === 1 ? ' worksheet selected' : ' worksheets selected');
+  document.getElementById('printsel').disabled = n === 0;
+  document.getElementById('clearsel').disabled = n === 0;
+}
+
+function filter(term) {
+  term = term.trim().toLowerCase();
+  let visible = 0;
+  document.querySelectorAll('section.set').forEach(function (sec) {
+    let shown = 0;
+    sec.querySelectorAll('ul.sheets li').forEach(function (li) {
+      const id = li.dataset.id;
+      const text = SEARCHTEXT[id] || li.dataset.search;
+      const hit = !term || text.indexOf(term) !== -1;
+      li.hidden = !hit;
+      if (hit) shown++;
+    });
+    sec.hidden = shown === 0;
+    visible += shown;
+    syncSetCheckbox(sec);
+  });
+  document.getElementById('count').textContent = term
+    ? visible + ' matching worksheet' + (visible === 1 ? '' : 's')
+    : MANIFEST.totalWorksheets + ' worksheets in ' + MANIFEST.totalSets + ' sets';
+}
+
+document.getElementById('search').addEventListener('input', function (e) {
+  filter(e.target.value);
+});
+
+document.getElementById('selectallvisible').addEventListener('click', function () {
+  document.querySelectorAll('section.set:not([hidden]) li:not([hidden]) .pick-box').forEach(function (box) {
+    box.checked = true;
+    SELECTED.add(box.dataset.id);
+  });
+  document.querySelectorAll('section.set').forEach(syncSetCheckbox);
+  updateBar();
+});
+
+document.getElementById('clearsel').addEventListener('click', function () {
+  SELECTED.clear();
+  document.querySelectorAll('.pick-box').forEach(function (box) { box.checked = false; });
+  document.querySelectorAll('.set-select-all').forEach(function (c) { c.checked = false; c.indeterminate = false; });
+  updateBar();
+});
+
+document.getElementById('printsel').addEventListener('click', function () {
+  if (!SELECTED.size) return;
+  sessionStorage.setItem('bulkPrintIds', JSON.stringify(Array.from(SELECTED)));
+  window.open('worksheet.html?selection=1', '_blank');
+});
+
+loadManifest().then(async function (m) {
+  MANIFEST = m;
+  LIST = allWorksheets(m);
+  render();
+  updateBar();
+
+  const statusEl = document.getElementById('searchstatus');
+  try {
+    const full = await loadAllWorksheets(LIST);
+    full.forEach(function (doc, i) {
+      const w = LIST[i];
+      const parts = [w.topic, w.title, w.setTitle, String(w.number), doc.paragraph];
+      doc.questions.forEach(function (q) {
+        parts.push(q.text, q.correct);
+        parts.push.apply(parts, q.distractors);
+      });
+      SEARCHTEXT[w.id] = parts.join(' ').toLowerCase();
+    });
+    statusEl.textContent = '';
+    filter(document.getElementById('search').value);
+  } catch (e) {
+    statusEl.textContent = 'Could not load passage text — searching by title and set only.';
+  }
+}).catch(function (err) {
+  showLoadError(document.getElementById('sets'), err);
+});
+</script>
+
+</body>
+</html>

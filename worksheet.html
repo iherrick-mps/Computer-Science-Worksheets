@@ -11,6 +11,7 @@
 <div class="printbar">
   <span class="title" id="bartitle">Loading&hellip;</span>
   <a href="index.html">&larr; Browse</a>
+  <a href="select.html">Bulk Print</a>
   <a href="#" id="keylink" hidden>Answer key</a>
   <button id="printbtn" class="solid" type="button">Print</button>
 </div>
@@ -128,16 +129,43 @@ function autofit() {
   });
 }
 
+/* Read the id list saved by select.html's "Print Selected" button.
+   Stored in sessionStorage (rather than the URL) since a bulk selection can
+   easily exceed a practical URL length. */
+function readBulkSelection() {
+  let ids;
+  try {
+    ids = JSON.parse(sessionStorage.getItem('bulkPrintIds') || '[]');
+  } catch (e) {
+    ids = [];
+  }
+  return Array.isArray(ids) ? ids : [];
+}
+
 async function main() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get('id');
   const setId = params.get('set');
+  const isSelection = params.get('selection') === '1';
   const manifest = await loadManifest();
   const list = allWorksheets(manifest);
 
   let entries, label;
 
-  if (setId) {
+  if (isSelection) {
+    const ids = readBulkSelection();
+    if (!ids.length) {
+      throw new Error('No worksheets were selected. Go to Bulk Print, check off some worksheets, and click "Print Selected".');
+    }
+    const idIndex = new Map(ids.map(function (wid, i) { return [wid, i]; }));
+    entries = list.filter(function (w) { return idIndex.has(w.id); });
+    entries.sort(function (a, b) { return idIndex.get(a.id) - idIndex.get(b.id); });
+    if (!entries.length) {
+      throw new Error('None of the selected worksheets could be found. Go back to Bulk Print and select again.');
+    }
+    label = 'Bulk Print — ' + entries.length + ' worksheet' + (entries.length === 1 ? '' : 's');
+    document.getElementById('keylink').hidden = true;
+  } else if (setId) {
     const set = manifest.sets.find(function (s) { return s.id === setId; });
     if (!set) throw new Error('No set named "' + setId + '"');
     entries = set.worksheets;

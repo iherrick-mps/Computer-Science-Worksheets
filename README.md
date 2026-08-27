@@ -14,6 +14,7 @@ passage alone. Built for students who need off-Chromebook work.
 | `index.html` | Browse every set, search by topic, see answer keys at a glance |
 | `worksheet.html` | Printable view — one worksheet per page, with Name / Date / Grade |
 | `answers.html` | Full answer key plus the grade checker |
+| `select.html` | Bulk Print — check off any worksheets across any sets, search by title, set, or passage content, and print the whole batch as one job |
 
 ### Sets
 
@@ -61,8 +62,25 @@ Each worksheet is guaranteed to fit on one page. Worksheets with longer passages
 longer answer choices are automatically typeset slightly smaller so they still fit —
 this happens on load, so nothing needs adjusting by hand.
 
-To print a whole set at once, use **Print whole set** on the browse page. Every
-worksheet starts on a fresh page.
+To print a whole set at once, use **Print whole set** on the browse page (or on any
+set's card in Bulk Print). Every worksheet starts on a fresh page.
+
+### Printing a custom selection
+
+Open the **Bulk Print** tab to build a print job out of any mix of worksheets from
+any sets — not just a whole set at once:
+
+1. Use the search box to filter by topic, set name, or the actual text of the
+   reading passage and questions.
+2. Check off the worksheets you want. Each set also has a **Select all in set**
+   checkbox, and the toolbar has a **Select all visible** button for grabbing
+   everything that's currently matched by a search.
+3. Click **Print Selected** at the bottom. It opens the same printable view as a
+   single worksheet or a whole set, but with just your chosen worksheets, one per
+   page, in the order you selected them.
+
+The selection lives only in the browser's session storage — it isn't saved
+anywhere and clears itself once the tab closes.
 
 ## Grading
 
