@@ -14,7 +14,6 @@ passage alone. Built for students who need off-Chromebook work.
 | `index.html` | Browse every set, search by topic, see answer keys at a glance |
 | `worksheet.html` | Printable view — one worksheet per page, with Name / Date / Grade |
 | `answers.html` | Full answer key plus the grade checker |
-| `select.html` | Bulk Print — check off any worksheets across any sets, search by title, set, or passage content, and print the whole batch as one job |
 
 ### Sets
 
@@ -62,25 +61,8 @@ Each worksheet is guaranteed to fit on one page. Worksheets with longer passages
 longer answer choices are automatically typeset slightly smaller so they still fit —
 this happens on load, so nothing needs adjusting by hand.
 
-To print a whole set at once, use **Print whole set** on the browse page (or on any
-set's card in Bulk Print). Every worksheet starts on a fresh page.
-
-### Printing a custom selection
-
-Open the **Bulk Print** tab to build a print job out of any mix of worksheets from
-any sets — not just a whole set at once:
-
-1. Use the search box to filter by topic, set name, or the actual text of the
-   reading passage and questions.
-2. Check off the worksheets you want. Each set also has a **Select all in set**
-   checkbox, and the toolbar has a **Select all visible** button for grabbing
-   everything that's currently matched by a search.
-3. Click **Print Selected** at the bottom. It opens the same printable view as a
-   single worksheet or a whole set, but with just your chosen worksheets, one per
-   page, in the order you selected them.
-
-The selection lives only in the browser's session storage — it isn't saved
-anywhere and clears itself once the tab closes.
+To print a whole set at once, use **Print whole set** on the browse page. Every
+worksheet starts on a fresh page.
 
 ## Grading
 
@@ -103,7 +85,17 @@ a given worksheet.
 1. Copy `data/_template.json` into the right set folder and name it to match the
    pattern, e.g. `data/loops/loops-16.json`. The template explains every field.
 2. Write the passage and five questions. Set `order` on each question to control which
-   choice prints as A, B, C, and D, and vary where the correct answer lands.
+   choice prints as A, B, C, and D, and vary where the correct answer lands. Every
+   worksheet follows a fixed difficulty progression across its five questions:
+   - **Q1–Q3** should be easy — answerable just by reading the paragraph once, no
+     re-reading or inference needed.
+   - **Q4** should be hard — it should take a bit of lateral thinking to work out.
+   - **Q5** should be very hard — it should take a lot of critical thinking to work
+     out.
+
+   All five questions must still be answerable using only the paragraph — Q4 and Q5
+   get harder by requiring the student to connect or reason about details in the
+   paragraph, not by requiring outside knowledge.
 3. Rebuild the index and check your work:
 
 ```bash
@@ -171,3 +163,8 @@ The `order` array fixes the printed sequence: `c` is the correct answer and `d0`
 second distractor as A, the correct answer as B, and makes the key for that question
 **B**. Storing the order in the file is what keeps every printed copy identical and
 lets one answer key cover the whole class.
+
+Question difficulty rises across each worksheet: questions 1–3 are answerable on a
+single read of the passage, question 4 requires a bit of lateral thinking, and
+question 5 requires a lot of critical thinking — while still being answerable from
+the paragraph alone, with no outside knowledge needed.

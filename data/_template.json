@@ -4,6 +4,15 @@
     "Delete these two underscore keys when you're done; they are ignored by the site.",
     "After adding a file you must also add an entry for it in data/index.json.",
     "",
+    "DIFFICULTY PROGRESSION:",
+    "  Every worksheet's five questions get harder in a fixed order:",
+    "    Q1-Q3: easy — answerable just by reading the paragraph once.",
+    "    Q4:    hard — takes a bit of lateral thinking to work out.",
+    "    Q5:    very hard — takes a lot of critical thinking to work out.",
+    "  All five must still be answerable using ONLY the paragraph. Q4 and Q5 get",
+    "  harder because they require connecting or reasoning about details in the",
+    "  paragraph, not because they require outside knowledge.",
+    "",
     "HOW 'order' WORKS:",
     "  Each question stores the correct answer once ('correct') and three wrong answers",
     "  ('distractors'). The 'order' array decides which of those four appears as A, B, C, D.",
@@ -22,6 +31,9 @@
   "_CHECKLIST": [
     "Every question is answerable from the paragraph alone — no outside knowledge.",
     "Exactly 5 questions, exactly 3 distractors each.",
+    "Q1-Q3 are easy — a single read of the paragraph is enough to answer them.",
+    "Q4 is hard — it takes a bit of lateral thinking to work out.",
+    "Q5 is very hard — it takes a lot of critical thinking to work out.",
     "Distractors are plausible but clearly wrong to a careful reader.",
     "'c' is not in the same slot for all five questions.",
     "'correctLetter' agrees with the position of 'c' in 'order'.",
@@ -38,11 +50,11 @@
   "readingLevel": "Standard (grades 6-8)",
   "tiered": false,
   "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
-  "paragraph": "Write one self-contained paragraph here, roughly 110 to 190 words. It should define the concept, then give a concrete example or short scenario. Every question below must be answerable using only this paragraph. Keep it as a single block of prose with no line breaks, headings, or bullet points, since the printable view renders it as one bordered box. If you want the last two questions to require applied reasoning rather than recall, embed a worked example with specific numbers or a stated rule here, so students have something concrete to reason from.",
+  "paragraph": "Write one self-contained paragraph here, roughly 110 to 190 words. It should define the concept, then give a concrete example or short scenario. Every question below must be answerable using only this paragraph. Keep it as a single block of prose with no line breaks, headings, or bullet points, since the printable view renders it as one bordered box. Give the paragraph enough concrete detail (numbers, a stated rule, a worked example) that questions 4 and 5 have something specific to reason from.",
 
   "questions": [
     {
-      "text": "A direct-recall question whose answer is stated plainly in the paragraph:",
+      "text": "An easy question whose answer is stated plainly in the paragraph (Q1 — easy, single read):",
       "correct": "The answer, stated the way the paragraph states it",
       "distractors": [
         "A plausible but incorrect option",
@@ -53,7 +65,7 @@
       "correctLetter": "A"
     },
     {
-      "text": "A second direct-recall question:",
+      "text": "A second easy question, also answerable on a single read (Q2 — easy, single read):",
       "correct": "The correct answer",
       "distractors": [
         "Wrong option one",
@@ -64,7 +76,7 @@
       "correctLetter": "B"
     },
     {
-      "text": "A third direct-recall question:",
+      "text": "A third easy question, also answerable on a single read (Q3 — easy, single read):",
       "correct": "The correct answer",
       "distractors": [
         "Wrong option one",
@@ -75,7 +87,7 @@
       "correctLetter": "D"
     },
     {
-      "text": "An applied question — give a new situation and ask students to apply a rule or example from the paragraph to it. Optional; use a fourth recall question instead if you want the whole worksheet at one level.",
+      "text": "A hard question that takes a bit of lateral thinking — give a new situation and ask students to apply a rule or example from the paragraph to it (Q4 — hard, lateral thinking, still answerable from the paragraph alone):",
       "correct": "The conclusion that follows from applying the paragraph's rule",
       "distractors": [
         "A conclusion that misapplies the rule",
@@ -86,7 +98,7 @@
       "correctLetter": "C"
     },
     {
-      "text": "A second applied question — ask students to predict an outcome, compare two cases, or explain why something happens, based on the paragraph:",
+      "text": "A very hard question that takes a lot of critical thinking — ask students to weigh two details against each other, spot an implication, or explain why something happens, based on the paragraph (Q5 — very hard, critical thinking, still answerable from the paragraph alone):",
       "correct": "The supported conclusion, with the reason included in the option text",
       "distractors": [
         "A tempting but unsupported conclusion",
