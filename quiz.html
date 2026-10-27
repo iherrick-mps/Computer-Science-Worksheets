@@ -111,6 +111,54 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   background: rgba(138,109,59,.28);
 }
 .imgwrap .hit.sel .dot { display: block; }
+.tools {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  background: var(--paper);
+  border-bottom: 2px solid var(--rule);
+  padding: 8px 0;
+  margin-bottom: 10px;
+}
+.tools button { padding: 8px 14px; font-size: 16px; }
+.tools button.on { background: var(--accent); color: #fff; }
+.tools .sep { color: var(--muted); font-size: 14px; margin-left: 4px; }
+.imgwrap canvas.marks { position: absolute; pointer-events: none; touch-action: auto; }
+.imgwrap canvas.marks.live { pointer-events: auto; touch-action: none; cursor: crosshair; }
+.imgwrap .xbtn {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #b0a898;
+  font-weight: 700;
+  line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+  font-size: clamp(10px, 2.2vw, 17px);
+  cursor: pointer;
+  z-index: 2;
+}
+.imgwrap .xbtn:hover { color: var(--bad); background: var(--bad-bg); }
+.imgwrap .xbtn.on { color: #fff; background: var(--bad); }
+.imgwrap .crossed {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(255,255,255,.62);
+}
+.imgwrap .crossed::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: var(--ly);
+  height: 2px;
+  background: var(--bad);
+}
 .submitbar {
   position: sticky;
   bottom: 0;
@@ -165,7 +213,15 @@ button:disabled { opacity: .45; cursor: not-allowed; }
         <span class="pill" id="q-attempt"></span>
       </div>
       <div id="q-banner" class="banner bad" hidden></div>
-      <p class="hint" style="margin:0 0 10px">Click the letter of your answer right on the worksheet. You can change an answer before you submit.</p>
+      <p class="hint" style="margin:0 0 10px">Click the letter of your answer right on the worksheet. Click the <b>✕</b> at the end of an answer to cross it out if you know it's wrong.</p>
+      <div class="tools" id="tools" role="toolbar" aria-label="Marking tools">
+        <button type="button" id="t-hl">🖍 Highlight</button>
+        <button type="button" id="t-ul">Underline</button>
+        <button type="button" id="t-er">Eraser</button>
+        <button type="button" id="t-undo">Undo</button>
+        <button type="button" id="t-clear">Clear marks</button>
+        <span class="sep">Pick a tool, then draw on the passage.</span>
+      </div>
       <div class="noselect imgwrap" id="q-wrap" oncontextmenu="return false">
         <img id="q-img" class="sheetimg" alt="Worksheet (image)" draggable="false">
       </div>
@@ -277,7 +333,7 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   /* ---------- worksheet -> JPEG ---------- */
   var SW = 860, SS = 2, SPAD = 40;
 
-  function paintWorksheet(ctx, ws, name, height, hits) {
+  function paintWorksheet(ctx, ws, name, height, hits, info) {
     var maxW = SW - SPAD * 2, y = SPAD;
     ctx.textBaseline = 'alphabetic';
     ctx.fillStyle = '#2b2620';
@@ -293,6 +349,7 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     ctx.font = '19px ' + FONT;
     var lines = wrap(ctx, ws.paragraph, maxW - 36), lh = 29;
     var boxH = lines.length * lh + 32;
+    if (info) info.passage = { x: SPAD, y: y, w: maxW, h: boxH };
     if (height) {
       ctx.fillStyle = '#f7f4ee';
       ctx.fillRect(SPAD, y, maxW, boxH);
@@ -345,16 +402,16 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 
   function renderWorksheet(ws, name) {
     var scratch = document.createElement('canvas').getContext('2d');
-    var hits = [];
-    var h = Math.ceil(paintWorksheet(scratch, ws, name, 0, hits));
+    var hits = [], info = {};
+    var h = Math.ceil(paintWorksheet(scratch, ws, name, 0, hits, info));
     var c = document.createElement('canvas');
     c.width = SW * SS; c.height = h * SS;
     var ctx = c.getContext('2d');
     ctx.scale(SS, SS);
     ctx.fillStyle = '#fff';
     ctx.fillRect(0, 0, SW, h);
-    paintWorksheet(ctx, ws, name, h, null);
-    return { url: c.toDataURL('image/jpeg', 0.88), w: SW, h: h, hits: hits };
+    paintWorksheet(ctx, ws, name, h, null, null);
+    return { url: c.toDataURL('image/jpeg', 0.88), w: SW, h: h, hits: hits, passage: info.passage };
   }
 
   /* ---------- certificate -> canvas ---------- */
@@ -538,7 +595,8 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     try {
       var ws = await loadWorksheet(entry);
       var used = getAttempts(name, ws.id);
-      state = { ws: ws, answers: [], attempts: used, name: name, img: renderWorksheet(ws, name) };
+      state = { ws: ws, answers: [], attempts: used, name: name, img: renderWorksheet(ws, name), marks: [], crossed: {} };
+      setTool(null);
       startQuiz();
     } catch (err) {
       $('menu-err').textContent = 'Could not load a worksheet. Please try again.';
@@ -564,29 +622,142 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 
   function buildOverlay() {
     var wrap = $('q-wrap');
-    Array.prototype.slice.call(wrap.querySelectorAll('.hit')).forEach(function (n) { n.remove(); });
+    Array.prototype.slice.call(wrap.querySelectorAll('.hit, .xbtn, .crossed, canvas.marks')).forEach(function (n) { n.remove(); });
     var im = state.img, rows = {};
     function pct(v, tot) { return (v / tot * 100) + '%'; }
+    function place(el, x, y, w, h) {
+      el.style.left = pct(x, im.w); el.style.top = pct(y, im.h);
+      el.style.width = pct(w, im.w); el.style.height = pct(h, im.h);
+    }
+    buildMarks(wrap);
+
     im.hits.forEach(function (h) {
+      var ck = h.q + ':' + h.c;
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'hit' + (state.answers[h.q] === h.c ? ' sel' : '');
-      b.style.left = pct(h.x, im.w); b.style.top = pct(h.y, im.h);
-      b.style.width = pct(h.w, im.w); b.style.height = pct(h.h, im.h);
+      place(b, h.x, h.y, h.w - 40, h.h);
       b.setAttribute('aria-label', 'Question ' + (h.q + 1) + ', answer ' + LETTERS[h.c]);
       var dot = document.createElement('span');
       dot.className = 'dot';
       dot.style.height = pct(h.dot, h.h);
       b.appendChild(dot);
-      (rows[h.q] = rows[h.q] || []).push(b);
+
+      var x = document.createElement('button');
+      x.type = 'button';
+      x.className = 'xbtn' + (state.crossed[ck] ? ' on' : '');
+      x.textContent = '✕';
+      place(x, h.x + h.w - 32, h.y, 28, Math.min(26, h.h));
+      x.style.height = 'auto'; x.style.aspectRatio = '1';
+      x.style.height = pct(Math.min(26, h.h), im.h); x.style.width = 'auto';
+      x.setAttribute('aria-label', 'Cross out answer ' + LETTERS[h.c] + ' for question ' + (h.q + 1));
+
+      var cr = document.createElement('div');
+      cr.className = 'crossed';
+      cr.hidden = !state.crossed[ck];
+      place(cr, h.x + 4, h.y, h.w - 44, h.h);
+      cr.style.setProperty('--ly', (15.5 / h.h * 100) + '%');
+
+      (rows[h.q] = rows[h.q] || []).push({ b: b });
       b.addEventListener('click', function () {
         state.answers[h.q] = h.c;
-        rows[h.q].forEach(function (x) { x.classList.remove('sel'); });
+        delete state.crossed[ck];
+        x.classList.remove('on'); cr.hidden = true;
+        rows[h.q].forEach(function (r) { r.b.classList.remove('sel'); });
         b.classList.add('sel');
         updateSubmit();
       });
-      wrap.appendChild(b);
+      x.addEventListener('click', function () {
+        var on = !state.crossed[ck];
+        if (on) {
+          state.crossed[ck] = true;
+          if (state.answers[h.q] === h.c) { state.answers[h.q] = undefined; b.classList.remove('sel'); updateSubmit(); }
+        } else delete state.crossed[ck];
+        x.classList.toggle('on', on); cr.hidden = !on;
+      });
+      wrap.appendChild(b); wrap.appendChild(cr); wrap.appendChild(x);
     });
+  }
+
+  /* ---------- highlight / underline / eraser on the passage ---------- */
+  var tool = null, marksCanvas = null, drawing = null;
+  var HL = { w: 22, color: 'rgba(255,214,0,0.40)' }, UL = { w: 3, color: '#d32f2f' };
+
+  function setTool(t) {
+    tool = t;
+    ['hl', 'ul', 'er'].forEach(function (k) {
+      $('t-' + k).classList.toggle('on', t === k);
+    });
+    if (marksCanvas) marksCanvas.classList.toggle('live', !!t);
+  }
+
+  function redrawMarks() {
+    if (!marksCanvas) return;
+    var ctx = marksCanvas.getContext('2d');
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, marksCanvas.width, marksCanvas.height);
+    ctx.setTransform(SS, 0, 0, SS, 0, 0);
+    ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    state.marks.forEach(function (m) {
+      var st = m.kind === 'hl' ? HL : UL;
+      ctx.strokeStyle = st.color; ctx.lineWidth = st.w;
+      ctx.beginPath();
+      ctx.moveTo(m.pts[0][0], m.pts[0][1]);
+      if (m.pts.length === 1) ctx.lineTo(m.pts[0][0] + 0.1, m.pts[0][1]);
+      for (var i = 1; i < m.pts.length; i++) ctx.lineTo(m.pts[i][0], m.pts[i][1]);
+      ctx.stroke();
+    });
+  }
+
+  function buildMarks(wrap) {
+    var P = state.img.passage, im = state.img;
+    var c = document.createElement('canvas');
+    c.className = 'marks';
+    c.width = P.w * SS; c.height = P.h * SS;
+    c.style.left = (P.x / im.w * 100) + '%'; c.style.top = (P.y / im.h * 100) + '%';
+    c.style.width = (P.w / im.w * 100) + '%'; c.style.height = (P.h / im.h * 100) + '%';
+    wrap.appendChild(c);
+    marksCanvas = c;
+    c.classList.toggle('live', !!tool);
+
+    function pt(e) {
+      var r = c.getBoundingClientRect();
+      return [(e.clientX - r.left) / r.width * P.w, (e.clientY - r.top) / r.height * P.h];
+    }
+    function erase(p) {
+      var R = 14;
+      var before = state.marks.length;
+      state.marks = state.marks.filter(function (m) {
+        if (m.kind === 'ul') {
+          var x0 = m.pts[0][0], x1 = m.pts[m.pts.length - 1][0], y = m.pts[0][1];
+          return !(Math.abs(p[1] - y) < R && p[0] > Math.min(x0, x1) - R && p[0] < Math.max(x0, x1) + R);
+        }
+        return !m.pts.some(function (q) { return Math.hypot(q[0] - p[0], q[1] - p[1]) < R + 6; });
+      });
+      if (state.marks.length !== before) redrawMarks();
+    }
+    c.addEventListener('pointerdown', function (e) {
+      if (!tool) return;
+      e.preventDefault();
+      c.setPointerCapture(e.pointerId);
+      var p = pt(e);
+      if (tool === 'er') { drawing = 'er'; erase(p); return; }
+      drawing = { kind: tool, pts: [p] };
+      state.marks.push(drawing);
+      redrawMarks();
+    });
+    c.addEventListener('pointermove', function (e) {
+      if (!drawing) return;
+      var p = pt(e);
+      if (drawing === 'er') { erase(p); return; }
+      if (drawing.kind === 'ul') drawing.pts = [drawing.pts[0], [p[0], drawing.pts[0][1]]];
+      else drawing.pts.push(p);
+      redrawMarks();
+    });
+    function end() { drawing = null; }
+    c.addEventListener('pointerup', end);
+    c.addEventListener('pointercancel', end);
+    redrawMarks();
   }
 
   function updateSubmit() {
@@ -664,6 +835,11 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   $('btn-random').addEventListener('click', pickRandom);
   $('name').addEventListener('keydown', function (e) { if (e.key === 'Enter') pickRandom(); });
   $('btn-submit').addEventListener('click', submit);
+  ['hl', 'ul', 'er'].forEach(function (k) {
+    $('t-' + k).addEventListener('click', function () { setTool(tool === k ? null : k); });
+  });
+  $('t-undo').addEventListener('click', function () { if (state) { state.marks.pop(); redrawMarks(); } });
+  $('t-clear').addEventListener('click', function () { if (state) { state.marks = []; redrawMarks(); } });
   $('btn-different').addEventListener('click', function () { showMenu(); });
   $('btn-another').addEventListener('click', function () { showMenu(); });
   $('btn-pdf').addEventListener('click', downloadPDF);
