@@ -14,6 +14,7 @@ passage alone. Built for students who need off-Chromebook work.
 | `index.html` | Browse every set, search by topic, see answer keys at a glance |
 | `worksheet.html` | Printable view — one worksheet per page, with Name / Date / Grade |
 | `answers.html` | Full answer key plus the grade checker |
+| `quiz.html` | Student-facing quiz (not linked from other pages): random worksheet rendered as a JPEG, 2 attempts, PDF certificate + Gmail link |
 
 ### Sets
 

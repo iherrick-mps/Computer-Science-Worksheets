@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CS Worksheet Quiz</title>
+<style>
+:root {
+  --ink: #2b2620;
+  --cream: #f7f4ee;
+  --paper: #ffffff;
+  --accent: #8a6d3b;
+  --accent-dark: #6b5430;
+  --rule: #d9d2c4;
+  --muted: #6c6459;
+  --ok: #1c7a43;
+  --ok-bg: #e6f4ea;
+  --bad: #b00020;
+  --bad-bg: #fdeaec;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: Calibri, "Segoe UI", Roboto, system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+header {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 18px 20px;
+}
+header h1 { margin: 0; font-size: 22px; }
+header p { margin: 2px 0 0; font-size: 14px; color: #c9c0b1; }
+main { max-width: 940px; margin: 0 auto; padding: 24px 20px 64px; }
+.card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.card h2 { margin: 0 0 8px; font-size: 22px; }
+label { display: block; font-weight: 700; margin-bottom: 6px; }
+input[type=text] {
+  width: 100%;
+  max-width: 420px;
+  font: inherit;
+  padding: 10px 12px;
+  border: 2px solid var(--rule);
+  border-radius: 8px;
+}
+input[type=text]:focus { outline: none; border-color: var(--accent); }
+button {
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid var(--accent);
+  background: var(--paper);
+  color: var(--accent-dark);
+  padding: 10px 20px;
+}
+button.solid { background: var(--accent); color: #fff; }
+button.big { font-size: 20px; padding: 16px 28px; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.hint { color: var(--muted); font-size: 15px; margin: 6px 0 0; }
+.err { color: var(--bad); font-weight: 700; min-height: 1.5em; margin: 8px 0 0; }
+[hidden] { display: none !important; }
+
+/* worksheet image: no selecting, dragging, or long-press save */
+.noselect, .noselect * {
+  -webkit-user-select: none; user-select: none;
+  -webkit-touch-callout: none;
+}
+.sheetimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: #fff;
+  -webkit-user-drag: none;
+}
+.bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.pill { background: var(--cream); border: 1px solid var(--rule); border-radius: 99px; padding: 4px 14px; font-weight: 700; font-size: 15px; }
+.answers { display: grid; gap: 10px; margin: 16px 0; }
+.arow { display: flex; align-items: center; gap: 12px; }
+.arow .q { font-weight: 700; width: 3.2em; }
+.arow .opts { display: flex; gap: 8px; }
+.arow button { width: 52px; height: 48px; padding: 0; font-size: 18px; }
+.arow button.sel { background: var(--accent); color: #fff; }
+.banner { border-radius: 8px; padding: 12px 16px; margin: 0 0 14px; font-weight: 700; }
+.banner.bad { background: var(--bad-bg); color: var(--bad); border: 1px solid var(--bad); }
+.steps { margin: 12px 0 0; padding-left: 22px; }
+.steps li { margin-bottom: 6px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 14px; }
+.center { text-align: center; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CS Worksheet Quiz</h1>
+  <p>Ms. Herrick &middot; Robotics &amp; Coding</p>
+</header>
+
+<main>
+
+  <!-- MENU -->
+  <section id="s-menu" class="card" hidden>
+    <h2>Ready to take a quiz?</h2>
+    <p>Type your name, then press the button to get a random worksheet. Read the passage carefully and answer all 5 questions. You get <b>2 attempts</b> per worksheet.</p>
+    <label for="name">Your full name</label>
+    <input type="text" id="name" maxlength="60" autocomplete="off" placeholder="First and last name">
+    <p class="hint">Your name will be printed on your certificate.</p>
+    <div class="err" id="menu-err" role="alert"></div>
+    <div class="row">
+      <button type="button" class="solid big" id="btn-random">Get a random worksheet</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="s-quiz" hidden>
+    <div class="card">
+      <div class="bar">
+        <strong id="q-title"></strong>
+        <span class="pill" id="q-attempt"></span>
+      </div>
+      <div id="q-banner" class="banner bad" hidden></div>
+      <div class="noselect" oncontextmenu="return false">
+        <img id="q-img" class="sheetimg" alt="Worksheet (image)" draggable="false">
+      </div>
+      <h2 style="margin-top:20px">Your answers</h2>
+      <div class="answers" id="q-answers"></div>
+      <div class="row">
+        <button type="button" class="solid big" id="btn-submit" disabled>Submit answers</button>
+      </div>
+      <p class="hint">Answer all 5 questions to submit.</p>
+    </div>
+  </section>
+
+  <!-- LOCKED -->
+  <section id="s-locked" class="card center" hidden>
+    <h2>Out of attempts on this worksheet</h2>
+    <p>You've used both attempts on <b id="l-title"></b>. Pick a different worksheet to keep going.</p>
+    <div class="row" style="justify-content:center">
+      <button type="button" class="solid big" id="btn-different">Pick a different worksheet</button>
+    </div>
+  </section>
+
+  <!-- DONE -->
+  <section id="s-done" hidden>
+    <div class="card">
+      <h2>Great work, <span id="d-name"></span>! 🎉</h2>
+      <p>You got every question right. Here is your certificate.</p>
+      <div class="noselect" oncontextmenu="return false">
+        <img id="d-img" class="sheetimg" alt="Certificate" draggable="false">
+      </div>
+      <h2 style="margin-top:20px">Send it to Ms. Herrick</h2>
+      <ol class="steps">
+        <li>Click <b>Download PDF</b>. It saves to your <b>Downloads</b> folder.</li>
+        <li>Click <b>Open Gmail to send it</b>. A new Gmail tab opens with the email already written.</li>
+        <li>In Gmail, click the <b>paperclip</b> 📎, choose the PDF from <b>Downloads</b>, then press <b>Send</b>.</li>
+      </ol>
+      <div class="row">
+        <button type="button" class="solid big" id="btn-pdf">Download PDF</button>
+        <button type="button" class="big" id="btn-mail">Open Gmail to send it</button>
+      </div>
+      <div class="row">
+        <button type="button" id="btn-another">Take another worksheet</button>
+      </div>
+    </div>
+  </section>
+
+  <div id="loadmsg" class="card" hidden></div>
+</main>
+
+<script src="assets/common.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var TEACHER_EMAIL = 'iherrick@magnoliapublicschools.org';
+  var MAX_ATTEMPTS = 2;
+  var FONT = 'Calibri, "Segoe UI", Roboto, Arial, sans-serif';
+  var SERIF = 'Georgia, "Times New Roman", serif';
+
+  var $ = function (id) { return document.getElementById(id); };
+  var screens = ['s-menu', 's-quiz', 's-locked', 's-done'];
+  function show(id) {
+    screens.forEach(function (s) { $(s).hidden = (s !== id); });
+    window.scrollTo(0, 0);
+  }
+
+  var manifest = null;
+  var state = null;   // { ws, answers[], attempts, name, cert }
+  var studentName = '';
+
+  /* ---------- storage (best effort) ---------- */
+  function key(name, id) { return 'csq:' + name.toLowerCase().replace(/\s+/g, ' ') + ':' + id; }
+  function getAttempts(name, id) {
+    try { return parseInt(localStorage.getItem(key(name, id)) || '0', 10) || 0; } catch (e) { return 0; }
+  }
+  function setAttempts(name, id, n) {
+    try { localStorage.setItem(key(name, id), String(n)); } catch (e) {}
+  }
+
+  /* ---------- canvas text helpers ---------- */
+  function wrap(ctx, text, maxW) {
+    var words = String(text).split(/\s+/), lines = [], line = '';
+    words.forEach(function (w) {
+      var t = line ? line + ' ' + w : w;
+      if (line && ctx.measureText(t).width > maxW) { lines.push(line); line = w; }
+      else line = t;
+    });
+    if (line) lines.push(line);
+    return lines;
+  }
+  /* draw wrapped text, return new y (top of next line area) */
+  function para(ctx, text, x, y, maxW, lh) {
+    wrap(ctx, text, maxW).forEach(function (l) { ctx.fillText(l, x, y + lh * 0.78); y += lh; });
+    return y;
+  }
+  function toJpegBlob(canvas) {
+    return new Promise(function (res) { canvas.toBlob(res, 'image/jpeg', 0.88); });
+  }
+  function blobToBytes(blob) {
+    return new Promise(function (res) {
+      var r = new FileReader();
+      r.onload = function () { res(new Uint8Array(r.result)); };
+      r.readAsArrayBuffer(blob);
+    });
+  }
+
+  /* ---------- worksheet -> JPEG ---------- */
+  var SW = 860, SS = 2, SPAD = 40;
+
+  function paintWorksheet(ctx, ws, name, height) {
+    var maxW = SW - SPAD * 2, y = SPAD;
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillStyle = '#2b2620';
+
+    ctx.font = 'bold 30px ' + SERIF;
+    y = para(ctx, ws.title, SPAD, y, maxW, 38) + 6;
+
+    ctx.font = 'italic 17px ' + FONT;
+    ctx.fillStyle = '#6c6459';
+    y = para(ctx, 'Read the passage carefully. Then answer all questions using ONLY the information in the passage.', SPAD, y, maxW, 24) + 14;
+
+    // passage box
+    ctx.font = '19px ' + FONT;
+    var lines = wrap(ctx, ws.paragraph, maxW - 36), lh = 29;
+    var boxH = lines.length * lh + 32;
+    if (height) {
+      ctx.fillStyle = '#f7f4ee';
+      ctx.fillRect(SPAD, y, maxW, boxH);
+      ctx.fillStyle = '#8a6d3b';
+      ctx.fillRect(SPAD, y, 5, boxH);
+    }
+    ctx.fillStyle = '#2b2620';
+    var ty = y + 16;
+    lines.forEach(function (l) { ctx.fillText(l, SPAD + 22, ty + lh * 0.75); ty += lh; });
+    y += boxH + 28;
+
+    ws.questions.forEach(function (q, qi) {
+      ctx.fillStyle = '#2b2620';
+      ctx.font = 'bold 20px ' + FONT;
+      y = para(ctx, (qi + 1) + '.  ' + q.text, SPAD, y, maxW, 28) + 4;
+      ctx.font = '19px ' + FONT;
+      displayChoices(q).forEach(function (c, ci) {
+        ctx.font = 'bold 19px ' + FONT;
+        ctx.fillText(LETTERS[ci] + '.', SPAD + 26, y + 22 * 0.8);
+        ctx.font = '19px ' + FONT;
+        y = para(ctx, c, SPAD + 58, y, maxW - 58, 26);
+      });
+      y += 20;
+    });
+
+    var total = y + SPAD - 14;
+    if (height) {
+      // faint name watermark to discourage sharing screenshots
+      ctx.save();
+      ctx.globalAlpha = 0.055;
+      ctx.fillStyle = '#000';
+      ctx.font = 'bold 44px ' + FONT;
+      ctx.textAlign = 'center';
+      for (var wy = 150; wy < height; wy += 300) {
+        ctx.save();
+        ctx.translate(SW / 2, wy);
+        ctx.rotate(-0.35);
+        ctx.fillText(name, 0, 0);
+        ctx.restore();
+      }
+      ctx.restore();
+    }
+    return total;
+  }
+
+  function renderWorksheet(ws, name) {
+    var scratch = document.createElement('canvas').getContext('2d');
+    var h = Math.ceil(paintWorksheet(scratch, ws, name, 0));
+    var c = document.createElement('canvas');
+    c.width = SW * SS; c.height = h * SS;
+    var ctx = c.getContext('2d');
+    ctx.scale(SS, SS);
+    ctx.fillStyle = '#fff';
+    ctx.fillRect(0, 0, SW, h);
+    paintWorksheet(ctx, ws, name, h);
+    return c.toDataURL('image/jpeg', 0.88);
+  }
+
+  /* ---------- certificate -> canvas ---------- */
+  var CW = 1275, CH = 1650;   // US Letter at 150 dpi
+
+  function fitText(ctx, text, font, size, maxW) {
+    while (size > 18) {
+      ctx.font = font.replace('{s}', size);
+      if (ctx.measureText(text).width <= maxW) break;
+      size -= 2;
+    }
+    return size;
+  }
+
+  function arcText(ctx, text, cx, cy, r, mid, bottom) {
+    var step = ctx.measureText('M').width * 0.78;
+    var widths = text.split('').map(function (ch) { return ctx.measureText(ch).width + 2; });
+    var total = widths.reduce(function (a, b) { return a + b; }, 0) / r;
+    var a = bottom ? mid + total / 2 : mid - total / 2;
+    text.split('').forEach(function (ch, i) {
+      var w = widths[i] / r;
+      var ang = bottom ? a - w / 2 : a + w / 2;
+      ctx.save();
+      ctx.translate(cx + Math.cos(ang) * r, cy + Math.sin(ang) * r);
+      ctx.rotate(bottom ? ang - Math.PI / 2 : ang + Math.PI / 2);
+      ctx.fillText(ch, 0, 0);
+      ctx.restore();
+      a += bottom ? -w : w;
+    });
+  }
+
+  function drawStamp(ctx, cx, cy, dateStr) {
+    var ink = '#1c7a43', r = 150;
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(-0.22);
+    ctx.globalAlpha = 0.88;
+    ctx.strokeStyle = ink; ctx.fillStyle = ink;
+    ctx.lineWidth = 9;  ctx.beginPath(); ctx.arc(0, 0, r, 0, 7); ctx.stroke();
+    ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(0, 0, r - 14, 0, 7); ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, 0, r - 74, 0, 7); ctx.stroke();
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.font = 'bold 21px ' + FONT;
+    arcText(ctx, 'MAGNOLIA SCIENCE ACADEMY', 0, 0, r - 42, -Math.PI / 2, false);
+    arcText(ctx, 'COMPUTER SCIENCE', 0, 0, r - 42, Math.PI / 2, true);
+    // side stars
+    ctx.font = 'bold 26px ' + FONT;
+    ctx.fillText('★', -(r - 40), 0); ctx.fillText('★', r - 40, 0);
+    ctx.font = 'bold 34px ' + FONT;
+    ctx.fillText('CERTIFIED', 0, -16);
+    ctx.font = 'bold 18px ' + FONT;
+    ctx.fillText('5 / 5 CORRECT', 0, 14);
+    ctx.font = 'bold 16px ' + FONT;
+    ctx.fillText(dateStr, 0, 38);
+    ctx.restore();
+  }
+
+  function renderCertificate(ws, name, attemptNo) {
+    var c = document.createElement('canvas');
+    c.width = CW; c.height = CH;
+    var ctx = c.getContext('2d');
+    var dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    var gold = '#8a6d3b', ink = '#2b2620';
+
+    ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, CW, CH);
+    ctx.strokeStyle = gold; ctx.lineWidth = 8; ctx.strokeRect(40, 40, CW - 80, CH - 80);
+    ctx.lineWidth = 2; ctx.strokeRect(58, 58, CW - 116, CH - 116);
+
+    ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic'; ctx.fillStyle = ink;
+    ctx.font = 'bold 58px ' + SERIF; ctx.fillText('CERTIFICATE OF COMPLETION', CW / 2, 160);
+    ctx.font = '26px ' + FONT; ctx.fillStyle = '#6c6459';
+    ctx.fillText('Computer Science Worksheets  ·  Ms. Herrick  ·  Magnolia Science Academy San Diego', CW / 2, 205);
+
+    ctx.fillStyle = ink; ctx.font = 'italic 30px ' + SERIF;
+    ctx.fillText('This certifies that', CW / 2, 290);
+    var ns = fitText(ctx, name, 'bold {s}px ' + SERIF, 72, CW - 260);
+    ctx.font = 'bold ' + ns + 'px ' + SERIF; ctx.fillStyle = gold;
+    ctx.fillText(name, CW / 2, 370);
+    var nw = Math.min(ctx.measureText(name).width + 60, CW - 200);
+    ctx.fillStyle = gold; ctx.fillRect((CW - nw) / 2, 390, nw, 3);
+    ctx.fillStyle = ink; ctx.font = 'italic 30px ' + SERIF;
+    ctx.fillText('answered every question correctly on', CW / 2, 450);
+
+    ctx.font = 'bold 38px ' + SERIF;
+    var y = 490;
+    wrap(ctx, ws.title, CW - 240).forEach(function (l) { ctx.fillText(l, CW / 2, y + 36); y += 46; });
+    ctx.font = '27px ' + FONT; ctx.fillStyle = '#6c6459';
+    ctx.fillText(dateStr + '  ·  Passed on attempt ' + attemptNo + ' of ' + MAX_ATTEMPTS, CW / 2, y + 40);
+    y += 90;
+
+    // answers
+    ctx.textAlign = 'left';
+    ctx.fillStyle = ink; ctx.font = 'bold 30px ' + FONT;
+    ctx.fillText('Answers submitted', 110, y + 22);
+    ctx.fillStyle = gold; ctx.fillRect(110, y + 34, CW - 220, 2);
+    y += 56;
+
+    var limit = 1290, fs = 26, list = null;
+    function layout(size, draw) {
+      var yy = y, w = CW - 220;
+      ws.questions.forEach(function (q, i) {
+        ctx.font = 'bold ' + size + 'px ' + FONT; ctx.fillStyle = ink;
+        var ql = wrap(ctx, (i + 1) + '.  ' + q.text, w);
+        ql.forEach(function (l) { if (draw) ctx.fillText(l, 110, yy + size); yy += size * 1.3; });
+        ctx.font = size + 'px ' + FONT; ctx.fillStyle = '#1c7a43';
+        var al = wrap(ctx, '✓  ' + LETTERS[q.order.indexOf('c')] + '.  ' + q.correct, w - 40);
+        al.forEach(function (l) { if (draw) ctx.fillText(l, 150, yy + size); yy += size * 1.3; });
+        yy += size * 0.6;
+      });
+      return yy;
+    }
+    while (fs > 14 && layout(fs, false) > limit) fs -= 1;
+    layout(fs, true);
+
+    // footer + stamp
+    ctx.fillStyle = '#6c6459'; ctx.font = '22px ' + FONT; ctx.textAlign = 'left';
+    ctx.fillText('Student: ' + name, 110, CH - 150);
+    ctx.fillText('Date: ' + dateStr, 110, CH - 118);
+    ctx.fillText('Worksheet ID: ' + ws.id, 110, CH - 86);
+    drawStamp(ctx, CW - 270, CH - 250, dateStr);
+
+    return c;
+  }
+
+  /* ---------- minimal PDF writer (one JPEG per page) ---------- */
+  function buildPDF(pages) {
+    var enc = new TextEncoder(), chunks = [], offsets = [], len = 0;
+    function push(x) { var b = typeof x === 'string' ? enc.encode(x) : x; chunks.push(b); len += b.length; }
+    function obj(n, body) { offsets[n] = len; push(n + ' 0 obj\n'); body(); push('\nendobj\n'); }
+    var n = pages.length, total = 2 + n * 3;
+    push('%PDF-1.4\n');
+    obj(1, function () { push('<< /Type /Catalog /Pages 2 0 R >>'); });
+    obj(2, function () {
+      var kids = pages.map(function (_, i) { return (3 + i * 3) + ' 0 R'; }).join(' ');
+      push('<< /Type /Pages /Kids [' + kids + '] /Count ' + n + ' >>');
+    });
+    pages.forEach(function (p, i) {
+      var pg = 3 + i * 3, ct = pg + 1, im = pg + 2;
+      obj(pg, function () {
+        push('<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /XObject << /Im0 ' + im + ' 0 R >> >> /Contents ' + ct + ' 0 R >>');
+      });
+      var content = 'q 612 0 0 792 0 0 cm /Im0 Do Q';
+      obj(ct, function () { push('<< /Length ' + content.length + ' >>\nstream\n' + content + '\nendstream'); });
+      obj(im, function () {
+        push('<< /Type /XObject /Subtype /Image /Width ' + p.w + ' /Height ' + p.h +
+          ' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length ' + p.bytes.length + ' >>\nstream\n');
+        push(p.bytes);
+        push('\nendstream');
+      });
+    });
+    var xref = len;
+    var x = 'xref\n0 ' + (total + 1) + '\n0000000000 65535 f \n';
+    for (var i = 1; i <= total; i++) x += String(offsets[i]).padStart(10, '0') + ' 00000 n \n';
+    push(x + 'trailer\n<< /Size ' + (total + 1) + ' /Root 1 0 R >>\nstartxref\n' + xref + '\n%%EOF');
+    return new Blob(chunks, { type: 'application/pdf' });
+  }
+
+  /* ---------- flow ---------- */
+  function showMenu(msg) {
+    $('menu-err').textContent = msg || '';
+    show('s-menu');
+  }
+
+  async function pickRandom() {
+    var name = $('name').value.replace(/\s+/g, ' ').trim();
+    if (name.length < 2) { $('menu-err').textContent = 'Please type your name first.'; $('name').focus(); return; }
+    studentName = name;
+    try { sessionStorage.setItem('csq:name', name); } catch (e) {}
+
+    var all = allWorksheets(manifest).filter(function (w) {
+      return getAttempts(name, w.id) < MAX_ATTEMPTS;
+    });
+    if (!all.length) { $('menu-err').textContent = 'You have used up the attempts on every worksheet. Please see Ms. Herrick.'; return; }
+    var entry = all[Math.floor(Math.random() * all.length)];
+
+    $('btn-random').disabled = true;
+    try {
+      var ws = await loadWorksheet(entry);
+      var used = getAttempts(name, ws.id);
+      state = { ws: ws, answers: [], attempts: used, name: name, img: renderWorksheet(ws, name) };
+      startQuiz();
+    } catch (err) {
+      $('menu-err').textContent = 'Could not load a worksheet. Please try again.';
+    } finally {
+      $('btn-random').disabled = false;
+    }
+  }
+
+  function startQuiz() {
+    var ws = state.ws;
+    $('q-title').textContent = 'Worksheet quiz';
+    $('q-img').src = state.img;
+    $('q-banner').hidden = true;
+    buildAnswerRows();
+    updateAttemptPill();
+    updateSubmit();
+    show('s-quiz');
+  }
+
+  function updateAttemptPill() {
+    $('q-attempt').textContent = 'Attempt ' + (state.attempts + 1) + ' of ' + MAX_ATTEMPTS;
+  }
+
+  function buildAnswerRows() {
+    var box = $('q-answers');
+    box.innerHTML = '';
+    state.ws.questions.forEach(function (q, qi) {
+      var row = document.createElement('div');
+      row.className = 'arow';
+      var lab = document.createElement('span');
+      lab.className = 'q'; lab.textContent = 'Q' + (qi + 1);
+      var opts = document.createElement('div');
+      opts.className = 'opts';
+      LETTERS.forEach(function (L, li) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.textContent = L;
+        b.setAttribute('aria-label', 'Question ' + (qi + 1) + ', answer ' + L);
+        if (state.answers[qi] === li) b.className = 'sel';
+        b.addEventListener('click', function () {
+          state.answers[qi] = li;
+          Array.prototype.forEach.call(opts.children, function (x, xi) { x.className = (xi === li) ? 'sel' : ''; });
+          updateSubmit();
+        });
+        opts.appendChild(b);
+      });
+      row.appendChild(lab); row.appendChild(opts);
+      box.appendChild(row);
+    });
+  }
+
+  function updateSubmit() {
+    var n = state.ws.questions.length, ok = true;
+    for (var i = 0; i < n; i++) if (state.answers[i] === undefined) ok = false;
+    $('btn-submit').disabled = !ok;
+  }
+
+  async function submit() {
+    var ws = state.ws;
+    var allRight = ws.questions.every(function (q, i) { return q.order.indexOf('c') === state.answers[i]; });
+    state.attempts++;
+    setAttempts(state.name, ws.id, state.attempts);
+
+    if (allRight) {
+      var c = renderCertificate(ws, state.name, state.attempts);
+      state.cert = c;
+      $('d-name').textContent = state.name;
+      $('d-img').src = c.toDataURL('image/jpeg', 0.9);
+      show('s-done');
+    } else if (state.attempts >= MAX_ATTEMPTS) {
+      $('l-title').textContent = ws.title;
+      show('s-locked');
+    } else {
+      var b = $('q-banner');
+      b.textContent = 'Not quite. At least one answer is wrong. Re-read the passage and try again. You have 1 attempt left.';
+      b.hidden = false;
+      updateAttemptPill();
+      window.scrollTo(0, 0);
+    }
+  }
+
+  async function downloadPDF() {
+    var blob = await toJpegBlob(state.cert);
+    var bytes = await blobToBytes(blob);
+    var pdf = buildPDF([{ bytes: bytes, w: state.cert.width, h: state.cert.height }]);
+    var safe = (state.name + '-' + state.ws.id).replace(/[^a-z0-9]+/gi, '_');
+    var url = URL.createObjectURL(pdf);
+    var a = document.createElement('a');
+    a.href = url; a.download = 'CS-Quiz-' + safe + '.pdf';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 10000);
+  }
+
+  function openGmail() {
+    var ws = state.ws;
+    var subject = 'CS Worksheet Quiz - ' + state.name + ' - ' + ws.title;
+    var body = 'Hi Ms. Herrick,\n\n' +
+      'I completed "' + ws.title + '" with all answers correct. ' +
+      'My certificate PDF is attached.\n\n' +
+      'Thank you,\n' + state.name;
+    var url = 'https://mail.google.com/mail/?view=cm&fs=1' +
+      '&to=' + encodeURIComponent(TEACHER_EMAIL) +
+      '&su=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+    window.open(url, '_blank', 'noopener');
+  }
+
+  /* ---------- wire up ---------- */
+  $('btn-random').addEventListener('click', pickRandom);
+  $('name').addEventListener('keydown', function (e) { if (e.key === 'Enter') pickRandom(); });
+  $('btn-submit').addEventListener('click', submit);
+  $('btn-different').addEventListener('click', function () { showMenu(); });
+  $('btn-another').addEventListener('click', function () { showMenu(); });
+  $('btn-pdf').addEventListener('click', downloadPDF);
+  $('btn-mail').addEventListener('click', openGmail);
+
+  loadManifest().then(function (m) {
+    manifest = m;
+    try { var n = sessionStorage.getItem('csq:name'); if (n) $('name').value = n; } catch (e) {}
+    showMenu();
+  }).catch(function (err) {
+    $('loadmsg').hidden = false;
+    showLoadError($('loadmsg'), err);
+  });
+})();
+</script>
+</body>
+</html>
