@@ -87,12 +87,46 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 }
 .bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 14px; }
 .pill { background: var(--cream); border: 1px solid var(--rule); border-radius: 99px; padding: 4px 14px; font-weight: 700; font-size: 15px; }
-.answers { display: grid; gap: 10px; margin: 16px 0; }
-.arow { display: flex; align-items: center; gap: 12px; }
-.arow .q { font-weight: 700; width: 3.2em; }
-.arow .opts { display: flex; gap: 8px; }
-.arow button { width: 52px; height: 48px; padding: 0; font-size: 18px; }
-.arow button.sel { background: var(--accent); color: #fff; }
+.imgwrap { position: relative; }
+.imgwrap .hit {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.imgwrap .hit:hover { background: rgba(138,109,59,.10); }
+.imgwrap .hit:focus-visible { outline: 3px solid var(--accent); }
+.imgwrap .hit.sel { background: rgba(138,109,59,.16); }
+.imgwrap .hit .dot {
+  display: none;
+  position: absolute;
+  left: 0; top: 0;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2.5px solid var(--accent-dark);
+  background: rgba(138,109,59,.28);
+}
+.imgwrap .hit.sel .dot { display: block; }
+.submitbar {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--paper);
+  border-top: 2px solid var(--rule);
+  padding: 12px 20px;
+  margin: 16px -24px -24px;
+  border-radius: 0 0 10px 10px;
+}
+.submitbar .prog { font-weight: 700; color: var(--muted); }
 .banner { border-radius: 8px; padding: 12px 16px; margin: 0 0 14px; font-weight: 700; }
 .banner.bad { background: var(--bad-bg); color: var(--bad); border: 1px solid var(--bad); }
 .steps { margin: 12px 0 0; padding-left: 22px; }
@@ -131,15 +165,14 @@ button:disabled { opacity: .45; cursor: not-allowed; }
         <span class="pill" id="q-attempt"></span>
       </div>
       <div id="q-banner" class="banner bad" hidden></div>
-      <div class="noselect" oncontextmenu="return false">
+      <p class="hint" style="margin:0 0 10px">Click the letter of your answer right on the worksheet. You can change an answer before you submit.</p>
+      <div class="noselect imgwrap" id="q-wrap" oncontextmenu="return false">
         <img id="q-img" class="sheetimg" alt="Worksheet (image)" draggable="false">
       </div>
-      <h2 style="margin-top:20px">Your answers</h2>
-      <div class="answers" id="q-answers"></div>
-      <div class="row">
+      <div class="submitbar">
+        <span class="prog" id="q-prog"></span>
         <button type="button" class="solid big" id="btn-submit" disabled>Submit answers</button>
       </div>
-      <p class="hint">Answer all 5 questions to submit.</p>
     </div>
   </section>
 
@@ -162,13 +195,14 @@ button:disabled { opacity: .45; cursor: not-allowed; }
       </div>
       <h2 style="margin-top:20px">Send it to Ms. Herrick</h2>
       <ol class="steps">
-        <li>Click <b>Download PDF</b>. It saves to your <b>Downloads</b> folder.</li>
-        <li>Click <b>Open Gmail to send it</b>. A new Gmail tab opens with the email already written.</li>
-        <li>In Gmail, click the <b>paperclip</b> 📎, choose the PDF from <b>Downloads</b>, then press <b>Send</b>.</li>
+        <li>Click <b>Copy certificate &amp; open Gmail</b>. This copies your certificate picture and opens a new Gmail tab with the email already written.</li>
+        <li>In the Gmail tab, click in the <b>body of the email</b> (under the message), then press <b>Ctrl + V</b> to paste your certificate picture.</li>
+        <li>Press <b>Send</b>.</li>
       </ol>
+      <p class="hint" id="d-note"></p>
       <div class="row">
-        <button type="button" class="solid big" id="btn-pdf">Download PDF</button>
-        <button type="button" class="big" id="btn-mail">Open Gmail to send it</button>
+        <button type="button" class="solid big" id="btn-mail">Copy certificate &amp; open Gmail</button>
+        <button type="button" class="big" id="btn-pdf">Download PDF (backup)</button>
       </div>
       <div class="row">
         <button type="button" id="btn-another">Take another worksheet</button>
@@ -236,10 +270,14 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     });
   }
 
+  function todayStr() {
+    return new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  }
+
   /* ---------- worksheet -> JPEG ---------- */
   var SW = 860, SS = 2, SPAD = 40;
 
-  function paintWorksheet(ctx, ws, name, height) {
+  function paintWorksheet(ctx, ws, name, height, hits) {
     var maxW = SW - SPAD * 2, y = SPAD;
     ctx.textBaseline = 'alphabetic';
     ctx.fillStyle = '#2b2620';
@@ -272,10 +310,12 @@ button:disabled { opacity: .45; cursor: not-allowed; }
       y = para(ctx, (qi + 1) + '.  ' + q.text, SPAD, y, maxW, 28) + 4;
       ctx.font = '19px ' + FONT;
       displayChoices(q).forEach(function (c, ci) {
+        var top = y;
         ctx.font = 'bold 19px ' + FONT;
         ctx.fillText(LETTERS[ci] + '.', SPAD + 26, y + 22 * 0.8);
         ctx.font = '19px ' + FONT;
         y = para(ctx, c, SPAD + 58, y, maxW - 58, 26);
+        if (hits) hits.push({ q: qi, c: ci, x: SPAD + 18, y: top, w: maxW - 18, h: y - top, dot: 26 });
       });
       y += 20;
     });
@@ -286,13 +326,16 @@ button:disabled { opacity: .45; cursor: not-allowed; }
       ctx.save();
       ctx.globalAlpha = 0.055;
       ctx.fillStyle = '#000';
-      ctx.font = 'bold 44px ' + FONT;
+      var mark = name + '  ·  ' + todayStr();
+      var ms = 40;
+      while (ms > 18) { ctx.font = 'bold ' + ms + 'px ' + FONT; if (ctx.measureText(mark).width <= 640) break; ms -= 2; }
+      ctx.font = 'bold ' + ms + 'px ' + FONT;
       ctx.textAlign = 'center';
       for (var wy = 150; wy < height; wy += 300) {
         ctx.save();
         ctx.translate(SW / 2, wy);
         ctx.rotate(-0.35);
-        ctx.fillText(name, 0, 0);
+        ctx.fillText(mark, 0, 0);
         ctx.restore();
       }
       ctx.restore();
@@ -302,15 +345,16 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 
   function renderWorksheet(ws, name) {
     var scratch = document.createElement('canvas').getContext('2d');
-    var h = Math.ceil(paintWorksheet(scratch, ws, name, 0));
+    var hits = [];
+    var h = Math.ceil(paintWorksheet(scratch, ws, name, 0, hits));
     var c = document.createElement('canvas');
     c.width = SW * SS; c.height = h * SS;
     var ctx = c.getContext('2d');
     ctx.scale(SS, SS);
     ctx.fillStyle = '#fff';
     ctx.fillRect(0, 0, SW, h);
-    paintWorksheet(ctx, ws, name, h);
-    return c.toDataURL('image/jpeg', 0.88);
+    paintWorksheet(ctx, ws, name, h, null);
+    return { url: c.toDataURL('image/jpeg', 0.88), w: SW, h: h, hits: hits };
   }
 
   /* ---------- certificate -> canvas ---------- */
@@ -372,7 +416,7 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     var c = document.createElement('canvas');
     c.width = CW; c.height = CH;
     var ctx = c.getContext('2d');
-    var dateStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    var dateStr = todayStr();
     var gold = '#8a6d3b', ink = '#2b2620';
 
     ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, CW, CH);
@@ -480,7 +524,11 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     studentName = name;
     try { sessionStorage.setItem('csq:name', name); } catch (e) {}
 
+    // if a set has a "-v2" twin, only the v2 set is eligible
+    var ids = {};
+    manifest.sets.forEach(function (st) { ids[st.id] = true; });
     var all = allWorksheets(manifest).filter(function (w) {
+      if (ids[w.setId + '-v2']) return false;
       return getAttempts(name, w.id) < MAX_ATTEMPTS;
     });
     if (!all.length) { $('menu-err').textContent = 'You have used up the attempts on every worksheet. Please see Ms. Herrick.'; return; }
@@ -502,9 +550,9 @@ button:disabled { opacity: .45; cursor: not-allowed; }
   function startQuiz() {
     var ws = state.ws;
     $('q-title').textContent = 'Worksheet quiz';
-    $('q-img').src = state.img;
+    $('q-img').src = state.img.url;
     $('q-banner').hidden = true;
-    buildAnswerRows();
+    buildOverlay();
     updateAttemptPill();
     updateSubmit();
     show('s-quiz');
@@ -514,37 +562,38 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     $('q-attempt').textContent = 'Attempt ' + (state.attempts + 1) + ' of ' + MAX_ATTEMPTS;
   }
 
-  function buildAnswerRows() {
-    var box = $('q-answers');
-    box.innerHTML = '';
-    state.ws.questions.forEach(function (q, qi) {
-      var row = document.createElement('div');
-      row.className = 'arow';
-      var lab = document.createElement('span');
-      lab.className = 'q'; lab.textContent = 'Q' + (qi + 1);
-      var opts = document.createElement('div');
-      opts.className = 'opts';
-      LETTERS.forEach(function (L, li) {
-        var b = document.createElement('button');
-        b.type = 'button'; b.textContent = L;
-        b.setAttribute('aria-label', 'Question ' + (qi + 1) + ', answer ' + L);
-        if (state.answers[qi] === li) b.className = 'sel';
-        b.addEventListener('click', function () {
-          state.answers[qi] = li;
-          Array.prototype.forEach.call(opts.children, function (x, xi) { x.className = (xi === li) ? 'sel' : ''; });
-          updateSubmit();
-        });
-        opts.appendChild(b);
+  function buildOverlay() {
+    var wrap = $('q-wrap');
+    Array.prototype.slice.call(wrap.querySelectorAll('.hit')).forEach(function (n) { n.remove(); });
+    var im = state.img, rows = {};
+    function pct(v, tot) { return (v / tot * 100) + '%'; }
+    im.hits.forEach(function (h) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'hit' + (state.answers[h.q] === h.c ? ' sel' : '');
+      b.style.left = pct(h.x, im.w); b.style.top = pct(h.y, im.h);
+      b.style.width = pct(h.w, im.w); b.style.height = pct(h.h, im.h);
+      b.setAttribute('aria-label', 'Question ' + (h.q + 1) + ', answer ' + LETTERS[h.c]);
+      var dot = document.createElement('span');
+      dot.className = 'dot';
+      dot.style.height = pct(h.dot, h.h);
+      b.appendChild(dot);
+      (rows[h.q] = rows[h.q] || []).push(b);
+      b.addEventListener('click', function () {
+        state.answers[h.q] = h.c;
+        rows[h.q].forEach(function (x) { x.classList.remove('sel'); });
+        b.classList.add('sel');
+        updateSubmit();
       });
-      row.appendChild(lab); row.appendChild(opts);
-      box.appendChild(row);
+      wrap.appendChild(b);
     });
   }
 
   function updateSubmit() {
-    var n = state.ws.questions.length, ok = true;
-    for (var i = 0; i < n; i++) if (state.answers[i] === undefined) ok = false;
-    $('btn-submit').disabled = !ok;
+    var n = state.ws.questions.length, done = 0;
+    for (var i = 0; i < n; i++) if (state.answers[i] !== undefined) done++;
+    $('btn-submit').disabled = done < n;
+    $('q-prog').textContent = done + ' of ' + n + ' answered';
   }
 
   async function submit() {
@@ -583,18 +632,32 @@ button:disabled { opacity: .45; cursor: not-allowed; }
     setTimeout(function () { URL.revokeObjectURL(url); }, 10000);
   }
 
-  function openGmail() {
-    var ws = state.ws;
+  async function openGmail() {
+    var ws = state.ws, note = $('d-note');
+    note.textContent = '';
     var subject = 'CS Worksheet Quiz - ' + state.name + ' - ' + ws.title;
     var body = 'Hi Ms. Herrick,\n\n' +
       'I completed "' + ws.title + '" with all answers correct. ' +
-      'My certificate PDF is attached.\n\n' +
+      'My certificate is pasted below as a picture as proof. ' +
+      '(If you do not see it, I will attach the PDF instead.)\n\n' +
+      '[ certificate picture goes here ]\n\n' +
       'Thank you,\n' + state.name;
     var url = 'https://mail.google.com/mail/?view=cm&fs=1' +
       '&to=' + encodeURIComponent(TEACHER_EMAIL) +
       '&su=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
+
+    var copied = false;
+    try {
+      var png = await new Promise(function (res) { state.cert.toBlob(res, 'image/png'); });
+      await navigator.clipboard.write([new ClipboardItem({ 'image/png': png })]);
+      copied = true;
+    } catch (e) { copied = false; }
+
     window.open(url, '_blank', 'noopener');
+    note.textContent = copied
+      ? 'Certificate copied! Click in the body of the email and press Ctrl + V to paste it.'
+      : 'Could not copy the picture automatically. Click "Download PDF (backup)" and attach the PDF in Gmail with the paperclip.';
   }
 
   /* ---------- wire up ---------- */
