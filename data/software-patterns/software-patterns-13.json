@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-13",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 13,
+  "title": "Worksheet 13: The Iterator Pattern",
+  "topic": "The Iterator Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Iterator pattern gives you a standard way to go through the items in a collection one at a time, without needing to know how the collection stores them inside. An iterator keeps track of its place, like a bookmark, and offers two simple actions: \"is there another item?\" and \"give me the next one.\" Imagine a music app with a playlist of 12 songs. One playlist might store songs in a plain list, while another stores them in a tree of folders. Without an iterator, the code that plays the songs would need different instructions for each kind of storage. With an iterator, the player just keeps asking for the next song until there are no more, and the same code works for both. If the playlist is shuffled, a different iterator can hand out the songs in a random order, and the player code stays the same.",
+  "questions": [
+    {
+      "text": "The Iterator pattern gives a standard way to:",
+      "correct": "Go through the items in a collection one at a time",
+      "distractors": [
+        "Delete every item in a collection",
+        "Sort a collection from smallest to largest",
+        "Copy a collection to another computer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, an iterator keeps track of its place like a:",
+      "correct": "Bookmark",
+      "distractors": [
+        "Password",
+        "Trophy",
+        "Clock"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "How many songs are in the example playlist?",
+      "correct": "12",
+      "distractors": [
+        "2",
+        "6",
+        "21"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "One playlist stores songs in a plain list and another stores them in a tree of folders. With an iterator, how many different sets of player instructions are needed?",
+      "correct": "Just one, because the player only asks for the next song",
+      "distractors": [
+        "Two, one for each kind of storage",
+        "Twelve, one for each song",
+        "None, because the iterator plays the songs itself"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "When the playlist is shuffled, the player code stays the same. According to the paragraph, why?",
+      "correct": "The player only uses the iterator's two actions and does not care how the songs are stored or ordered",
+      "distractors": [
+        "Shuffled playlists are always stored in a plain list",
+        "Shuffle only plays one song",
+        "Iterators cannot ever be changed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

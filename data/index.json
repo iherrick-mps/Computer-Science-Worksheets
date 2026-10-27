@@ -911,6 +911,136 @@
       ]
     },
     {
+      "id": "software-patterns",
+      "title": "Software Design Patterns",
+      "description": "What design patterns are and why they matter: Singleton, Factory, Builder, Prototype, Observer, Strategy, Decorator, Adapter, Facade, Command, State, Iterator, MVC, and anti-patterns.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": true,
+      "count": 15,
+      "worksheets": [
+        {
+          "id": "software-patterns-01",
+          "number": 1,
+          "topic": "What Is a Design Pattern?",
+          "title": "Worksheet 1: What Is a Design Pattern?",
+          "file": "data/software-patterns/software-patterns-01.json",
+          "answerKey": "ADCBA"
+        },
+        {
+          "id": "software-patterns-02",
+          "number": 2,
+          "topic": "The Singleton Pattern",
+          "title": "Worksheet 2: The Singleton Pattern",
+          "file": "data/software-patterns/software-patterns-02.json",
+          "answerKey": "CBADC"
+        },
+        {
+          "id": "software-patterns-03",
+          "number": 3,
+          "topic": "The Factory Pattern",
+          "title": "Worksheet 3: The Factory Pattern",
+          "file": "data/software-patterns/software-patterns-03.json",
+          "answerKey": "ADCBA"
+        },
+        {
+          "id": "software-patterns-04",
+          "number": 4,
+          "topic": "The Builder Pattern",
+          "title": "Worksheet 4: The Builder Pattern",
+          "file": "data/software-patterns/software-patterns-04.json",
+          "answerKey": "CBADC"
+        },
+        {
+          "id": "software-patterns-05",
+          "number": 5,
+          "topic": "The Prototype Pattern",
+          "title": "Worksheet 5: The Prototype Pattern",
+          "file": "data/software-patterns/software-patterns-05.json",
+          "answerKey": "BADCB"
+        },
+        {
+          "id": "software-patterns-06",
+          "number": 6,
+          "topic": "The Observer Pattern",
+          "title": "Worksheet 6: The Observer Pattern",
+          "file": "data/software-patterns/software-patterns-06.json",
+          "answerKey": "DCBAD"
+        },
+        {
+          "id": "software-patterns-07",
+          "number": 7,
+          "topic": "The Strategy Pattern",
+          "title": "Worksheet 7: The Strategy Pattern",
+          "file": "data/software-patterns/software-patterns-07.json",
+          "answerKey": "BADCB"
+        },
+        {
+          "id": "software-patterns-08",
+          "number": 8,
+          "topic": "The Decorator Pattern",
+          "title": "Worksheet 8: The Decorator Pattern",
+          "file": "data/software-patterns/software-patterns-08.json",
+          "answerKey": "DCBAD"
+        },
+        {
+          "id": "software-patterns-09",
+          "number": 9,
+          "topic": "The Adapter Pattern",
+          "title": "Worksheet 9: The Adapter Pattern",
+          "file": "data/software-patterns/software-patterns-09.json",
+          "answerKey": "CBADC"
+        },
+        {
+          "id": "software-patterns-10",
+          "number": 10,
+          "topic": "The Facade Pattern",
+          "title": "Worksheet 10: The Facade Pattern",
+          "file": "data/software-patterns/software-patterns-10.json",
+          "answerKey": "ADCBA"
+        },
+        {
+          "id": "software-patterns-11",
+          "number": 11,
+          "topic": "The Command Pattern",
+          "title": "Worksheet 11: The Command Pattern",
+          "file": "data/software-patterns/software-patterns-11.json",
+          "answerKey": "CBADC"
+        },
+        {
+          "id": "software-patterns-12",
+          "number": 12,
+          "topic": "The State Pattern",
+          "title": "Worksheet 12: The State Pattern",
+          "file": "data/software-patterns/software-patterns-12.json",
+          "answerKey": "ADCBA"
+        },
+        {
+          "id": "software-patterns-13",
+          "number": 13,
+          "topic": "The Iterator Pattern",
+          "title": "Worksheet 13: The Iterator Pattern",
+          "file": "data/software-patterns/software-patterns-13.json",
+          "answerKey": "DCBAD"
+        },
+        {
+          "id": "software-patterns-14",
+          "number": 14,
+          "topic": "Model-View-Controller (MVC)",
+          "title": "Worksheet 14: Model-View-Controller (MVC)",
+          "file": "data/software-patterns/software-patterns-14.json",
+          "answerKey": "BADCB"
+        },
+        {
+          "id": "software-patterns-15",
+          "number": 15,
+          "topic": "Anti-Patterns: What Not to Do",
+          "title": "Worksheet 15: Anti-Patterns: What Not to Do",
+          "file": "data/software-patterns/software-patterns-15.json",
+          "answerKey": "DCBAD"
+        }
+      ]
+    },
+    {
       "id": "data-structures-v2",
       "title": "Data Structures & Variables",
       "description": "Data types, integers and floats, strings, concatenation, indexing, booleans, lists, dictionaries, tuples, nested lists, and type conversion.",
@@ -1691,7 +1821,7 @@
       ]
     }
   ],
-  "generated": "2026-08-27",
-  "totalSets": 13,
-  "totalWorksheets": 195
+  "generated": "2026-10-27",
+  "totalSets": 14,
+  "totalWorksheets": 210
 }

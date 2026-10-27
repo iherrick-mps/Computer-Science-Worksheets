@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-14",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 14,
+  "title": "Worksheet 14: Model-View-Controller (MVC)",
+  "topic": "Model-View-Controller (MVC)",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "Model-View-Controller, or MVC, is a pattern that splits an app into three parts, each with its own job. The Model holds the data and the rules, such as a student's score in a quiz game. The View is what the user sees on the screen, such as the score displayed in a bubble. The Controller listens to what the user does, such as clicking a button, and tells the Model to change. When the Model changes, the View is updated to show the new data. For example, when a player clicks \"Answer,\" the Controller tells the Model to add 10 points, and then the View redraws the score on the screen. Because the parts are separate, a designer can change the View from a bubble to a bar without touching the Model, and the rules in the Model do not change.",
+  "questions": [
+    {
+      "text": "In MVC, what does the Model hold?",
+      "correct": "The data and the rules",
+      "distractors": [
+        "The picture on the screen",
+        "The buttons the user clicks",
+        "The user's mouse"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "In MVC, the View is:",
+      "correct": "What the user sees on the screen",
+      "distractors": [
+        "The data and the rules",
+        "The part that listens to clicks",
+        "A copy of the Model"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "What does the Controller do?",
+      "correct": "Listens to what the user does and tells the Model to change",
+      "distractors": [
+        "Stores the player's score",
+        "Draws the score on the screen",
+        "Decides the color of the bubble"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A designer wants to change the score display from a bubble to a bar. According to the paragraph, which part needs to change?",
+      "correct": "Only the View",
+      "distractors": [
+        "Only the Model",
+        "The Model and the Controller",
+        "All three parts"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A programmer changes the quiz rule so each correct answer is worth 20 points instead of 10. Based on the paragraph, which statement is correct?",
+      "correct": "The Model holds the rule, and the View's design can stay the same",
+      "distractors": [
+        "The View holds the rule, so the design must be rebuilt",
+        "The Controller holds the rule, so the Model must be rewritten",
+        "The Model holds the rule, so the View must be redesigned"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

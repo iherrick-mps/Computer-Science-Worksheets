@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-09",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 9,
+  "title": "Worksheet 9: The Adapter Pattern",
+  "topic": "The Adapter Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Adapter pattern lets two pieces of code work together even though they were built to connect in different ways, by placing a small translator, called an adapter, between them. A real-world example is a travel plug adapter: your laptop charger has a flat two-pin plug, but the wall in another country has round holes, so the adapter fits between them without changing either one. In programming, imagine a weather app that expects temperatures in Fahrenheit, but a new sensor library reports temperatures in Celsius. The programmer cannot edit the sensor library, and rewriting the app to use Celsius would mean fixing all 40 places in the app that use temperatures. Instead, she writes an adapter that takes each Celsius number from the sensor, converts it, and hands the Fahrenheit number to the app. For example, when the sensor reports 20, the adapter passes along 68.",
+  "questions": [
+    {
+      "text": "The Adapter pattern lets two pieces of code work together by:",
+      "correct": "Acting as a translator between them",
+      "distractors": [
+        "Making the code run faster",
+        "Making copies of both pieces",
+        "Deleting the code that does not match"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In the plug example, what does the adapter fit between?",
+      "correct": "The laptop charger and the wall",
+      "distractors": [
+        "Two laptops",
+        "The wall and the floor",
+        "The charger and the battery"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "What unit of temperature does the weather app expect?",
+      "correct": "Fahrenheit",
+      "distractors": [
+        "Celsius",
+        "Kelvin",
+        "Degrees of angle"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A second sensor library also reports Celsius numbers and also cannot be edited. Based on the paragraph, what is the best way to connect it to the app?",
+      "correct": "Write an adapter for it that converts Celsius to Fahrenheit",
+      "distractors": [
+        "Rewrite the whole app to use Celsius",
+        "Edit the second sensor library's code",
+        "Ask the sensor to stop reporting numbers"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Which best explains why the adapter is a smarter choice than changing the app to use Celsius?",
+      "correct": "It fixes the mismatch in one place instead of the 40 places in the app that use temperatures",
+      "distractors": [
+        "It lets the sensor report Fahrenheit directly",
+        "It makes the app stop showing temperatures",
+        "It removes the need for a sensor"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

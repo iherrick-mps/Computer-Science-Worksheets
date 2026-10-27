@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-04",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 4,
+  "title": "Worksheet 4: The Builder Pattern",
+  "topic": "The Builder Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Builder pattern helps create a complicated object one step at a time, instead of trying to set up everything with one giant instruction. Imagine a character creator in a game where a player can choose a hair color, a hat, a cape, and a pet, but none of these choices are required. Without a builder, the programmer might need a single instruction with 4 slots that must all be filled in the right order, even for a plain character with no extras. With a builder, the code reads like a short list of steps: start a character, add a red cape, add a pet cat, and then finish. Steps the player skipped are simply left out, and calling \"finish\" produces the completed character. Because each option is its own named step, a new option such as boots just becomes one more step, rather than a fifth slot that every existing instruction must be updated to include.",
+  "questions": [
+    {
+      "text": "The Builder pattern creates a complicated object:",
+      "correct": "One step at a time",
+      "distractors": [
+        "All at once in a single giant instruction",
+        "Only by copying an existing object",
+        "By deleting parts of other objects"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In the character creator example, which choices are required?",
+      "correct": "None of them",
+      "distractors": [
+        "All four of them",
+        "Only the hat",
+        "Only the pet"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what does calling \"finish\" do?",
+      "correct": "It produces the completed character",
+      "distractors": [
+        "It deletes the character",
+        "It adds a new pet",
+        "It starts a brand-new character"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A player wants a character with only a blue hat and nothing else. Using the builder steps described in the paragraph, which is the best description of the code?",
+      "correct": "Start a character, add the blue hat, then finish",
+      "distractors": [
+        "Fill in all four slots, then finish",
+        "Finish first, then start a character and add the hat",
+        "Add a hat, a cape, a pet, and a hair color, then finish"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "The game designer wants to add boots as a fifth option. According to the paragraph, why is this easier with a builder?",
+      "correct": "Boots just become one more named step, so existing instructions do not need to be updated",
+      "distractors": [
+        "The builder automatically invents new options",
+        "The player must choose boots every time",
+        "Boots replace the cape, so nothing else changes"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-12",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 12,
+  "title": "Worksheet 12: The State Pattern",
+  "topic": "The State Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The State pattern lets an object change how it behaves depending on which state, or condition, it is currently in, by keeping each state's behavior in its own piece of code. Think of a traffic light. When it is in the Green state, cars may go; in the Yellow state, cars should slow down; in the Red state, cars must stop. The light is always in exactly one state at a time, and each state knows which state comes next: Green goes to Yellow, Yellow goes to Red, and Red goes back to Green. Without the State pattern, the programmer might write one long block of code that checks the light's color over and over. With it, each state handles its own job and its own next step. In a game, a character could use the same idea with states such as Standing, Running, and Jumping, where pressing the jump button does something different in each one.",
+  "questions": [
+    {
+      "text": "The State pattern lets an object change how it behaves depending on:",
+      "correct": "Which state it is currently in",
+      "distractors": [
+        "What time it is in the real world",
+        "How many programmers wrote it",
+        "Which computer it runs on"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what should cars do in the Red state?",
+      "correct": "Stop",
+      "distractors": [
+        "Go",
+        "Slow down",
+        "Turn around"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "How many states is the traffic light in at one time?",
+      "correct": "Exactly one",
+      "distractors": [
+        "All three",
+        "None",
+        "Two"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "The traffic light is in the Yellow state. According to the paragraph, what are the next two states in order?",
+      "correct": "Red, then Green",
+      "distractors": [
+        "Green, then Red",
+        "Red, then Yellow",
+        "Green, then Yellow"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A character is Jumping and the player presses the jump button, but nothing happens. Pressing it while Standing makes the character jump. Based on the paragraph, why can this happen?",
+      "correct": "The same button can do something different in each state",
+      "distractors": [
+        "Buttons only work once per game",
+        "The character is in all three states at the same time",
+        "The Standing state has no next step"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

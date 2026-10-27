@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-15",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 15,
+  "title": "Worksheet 15: Anti-Patterns: What Not to Do",
+  "topic": "Anti-Patterns: What Not to Do",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "An anti-pattern is a common way of solving a problem that seems helpful at first but usually causes bigger problems later. One famous example is spaghetti code, where the code is so tangled, with parts jumping all over the place, that it is as hard to follow as a bowl of noodles. Another is the God object, a single object that tries to do everything, such as handling the score, the graphics, the sound, and the saving of files all at once. A third is copy-paste programming, where a programmer copies the same block of code into 8 different places. If a bug is later found in that block, it must be fixed in all 8 places, and missing even one leaves the bug alive. Knowing anti-patterns helps programmers notice trouble early, and the usual cure is to split big jobs into small, separate pieces, like the design patterns in this set.",
+  "questions": [
+    {
+      "text": "An anti-pattern is:",
+      "correct": "A common solution that seems helpful at first but causes bigger problems later",
+      "distractors": [
+        "A proven pattern that always works",
+        "A bug that fixes itself",
+        "A program that has no code"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, what is spaghetti code?",
+      "correct": "Code so tangled that it is hard to follow",
+      "distractors": [
+        "Code written about cooking",
+        "Code that runs very fast",
+        "Code that has no bugs"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What does a God object try to do?",
+      "correct": "Everything at once",
+      "distractors": [
+        "Nothing at all",
+        "Only draw the graphics",
+        "Only fix bugs"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A block of code was copy-pasted into 8 places, and a bug is found in it. A programmer fixes 7 of the places. According to the paragraph, what is the result?",
+      "correct": "The bug is still alive in the one place that was missed",
+      "distractors": [
+        "The bug is gone because most copies were fixed",
+        "The bug moves into a God object",
+        "All 8 places are fixed automatically"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A programmer says, \"Copy-paste is faster, so it is a good habit.\" Which reply best fits the paragraph?",
+      "correct": "It seems helpful at first, but one bug can require fixes in every copy, which causes bigger problems later",
+      "distractors": [
+        "It is a design pattern, so it is recommended",
+        "It only causes problems when the code is also spaghetti code",
+        "It is fine because copies fix themselves"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

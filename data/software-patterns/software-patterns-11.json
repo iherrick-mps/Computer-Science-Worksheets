@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-11",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 11,
+  "title": "Worksheet 11: The Command Pattern",
+  "topic": "The Command Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Command pattern turns an action into an object, so that the action can be stored, passed around, and even undone later. Imagine a drawing app. When the user draws a red circle, the app creates a DrawCircle command that remembers exactly what was done: the shape, the color red, and the position. The app saves each command in a list called the history. Because every command remembers how to do its action, it also remembers how to reverse it. When the user presses Undo, the app takes the most recent command from the history and reverses it, so the last circle disappears. Pressing Undo three times in a row reverses the three most recent commands, in order from newest to oldest. The same history can also be replayed from the beginning, redrawing everything.",
+  "questions": [
+    {
+      "text": "The Command pattern turns an action into:",
+      "correct": "An object",
+      "distractors": [
+        "A password",
+        "A picture",
+        "A keyboard"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "What does the DrawCircle command remember in the example?",
+      "correct": "The shape, the color, and the position",
+      "distractors": [
+        "Only the user's name",
+        "Only the color of the circle",
+        "Only the position of the mouse"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Where does the app save commands?",
+      "correct": "In a list called the history",
+      "distractors": [
+        "In a folder called trash",
+        "Only on the user's screen",
+        "Inside the circle itself"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A user draws a circle, then a square, then a triangle, and presses Undo one time. Based on the paragraph, which shapes are left on the screen?",
+      "correct": "The circle and the square",
+      "distractors": [
+        "Only the circle",
+        "The square and the triangle",
+        "Nothing"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "The user presses Undo three times in a row. In what order are the actions reversed, and why is that possible?",
+      "correct": "Newest to oldest, because each command is saved in the history and remembers how to reverse its action",
+      "distractors": [
+        "Oldest to newest, because the history is always read from the beginning",
+        "In random order, because commands forget what they did",
+        "Newest to oldest, because the app redraws everything from scratch each time"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

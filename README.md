@@ -3,7 +3,7 @@
 Printable computer science worksheets for Robotics & Coding, stored as JSON and
 published with GitHub Pages.
 
-**105 worksheets across 7 sets.** Each worksheet is one self-contained page: a
+**210 worksheets across 14 sets.** Each worksheet is one self-contained page: a
 reading passage followed by five multiple-choice questions answerable from that
 passage alone. Built for students who need off-Chromebook work.
 
@@ -27,6 +27,7 @@ passage alone. Built for students who need off-Chromebook work.
 | White Hat Hacking & Penetration Testing | 15 | Ethical hacking, pen test phases, careers |
 | Data Structures & Variables | 15 | Types, strings, lists, dictionaries, tuples |
 | Loops | 15 | Tiered: Q1–3 recall, Q4–5 applied reasoning |
+| Software Design Patterns | 15 | Singleton, Factory, Observer, Strategy, MVC, anti-patterns; tiered like Loops |
 
 ## Publishing it
 

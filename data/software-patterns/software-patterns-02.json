@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-02",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 2,
+  "title": "Worksheet 2: The Singleton Pattern",
+  "topic": "The Singleton Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Singleton pattern makes sure that a class can only ever have one single object, called an instance, and gives the whole program one shared way to reach it. This is useful when having two copies would cause problems. For example, a game might have a Settings object that stores the volume level, which is set to 70 out of 100. If different parts of the game each created their own Settings object, one might say the volume is 70 while another says 30, and the game would behave unpredictably. With a Singleton, the first time any part of the code asks for the Settings object, it is created; every later request simply returns that same object instead of making a new one. The tradeoff is that because every part of the program can reach the Singleton, it can be harder to track down which part changed a value when something goes wrong.",
+  "questions": [
+    {
+      "text": "The Singleton pattern makes sure a class has:",
+      "correct": "Only one instance",
+      "distractors": [
+        "Exactly two instances",
+        "No instances at all",
+        "As many instances as the computer allows"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "In the example, what does the Settings object store?",
+      "correct": "The volume level",
+      "distractors": [
+        "The player's name",
+        "The game's high score",
+        "The screen's brightness"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, what happens to every request for the object after the first one?",
+      "correct": "The same existing object is returned",
+      "distractors": [
+        "A brand-new object is created",
+        "The program closes",
+        "The old object is deleted and replaced"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A school app uses a Singleton for a PrintQueue object. A programmer in one part of the app and a programmer in another part both ask for the PrintQueue. What does each one get?",
+      "correct": "The very same PrintQueue object",
+      "distractors": [
+        "Two separate PrintQueue objects, one each",
+        "Nothing until one of them deletes the other",
+        "A copy that cannot be changed"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "A bug suddenly changes the volume from 70 to 0. Based on the paragraph, why might this bug be hard to track down?",
+      "correct": "Every part of the program can reach the Singleton, so any of them could have changed it",
+      "distractors": [
+        "A Singleton hides its value from the rest of the program",
+        "There are two Settings objects and the program mixes them up",
+        "A Singleton can only be changed by the first request"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    }
+  ]
+}

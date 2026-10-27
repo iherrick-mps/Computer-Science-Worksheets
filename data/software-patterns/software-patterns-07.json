@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-07",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 7,
+  "title": "Worksheet 7: The Strategy Pattern",
+  "topic": "The Strategy Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Strategy pattern lets a program choose between several different ways of doing the same job while the program is running, by keeping each way in its own separate piece of code called a strategy. Imagine a game where computer-controlled enemies can behave in three ways: Chase the player, Hide from the player, or Patrol a fixed path. Instead of writing one huge block of code full of \"if the enemy is chasing... else if the enemy is hiding...\" the programmer writes three small strategy pieces, one for each behavior. The enemy holds one strategy at a time and simply uses it. When the enemy's health falls below 20, the program swaps the Chase strategy for the Hide strategy, and the enemy immediately starts hiding without any other changes. Adding a fourth behavior just means writing one more strategy piece.",
+  "questions": [
+    {
+      "text": "The Strategy pattern lets a program:",
+      "correct": "Choose between different ways of doing the same job while it is running",
+      "distractors": [
+        "Run only one fixed behavior forever",
+        "Delete code that it does not use",
+        "Run on any kind of device"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "Which of these is one of the enemy behaviors listed in the paragraph?",
+      "correct": "Patrol a fixed path",
+      "distractors": [
+        "Shoot the player",
+        "Build a wall",
+        "Fly away"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how many strategies does an enemy hold at a time?",
+      "correct": "One",
+      "distractors": [
+        "All three",
+        "None",
+        "Two"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "An enemy that is chasing the player has its health fall from 40 to 15. According to the paragraph, what happens?",
+      "correct": "The Chase strategy is swapped for Hide, and the enemy starts hiding",
+      "distractors": [
+        "The enemy keeps chasing because strategies cannot change",
+        "The enemy switches to Patrol",
+        "The game must be restarted"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Why is the Strategy approach easier to expand than one huge block of if/else code?",
+      "correct": "Each behavior lives in its own piece, so a new behavior is added by writing one more piece",
+      "distractors": [
+        "It removes the need for any enemy behaviors",
+        "It makes every enemy use the same behavior",
+        "It checks the enemy's health less often"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

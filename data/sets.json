@@ -7,6 +7,7 @@
     "pentesting",
     "data-structures",
     "loops",
+    "software-patterns",
     "data-structures-v2",
     "cybersecurity-v2",
     "cs-basics-1-v2",
@@ -92,6 +93,12 @@
       "description": "Ethical hacking, pen test phases, scope and authorization, red vs. blue team, bug bounties, CTF competitions, certifications, and cybersecurity careers.",
       "readingLevel": "Standard (grades 6-8)",
       "tiered": false
+    },
+    "software-patterns": {
+      "title": "Software Design Patterns",
+      "description": "What design patterns are and why they matter: Singleton, Factory, Builder, Prototype, Observer, Strategy, Decorator, Adapter, Facade, Command, State, Iterator, MVC, and anti-patterns.",
+      "readingLevel": "Standard (grades 6-8)",
+      "tiered": true
     }
   }
 }

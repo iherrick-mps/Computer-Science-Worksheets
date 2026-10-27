@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-08",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 8,
+  "title": "Worksheet 8: The Decorator Pattern",
+  "topic": "The Decorator Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Decorator pattern adds new abilities to an object by wrapping it inside another object, instead of changing the original object or building a separate version for every combination. Imagine a basic Sword that does 10 damage. A Fire decorator can wrap the sword and add 5 fire damage. An Ice decorator can wrap that and add 3 ice damage plus a slow effect. The wrapped object still acts like a sword, so the rest of the game can use it the same way. Each decorator simply does its own extra job and then passes the work along to the object inside it. Without decorators, a game with 3 add-ons might need a separate Sword class for every combination of them, which would be 8 different classes. With decorators, the programmer writes just the basic Sword and 3 small decorators and mixes them as needed.",
+  "questions": [
+    {
+      "text": "The Decorator pattern adds new abilities to an object by:",
+      "correct": "Wrapping it inside another object",
+      "distractors": [
+        "Erasing the original object",
+        "Rewriting the original object's code",
+        "Moving it to another computer"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "How much damage does the basic Sword do in the example?",
+      "correct": "10",
+      "distractors": [
+        "5",
+        "3",
+        "15"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "According to the paragraph, what does the Ice decorator add?",
+      "correct": "3 ice damage plus a slow effect",
+      "distractors": [
+        "5 fire damage",
+        "A shield",
+        "A second sword"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A basic Sword is wrapped in a Fire decorator, and that is then wrapped in an Ice decorator. Using the numbers in the paragraph, how much total damage does it do?",
+      "correct": "18",
+      "distractors": [
+        "15",
+        "13",
+        "10"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "A game has 3 add-ons. According to the paragraph, how many pieces of code are needed without decorators and with decorators?",
+      "correct": "8 classes without decorators; the basic Sword plus 3 decorators with them",
+      "distractors": [
+        "3 classes without decorators; 8 with them",
+        "8 classes without decorators; 8 with them",
+        "4 classes without decorators; 1 with them"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}

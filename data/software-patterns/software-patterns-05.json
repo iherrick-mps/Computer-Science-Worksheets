@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-05",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 5,
+  "title": "Worksheet 5: The Prototype Pattern",
+  "topic": "The Prototype Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Prototype pattern creates new objects by copying an existing object, called the prototype, instead of building each new one from scratch. This is helpful when setting up an object takes a lot of work. For example, imagine a game where a Soldier takes 5 steps to set up: loading a picture, choosing a weapon, setting health to 100, setting speed, and adding a sound. If the game needs 50 soldiers, repeating all 5 steps 50 times would be slow and repetitive. With the Prototype pattern, the programmer sets up one soldier carefully, then makes 49 copies of it, called clones. If one clone needs a different weapon, the programmer changes only that clone's weapon after copying, and the other 48 clones are not affected. A common mistake is forgetting that a clone must be a truly separate copy; if clones secretly share parts with the original, changing one could change them all.",
+  "questions": [
+    {
+      "text": "The Prototype pattern creates new objects by:",
+      "correct": "Copying an existing object",
+      "distractors": [
+        "Building each one from scratch every time",
+        "Deleting an old object",
+        "Asking the user to type each one in"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "According to the paragraph, how many steps does it take to set up one Soldier?",
+      "correct": "5",
+      "distractors": [
+        "50",
+        "49",
+        "100"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "After setting up one soldier, how many clones does the programmer make in the example?",
+      "correct": "49",
+      "distractors": [
+        "50",
+        "5",
+        "1"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "One clone is given a different weapon after copying. How many of the other clones are affected?",
+      "correct": "None of them",
+      "distractors": [
+        "All 48 of them",
+        "Exactly 5 of them",
+        "Only the original soldier"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "A programmer changes one clone's health from 100 to 20, and now every soldier has 20 health. Based on the paragraph, what is the most likely cause?",
+      "correct": "The clones secretly shared parts with the original instead of being truly separate copies",
+      "distractors": [
+        "The programmer made 49 copies instead of 50",
+        "The Prototype pattern does not allow health to be changed",
+        "The soldier's picture failed to load"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    }
+  ]
+}

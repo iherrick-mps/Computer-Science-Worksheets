@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-03",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 3,
+  "title": "Worksheet 3: The Factory Pattern",
+  "topic": "The Factory Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Factory pattern puts the job of creating objects into one special place, called a factory, instead of having every part of the program create objects on its own. Imagine a game with three kinds of enemies: a Zombie, a Skeleton, and a Dragon. Without a factory, every level of the game would need its own code to build each enemy, and if the Dragon's setup changed, a programmer would have to fix it in all 12 levels. With a factory, a level simply asks the EnemyFactory for \"a dragon,\" and the factory handles all the setup steps and hands back a ready-to-use dragon. The rest of the program does not need to know how the dragon was built. If the dragon's setup changes, the programmer changes it once, inside the factory.",
+  "questions": [
+    {
+      "text": "Where does the Factory pattern put the job of creating objects?",
+      "correct": "Into one special place called a factory",
+      "distractors": [
+        "Into every level of the program",
+        "Into the player's controller",
+        "Onto a separate computer"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, how many kinds of enemies are in the example game?",
+      "correct": "Three",
+      "distractors": [
+        "Twelve",
+        "One",
+        "Two"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "Without a factory, how many levels would a programmer have to fix if the Dragon's setup changed?",
+      "correct": "All 12 levels",
+      "distractors": [
+        "Only 3 levels",
+        "Only 1 level",
+        "Only the first level"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "The team wants every Zombie to start with more health, and the game uses the Factory pattern. How many places in the program would need to change?",
+      "correct": "One place, inside the factory",
+      "distractors": [
+        "All 12 levels",
+        "Only the Dragon's code",
+        "None, because levels build the zombies themselves"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer completely rewrites the steps for building a dragon inside the EnemyFactory. The levels' code does not change at all, and the game still works. According to the paragraph, why is this possible?",
+      "correct": "The rest of the program only asks for \"a dragon\" and does not need to know how it is built",
+      "distractors": [
+        "Each level secretly builds its own dragon",
+        "The factory deletes all old dragons first",
+        "Dragons never need any setup steps"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

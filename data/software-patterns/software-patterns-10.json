@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-10",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 10,
+  "title": "Worksheet 10: The Facade Pattern",
+  "topic": "The Facade Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Facade pattern gives a complicated group of code a single, simple front door, so that the rest of the program does not need to understand all the details hiding behind it. The word facade means the front face of a building. Imagine a home theater with a TV, a sound system, a streaming box, and dimmable lights. To watch a movie normally, you must turn on the TV, switch it to the right input, turn on the sound system, set the volume to 12, start the streaming box, and dim the lights to 30 percent: six separate steps. A Facade called WatchMovie puts all six steps behind one button. The person presses one button, and the facade quietly runs every step in the correct order. The parts behind the facade still exist and can still be used separately if someone needs them.",
+  "questions": [
+    {
+      "text": "The Facade pattern gives a complicated group of code:",
+      "correct": "A single, simple front door",
+      "distractors": [
+        "A second, more complicated front door",
+        "A way to hide errors from the programmer",
+        "A brand-new set of parts"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, what does the word facade mean?",
+      "correct": "The front face of a building",
+      "distractors": [
+        "The back door of a house",
+        "A type of computer chip",
+        "A broken wall"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "How many separate steps does watching a movie normally take in the example?",
+      "correct": "Six",
+      "distractors": [
+        "One",
+        "Twelve",
+        "Thirty"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Someone wants to listen to music through the sound system only, with no TV. Based on the paragraph, what is true?",
+      "correct": "The parts behind the facade can still be used separately, so the sound system can be used on its own",
+      "distractors": [
+        "They must press WatchMovie, which also turns on the TV",
+        "It is impossible, because the facade removed the sound system",
+        "They must dim the lights to 30 percent first"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A programmer changes the WatchMovie facade to dim the lights to 20 percent instead of 30. What does the person pressing the button have to do differently?",
+      "correct": "Nothing, because they still only press the one button",
+      "distractors": [
+        "Learn the new light setting and enter it themselves",
+        "Press six buttons instead of one",
+        "Turn the lights down by hand"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

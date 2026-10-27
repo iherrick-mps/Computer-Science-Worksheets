@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-01",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 1,
+  "title": "Worksheet 1: What Is a Design Pattern?",
+  "topic": "What Is a Design Pattern?",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "A design pattern is a proven, reusable solution to a problem that programmers run into again and again when building software. A pattern is not a finished piece of code that you copy and paste; it is more like a recipe or blueprint that describes the general shape of a good solution, which each programmer then adapts to their own project. Design patterns got their start when programmers noticed that experienced developers kept solving the same kinds of problems in similar ways, so they gave those solutions names. Having names matters because it lets a team communicate quickly: saying \"let's use the Observer pattern\" explains an entire plan in just a few words. For example, imagine a team of four programmers building a game. If two of them each invent their own different way to solve the same problem, the code becomes confusing. If they all agree to use the same named pattern, everyone on the team can read and understand each other's code more easily.",
+  "questions": [
+    {
+      "text": "A design pattern is best described as:",
+      "correct": "A proven, reusable solution to a common programming problem",
+      "distractors": [
+        "A finished program you copy and paste unchanged",
+        "A type of computer hardware",
+        "A brand-new programming language"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "According to the paragraph, a pattern is more like which of these than a finished piece of code?",
+      "correct": "A recipe or blueprint",
+      "distractors": [
+        "A password",
+        "A keyboard shortcut",
+        "A broken tool"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "According to the paragraph, why does giving patterns names matter?",
+      "correct": "It lets a team explain a whole plan in just a few words",
+      "distractors": [
+        "It makes the code run faster",
+        "The computer refuses to run code without a name",
+        "It keeps the code secret from other teams"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "Two programmers on the four-person game team each invent a different way to solve the same problem. According to the paragraph, what is the likely result?",
+      "correct": "The code becomes confusing for the team to read",
+      "distractors": [
+        "The code automatically runs faster",
+        "The team needs fewer programmers",
+        "Each solution becomes a named pattern automatically"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "A student copies a pattern's example code exactly into a project that has a different problem, and it does not fit. Based on the paragraph, why did this happen?",
+      "correct": "A pattern is a general blueprint that must be adapted to each project, not code to paste unchanged",
+      "distractors": [
+        "Patterns only work in games",
+        "The pattern did not have a name",
+        "Patterns only work when four programmers share the work"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    }
+  ]
+}

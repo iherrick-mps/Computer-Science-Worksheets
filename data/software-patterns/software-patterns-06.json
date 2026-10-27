@@ -1,0 +1,94 @@
+{
+  "id": "software-patterns-06",
+  "set": "software-patterns",
+  "setTitle": "Software Design Patterns",
+  "number": 6,
+  "title": "Worksheet 6: The Observer Pattern",
+  "topic": "The Observer Pattern",
+  "readingLevel": "Standard (grades 6-8)",
+  "tiered": true,
+  "directions": "Read the paragraph below carefully. Then answer all questions using ONLY the information in the paragraph. Circle the letter of the best answer.",
+  "paragraph": "The Observer pattern lets one object, called the subject, automatically notify a group of other objects, called observers, whenever something about it changes. Observers sign up to follow the subject, and the subject keeps a list of them. For example, in a game, a Score object could be the subject. The scoreboard on the screen, the achievement tracker, and the sound effects system could all be observers. When the player earns 10 points, the Score object does not need to know how each observer uses that information; it simply sends a message to everyone on its list, and each observer reacts in its own way: the scoreboard redraws the number, the tracker checks for a prize, and the sound system plays a ding. If a new observer is added later, the Score code does not need to change at all.",
+  "questions": [
+    {
+      "text": "What does the subject do when something about it changes?",
+      "correct": "Automatically notifies its observers",
+      "distractors": [
+        "Deletes its observers",
+        "Waits for the observers to ask what changed",
+        "Turns itself off"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    },
+    {
+      "text": "In the example, which of these is an observer?",
+      "correct": "The scoreboard on the screen",
+      "distractors": [
+        "The Score object",
+        "The player",
+        "The 10 points"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "c",
+        "d2"
+      ],
+      "correctLetter": "C"
+    },
+    {
+      "text": "How does the subject keep track of who to notify?",
+      "correct": "It keeps a list of its observers",
+      "distractors": [
+        "It memorizes them from the screen",
+        "It guesses which objects care",
+        "It asks the player each time"
+      ],
+      "order": [
+        "d0",
+        "c",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "B"
+    },
+    {
+      "text": "The team adds a new observer, a Level-Up Animation, that should react whenever the score changes. According to the paragraph, what must be changed in the Score code?",
+      "correct": "Nothing",
+      "distractors": [
+        "New animation code inside the Score object",
+        "The existing observers must be deleted",
+        "The Score object must be rewritten from scratch"
+      ],
+      "order": [
+        "c",
+        "d0",
+        "d1",
+        "d2"
+      ],
+      "correctLetter": "A"
+    },
+    {
+      "text": "Why does it help that the Score object does not need to know how each observer uses the information it sends?",
+      "correct": "Each observer can react in its own way, and new observers can be added without changing the Score code",
+      "distractors": [
+        "It lets the Score object skip sending messages",
+        "It forces every observer to do exactly the same thing",
+        "It prevents the player from earning points"
+      ],
+      "order": [
+        "d0",
+        "d1",
+        "d2",
+        "c"
+      ],
+      "correctLetter": "D"
+    }
+  ]
+}
